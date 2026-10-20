@@ -1,6 +1,6 @@
 # Big Mouth Sports
 
-Static site for @xBigMouthSports, served by GitHub Pages at https://doubled826.github.io/bigmouthsports/
+Static site for @xBigMouthSports, served by GitHub Pages at https://bigmouthsportsbets.com/
 
 The built site is in the repo root. The React/Vite source is in `site_src/`. Daily data is `data/picks.json`, generated from the tracker.
 
