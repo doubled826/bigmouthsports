@@ -39,7 +39,7 @@ function PickCard({ p, big, todayNote, idx }: { p: Pick; big?: boolean; todayNot
       {(handle || p.public_team) && (
         <p className={`mt-4 text-white ${big ? "text-2xl" : "text-lg"}`}>
           {handle && <span className="text-volt">{handle}</span>}{handle && " of the money on "}
-          {[p.public_team, line(p.public_line)].filter(Boolean).join(" ")}. <span className="font-extrabold">We're fading it.</span>
+          {[p.public_team, line(p.public_line)].filter(Boolean).join(" ")}.
         </p>
       )}
       {bets && <p className="text-white/55">{bets} of tickets on the public side</p>}
