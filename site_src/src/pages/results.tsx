@@ -46,7 +46,7 @@ export default function Results({ data }: { data: Data }) {
               <div className="mt-6 overflow-x-auto border-t-8 border-volt">
                 <table className="w-full min-w-[920px] text-left">
                   <thead className="bg-[#151515] font-display text-sm text-white/60">
-                    <tr>{["Date", "Category", "League", "Matchup", "Pick", "Price", "Public % faded", "Result", "Units", "CLV"].map((h) => <th key={h} scope="col" className="px-3 py-3 font-normal">{h}</th>)}</tr>
+                    <tr>{["Date", "Category", "League", "Matchup", "Pick", "Odds", "Public % faded", "Result", "Units", "CLV"].map((h) => <th key={h} scope="col" className="px-3 py-3 font-normal">{h}</th>)}</tr>
                   </thead>
                   <tbody>
                     {filtered.map((r, i) => {

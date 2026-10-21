@@ -1,5 +1,5 @@
 {
-  "generated_at_et": "2026-10-21T13:10:28-04:00",
+  "generated_at_et": "2026-10-21T13:15:21-04:00",
   "splits_as_of_et": "2026-10-21T12:19:34-04:00",
   "brand": {
     "name": "Big Mouth Sports",
@@ -599,7 +599,7 @@
       "legs_hit": 0,
       "legs_missed": 0,
       "leg_hit_rate": null,
-      "settled_at_est_price": 0,
+      "settled_at_est_odds": 0,
       "display": "0-0"
     },
     "today": {
@@ -609,11 +609,11 @@
       "kickoff_et": "Wed Oct 21, 7:30 PM ET",
       "big_bet": "Raptors -10.5",
       "n_legs": 4,
-      "est_price": 259,
-      "dk_price": null,
-      "price_used": null,
-      "price_basis": null,
-      "price_is_estimate": true,
+      "est_odds": 259,
+      "dk_odds": null,
+      "odds_used": null,
+      "odds_basis": null,
+      "odds_is_estimate": true,
       "result": "PENDING",
       "units": null,
       "final_score": null,
@@ -625,10 +625,10 @@
           "label": "Raptors ML",
           "market": "Moneyline",
           "threshold": null,
-          "price": -440,
           "result": "PENDING",
           "actual": null,
-          "blurb": "46-36 LAST SEASON VS 31-51"
+          "blurb": "46-36 LAST SEASON VS 31-51",
+          "odds": -440
         },
         {
           "ord": 2,
@@ -636,10 +636,10 @@
           "label": "Poeltl 15+ PRA",
           "market": "Points + Assists + Rebounds Milestones",
           "threshold": 15.0,
-          "price": -296,
           "result": "PENDING",
           "actual": null,
-          "blurb": "19.8 AVG · 15.4 L5 · 8/10 LAST 10"
+          "blurb": "19.8 AVG · 15.4 L5 · 8/10 LAST 10",
+          "odds": -296
         },
         {
           "ord": 3,
@@ -647,10 +647,10 @@
           "label": "Barrett 15+ PTS",
           "market": "Points Milestones",
           "threshold": 15.0,
-          "price": -249,
           "result": "PENDING",
           "actual": null,
-          "blurb": "19.3 AVG · 20.8 L5 · 9/10 LAST 10"
+          "blurb": "19.3 AVG · 20.8 L5 · 9/10 LAST 10",
+          "odds": -249
         },
         {
           "ord": 4,
@@ -658,10 +658,10 @@
           "label": "Shead 4+ AST",
           "market": "Assists Milestones",
           "threshold": 4.0,
-          "price": -179,
           "result": "PENDING",
           "actual": null,
-          "blurb": "5.4 AVG · 5.0 L5 · 8/10 LAST 10"
+          "blurb": "5.4 AVG · 5.0 L5 · 8/10 LAST 10",
+          "odds": -179
         }
       ]
     },
@@ -673,11 +673,11 @@
         "kickoff_et": "Wed Oct 21, 7:30 PM ET",
         "big_bet": "Raptors -10.5",
         "n_legs": 4,
-        "est_price": 259,
-        "dk_price": null,
-        "price_used": null,
-        "price_basis": null,
-        "price_is_estimate": true,
+        "est_odds": 259,
+        "dk_odds": null,
+        "odds_used": null,
+        "odds_basis": null,
+        "odds_is_estimate": true,
         "result": "PENDING",
         "units": null,
         "final_score": null,
@@ -689,10 +689,10 @@
             "label": "Raptors ML",
             "market": "Moneyline",
             "threshold": null,
-            "price": -440,
             "result": "PENDING",
             "actual": null,
-            "blurb": "46-36 LAST SEASON VS 31-51"
+            "blurb": "46-36 LAST SEASON VS 31-51",
+            "odds": -440
           },
           {
             "ord": 2,
@@ -700,10 +700,10 @@
             "label": "Poeltl 15+ PRA",
             "market": "Points + Assists + Rebounds Milestones",
             "threshold": 15.0,
-            "price": -296,
             "result": "PENDING",
             "actual": null,
-            "blurb": "19.8 AVG · 15.4 L5 · 8/10 LAST 10"
+            "blurb": "19.8 AVG · 15.4 L5 · 8/10 LAST 10",
+            "odds": -296
           },
           {
             "ord": 3,
@@ -711,10 +711,10 @@
             "label": "Barrett 15+ PTS",
             "market": "Points Milestones",
             "threshold": 15.0,
-            "price": -249,
             "result": "PENDING",
             "actual": null,
-            "blurb": "19.3 AVG · 20.8 L5 · 9/10 LAST 10"
+            "blurb": "19.3 AVG · 20.8 L5 · 9/10 LAST 10",
+            "odds": -249
           },
           {
             "ord": 4,
@@ -722,15 +722,15 @@
             "label": "Shead 4+ AST",
             "market": "Assists Milestones",
             "threshold": 4.0,
-            "price": -179,
             "result": "PENDING",
             "actual": null,
-            "blurb": "5.4 AVG · 5.0 L5 · 8/10 LAST 10"
+            "blurb": "5.4 AVG · 5.0 L5 · 8/10 LAST 10",
+            "odds": -179
           }
         ]
       }
     ],
-    "note": "1u flat. Settled at the DK SGP price when Dave confirms it, otherwise at the estimated price (legs multiplied), flagged price_is_estimate. Tracked separately from the main record."
+    "note": "1u flat. Settled at the DK SGP odds when Dave confirms them, otherwise at the estimated odds (legs multiplied), flagged odds_is_estimate. Tracked separately from the main record."
   },
   "disclaimer": "21+ only. Gambling problem? Call 1-800-GAMBLER. For entertainment only - not financial advice."
 }
