@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-10-22T18:09:13-04:00",
-  "splits_as_of_et": "2026-10-22T18:09:06-04:00",
+  "generated_at_et": "2026-10-22T19:05:54-04:00",
+  "splits_as_of_et": "2026-10-22T19:05:47-04:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -262,8 +262,8 @@
       "final_score": null,
       "result": "PENDING",
       "units": null,
-      "clv": null,
-      "closing_line": null
+      "clv": 1.0,
+      "closing_line": "+8.5"
     },
     {
       "date": "2026-10-22",
@@ -310,8 +310,8 @@
       "final_score": null,
       "result": "PENDING",
       "units": null,
-      "clv": null,
-      "closing_line": null
+      "clv": -1.0,
+      "closing_line": "+12.5"
     },
     {
       "date": "2026-10-21",
@@ -497,7 +497,7 @@
   },
   "rlm_watch": {
     "date": "2026-10-22",
-    "updated_et": "2026-10-22T18:09:13-04:00",
+    "updated_et": "2026-10-22T19:05:54-04:00",
     "label": "Line Movement Watch: tracking only, not picks.",
     "rule": "Reverse line move (RLM): 60%+ of the DraftKings money AND 50%+ of the tickets on one side, yet the DraftKings line moved 0.5+ points in that side's favor. Open = DraftKings opener. All numbers DraftKings.",
     "games": [
@@ -506,8 +506,8 @@
         "matchup": "Cavaliers @ 76ers",
         "market": "spread",
         "public_side": "76ers",
-        "public_handle_pct": 78,
-        "public_bets_pct": 69,
+        "public_handle_pct": 77,
+        "public_bets_pct": 74,
         "open_line": "-4.5",
         "current_line": "-2.5",
         "line_is_for": "76ers",
@@ -516,18 +516,18 @@
         "moved_toward": "Cavaliers",
         "tip_et": "Thu 7:00 PM ET",
         "started": false,
-        "as_of": "2026-10-22T18:09:06-04:00",
+        "as_of": "2026-10-22T18:46:05-04:00",
         "favorite": "76ers",
         "favorite_ml": -142,
         "dk_ats": {
           "public_team": "76ers",
-          "public_handle_pct": 78,
-          "public_bets_pct": 69
+          "public_handle_pct": 77,
+          "public_bets_pct": 74
         },
         "dk_ml": {
           "public_team": "76ers",
-          "public_handle_pct": 87,
-          "public_bets_pct": 85
+          "public_handle_pct": 81,
+          "public_bets_pct": 84
         }
       },
       {
@@ -535,8 +535,8 @@
         "matchup": "Patriots @ Bears",
         "market": "spread",
         "public_side": "Patriots",
-        "public_handle_pct": 74,
-        "public_bets_pct": 74,
+        "public_handle_pct": 70,
+        "public_bets_pct": 73,
         "open_line": "+1.5",
         "current_line": "+3",
         "line_is_for": "Patriots",
@@ -545,17 +545,17 @@
         "moved_toward": "Bears",
         "tip_et": "Thu 8:15 PM ET",
         "started": false,
-        "as_of": "2026-10-22T18:09:06-04:00",
+        "as_of": "2026-10-22T19:05:47-04:00",
         "favorite": "Bears",
         "favorite_ml": -155,
         "dk_ats": {
           "public_team": "Patriots",
-          "public_handle_pct": 74,
-          "public_bets_pct": 74
+          "public_handle_pct": 70,
+          "public_bets_pct": 73
         },
         "dk_ml": {
           "public_team": "Patriots",
-          "public_handle_pct": 80,
+          "public_handle_pct": 82,
           "public_bets_pct": 83
         }
       },
@@ -564,8 +564,8 @@
         "matchup": "Nuggets @ Thunder",
         "market": "spread",
         "public_side": "Nuggets",
-        "public_handle_pct": 67,
-        "public_bets_pct": 63,
+        "public_handle_pct": 60,
+        "public_bets_pct": 59,
         "open_line": "+7.5",
         "current_line": "+8.5",
         "line_is_for": "Nuggets",
@@ -574,18 +574,18 @@
         "moved_toward": "Thunder",
         "tip_et": "Thu 9:30 PM ET",
         "started": false,
-        "as_of": "2026-10-22T18:09:06-04:00",
+        "as_of": "2026-10-22T19:05:47-04:00",
         "favorite": "Thunder",
-        "favorite_ml": -325,
+        "favorite_ml": -340,
         "dk_ats": {
           "public_team": "Nuggets",
-          "public_handle_pct": 67,
-          "public_bets_pct": 63
+          "public_handle_pct": 60,
+          "public_bets_pct": 59
         },
         "dk_ml": {
-          "public_team": "Thunder",
-          "public_handle_pct": 58,
-          "public_bets_pct": 77
+          "public_team": "Nuggets",
+          "public_handle_pct": 51,
+          "public_bets_pct": 26
         }
       }
     ],
