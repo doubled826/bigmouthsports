@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-10-22T12:57:46-04:00",
-  "splits_as_of_et": "2026-10-22T11:49:00-04:00",
+  "generated_at_et": "2026-10-22T13:03:50-04:00",
+  "splits_as_of_et": "2026-10-22T13:03:42-04:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -497,45 +497,16 @@
   },
   "rlm_watch": {
     "date": "2026-10-22",
-    "updated_et": "2026-10-22T12:57:45-04:00",
+    "updated_et": "2026-10-22T13:03:50-04:00",
     "label": "Line Movement Watch: tracking only, not picks.",
     "rule": "Reverse line move (RLM): 60%+ of the DraftKings money AND 50%+ of the tickets on one side, yet the DraftKings line moved 0.5+ points in that side's favor. Open = DraftKings opener. All numbers DraftKings.",
     "games": [
-      {
-        "league": "NBA",
-        "matchup": "Cavaliers @ 76ers",
-        "market": "total",
-        "public_side": "Under",
-        "public_handle_pct": 97,
-        "public_bets_pct": 50,
-        "open_line": "233.5",
-        "current_line": "237.5",
-        "line_is_for": "Under",
-        "move_pts": 4.0,
-        "key_number": false,
-        "moved_toward": "Over",
-        "tip_et": "Thu 7:00 PM ET",
-        "started": false,
-        "as_of": "2026-10-22T11:49:00-04:00",
-        "favorite": "76ers",
-        "favorite_ml": -142,
-        "dk_ats": {
-          "public_team": "76ers",
-          "public_handle_pct": 57,
-          "public_bets_pct": 66
-        },
-        "dk_ml": {
-          "public_team": "76ers",
-          "public_handle_pct": 92,
-          "public_bets_pct": 86
-        }
-      },
       {
         "league": "NFL",
         "matchup": "Patriots @ Bears",
         "market": "spread",
         "public_side": "Patriots",
-        "public_handle_pct": 69,
+        "public_handle_pct": 66,
         "public_bets_pct": 72,
         "open_line": "+1.5",
         "current_line": "+3",
@@ -545,17 +516,17 @@
         "moved_toward": "Bears",
         "tip_et": "Thu 8:15 PM ET",
         "started": false,
-        "as_of": "2026-10-22T11:48:56-04:00",
+        "as_of": "2026-10-22T13:03:42-04:00",
         "favorite": "Bears",
         "favorite_ml": -155,
         "dk_ats": {
           "public_team": "Patriots",
-          "public_handle_pct": 69,
+          "public_handle_pct": 66,
           "public_bets_pct": 72
         },
         "dk_ml": {
           "public_team": "Patriots",
-          "public_handle_pct": 87,
+          "public_handle_pct": 84,
           "public_bets_pct": 82
         }
       }
