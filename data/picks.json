@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-10-22T11:52:49-04:00",
-  "splits_as_of_et": "2026-10-22T11:48:56-04:00",
+  "generated_at_et": "2026-10-22T12:57:46-04:00",
+  "splits_as_of_et": "2026-10-22T11:49:00-04:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -62,7 +62,33 @@
       "public_handle_pct": 71,
       "public_bets_pct": 65,
       "tier": "STRONG",
-      "public_on_ml_favorite": null,
+      "public_on_ml_favorite": true,
+      "favorite": "Liberty",
+      "favorite_ml": -380,
+      "favorite_basis": "DK moneyline",
+      "dk_ats": {
+        "public_team": "Liberty",
+        "public_handle_pct": 71,
+        "public_bets_pct": 65,
+        "away_team": "Liberty",
+        "away_handle_pct": 71,
+        "away_bets_pct": 65,
+        "home_team": "Kennesaw State",
+        "home_handle_pct": 29,
+        "home_bets_pct": 35
+      },
+      "dk_ml": {
+        "public_team": "Liberty",
+        "public_handle_pct": 81,
+        "public_bets_pct": 94,
+        "away_team": "Liberty",
+        "away_handle_pct": 81,
+        "away_bets_pct": 94,
+        "home_team": "Kennesaw State",
+        "home_handle_pct": 19,
+        "home_bets_pct": 6
+      },
+      "dk_splits_as_of": "2026-10-22T11:49:00-04:00",
       "prime_time": null,
       "locked_at_et": "Thu Oct 22, 11:49 AM ET",
       "sharp_money_caution": false,
@@ -87,7 +113,33 @@
         "public_handle_pct": 71,
         "public_bets_pct": 57,
         "tier": "STRONG",
-        "public_on_ml_favorite": null,
+        "public_on_ml_favorite": true,
+        "favorite": "Memphis",
+        "favorite_ml": -425,
+        "favorite_basis": "DK moneyline",
+        "dk_ats": {
+          "public_team": "Memphis",
+          "public_handle_pct": 71,
+          "public_bets_pct": 57,
+          "away_team": "East Carolina",
+          "away_handle_pct": 29,
+          "away_bets_pct": 43,
+          "home_team": "Memphis",
+          "home_handle_pct": 71,
+          "home_bets_pct": 57
+        },
+        "dk_ml": {
+          "public_team": "Memphis",
+          "public_handle_pct": 97,
+          "public_bets_pct": 96,
+          "away_team": "East Carolina",
+          "away_handle_pct": 3,
+          "away_bets_pct": 4,
+          "home_team": "Memphis",
+          "home_handle_pct": 97,
+          "home_bets_pct": 96
+        },
+        "dk_splits_as_of": "2026-10-22T11:49:00-04:00",
         "prime_time": null,
         "locked_at_et": "Thu Oct 22, 11:49 AM ET",
         "sharp_money_caution": false,
@@ -111,7 +163,33 @@
         "public_handle_pct": 69,
         "public_bets_pct": 72,
         "tier": "LEAN",
-        "public_on_ml_favorite": null,
+        "public_on_ml_favorite": false,
+        "favorite": "Bears",
+        "favorite_ml": -155,
+        "favorite_basis": "DK moneyline",
+        "dk_ats": {
+          "public_team": "Patriots",
+          "public_handle_pct": 69,
+          "public_bets_pct": 72,
+          "away_team": "Patriots",
+          "away_handle_pct": 69,
+          "away_bets_pct": 72,
+          "home_team": "Bears",
+          "home_handle_pct": 31,
+          "home_bets_pct": 28
+        },
+        "dk_ml": {
+          "public_team": "Patriots",
+          "public_handle_pct": 87,
+          "public_bets_pct": 82,
+          "away_team": "Patriots",
+          "away_handle_pct": 87,
+          "away_bets_pct": 82,
+          "home_team": "Bears",
+          "home_handle_pct": 13,
+          "home_bets_pct": 18
+        },
+        "dk_splits_as_of": "2026-10-22T11:48:56-04:00",
         "prime_time": null,
         "locked_at_et": "Thu Oct 22, 11:49 AM ET",
         "sharp_money_caution": false,
@@ -135,7 +213,33 @@
         "public_handle_pct": 62,
         "public_bets_pct": 58,
         "tier": "LEAN",
-        "public_on_ml_favorite": null,
+        "public_on_ml_favorite": true,
+        "favorite": "James Madison",
+        "favorite_ml": -470,
+        "favorite_basis": "DK moneyline",
+        "dk_ats": {
+          "public_team": "James Madison",
+          "public_handle_pct": 62,
+          "public_bets_pct": 58,
+          "away_team": "James Madison",
+          "away_handle_pct": 62,
+          "away_bets_pct": 58,
+          "home_team": "Appalachian State",
+          "home_handle_pct": 38,
+          "home_bets_pct": 42
+        },
+        "dk_ml": {
+          "public_team": "James Madison",
+          "public_handle_pct": 86,
+          "public_bets_pct": 94,
+          "away_team": "James Madison",
+          "away_handle_pct": 86,
+          "away_bets_pct": 94,
+          "home_team": "Appalachian State",
+          "home_handle_pct": 14,
+          "home_bets_pct": 6
+        },
+        "dk_splits_as_of": "2026-10-22T11:49:00-04:00",
         "prime_time": null,
         "locked_at_et": "Thu Oct 22, 11:49 AM ET",
         "sharp_money_caution": false,
@@ -222,8 +326,8 @@
       "final_score": "Bulls 92 - Raptors 135",
       "result": "W",
       "units": 0.952,
-      "clv": null,
-      "closing_line": null
+      "clv": 0.0,
+      "closing_line": "-10.5"
     },
     {
       "date": "2026-10-21",
@@ -238,8 +342,8 @@
       "final_score": "Suns 83 - Trail Blazers 124",
       "result": "L",
       "units": -1.0,
-      "clv": null,
-      "closing_line": null
+      "clv": -1.0,
+      "closing_line": "+3.5"
     },
     {
       "date": "2026-10-21",
@@ -254,8 +358,8 @@
       "final_score": "Mavericks 110 - Rockets 128",
       "result": "W",
       "units": 0.926,
-      "clv": null,
-      "closing_line": null
+      "clv": -1.0,
+      "closing_line": "-9.5"
     },
     {
       "date": "2026-10-21",
@@ -270,8 +374,8 @@
       "final_score": "New Mexico St 30 - Sam Houston 24",
       "result": "L",
       "units": -1.0,
-      "clv": null,
-      "closing_line": null
+      "clv": -0.5,
+      "closing_line": "+3"
     },
     {
       "date": "2026-10-20",
@@ -302,8 +406,8 @@
       "final_score": "Missouri St 38 - Delaware 61",
       "result": "L",
       "units": -1.0,
-      "clv": null,
-      "closing_line": null
+      "clv": -0.5,
+      "closing_line": "+3"
     },
     {
       "date": "2026-10-20",
@@ -318,8 +422,8 @@
       "final_score": "MTSU 26 - FIU 23",
       "result": "W",
       "units": 0.909,
-      "clv": null,
-      "closing_line": null
+      "clv": -0.5,
+      "closing_line": "+10.5"
     },
     {
       "date": "2026-10-20",
@@ -334,8 +438,8 @@
       "final_score": "South Alabama 13 - Marshall 20",
       "result": "W",
       "units": 0.893,
-      "clv": null,
-      "closing_line": null
+      "clv": 1.5,
+      "closing_line": "+1.5"
     }
   ],
   "trends": {
@@ -390,6 +494,93 @@
     "prime_time": [],
     "ml_favorite_faded": [],
     "note": "Computed from graded picks only."
+  },
+  "rlm_watch": {
+    "date": "2026-10-22",
+    "updated_et": "2026-10-22T12:57:45-04:00",
+    "label": "Line Movement Watch: tracking only, not picks.",
+    "rule": "Reverse line move (RLM): 60%+ of the DraftKings money AND 50%+ of the tickets on one side, yet the DraftKings line moved 0.5+ points in that side's favor. Open = DraftKings opener. All numbers DraftKings.",
+    "games": [
+      {
+        "league": "NBA",
+        "matchup": "Cavaliers @ 76ers",
+        "market": "total",
+        "public_side": "Under",
+        "public_handle_pct": 97,
+        "public_bets_pct": 50,
+        "open_line": "233.5",
+        "current_line": "237.5",
+        "line_is_for": "Under",
+        "move_pts": 4.0,
+        "key_number": false,
+        "moved_toward": "Over",
+        "tip_et": "Thu 7:00 PM ET",
+        "started": false,
+        "as_of": "2026-10-22T11:49:00-04:00",
+        "favorite": "76ers",
+        "favorite_ml": -142,
+        "dk_ats": {
+          "public_team": "76ers",
+          "public_handle_pct": 57,
+          "public_bets_pct": 66
+        },
+        "dk_ml": {
+          "public_team": "76ers",
+          "public_handle_pct": 92,
+          "public_bets_pct": 86
+        }
+      },
+      {
+        "league": "NFL",
+        "matchup": "Patriots @ Bears",
+        "market": "spread",
+        "public_side": "Patriots",
+        "public_handle_pct": 69,
+        "public_bets_pct": 72,
+        "open_line": "+1.5",
+        "current_line": "+3",
+        "line_is_for": "Patriots",
+        "move_pts": 1.5,
+        "key_number": true,
+        "moved_toward": "Bears",
+        "tip_et": "Thu 8:15 PM ET",
+        "started": false,
+        "as_of": "2026-10-22T11:48:56-04:00",
+        "favorite": "Bears",
+        "favorite_ml": -155,
+        "dk_ats": {
+          "public_team": "Patriots",
+          "public_handle_pct": 69,
+          "public_bets_pct": 72
+        },
+        "dk_ml": {
+          "public_team": "Patriots",
+          "public_handle_pct": 87,
+          "public_bets_pct": 82
+        }
+      }
+    ],
+    "tracker": {
+      "spread": {
+        "wins": 5,
+        "losses": 2,
+        "pushes": 0,
+        "graded": 7,
+        "units": 2.46,
+        "display": "5-2",
+        "since": "2026-10-20"
+      },
+      "total": {
+        "wins": 3,
+        "losses": 3,
+        "pushes": 0,
+        "graded": 6,
+        "units": -0.22,
+        "display": "3-3",
+        "since": "2026-10-21"
+      }
+    },
+    "tracker_note": "Tracking record: fading the public side of every RLM (0.5+ pts open to close) at the DraftKings closing line, 1 unit flat. Not our picks; small sample."
   },
   "sgp": {
     "name": "BIG MOUTH'S SGP",

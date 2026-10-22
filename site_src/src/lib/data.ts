@@ -8,6 +8,25 @@ export type Pick = {
   line_source?: string | null; public_team?: string | null; public_line?: string | number | null;
   public_handle_pct?: number | null; public_bets_pct?: number | null; tier?: string | null;
   public_on_ml_favorite?: boolean | null; prime_time?: boolean | null; locked_at_et?: string | null;
+  favorite?: string | null; favorite_ml?: number | null; favorite_basis?: string | null;
+  dk_ats?: DkSplit | null; dk_ml?: DkSplit | null; dk_splits_as_of?: string | null;
+};
+export type DkSplit = {
+  public_team?: string | null; public_handle_pct?: number | null; public_bets_pct?: number | null;
+  away_team?: string | null; away_handle_pct?: number | null; away_bets_pct?: number | null;
+  home_team?: string | null; home_handle_pct?: number | null; home_bets_pct?: number | null;
+};
+export type RlmGame = {
+  league?: string | null; matchup?: string | null; market?: string | null; public_side?: string | null;
+  public_handle_pct?: number | null; public_bets_pct?: number | null; open_line?: string | null; current_line?: string | null;
+  line_is_for?: string | null; move_pts?: number | null; key_number?: boolean | null; moved_toward?: string | null;
+  tip_et?: string | null; started?: boolean | null; as_of?: string | null;
+  favorite?: string | null; favorite_ml?: number | null; dk_ats?: DkSplit | null; dk_ml?: DkSplit | null;
+};
+export type RlmWatch = {
+  date?: string | null; updated_et?: string | null; label?: string | null; rule?: string | null; games?: RlmGame[] | null;
+  tracker?: { spread?: Record_ & { since?: string | null } | null; total?: Record_ & { since?: string | null } | null } | null;
+  tracker_note?: string | null;
 };
 export type Record_ = {
   wins?: number | null; losses?: number | null; pushes?: number | null; graded?: number | null;
@@ -27,6 +46,7 @@ export type Data = {
   today?: { date?: string | null; status?: string | null; status_note?: string | null; big_bet?: Pick | null; honorable_mentions?: Pick[] | null; big_bet_image?: string | null } | null;
   results?: ResultRow[] | null;
   trends?: { by_league?: TrendRow[] | null; by_public_tier?: TrendRow[] | null; prime_time?: TrendRow[] | null; ml_favorite_faded?: TrendRow[] | null; note?: string | null } | null;
+  rlm_watch?: RlmWatch | null;
   disclaimer?: string | null;
 };
 
