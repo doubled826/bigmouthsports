@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-10-22T14:10:15-04:00",
-  "splits_as_of_et": "2026-10-22T14:10:03-04:00",
+  "generated_at_et": "2026-10-22T15:10:00-04:00",
+  "splits_as_of_et": "2026-10-22T15:09:53-04:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -497,17 +497,46 @@
   },
   "rlm_watch": {
     "date": "2026-10-22",
-    "updated_et": "2026-10-22T14:10:15-04:00",
+    "updated_et": "2026-10-22T15:10:00-04:00",
     "label": "Line Movement Watch: tracking only, not picks.",
     "rule": "Reverse line move (RLM): 60%+ of the DraftKings money AND 50%+ of the tickets on one side, yet the DraftKings line moved 0.5+ points in that side's favor. Open = DraftKings opener. All numbers DraftKings.",
     "games": [
       {
         "league": "NBA",
         "matchup": "Cavaliers @ 76ers",
+        "market": "spread",
+        "public_side": "76ers",
+        "public_handle_pct": 66,
+        "public_bets_pct": 70,
+        "open_line": "-4.5",
+        "current_line": "-2.5",
+        "line_is_for": "76ers",
+        "move_pts": 2.0,
+        "key_number": false,
+        "moved_toward": "Cavaliers",
+        "tip_et": "Thu 7:00 PM ET",
+        "started": false,
+        "as_of": "2026-10-22T15:09:53-04:00",
+        "favorite": "76ers",
+        "favorite_ml": -142,
+        "dk_ats": {
+          "public_team": "76ers",
+          "public_handle_pct": 66,
+          "public_bets_pct": 70
+        },
+        "dk_ml": {
+          "public_team": "76ers",
+          "public_handle_pct": 90,
+          "public_bets_pct": 84
+        }
+      },
+      {
+        "league": "NBA",
+        "matchup": "Cavaliers @ 76ers",
         "market": "total",
         "public_side": "Under",
         "public_handle_pct": 62,
-        "public_bets_pct": 56,
+        "public_bets_pct": 58,
         "open_line": "233.5",
         "current_line": "236.5",
         "line_is_for": "Under",
@@ -516,18 +545,18 @@
         "moved_toward": "Over",
         "tip_et": "Thu 7:00 PM ET",
         "started": false,
-        "as_of": "2026-10-22T14:10:03-04:00",
+        "as_of": "2026-10-22T15:09:53-04:00",
         "favorite": "76ers",
         "favorite_ml": -142,
         "dk_ats": {
           "public_team": "76ers",
-          "public_handle_pct": 59,
-          "public_bets_pct": 68
+          "public_handle_pct": 66,
+          "public_bets_pct": 70
         },
         "dk_ml": {
           "public_team": "76ers",
-          "public_handle_pct": 92,
-          "public_bets_pct": 85
+          "public_handle_pct": 90,
+          "public_bets_pct": 84
         }
       },
       {
@@ -535,7 +564,7 @@
         "matchup": "Patriots @ Bears",
         "market": "spread",
         "public_side": "Patriots",
-        "public_handle_pct": 71,
+        "public_handle_pct": 70,
         "public_bets_pct": 74,
         "open_line": "+1.5",
         "current_line": "+3",
@@ -545,12 +574,12 @@
         "moved_toward": "Bears",
         "tip_et": "Thu 8:15 PM ET",
         "started": false,
-        "as_of": "2026-10-22T14:10:03-04:00",
+        "as_of": "2026-10-22T15:09:53-04:00",
         "favorite": "Bears",
         "favorite_ml": -155,
         "dk_ats": {
           "public_team": "Patriots",
-          "public_handle_pct": 71,
+          "public_handle_pct": 70,
           "public_bets_pct": 74
         },
         "dk_ml": {
@@ -574,7 +603,7 @@
         "moved_toward": "Thunder",
         "tip_et": "Thu 9:30 PM ET",
         "started": false,
-        "as_of": "2026-10-22T14:10:03-04:00",
+        "as_of": "2026-10-22T15:09:53-04:00",
         "favorite": "Thunder",
         "favorite_ml": -340,
         "dk_ats": {
@@ -585,7 +614,7 @@
         "dk_ml": {
           "public_team": "Nuggets",
           "public_handle_pct": 51,
-          "public_bets_pct": 25
+          "public_bets_pct": 26
         }
       }
     ],
