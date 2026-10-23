@@ -1,5 +1,5 @@
 {
-  "generated_at_et": "2026-10-23T14:16:41-04:00",
+  "generated_at_et": "2026-10-23T14:21:37-04:00",
   "splits_as_of_et": "2026-10-23T14:02:23-04:00",
   "brand": {
     "name": "Big Mouth Sports",
@@ -824,17 +824,18 @@
     "record": {
       "name": "BIG MOUTH'S SGP",
       "wins": 0,
-      "losses": 1,
+      "losses": 0,
       "pushes": 0,
-      "graded": 1,
-      "units": -1.0,
-      "roi": -1.0,
-      "win_pct": 0.0,
-      "legs_hit": 3,
-      "legs_missed": 1,
-      "leg_hit_rate": 0.75,
-      "settled_at_est_odds": 1,
-      "display": "0-1"
+      "graded": 0,
+      "units": 0,
+      "roi": null,
+      "win_pct": null,
+      "legs_hit": 0,
+      "legs_missed": 0,
+      "leg_hit_rate": null,
+      "settled_at_est_odds": 0,
+      "display": "0-0",
+      "since": "2026-10-23"
     },
     "today": {
       "date": "2026-10-23",
@@ -984,100 +985,9 @@
             "odds": -108
           }
         ]
-      },
-      {
-        "date": "2026-10-21",
-        "league": "NBA",
-        "kind": "SGP",
-        "title": "BIG MOUTH'S SGP",
-        "odds_pulled_at": null,
-        "combined_basis": null,
-        "matchup": "Bulls @ Raptors",
-        "kickoff_et": "Wed Oct 21, 7:30 PM ET",
-        "big_bet": "Raptors -10.5",
-        "n_legs": 4,
-        "est_odds": 259,
-        "dk_odds": null,
-        "odds_used": 259,
-        "odds_basis": "EST",
-        "odds_is_estimate": true,
-        "result": "L",
-        "units": -1.0,
-        "final_score": "CHI 92 - TOR 135",
-        "graded_at": "2026-10-22T07:56:23-04:00",
-        "legs": [
-          {
-            "ord": 1,
-            "kind": "game",
-            "label": "Raptors ML",
-            "market": "Moneyline",
-            "threshold": null,
-            "result": "W",
-            "actual": 43.0,
-            "blurb": "46-36 LAST SEASON VS 31-51",
-            "matchup": null,
-            "side": null,
-            "line": null,
-            "note": null,
-            "odds_updated": null,
-            "odds_source": null,
-            "odds": -440
-          },
-          {
-            "ord": 2,
-            "kind": "player",
-            "label": "Poeltl 15+ PRA",
-            "market": "Points + Assists + Rebounds Milestones",
-            "threshold": 15.0,
-            "result": "L",
-            "actual": 9.0,
-            "blurb": "19.8 AVG · 15.4 L5 · 8/10 LAST 10",
-            "matchup": null,
-            "side": null,
-            "line": null,
-            "note": null,
-            "odds_updated": "2026-10-21T06:08Z",
-            "odds_source": null,
-            "odds": -296
-          },
-          {
-            "ord": 3,
-            "kind": "player",
-            "label": "Barrett 15+ PTS",
-            "market": "Points Milestones",
-            "threshold": 15.0,
-            "result": "W",
-            "actual": 20.0,
-            "blurb": "19.3 AVG · 20.8 L5 · 9/10 LAST 10",
-            "matchup": null,
-            "side": null,
-            "line": null,
-            "note": null,
-            "odds_updated": "2026-10-17T22:18Z",
-            "odds_source": null,
-            "odds": -249
-          },
-          {
-            "ord": 4,
-            "kind": "player",
-            "label": "Shead 4+ AST",
-            "market": "Assists Milestones",
-            "threshold": 4.0,
-            "result": "W",
-            "actual": 5.0,
-            "blurb": "5.4 AVG · 5.0 L5 · 8/10 LAST 10",
-            "matchup": null,
-            "side": null,
-            "line": null,
-            "note": null,
-            "odds_updated": "2026-10-21T03:04Z",
-            "odds_source": null,
-            "odds": -179
-          }
-        ]
       }
     ],
-    "note": "1u flat. Settled at the DK SGP odds when Dave confirms them, otherwise at the estimated odds (legs multiplied), flagged odds_is_estimate. Tracked separately from the main record."
+    "note": "1u flat. Settled at the DK SGP odds when Dave confirms them, otherwise at the estimated odds (legs multiplied), flagged odds_is_estimate. Tracked separately from the main record. Record counts from 10/23 (reset)."
   },
   "disclaimer": "21+ only. Gambling problem? Call 1-800-GAMBLER. For entertainment only - not financial advice."
 }
