@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-10-23T10:01:37-04:00",
-  "splits_as_of_et": "2026-10-23T10:01:27-04:00",
+  "generated_at_et": "2026-10-23T11:11:14-04:00",
+  "splits_as_of_et": "2026-10-23T11:11:05-04:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -508,95 +508,66 @@
   },
   "rlm_watch": {
     "date": "2026-10-23",
-    "updated_et": "2026-10-23T10:01:37-04:00",
+    "updated_et": "2026-10-23T11:11:14-04:00",
     "label": "Line Movement Watch: tracking only, not picks.",
     "rule": "Reverse line move (RLM): 60%+ of the DraftKings money AND 50%+ of the tickets on one side, yet the DraftKings line moved 0.5+ points in that side's favor. Open = DraftKings opener. All numbers DraftKings.",
     "games": [
-      {
-        "league": "NCAAF",
-        "matchup": "Duke @ Virginia",
-        "market": "spread",
-        "public_side": "Virginia",
-        "public_handle_pct": 71,
-        "public_bets_pct": 58,
-        "open_line": "-6.5",
-        "current_line": "-2.5",
-        "line_is_for": "Virginia",
-        "move_pts": 4.0,
-        "key_number": false,
-        "moved_toward": "Duke",
-        "tip_et": "Fri 7:00 PM ET",
-        "started": false,
-        "as_of": "2026-10-23T10:01:27-04:00",
-        "favorite": "Virginia",
-        "favorite_ml": -142,
-        "dk_ats": {
-          "public_team": "Virginia",
-          "public_handle_pct": 71,
-          "public_bets_pct": 58
-        },
-        "dk_ml": {
-          "public_team": "Duke",
-          "public_handle_pct": 63,
-          "public_bets_pct": 31
-        }
-      },
       {
         "league": "NBA",
         "matchup": "Mavericks @ Pacers",
         "market": "total",
         "public_side": "Under",
-        "public_handle_pct": 78,
-        "public_bets_pct": 57,
+        "public_handle_pct": 64,
+        "public_bets_pct": 50,
         "open_line": "234.5",
-        "current_line": "240.5",
+        "current_line": "237.5",
         "line_is_for": "Under",
-        "move_pts": 6.0,
+        "move_pts": 3.0,
         "key_number": false,
         "moved_toward": "Over",
         "tip_et": "Fri 7:00 PM ET",
         "started": false,
-        "as_of": "2026-10-23T10:01:27-04:00",
+        "as_of": "2026-10-23T11:11:05-04:00",
         "favorite": "Pacers",
-        "favorite_ml": -265,
+        "favorite_ml": -230,
         "dk_ats": {
           "public_team": "Pacers",
-          "public_handle_pct": 93,
-          "public_bets_pct": 68
+          "public_handle_pct": 88,
+          "public_bets_pct": 69
         },
         "dk_ml": {
           "public_team": "Pacers",
-          "public_handle_pct": 96,
-          "public_bets_pct": 90
+          "public_handle_pct": 97,
+          "public_bets_pct": 89
         }
       },
       {
         "league": "NBA",
-        "matchup": "Timberwolves @ Magic",
-        "market": "spread",
-        "public_side": "Timberwolves",
-        "public_handle_pct": 78,
-        "public_bets_pct": 84,
-        "open_line": "-1.5",
-        "current_line": "+1.5",
-        "line_is_for": "Timberwolves",
-        "move_pts": 3.0,
+        "matchup": "Raptors @ Wizards",
+        "market": "total",
+        "public_side": "Under",
+        "public_handle_pct": 95,
+        "public_bets_pct": 67,
+        "open_line": "235.5",
+        "current_line": "236.5",
+        "line_is_for": "Under",
+        "move_pts": 1.0,
         "key_number": false,
-        "moved_toward": "Magic",
+        "moved_toward": "Over",
         "tip_et": "Fri 7:00 PM ET",
         "started": false,
-        "as_of": "2026-10-23T10:01:27-04:00",
-        "favorite": "Timberwolves",
-        "favorite_ml": -112,
+        "as_of": "2026-10-23T11:11:05-04:00",
+        "favorite": "Raptors",
+        "favorite_ml": -250,
         "dk_ats": {
-          "public_team": "Timberwolves",
-          "public_handle_pct": 78,
-          "public_bets_pct": 84
+          "public_team": "Raptors",
+          "public_handle_pct": 91,
+          "public_bets_pct": 70
         },
         "dk_ml": {
-          "public_team": "Timberwolves",
-          "public_handle_pct": 85,
-          "public_bets_pct": 86
+          "public_team": "Raptors",
+          "public_handle_pct": 69,
+          "public_bets_pct": 81
         }
       },
       {
@@ -604,8 +575,8 @@
         "matchup": "Pistons @ Heat",
         "market": "spread",
         "public_side": "Heat",
-        "public_handle_pct": 81,
-        "public_bets_pct": 56,
+        "public_handle_pct": 90,
+        "public_bets_pct": 58,
         "open_line": "-1.5",
         "current_line": "+1.5",
         "line_is_for": "Heat",
@@ -614,18 +585,18 @@
         "moved_toward": "Pistons",
         "tip_et": "Fri 8:00 PM ET",
         "started": false,
-        "as_of": "2026-10-23T10:01:27-04:00",
-        "favorite": "Pistons",
-        "favorite_ml": -115,
+        "as_of": "2026-10-23T11:11:05-04:00",
+        "favorite": null,
+        "favorite_ml": null,
         "dk_ats": {
           "public_team": "Heat",
-          "public_handle_pct": 81,
-          "public_bets_pct": 56
+          "public_handle_pct": 90,
+          "public_bets_pct": 58
         },
         "dk_ml": {
           "public_team": "Heat",
-          "public_handle_pct": 52,
-          "public_bets_pct": 47
+          "public_handle_pct": 59,
+          "public_bets_pct": 49
         }
       },
       {
@@ -672,7 +643,7 @@
         "moved_toward": "Over",
         "tip_et": "Fri 10:00 PM ET",
         "started": false,
-        "as_of": "2026-10-23T10:01:27-04:00",
+        "as_of": "2026-10-23T11:11:05-04:00",
         "favorite": "Warriors",
         "favorite_ml": -180,
         "dk_ats": {
@@ -684,35 +655,6 @@
           "public_team": "Warriors",
           "public_handle_pct": 54,
           "public_bets_pct": 77
-        }
-      },
-      {
-        "league": "NCAAF",
-        "matchup": "NC State @ Stanford",
-        "market": "spread",
-        "public_side": "NC State",
-        "public_handle_pct": 93,
-        "public_bets_pct": 80,
-        "open_line": "-7.5",
-        "current_line": "-6.5",
-        "line_is_for": "NC State",
-        "move_pts": 1.0,
-        "key_number": false,
-        "moved_toward": "Stanford",
-        "tip_et": "Fri 10:30 PM ET",
-        "started": false,
-        "as_of": "2026-10-23T10:01:27-04:00",
-        "favorite": "NC State",
-        "favorite_ml": -265,
-        "dk_ats": {
-          "public_team": "NC State",
-          "public_handle_pct": 93,
-          "public_bets_pct": 80
-        },
-        "dk_ml": {
-          "public_team": "NC State",
-          "public_handle_pct": 79,
-          "public_bets_pct": 90
         }
       }
     ],
