@@ -57,6 +57,60 @@ function FilterRecord({ rows, cat, lg }: { rows: ResultRow[]; cat: string; lg: s
   );
 }
 
+// Compact breakdown (replaces the old /trends page): by league and by public money 60-69% vs 70%+.
+// Tallied from the same filtered rows as the record banner (Big Bet + HMs; parlays have no single public %).
+type BRow = { label: string; w: number; l: number; p: number; units: number };
+function group(rows: ResultRow[], key: (r: ResultRow) => string | null, order?: string[]) {
+  const m = new Map<string, BRow>();
+  for (const r of rows) {
+    const res = (r.result ?? "").toUpperCase(); const k = key(r);
+    if (!k || !["W", "L", "P"].includes(res)) continue;
+    const b = m.get(k) ?? { label: k, w: 0, l: 0, p: 0, units: 0 };
+    if (res === "W") b.w++; else if (res === "L") b.l++; else b.p++;
+    if (isNum(r.units)) b.units = Math.round((b.units + r.units) * 100) / 100;
+    m.set(k, b);
+  }
+  const out = Array.from(m.values());
+  return order ? out.sort((a, b) => order.indexOf(a.label) - order.indexOf(b.label)) : out.sort((a, b) => a.label.localeCompare(b.label));
+}
+const pubTier = (r: ResultRow) => !isNum(r.public_handle_pct) ? null : r.public_handle_pct >= 70 ? "70%+" : r.public_handle_pct >= 60 ? "60–69%" : null;
+
+function BTable({ title, rows, id }: { title: string; rows: BRow[]; id: string }) {
+  return (
+    <div className="bg-[#121212] px-4 py-3" data-testid={`breakdown-${id}`}>
+      <p className="font-display text-sm tracking-[.14em] uppercase text-white/55">{title}</p>
+      {rows.length === 0 ? <p className="mt-2 text-sm text-white/50">No graded picks</p> : (
+        <table className="mt-1 w-full text-sm">
+          <tbody>{rows.map((b) => {
+            const wp = b.w + b.l ? Math.round((b.w / (b.w + b.l)) * 100) : null;
+            return (
+              <tr key={b.label} className="border-t border-white/5 first:border-0" data-testid={`row-breakdown-${id}-${b.label.replace(/\W+/g, "")}`}>
+                <td className="py-1.5 font-bold">{b.label}</td>
+                <td className="py-1.5 text-white/80">{b.w}-{b.l}{b.p ? `-${b.p}` : ""}</td>
+                <td className="py-1.5 text-right text-white/60">{wp === null ? "—" : `${wp}%`}</td>
+                <td className={`py-1.5 text-right font-bold ${b.units > 0 ? "text-volt" : b.units < 0 ? "text-red-500" : ""}`}>{units(b.units)}</td>
+              </tr>);
+          })}</tbody>
+        </table>
+      )}
+    </div>
+  );
+}
+
+function Breakdown({ rows, cat }: { rows: ResultRow[]; cat: string }) {
+  if (cat === "Parlay") return null;
+  const picks = rows.filter((r) => (r.category ?? "").toLowerCase() !== "parlay");
+  return (
+    <section className="mt-4" aria-labelledby="breakdown" data-testid="section-breakdown">
+      <h2 id="breakdown" className="font-display text-xl sm:text-2xl">BREAKDOWN</h2>
+      <div className="mt-2 grid gap-2 sm:grid-cols-2">
+        <BTable id="league" title="By league" rows={group(picks, (r) => r.league ?? null)} />
+        <BTable id="public" title="By public money" rows={group(picks, pubTier, ["60–69%", "70%+"])} />
+      </div>
+    </section>
+  );
+}
+
 export default function Results({ data }: { data: Data }) {
   useEffect(() => { document.title = `Results — ${data.brand?.name ?? ""}`; }, [data.brand?.name]);
   const rows = data.results ?? [];
@@ -83,6 +137,7 @@ export default function Results({ data }: { data: Data }) {
               <Seg label="league" value={lg} options={leagues} onChange={setLg} />
             </div>
             <FilterRecord rows={filtered} cat={cat} lg={lg} />
+            <Breakdown rows={filtered} cat={cat} />
             {filtered.length === 0 ? null : (
               <div className="mt-6 overflow-x-auto border-t-8 border-volt">
                 <table className="w-full min-w-[920px] text-left">

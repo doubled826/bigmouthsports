@@ -51,7 +51,7 @@ export type Record_ = {
 };
 export type ResultRow = {
   date?: string | null; category?: string | null; category_label?: string | null; league?: string | null; matchup?: string | null;
-  pick?: string | null; price?: number | string | null; public_faded?: number | string | null;
+  pick?: string | null; price?: number | string | null; public_faded?: number | string | null; public_handle_pct?: number | null;
   result?: string | null; units?: number | null; clv?: number | string | null;
   closing_line?: string | null; final_score?: string | null;
 };
