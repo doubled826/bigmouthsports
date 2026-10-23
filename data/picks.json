@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-10-22T20:10:15-04:00",
-  "splits_as_of_et": "2026-10-22T20:10:08-04:00",
+  "generated_at_et": "2026-10-23T10:01:37-04:00",
+  "splits_as_of_et": "2026-10-23T10:01:27-04:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -10,33 +10,33 @@
   "records": {
     "big_bet": {
       "wins": 2,
-      "losses": 0,
+      "losses": 1,
       "pushes": 0,
-      "graded": 2,
-      "units": 1.86,
-      "win_pct": 1.0,
-      "roi": 0.93,
-      "display": "2-0"
+      "graded": 3,
+      "units": 0.86,
+      "win_pct": 0.667,
+      "roi": 0.287,
+      "display": "2-1"
     },
     "honorable_mention": {
-      "wins": 3,
+      "wins": 6,
       "losses": 3,
       "pushes": 0,
-      "graded": 6,
-      "units": -0.27,
-      "win_pct": 0.5,
-      "roi": -0.045,
-      "display": "3-3"
+      "graded": 9,
+      "units": 2.51,
+      "win_pct": 0.667,
+      "roi": 0.279,
+      "display": "6-3"
     },
     "overall": {
-      "wins": 5,
-      "losses": 3,
+      "wins": 8,
+      "losses": 4,
       "pushes": 0,
-      "graded": 8,
-      "units": 1.59,
-      "win_pct": 0.625,
-      "roi": 0.199,
-      "display": "5-3"
+      "graded": 12,
+      "units": 3.37,
+      "win_pct": 0.667,
+      "roi": 0.281,
+      "display": "8-4"
     },
     "record_start_note": null
   },
@@ -259,9 +259,9 @@
       "public_faded": "71% on Liberty -9.5",
       "public_handle_pct": 71,
       "tier": "STRONG",
-      "final_score": null,
-      "result": "PENDING",
-      "units": null,
+      "final_score": "Liberty 34 - Kennesaw St 6",
+      "result": "L",
+      "units": -1.0,
       "clv": 1.0,
       "closing_line": "+8.5"
     },
@@ -275,9 +275,9 @@
       "public_faded": "71% on Memphis -10.5",
       "public_handle_pct": 71,
       "tier": "STRONG",
-      "final_score": null,
-      "result": "PENDING",
-      "units": null,
+      "final_score": "East Carolina 34 - Memphis 41",
+      "result": "W",
+      "units": 0.893,
       "clv": 0.0,
       "closing_line": "+10.5"
     },
@@ -291,9 +291,9 @@
       "public_faded": "69% on Patriots +3",
       "public_handle_pct": 69,
       "tier": "LEAN",
-      "final_score": null,
-      "result": "PENDING",
-      "units": null,
+      "final_score": "Patriots 24 - Bears 30",
+      "result": "W",
+      "units": 0.98,
       "clv": 0.0,
       "closing_line": "-3"
     },
@@ -307,9 +307,9 @@
       "public_faded": "62% on James Madison -11.5",
       "public_handle_pct": 62,
       "tier": "LEAN",
-      "final_score": null,
-      "result": "PENDING",
-      "units": null,
+      "final_score": "James Madison 31 - App State 34",
+      "result": "W",
+      "units": 0.909,
       "clv": -1.0,
       "closing_line": "+12.5"
     },
@@ -457,38 +457,49 @@
       },
       {
         "label": "NCAAF",
-        "wins": 2,
-        "losses": 2,
+        "wins": 4,
+        "losses": 3,
         "pushes": 0,
-        "graded": 4,
-        "units": -0.2,
-        "win_pct": 0.5,
-        "roi": -0.05,
-        "display": "2-2"
+        "graded": 7,
+        "units": 0.6,
+        "win_pct": 0.571,
+        "roi": 0.086,
+        "display": "4-3"
+      },
+      {
+        "label": "NFL",
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0,
+        "graded": 1,
+        "units": 0.98,
+        "win_pct": 1.0,
+        "roi": 0.98,
+        "display": "1-0"
       }
     ],
     "by_public_tier": [
       {
         "label": "60-69%",
-        "wins": 1,
+        "wins": 3,
         "losses": 0,
         "pushes": 0,
-        "graded": 1,
-        "units": 0.89,
+        "graded": 3,
+        "units": 2.78,
         "win_pct": 1.0,
-        "roi": 0.89,
-        "display": "1-0"
+        "roi": 0.927,
+        "display": "3-0"
       },
       {
         "label": "70%+",
-        "wins": 4,
-        "losses": 3,
+        "wins": 5,
+        "losses": 4,
         "pushes": 0,
-        "graded": 7,
-        "units": 0.7,
-        "win_pct": 0.571,
-        "roi": 0.1,
-        "display": "4-3"
+        "graded": 9,
+        "units": 0.59,
+        "win_pct": 0.556,
+        "roi": 0.066,
+        "display": "5-4"
       }
     ],
     "prime_time": [],
@@ -496,116 +507,232 @@
     "note": "Computed from graded picks only."
   },
   "rlm_watch": {
-    "date": "2026-10-22",
-    "updated_et": "2026-10-22T20:10:15-04:00",
+    "date": "2026-10-23",
+    "updated_et": "2026-10-23T10:01:37-04:00",
     "label": "Line Movement Watch: tracking only, not picks.",
     "rule": "Reverse line move (RLM): 60%+ of the DraftKings money AND 50%+ of the tickets on one side, yet the DraftKings line moved 0.5+ points in that side's favor. Open = DraftKings opener. All numbers DraftKings.",
     "games": [
       {
-        "league": "NBA",
-        "matchup": "Cavaliers @ 76ers",
+        "league": "NCAAF",
+        "matchup": "Duke @ Virginia",
         "market": "spread",
-        "public_side": "76ers",
-        "public_handle_pct": 77,
-        "public_bets_pct": 74,
-        "open_line": "-4.5",
+        "public_side": "Virginia",
+        "public_handle_pct": 71,
+        "public_bets_pct": 58,
+        "open_line": "-6.5",
         "current_line": "-2.5",
-        "line_is_for": "76ers",
-        "move_pts": 2.0,
+        "line_is_for": "Virginia",
+        "move_pts": 4.0,
         "key_number": false,
-        "moved_toward": "Cavaliers",
-        "tip_et": "Thu 7:00 PM ET",
-        "started": true,
-        "as_of": "2026-10-22T18:46:05-04:00",
-        "favorite": "76ers",
+        "moved_toward": "Duke",
+        "tip_et": "Fri 7:00 PM ET",
+        "started": false,
+        "as_of": "2026-10-23T10:01:27-04:00",
+        "favorite": "Virginia",
         "favorite_ml": -142,
         "dk_ats": {
-          "public_team": "76ers",
-          "public_handle_pct": 77,
-          "public_bets_pct": 74
+          "public_team": "Virginia",
+          "public_handle_pct": 71,
+          "public_bets_pct": 58
         },
         "dk_ml": {
-          "public_team": "76ers",
-          "public_handle_pct": 81,
-          "public_bets_pct": 84
-        }
-      },
-      {
-        "league": "NFL",
-        "matchup": "Patriots @ Bears",
-        "market": "spread",
-        "public_side": "Patriots",
-        "public_handle_pct": 74,
-        "public_bets_pct": 74,
-        "open_line": "+1.5",
-        "current_line": "+3",
-        "line_is_for": "Patriots",
-        "move_pts": 1.5,
-        "key_number": true,
-        "moved_toward": "Bears",
-        "tip_et": "Thu 8:15 PM ET",
-        "started": false,
-        "as_of": "2026-10-22T20:10:08-04:00",
-        "favorite": "Bears",
-        "favorite_ml": -155,
-        "dk_ats": {
-          "public_team": "Patriots",
-          "public_handle_pct": 74,
-          "public_bets_pct": 74
-        },
-        "dk_ml": {
-          "public_team": "Patriots",
-          "public_handle_pct": 80,
-          "public_bets_pct": 83
+          "public_team": "Duke",
+          "public_handle_pct": 63,
+          "public_bets_pct": 31
         }
       },
       {
         "league": "NBA",
-        "matchup": "Nuggets @ Thunder",
-        "market": "spread",
-        "public_side": "Nuggets",
-        "public_handle_pct": 65,
-        "public_bets_pct": 62,
-        "open_line": "+7.5",
-        "current_line": "+8.5",
-        "line_is_for": "Nuggets",
-        "move_pts": 1.0,
+        "matchup": "Mavericks @ Pacers",
+        "market": "total",
+        "public_side": "Under",
+        "public_handle_pct": 78,
+        "public_bets_pct": 57,
+        "open_line": "234.5",
+        "current_line": "240.5",
+        "line_is_for": "Under",
+        "move_pts": 6.0,
         "key_number": false,
-        "moved_toward": "Thunder",
-        "tip_et": "Thu 9:30 PM ET",
+        "moved_toward": "Over",
+        "tip_et": "Fri 7:00 PM ET",
         "started": false,
-        "as_of": "2026-10-22T20:10:08-04:00",
-        "favorite": "Thunder",
-        "favorite_ml": -340,
+        "as_of": "2026-10-23T10:01:27-04:00",
+        "favorite": "Pacers",
+        "favorite_ml": -265,
         "dk_ats": {
-          "public_team": "Nuggets",
-          "public_handle_pct": 65,
-          "public_bets_pct": 62
+          "public_team": "Pacers",
+          "public_handle_pct": 93,
+          "public_bets_pct": 68
         },
         "dk_ml": {
-          "public_team": "Thunder",
-          "public_handle_pct": 59,
+          "public_team": "Pacers",
+          "public_handle_pct": 96,
+          "public_bets_pct": 90
+        }
+      },
+      {
+        "league": "NBA",
+        "matchup": "Timberwolves @ Magic",
+        "market": "spread",
+        "public_side": "Timberwolves",
+        "public_handle_pct": 78,
+        "public_bets_pct": 84,
+        "open_line": "-1.5",
+        "current_line": "+1.5",
+        "line_is_for": "Timberwolves",
+        "move_pts": 3.0,
+        "key_number": false,
+        "moved_toward": "Magic",
+        "tip_et": "Fri 7:00 PM ET",
+        "started": false,
+        "as_of": "2026-10-23T10:01:27-04:00",
+        "favorite": "Timberwolves",
+        "favorite_ml": -112,
+        "dk_ats": {
+          "public_team": "Timberwolves",
+          "public_handle_pct": 78,
+          "public_bets_pct": 84
+        },
+        "dk_ml": {
+          "public_team": "Timberwolves",
+          "public_handle_pct": 85,
+          "public_bets_pct": 86
+        }
+      },
+      {
+        "league": "NBA",
+        "matchup": "Pistons @ Heat",
+        "market": "spread",
+        "public_side": "Heat",
+        "public_handle_pct": 81,
+        "public_bets_pct": 56,
+        "open_line": "-1.5",
+        "current_line": "+1.5",
+        "line_is_for": "Heat",
+        "move_pts": 3.0,
+        "key_number": false,
+        "moved_toward": "Pistons",
+        "tip_et": "Fri 8:00 PM ET",
+        "started": false,
+        "as_of": "2026-10-23T10:01:27-04:00",
+        "favorite": "Pistons",
+        "favorite_ml": -115,
+        "dk_ats": {
+          "public_team": "Heat",
+          "public_handle_pct": 81,
+          "public_bets_pct": 56
+        },
+        "dk_ml": {
+          "public_team": "Heat",
+          "public_handle_pct": 52,
+          "public_bets_pct": 47
+        }
+      },
+      {
+        "league": "NBA",
+        "matchup": "Clippers @ Lakers",
+        "market": "total",
+        "public_side": "Over",
+        "public_handle_pct": 60,
+        "public_bets_pct": 67,
+        "open_line": "229.5",
+        "current_line": "225.5",
+        "line_is_for": "Over",
+        "move_pts": 4.0,
+        "key_number": false,
+        "moved_toward": "Under",
+        "tip_et": "Fri 10:00 PM ET",
+        "started": false,
+        "as_of": "2026-10-23T10:01:27-04:00",
+        "favorite": "Lakers",
+        "favorite_ml": -380,
+        "dk_ats": {
+          "public_team": "Lakers",
+          "public_handle_pct": 91,
+          "public_bets_pct": 52
+        },
+        "dk_ml": {
+          "public_team": "Lakers",
+          "public_handle_pct": 65,
+          "public_bets_pct": 93
+        }
+      },
+      {
+        "league": "NBA",
+        "matchup": "Grizzlies @ Warriors",
+        "market": "total",
+        "public_side": "Under",
+        "public_handle_pct": 86,
+        "public_bets_pct": 70,
+        "open_line": "235.5",
+        "current_line": "237.5",
+        "line_is_for": "Under",
+        "move_pts": 2.0,
+        "key_number": false,
+        "moved_toward": "Over",
+        "tip_et": "Fri 10:00 PM ET",
+        "started": false,
+        "as_of": "2026-10-23T10:01:27-04:00",
+        "favorite": "Warriors",
+        "favorite_ml": -180,
+        "dk_ats": {
+          "public_team": "Warriors",
+          "public_handle_pct": 60,
+          "public_bets_pct": 61
+        },
+        "dk_ml": {
+          "public_team": "Warriors",
+          "public_handle_pct": 54,
           "public_bets_pct": 77
+        }
+      },
+      {
+        "league": "NCAAF",
+        "matchup": "NC State @ Stanford",
+        "market": "spread",
+        "public_side": "NC State",
+        "public_handle_pct": 93,
+        "public_bets_pct": 80,
+        "open_line": "-7.5",
+        "current_line": "-6.5",
+        "line_is_for": "NC State",
+        "move_pts": 1.0,
+        "key_number": false,
+        "moved_toward": "Stanford",
+        "tip_et": "Fri 10:30 PM ET",
+        "started": false,
+        "as_of": "2026-10-23T10:01:27-04:00",
+        "favorite": "NC State",
+        "favorite_ml": -265,
+        "dk_ats": {
+          "public_team": "NC State",
+          "public_handle_pct": 93,
+          "public_bets_pct": 80
+        },
+        "dk_ml": {
+          "public_team": "NC State",
+          "public_handle_pct": 79,
+          "public_bets_pct": 90
         }
       }
     ],
     "tracker": {
       "spread": {
-        "wins": 5,
+        "wins": 6,
         "losses": 2,
         "pushes": 0,
-        "graded": 7,
-        "units": 2.46,
-        "display": "5-2",
+        "graded": 8,
+        "units": 3.44,
+        "display": "6-2",
         "since": "2026-10-20"
       },
       "total": {
         "wins": 3,
-        "losses": 3,
+        "losses": 4,
         "pushes": 0,
-        "graded": 6,
-        "units": -0.22,
-        "display": "3-3",
+        "graded": 7,
+        "units": -1.22,
+        "display": "3-4",
         "since": "2026-10-21"
       }
     },
