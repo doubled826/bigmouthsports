@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Send } from "lucide-react";
 import { PageTitle } from "@/components/shell";
 import { DkSplits, pc0 } from "@/components/dk";
-import { isNum, pct, units, type Data, type SigRec } from "@/lib/data";
+import { isNum, pct, units, type Data, type SigRec, type TypeRecord } from "@/lib/data";
 
 const md = (d?: string | null) => (d ? `${Number(d.slice(5, 7))}/${Number(d.slice(8, 10))}` : "");
 
@@ -11,7 +11,7 @@ export function TelegramButton({ url, className = "" }: { url?: string | null; c
   return (
     <a href={url} target="_blank" rel="noopener noreferrer" data-testid="link-telegram"
       className={`inline-flex items-center justify-center gap-3 bg-volt px-5 py-4 font-display text-lg leading-tight sm:text-2xl text-black text-center hover:brightness-110 ${className}`}>
-      <Send className="h-6 w-6" aria-hidden /> Get free Sharp Money Alerts on Telegram
+      <Send className="h-6 w-6" aria-hidden /> Get free Sharp Alerts on Telegram
     </a>
   );
 }
@@ -33,8 +33,13 @@ function RecTile({ title, r, sub }: { title: string; r?: SigRec | null; sub?: st
   );
 }
 
+function typeRecTxt(t: TypeRecord) {
+  if (!t.graded) return `No graded signals yet${t.since_md ? ` · tracking since ${t.since_md}` : ""}`;
+  return `${t.display}${t.pct != null ? ` (${t.pct}%)` : ""}${t.since_md ? ` since ${t.since_md}` : ""}`;
+}
+
 export default function Sharp({ data }: { data: Data }) {
-  useEffect(() => { document.title = `Sharp Money Alerts — ${data.brand?.name ?? ""}`; }, [data.brand?.name]);
+  useEffect(() => { document.title = `Sharp Alerts — ${data.brand?.name ?? ""}`; }, [data.brand?.name]);
   const w = data.rlm_watch;
   const h = w?.history;
   const games = w?.games ?? [];
@@ -43,7 +48,7 @@ export default function Sharp({ data }: { data: Data }) {
   const research = (h?.research ?? []).filter((r) => (r.signals ?? 0) > 0);
   return (
     <>
-      <PageTitle kicker="Tracking, not picks" title="Sharp Money Alerts">
+      <PageTitle kicker="Tracking, not picks" title="Sharp Alerts">
         <p className="mt-5 max-w-2xl text-lg sm:text-xl text-white/80">
           When most of the public is on one side and the line still moves the other way, that's a reverse line move. It usually means
           the book is reacting to big, sharp bets, not the crowd. We track every one on DraftKings and grade it after the game.
@@ -61,7 +66,11 @@ export default function Sharp({ data }: { data: Data }) {
           <div className="mt-5 grid gap-4 md:grid-cols-2">
             {games.length ? games.map((g, i) => (
               <article key={i} className="bg-[#121212] border-l-[6px] border-volt p-5" data-testid={`card-sharp-${i}`}>
-                <span className="font-display bg-volt px-2 py-0.5 text-sm text-black" data-testid="text-move-label">{g.move_label ?? "Reverse Line Move"}</span>
+                <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                  <span className="font-display bg-volt px-2 py-0.5 text-sm text-black" data-testid="text-move-label">{g.move_label ?? "Reverse Line Move"}</span>
+                  {g.type_record && <span className="text-sm font-bold text-white/80" data-testid={`text-type-record-${i}`}>{typeRecTxt(g.type_record)}</span>}
+                  {g.type_record?.small && <span className="border border-white/30 px-1.5 py-px text-[11px] font-bold uppercase tracking-wide text-white/60" data-testid={`tag-small-sample-${i}`}>Small sample</span>}
+                </div>
                 <div className="mt-3 flex flex-wrap items-center gap-3">
                   {g.league && <span className="font-display bg-white px-2 py-0.5 text-sm text-black">{g.league}</span>}
                   <span className="text-white/80 font-bold uppercase tracking-wide">{g.matchup}</span>

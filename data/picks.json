@@ -1,5 +1,5 @@
 {
-  "generated_at_et": "2026-10-23T16:07:27-04:00",
+  "generated_at_et": "2026-10-23T16:15:53-04:00",
   "splits_as_of_et": "2026-10-23T16:05:45-04:00",
   "brand": {
     "name": "Big Mouth Sports",
@@ -590,7 +590,7 @@
   "rlm_watch": {
     "date": "2026-10-23",
     "updated_et": "2026-10-23T16:05:57-04:00",
-    "label": "Sharp Money Alerts: tracking only, not picks.",
+    "label": "Sharp Alerts: tracking only, not picks.",
     "history": {
       "since": "2026-10-19",
       "through": "2026-10-23",
@@ -715,6 +715,73 @@
         }
       ]
     },
+    "type_records": {
+      "public_rlm": {
+        "category": "public_rlm",
+        "label": "Reverse Line Move",
+        "wins": 12,
+        "losses": 12,
+        "pushes": 0,
+        "graded": 24,
+        "pending": 13,
+        "units": -1.09,
+        "win_pct": 0.5,
+        "display": "12-12",
+        "pct": 50,
+        "since": "2026-10-20",
+        "since_md": "10/20",
+        "small": true
+      },
+      "ticket_rlm": {
+        "category": "ticket_rlm",
+        "label": "Sharp Split",
+        "wins": 3,
+        "losses": 2,
+        "pushes": 0,
+        "graded": 5,
+        "pending": 10,
+        "units": 0.73,
+        "win_pct": 0.6,
+        "display": "3-2",
+        "pct": 60,
+        "since": "2026-10-20",
+        "since_md": "10/20",
+        "small": true
+      },
+      "money_steam": {
+        "category": "money_steam",
+        "label": "Steam",
+        "wins": 4,
+        "losses": 1,
+        "pushes": 0,
+        "graded": 5,
+        "pending": 5,
+        "units": 2.64,
+        "win_pct": 0.8,
+        "display": "4-1",
+        "pct": 80,
+        "since": "2026-10-21",
+        "since_md": "10/21",
+        "small": true
+      },
+      "split_against_money": {
+        "category": "split_against_money",
+        "label": "Split Move",
+        "wins": 0,
+        "losses": 2,
+        "pushes": 0,
+        "graded": 2,
+        "pending": 12,
+        "units": -2.0,
+        "win_pct": 0.0,
+        "display": "0-2",
+        "pct": 0,
+        "since": "2026-10-21",
+        "since_md": "10/21",
+        "small": true
+      }
+    },
+    "small_sample_n": 50,
     "rule": "Reverse line move (RLM): 60%+ of the DraftKings money AND 50%+ of the tickets on one side, yet the DraftKings line moved 0.5+ points in that side's favor. Open = DraftKings opener. All numbers DraftKings.",
     "games": [
       {
@@ -746,7 +813,23 @@
           "public_bets_pct": 35
         },
         "move_type": "public_rlm",
-        "move_label": "Reverse Line Move"
+        "move_label": "Reverse Line Move",
+        "type_record": {
+          "category": "public_rlm",
+          "label": "Reverse Line Move",
+          "wins": 12,
+          "losses": 12,
+          "pushes": 0,
+          "graded": 24,
+          "pending": 13,
+          "units": -1.09,
+          "win_pct": 0.5,
+          "display": "12-12",
+          "pct": 50,
+          "since": "2026-10-20",
+          "since_md": "10/20",
+          "small": true
+        }
       },
       {
         "league": "NBA",
@@ -777,7 +860,23 @@
           "public_bets_pct": 56
         },
         "move_type": "public_rlm",
-        "move_label": "Reverse Line Move"
+        "move_label": "Reverse Line Move",
+        "type_record": {
+          "category": "public_rlm",
+          "label": "Reverse Line Move",
+          "wins": 12,
+          "losses": 12,
+          "pushes": 0,
+          "graded": 24,
+          "pending": 13,
+          "units": -1.09,
+          "win_pct": 0.5,
+          "display": "12-12",
+          "pct": 50,
+          "since": "2026-10-20",
+          "since_md": "10/20",
+          "small": true
+        }
       },
       {
         "league": "NBA",
@@ -808,7 +907,23 @@
           "public_bets_pct": 85
         },
         "move_type": "public_rlm",
-        "move_label": "Reverse Line Move"
+        "move_label": "Reverse Line Move",
+        "type_record": {
+          "category": "public_rlm",
+          "label": "Reverse Line Move",
+          "wins": 12,
+          "losses": 12,
+          "pushes": 0,
+          "graded": 24,
+          "pending": 13,
+          "units": -1.09,
+          "win_pct": 0.5,
+          "display": "12-12",
+          "pct": 50,
+          "since": "2026-10-20",
+          "since_md": "10/20",
+          "small": true
+        }
       },
       {
         "league": "NBA",
@@ -839,7 +954,23 @@
           "public_bets_pct": 87
         },
         "move_type": "public_rlm",
-        "move_label": "Reverse Line Move"
+        "move_label": "Reverse Line Move",
+        "type_record": {
+          "category": "public_rlm",
+          "label": "Reverse Line Move",
+          "wins": 12,
+          "losses": 12,
+          "pushes": 0,
+          "graded": 24,
+          "pending": 13,
+          "units": -1.09,
+          "win_pct": 0.5,
+          "display": "12-12",
+          "pct": 50,
+          "since": "2026-10-20",
+          "since_md": "10/20",
+          "small": true
+        }
       },
       {
         "league": "NBA",
@@ -870,7 +1001,23 @@
           "public_bets_pct": 93
         },
         "move_type": "public_rlm",
-        "move_label": "Reverse Line Move"
+        "move_label": "Reverse Line Move",
+        "type_record": {
+          "category": "public_rlm",
+          "label": "Reverse Line Move",
+          "wins": 12,
+          "losses": 12,
+          "pushes": 0,
+          "graded": 24,
+          "pending": 13,
+          "units": -1.09,
+          "win_pct": 0.5,
+          "display": "12-12",
+          "pct": 50,
+          "since": "2026-10-20",
+          "since_md": "10/20",
+          "small": true
+        }
       },
       {
         "league": "NBA",
@@ -901,7 +1048,23 @@
           "public_bets_pct": 93
         },
         "move_type": "public_rlm",
-        "move_label": "Reverse Line Move"
+        "move_label": "Reverse Line Move",
+        "type_record": {
+          "category": "public_rlm",
+          "label": "Reverse Line Move",
+          "wins": 12,
+          "losses": 12,
+          "pushes": 0,
+          "graded": 24,
+          "pending": 13,
+          "units": -1.09,
+          "win_pct": 0.5,
+          "display": "12-12",
+          "pct": 50,
+          "since": "2026-10-20",
+          "since_md": "10/20",
+          "small": true
+        }
       }
     ],
     "tracker": {

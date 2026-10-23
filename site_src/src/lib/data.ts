@@ -22,8 +22,9 @@ export type RlmGame = {
   line_is_for?: string | null; move_pts?: number | null; key_number?: boolean | null; moved_toward?: string | null;
   tip_et?: string | null; started?: boolean | null; as_of?: string | null;
   favorite?: string | null; favorite_ml?: number | null; dk_ats?: DkSplit | null; dk_ml?: DkSplit | null;
-  move_type?: string | null; move_label?: string | null;
+  move_type?: string | null; move_label?: string | null; type_record?: TypeRecord | null;
 };
+export type TypeRecord = { category?: string | null; label?: string | null; display?: string | null; pct?: number | null; graded?: number | null; since_md?: string | null; small?: boolean | null };
 export type SigRec = Record_ & { pending?: number | null };
 export type MoveType = { category?: string | null; label?: string | null; explain?: string | null };
 export type RlmHistory = {

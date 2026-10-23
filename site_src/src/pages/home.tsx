@@ -112,7 +112,7 @@ function SharpTeaser({ data }: { data: Data }) {
   const n = data.rlm_watch?.games?.length ?? 0;
   return (
     <section className="mt-14 border-4 border-volt p-5 sm:p-7" aria-labelledby="sharp" data-testid="section-sharp-teaser">
-      <h2 id="sharp" className="font-display text-3xl sm:text-4xl">SHARP MONEY <span className="text-volt">ALERTS</span></h2>
+      <h2 id="sharp" className="font-display text-3xl sm:text-4xl">SHARP <span className="text-volt">ALERTS</span></h2>
       <p className="mt-2 max-w-2xl text-white/75">
         When the public piles on one side and the line moves the other way, we flag it. Tracked signals, not picks.
         {n > 0 ? <> <b className="text-white">{n} on the board right now.</b></> : null}
@@ -135,7 +135,7 @@ export default function Home({ data }: { data: Data }) {
   const b = data.brand ?? {};
   const name = b.name ?? "";
   useEffect(() => { document.title = `${name}${b.tagline ? " — " + b.tagline : ""}`; }, [name, b.tagline]);
-  // Deep links from /links/: /?go=bb|rec#/ scrolls to that section; ?go=rlm|sharp opens the Sharp Money Alerts page.
+  // Deep links from /links/: /?go=bb|rec#/ scrolls to that section; ?go=rlm|sharp opens the Sharp Alerts page.
   useEffect(() => {
     const go = new URLSearchParams(window.location.search).get("go");
     if (!go || !/^[a-z]+$/.test(go)) return;
