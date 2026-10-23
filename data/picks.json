@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-10-23T15:08:51-04:00",
-  "splits_as_of_et": "2026-10-23T15:08:30-04:00",
+  "generated_at_et": "2026-10-23T16:06:00-04:00",
+  "splits_as_of_et": "2026-10-23T16:05:45-04:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -589,10 +589,165 @@
   },
   "rlm_watch": {
     "date": "2026-10-23",
-    "updated_et": "2026-10-23T15:08:41-04:00",
-    "label": "Line Movement Watch: tracking only, not picks.",
+    "updated_et": "2026-10-23T16:05:57-04:00",
+    "label": "Sharp Money Alerts: tracking only, not picks.",
+    "history": {
+      "since": "2026-10-19",
+      "through": "2026-10-23",
+      "basis": "Graded at the DraftKings line when first flagged, 1 unit at -110. Opener record uses the DraftKings opener.",
+      "public_rlm": {
+        "label": "Reverse Line Move",
+        "explain": "Most of the money and most of the tickets are on one side, yet the line moved the other way.",
+        "all": {
+          "wins": 12,
+          "losses": 12,
+          "pushes": 0,
+          "graded": 24,
+          "pending": 13,
+          "units": -1.09,
+          "win_pct": 0.5,
+          "display": "12-12"
+        },
+        "spread": {
+          "wins": 9,
+          "losses": 6,
+          "pushes": 0,
+          "graded": 15,
+          "pending": 7,
+          "units": 2.18,
+          "win_pct": 0.6,
+          "display": "9-6"
+        },
+        "total": {
+          "wins": 3,
+          "losses": 6,
+          "pushes": 0,
+          "graded": 9,
+          "pending": 6,
+          "units": -3.27,
+          "win_pct": 0.333,
+          "display": "3-6"
+        }
+      },
+      "telegram_tiers": {
+        "A": {
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "graded": 0,
+          "units": 0,
+          "display": null
+        },
+        "B": {
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "graded": 0,
+          "units": 0,
+          "display": null
+        }
+      },
+      "telegram_since": "2026-10-23",
+      "research": [
+        {
+          "category": "ticket_rlm",
+          "label": "Sharp Split",
+          "explain": "Most tickets are on one side, but most of the money is on the other, and the line moved with the money.",
+          "signals": 15,
+          "wins": 3,
+          "losses": 2,
+          "pushes": 0,
+          "graded": 5,
+          "pending": 10,
+          "units": 0.73,
+          "win_pct": 0.6,
+          "display": "3-2"
+        },
+        {
+          "category": "money_steam",
+          "label": "Steam",
+          "explain": "The line moved toward the side with the big money, even though most tickets are on the other side.",
+          "signals": 10,
+          "wins": 4,
+          "losses": 1,
+          "pushes": 0,
+          "graded": 5,
+          "pending": 5,
+          "units": 2.64,
+          "win_pct": 0.8,
+          "display": "4-1"
+        },
+        {
+          "category": "split_against_money",
+          "label": "Split Move",
+          "explain": "Most of the money is on one side and most tickets on the other, and the line moved against the money.",
+          "signals": 14,
+          "wins": 0,
+          "losses": 2,
+          "pushes": 0,
+          "graded": 2,
+          "pending": 12,
+          "units": -2.0,
+          "win_pct": 0.0,
+          "display": "0-2"
+        }
+      ],
+      "move_types": [
+        {
+          "category": "public_rlm",
+          "label": "Reverse Line Move",
+          "explain": "Most of the money and most of the tickets are on one side, yet the line moved the other way."
+        },
+        {
+          "category": "ticket_rlm",
+          "label": "Sharp Split",
+          "explain": "Most tickets are on one side, but most of the money is on the other, and the line moved with the money."
+        },
+        {
+          "category": "money_steam",
+          "label": "Steam",
+          "explain": "The line moved toward the side with the big money, even though most tickets are on the other side."
+        },
+        {
+          "category": "split_against_money",
+          "label": "Split Move",
+          "explain": "Most of the money is on one side and most tickets on the other, and the line moved against the money."
+        }
+      ]
+    },
     "rule": "Reverse line move (RLM): 60%+ of the DraftKings money AND 50%+ of the tickets on one side, yet the DraftKings line moved 0.5+ points in that side's favor. Open = DraftKings opener. All numbers DraftKings.",
     "games": [
+      {
+        "league": "NCAAF",
+        "matchup": "Duke @ Virginia",
+        "market": "spread",
+        "public_side": "Virginia",
+        "public_handle_pct": 64,
+        "public_bets_pct": 57,
+        "open_line": "-6.5",
+        "current_line": "-2.5",
+        "line_is_for": "Virginia",
+        "move_pts": 4.0,
+        "key_number": false,
+        "moved_toward": "Duke",
+        "tip_et": "Fri 7:00 PM ET",
+        "started": false,
+        "as_of": "2026-10-23T16:05:45-04:00",
+        "favorite": "Virginia",
+        "favorite_ml": -135,
+        "dk_ats": {
+          "public_team": "Virginia",
+          "public_handle_pct": 64,
+          "public_bets_pct": 57
+        },
+        "dk_ml": {
+          "public_team": "Duke",
+          "public_handle_pct": 58,
+          "public_bets_pct": 35
+        },
+        "move_type": "public_rlm",
+        "move_label": "Reverse Line Move"
+      },
       {
         "league": "NBA",
         "matchup": "Knicks @ Celtics",
@@ -608,27 +763,29 @@
         "moved_toward": "Under",
         "tip_et": "Fri 7:00 PM ET",
         "started": false,
-        "as_of": "2026-10-23T15:08:30-04:00",
+        "as_of": "2026-10-23T16:05:45-04:00",
         "favorite": "Celtics",
         "favorite_ml": -135,
         "dk_ats": {
           "public_team": "Knicks",
-          "public_handle_pct": 65,
-          "public_bets_pct": 40
+          "public_handle_pct": 64,
+          "public_bets_pct": 39
         },
         "dk_ml": {
           "public_team": "Celtics",
-          "public_handle_pct": 55,
-          "public_bets_pct": 54
-        }
+          "public_handle_pct": 57,
+          "public_bets_pct": 56
+        },
+        "move_type": "public_rlm",
+        "move_label": "Reverse Line Move"
       },
       {
         "league": "NBA",
         "matchup": "Raptors @ Wizards",
         "market": "spread",
         "public_side": "Wizards",
-        "public_handle_pct": 65,
-        "public_bets_pct": 50,
+        "public_handle_pct": 64,
+        "public_bets_pct": 54,
         "open_line": "+4.5",
         "current_line": "+8.5",
         "line_is_for": "Wizards",
@@ -637,26 +794,28 @@
         "moved_toward": "Raptors",
         "tip_et": "Fri 7:00 PM ET",
         "started": false,
-        "as_of": "2026-10-23T15:08:30-04:00",
+        "as_of": "2026-10-23T16:05:45-04:00",
         "favorite": "Raptors",
         "favorite_ml": -340,
         "dk_ats": {
           "public_team": "Wizards",
-          "public_handle_pct": 65,
-          "public_bets_pct": 50
+          "public_handle_pct": 64,
+          "public_bets_pct": 54
         },
         "dk_ml": {
           "public_team": "Raptors",
-          "public_handle_pct": 66,
-          "public_bets_pct": 84
-        }
+          "public_handle_pct": 68,
+          "public_bets_pct": 85
+        },
+        "move_type": "public_rlm",
+        "move_label": "Reverse Line Move"
       },
       {
         "league": "NBA",
         "matchup": "Timberwolves @ Magic",
         "market": "spread",
         "public_side": "Timberwolves",
-        "public_handle_pct": 91,
+        "public_handle_pct": 86,
         "public_bets_pct": 77,
         "open_line": "-1.5",
         "current_line": "+1.5",
@@ -666,48 +825,21 @@
         "moved_toward": "Magic",
         "tip_et": "Fri 7:00 PM ET",
         "started": false,
-        "as_of": "2026-10-23T15:08:30-04:00",
+        "as_of": "2026-10-23T16:05:45-04:00",
         "favorite": "Magic",
         "favorite_ml": -112,
         "dk_ats": {
           "public_team": "Timberwolves",
-          "public_handle_pct": 91,
+          "public_handle_pct": 86,
           "public_bets_pct": 77
         },
         "dk_ml": {
           "public_team": "Timberwolves",
           "public_handle_pct": 92,
           "public_bets_pct": 87
-        }
-      },
-      {
-        "league": "NBA",
-        "matchup": "Pistons @ Heat",
-        "market": "spread",
-        "public_side": "Heat",
-        "public_handle_pct": 78,
-        "public_bets_pct": 50,
-        "open_line": "-1.5",
-        "current_line": "+1.5",
-        "line_is_for": "Heat",
-        "move_pts": 3.0,
-        "key_number": false,
-        "moved_toward": "Pistons",
-        "tip_et": "Fri 8:00 PM ET",
-        "started": false,
-        "as_of": "2026-10-23T15:08:30-04:00",
-        "favorite": "Pistons",
-        "favorite_ml": -125,
-        "dk_ats": {
-          "public_team": "Heat",
-          "public_handle_pct": 78,
-          "public_bets_pct": 50
         },
-        "dk_ml": {
-          "public_team": "Heat",
-          "public_handle_pct": 66,
-          "public_bets_pct": 54
-        }
+        "move_type": "public_rlm",
+        "move_label": "Reverse Line Move"
       },
       {
         "league": "NBA",
@@ -724,7 +856,7 @@
         "moved_toward": "Clippers",
         "tip_et": "Fri 10:00 PM ET",
         "started": false,
-        "as_of": "2026-10-23T15:08:30-04:00",
+        "as_of": "2026-10-23T16:05:45-04:00",
         "favorite": "Lakers",
         "favorite_ml": -375,
         "dk_ats": {
@@ -734,9 +866,11 @@
         },
         "dk_ml": {
           "public_team": "Lakers",
-          "public_handle_pct": 69,
+          "public_handle_pct": 75,
           "public_bets_pct": 93
-        }
+        },
+        "move_type": "public_rlm",
+        "move_label": "Reverse Line Move"
       },
       {
         "league": "NBA",
@@ -744,7 +878,7 @@
         "market": "total",
         "public_side": "Over",
         "public_handle_pct": 93,
-        "public_bets_pct": 82,
+        "public_bets_pct": 83,
         "open_line": "229.5",
         "current_line": "225.5",
         "line_is_for": "Over",
@@ -753,7 +887,7 @@
         "moved_toward": "Under",
         "tip_et": "Fri 10:00 PM ET",
         "started": false,
-        "as_of": "2026-10-23T15:08:30-04:00",
+        "as_of": "2026-10-23T16:05:45-04:00",
         "favorite": "Lakers",
         "favorite_ml": -375,
         "dk_ats": {
@@ -763,38 +897,11 @@
         },
         "dk_ml": {
           "public_team": "Lakers",
-          "public_handle_pct": 69,
-          "public_bets_pct": 93
-        }
-      },
-      {
-        "league": "NCAAF",
-        "matchup": "NC State @ Stanford",
-        "market": "total",
-        "public_side": "Over",
-        "public_handle_pct": 81,
-        "public_bets_pct": 88,
-        "open_line": "55.5",
-        "current_line": "54.5",
-        "line_is_for": "Over",
-        "move_pts": 1.0,
-        "key_number": false,
-        "moved_toward": "Under",
-        "tip_et": "Fri 10:30 PM ET",
-        "started": false,
-        "as_of": "2026-10-23T15:08:30-04:00",
-        "favorite": "NC State",
-        "favorite_ml": -305,
-        "dk_ats": {
-          "public_team": "NC State",
           "public_handle_pct": 75,
-          "public_bets_pct": 71
+          "public_bets_pct": 93
         },
-        "dk_ml": {
-          "public_team": "NC State",
-          "public_handle_pct": 88,
-          "public_bets_pct": 89
-        }
+        "move_type": "public_rlm",
+        "move_label": "Reverse Line Move"
       }
     ],
     "tracker": {
@@ -819,6 +926,8 @@
     },
     "tracker_note": "Tracking record: fading the public side of every RLM (0.5+ pts open to close) at the DraftKings closing line, 1 unit flat. Not our picks; small sample."
   },
+  "telegram_url": "https://t.me/+_erwkmX60nw3YTEx",
+  "parlay_bet_url": "bet/1023/",
   "sgp": {
     "name": "BIG MOUTH'S SGP",
     "record": {
