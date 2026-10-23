@@ -159,7 +159,11 @@ export default function Home({ data }: { data: Data }) {
     if (!go || !/^[a-z]+$/.test(go)) return;
     let n = 0; const id = window.setInterval(() => {
       const el = document.getElementById(go);
-      if (el || ++n > 20) { window.clearInterval(id); el?.closest("section")?.scrollIntoView({ block: "start" }); }
+      if (el || ++n > 20) {
+        window.clearInterval(id); const sec = el?.closest("section"); if (!sec) return;
+        const hdr = document.querySelector("header")?.getBoundingClientRect().height ?? 0;   // sticky header would cover the heading
+        window.scrollTo({ top: sec.getBoundingClientRect().top + window.scrollY - hdr - 12 });
+      }
     }, 100);
     return () => window.clearInterval(id);
   }, []);
