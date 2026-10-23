@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-10-22T19:05:54-04:00",
-  "splits_as_of_et": "2026-10-22T19:05:47-04:00",
+  "generated_at_et": "2026-10-22T20:10:15-04:00",
+  "splits_as_of_et": "2026-10-22T20:10:08-04:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -278,8 +278,8 @@
       "final_score": null,
       "result": "PENDING",
       "units": null,
-      "clv": null,
-      "closing_line": null
+      "clv": 0.0,
+      "closing_line": "+10.5"
     },
     {
       "date": "2026-10-22",
@@ -294,8 +294,8 @@
       "final_score": null,
       "result": "PENDING",
       "units": null,
-      "clv": null,
-      "closing_line": null
+      "clv": 0.0,
+      "closing_line": "-3"
     },
     {
       "date": "2026-10-22",
@@ -497,7 +497,7 @@
   },
   "rlm_watch": {
     "date": "2026-10-22",
-    "updated_et": "2026-10-22T19:05:54-04:00",
+    "updated_et": "2026-10-22T20:10:15-04:00",
     "label": "Line Movement Watch: tracking only, not picks.",
     "rule": "Reverse line move (RLM): 60%+ of the DraftKings money AND 50%+ of the tickets on one side, yet the DraftKings line moved 0.5+ points in that side's favor. Open = DraftKings opener. All numbers DraftKings.",
     "games": [
@@ -515,7 +515,7 @@
         "key_number": false,
         "moved_toward": "Cavaliers",
         "tip_et": "Thu 7:00 PM ET",
-        "started": false,
+        "started": true,
         "as_of": "2026-10-22T18:46:05-04:00",
         "favorite": "76ers",
         "favorite_ml": -142,
@@ -535,8 +535,8 @@
         "matchup": "Patriots @ Bears",
         "market": "spread",
         "public_side": "Patriots",
-        "public_handle_pct": 70,
-        "public_bets_pct": 73,
+        "public_handle_pct": 74,
+        "public_bets_pct": 74,
         "open_line": "+1.5",
         "current_line": "+3",
         "line_is_for": "Patriots",
@@ -545,17 +545,17 @@
         "moved_toward": "Bears",
         "tip_et": "Thu 8:15 PM ET",
         "started": false,
-        "as_of": "2026-10-22T19:05:47-04:00",
+        "as_of": "2026-10-22T20:10:08-04:00",
         "favorite": "Bears",
         "favorite_ml": -155,
         "dk_ats": {
           "public_team": "Patriots",
-          "public_handle_pct": 70,
-          "public_bets_pct": 73
+          "public_handle_pct": 74,
+          "public_bets_pct": 74
         },
         "dk_ml": {
           "public_team": "Patriots",
-          "public_handle_pct": 82,
+          "public_handle_pct": 80,
           "public_bets_pct": 83
         }
       },
@@ -564,8 +564,8 @@
         "matchup": "Nuggets @ Thunder",
         "market": "spread",
         "public_side": "Nuggets",
-        "public_handle_pct": 60,
-        "public_bets_pct": 59,
+        "public_handle_pct": 65,
+        "public_bets_pct": 62,
         "open_line": "+7.5",
         "current_line": "+8.5",
         "line_is_for": "Nuggets",
@@ -574,18 +574,18 @@
         "moved_toward": "Thunder",
         "tip_et": "Thu 9:30 PM ET",
         "started": false,
-        "as_of": "2026-10-22T19:05:47-04:00",
+        "as_of": "2026-10-22T20:10:08-04:00",
         "favorite": "Thunder",
         "favorite_ml": -340,
         "dk_ats": {
           "public_team": "Nuggets",
-          "public_handle_pct": 60,
-          "public_bets_pct": 59
+          "public_handle_pct": 65,
+          "public_bets_pct": 62
         },
         "dk_ml": {
-          "public_team": "Nuggets",
-          "public_handle_pct": 51,
-          "public_bets_pct": 26
+          "public_team": "Thunder",
+          "public_handle_pct": 59,
+          "public_bets_pct": 77
         }
       }
     ],
