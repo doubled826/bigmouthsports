@@ -1,5 +1,5 @@
 {
-  "generated_at_et": "2026-10-23T12:01:56-04:00",
+  "generated_at_et": "2026-10-23T12:10:41-04:00",
   "splits_as_of_et": "2026-10-23T12:01:44-04:00",
   "brand": {
     "name": "Big Mouth Sports",
@@ -819,111 +819,8 @@
       "settled_at_est_odds": 1,
       "display": "0-1"
     },
-    "today": {
-      "date": "2026-10-23",
-      "league": "NBA",
-      "matchup": "Clippers @ Lakers",
-      "kickoff_et": "Fri Oct 23, 10:00 PM ET",
-      "big_bet": "Clippers +9.5",
-      "n_legs": 3,
-      "est_odds": 253,
-      "dk_odds": null,
-      "odds_used": null,
-      "odds_basis": null,
-      "odds_is_estimate": true,
-      "result": "PENDING",
-      "units": null,
-      "final_score": null,
-      "graded_at": null,
-      "legs": [
-        {
-          "ord": 1,
-          "kind": "team",
-          "label": "Clippers 12+ team 3PM",
-          "market": "Team Total 3-Pointers Made",
-          "threshold": 12.0,
-          "result": "PENDING",
-          "actual": null,
-          "blurb": "12.4 3PM/G LAST SEASON",
-          "odds": -265
-        },
-        {
-          "ord": 2,
-          "kind": "player",
-          "label": "Jackson 2+ REB",
-          "market": "Rebounds Milestones",
-          "threshold": 2.0,
-          "result": "PENDING",
-          "actual": null,
-          "blurb": "5.0 L5 · 9/10 LAST 10",
-          "odds": -220
-        },
-        {
-          "ord": 3,
-          "kind": "player",
-          "label": "Hachimura 2+ REB",
-          "market": "Rebounds Milestones",
-          "threshold": 2.0,
-          "result": "PENDING",
-          "actual": null,
-          "blurb": "5.4 L5 · 8/10 LAST 10",
-          "odds": -131
-        }
-      ]
-    },
+    "today": null,
     "history": [
-      {
-        "date": "2026-10-23",
-        "league": "NBA",
-        "matchup": "Clippers @ Lakers",
-        "kickoff_et": "Fri Oct 23, 10:00 PM ET",
-        "big_bet": "Clippers +9.5",
-        "n_legs": 3,
-        "est_odds": 253,
-        "dk_odds": null,
-        "odds_used": null,
-        "odds_basis": null,
-        "odds_is_estimate": true,
-        "result": "PENDING",
-        "units": null,
-        "final_score": null,
-        "graded_at": null,
-        "legs": [
-          {
-            "ord": 1,
-            "kind": "team",
-            "label": "Clippers 12+ team 3PM",
-            "market": "Team Total 3-Pointers Made",
-            "threshold": 12.0,
-            "result": "PENDING",
-            "actual": null,
-            "blurb": "12.4 3PM/G LAST SEASON",
-            "odds": -265
-          },
-          {
-            "ord": 2,
-            "kind": "player",
-            "label": "Jackson 2+ REB",
-            "market": "Rebounds Milestones",
-            "threshold": 2.0,
-            "result": "PENDING",
-            "actual": null,
-            "blurb": "5.0 L5 · 9/10 LAST 10",
-            "odds": -220
-          },
-          {
-            "ord": 3,
-            "kind": "player",
-            "label": "Hachimura 2+ REB",
-            "market": "Rebounds Milestones",
-            "threshold": 2.0,
-            "result": "PENDING",
-            "actual": null,
-            "blurb": "5.4 L5 · 8/10 LAST 10",
-            "odds": -131
-          }
-        ]
-      },
       {
         "date": "2026-10-21",
         "league": "NBA",
