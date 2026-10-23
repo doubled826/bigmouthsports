@@ -33,7 +33,7 @@ export type Record_ = {
   units?: number | null; win_pct?: number | null; roi?: number | null; display?: string | null;
 };
 export type ResultRow = {
-  date?: string | null; category?: string | null; league?: string | null; matchup?: string | null;
+  date?: string | null; category?: string | null; category_label?: string | null; league?: string | null; matchup?: string | null;
   pick?: string | null; price?: number | string | null; public_faded?: number | string | null;
   result?: string | null; units?: number | null; clv?: number | string | null;
   closing_line?: string | null; final_score?: string | null;

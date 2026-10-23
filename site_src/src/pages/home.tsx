@@ -75,8 +75,8 @@ function RlmSection({ w }: { w: RlmWatch }) {
       </div>
       <h3 className="mt-8 font-display text-2xl text-white/80">RLM TRACKER</h3>
       <div className="mt-3 grid gap-4 sm:grid-cols-2">
-        <RlmTile title="SPREADS (AGAINST THE PUBLIC)" r={w.tracker?.spread} />
-        <RlmTile title="TOTALS (AGAINST THE PUBLIC)" r={w.tracker?.total} />
+        <RlmTile title="SPREADS (FADE THE PUBLIC)" r={w.tracker?.spread} />
+        <RlmTile title="TOTALS (FADE THE PUBLIC)" r={w.tracker?.total} />
       </div>
       {w.tracker_note && <p className="mt-3 text-sm text-white/50">{w.tracker_note}</p>}
       <p className="mt-1 text-sm text-white/40">All lines and splits: DraftKings.{w.updated_et ? ` Updated ${w.updated_et.slice(11, 16)} ET.` : ""}</p>
