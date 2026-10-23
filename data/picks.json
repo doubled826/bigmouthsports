@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-10-23T14:02:05-04:00",
-  "splits_as_of_et": "2026-10-23T13:11:18-04:00",
+  "generated_at_et": "2026-10-23T14:02:40-04:00",
+  "splits_as_of_et": "2026-10-23T14:02:23-04:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -572,17 +572,46 @@
   },
   "rlm_watch": {
     "date": "2026-10-23",
-    "updated_et": "2026-10-23T13:11:29-04:00",
+    "updated_et": "2026-10-23T14:02:34-04:00",
     "label": "Line Movement Watch: tracking only, not picks.",
     "rule": "Reverse line move (RLM): 60%+ of the DraftKings money AND 50%+ of the tickets on one side, yet the DraftKings line moved 0.5+ points in that side's favor. Open = DraftKings opener. All numbers DraftKings.",
     "games": [
+      {
+        "league": "NCAAF",
+        "matchup": "Duke @ Virginia",
+        "market": "spread",
+        "public_side": "Virginia",
+        "public_handle_pct": 63,
+        "public_bets_pct": 58,
+        "open_line": "-6.5",
+        "current_line": "-2.5",
+        "line_is_for": "Virginia",
+        "move_pts": 4.0,
+        "key_number": false,
+        "moved_toward": "Duke",
+        "tip_et": "Fri 7:00 PM ET",
+        "started": false,
+        "as_of": "2026-10-23T14:02:23-04:00",
+        "favorite": "Virginia",
+        "favorite_ml": -142,
+        "dk_ats": {
+          "public_team": "Virginia",
+          "public_handle_pct": 63,
+          "public_bets_pct": 58
+        },
+        "dk_ml": {
+          "public_team": "Duke",
+          "public_handle_pct": 60,
+          "public_bets_pct": 33
+        }
+      },
       {
         "league": "NBA",
         "matchup": "Knicks @ Celtics",
         "market": "total",
         "public_side": "Over",
-        "public_handle_pct": 60,
-        "public_bets_pct": 82,
+        "public_handle_pct": 65,
+        "public_bets_pct": 83,
         "open_line": "223.5",
         "current_line": "221.5",
         "line_is_for": "Over",
@@ -591,47 +620,18 @@
         "moved_toward": "Under",
         "tip_et": "Fri 7:00 PM ET",
         "started": false,
-        "as_of": "2026-10-23T13:11:18-04:00",
+        "as_of": "2026-10-23T14:02:23-04:00",
         "favorite": "Celtics",
-        "favorite_ml": -130,
+        "favorite_ml": -135,
         "dk_ats": {
           "public_team": "Knicks",
-          "public_handle_pct": 69,
+          "public_handle_pct": 66,
           "public_bets_pct": 40
         },
         "dk_ml": {
-          "public_team": "Knicks",
-          "public_handle_pct": 53,
-          "public_bets_pct": 47
-        }
-      },
-      {
-        "league": "NBA",
-        "matchup": "Mavericks @ Pacers",
-        "market": "total",
-        "public_side": "Under",
-        "public_handle_pct": 78,
-        "public_bets_pct": 56,
-        "open_line": "234.5",
-        "current_line": "240.5",
-        "line_is_for": "Under",
-        "move_pts": 6.0,
-        "key_number": false,
-        "moved_toward": "Over",
-        "tip_et": "Fri 7:00 PM ET",
-        "started": false,
-        "as_of": "2026-10-23T13:11:18-04:00",
-        "favorite": "Pacers",
-        "favorite_ml": -265,
-        "dk_ats": {
-          "public_team": "Pacers",
-          "public_handle_pct": 71,
-          "public_bets_pct": 63
-        },
-        "dk_ml": {
-          "public_team": "Pacers",
-          "public_handle_pct": 96,
-          "public_bets_pct": 90
+          "public_team": "Celtics",
+          "public_handle_pct": 52,
+          "public_bets_pct": 54
         }
       },
       {
@@ -639,8 +639,8 @@
         "matchup": "Raptors @ Wizards",
         "market": "spread",
         "public_side": "Wizards",
-        "public_handle_pct": 65,
-        "public_bets_pct": 52,
+        "public_handle_pct": 62,
+        "public_bets_pct": 50,
         "open_line": "+4.5",
         "current_line": "+8.5",
         "line_is_for": "Wizards",
@@ -649,18 +649,18 @@
         "moved_toward": "Raptors",
         "tip_et": "Fri 7:00 PM ET",
         "started": false,
-        "as_of": "2026-10-23T13:11:18-04:00",
+        "as_of": "2026-10-23T14:02:23-04:00",
         "favorite": "Raptors",
-        "favorite_ml": -325,
+        "favorite_ml": -340,
         "dk_ats": {
           "public_team": "Wizards",
-          "public_handle_pct": 65,
-          "public_bets_pct": 52
+          "public_handle_pct": 62,
+          "public_bets_pct": 50
         },
         "dk_ml": {
           "public_team": "Raptors",
-          "public_handle_pct": 67,
-          "public_bets_pct": 83
+          "public_handle_pct": 65,
+          "public_bets_pct": 84
         }
       },
       {
@@ -668,28 +668,28 @@
         "matchup": "Raptors @ Wizards",
         "market": "total",
         "public_side": "Under",
-        "public_handle_pct": 74,
+        "public_handle_pct": 68,
         "public_bets_pct": 52,
         "open_line": "235.5",
-        "current_line": "236.5",
+        "current_line": "237.5",
         "line_is_for": "Under",
-        "move_pts": 1.0,
+        "move_pts": 2.0,
         "key_number": false,
         "moved_toward": "Over",
         "tip_et": "Fri 7:00 PM ET",
         "started": false,
-        "as_of": "2026-10-23T13:11:18-04:00",
+        "as_of": "2026-10-23T14:02:23-04:00",
         "favorite": "Raptors",
-        "favorite_ml": -325,
+        "favorite_ml": -340,
         "dk_ats": {
           "public_team": "Wizards",
-          "public_handle_pct": 65,
-          "public_bets_pct": 52
+          "public_handle_pct": 62,
+          "public_bets_pct": 50
         },
         "dk_ml": {
           "public_team": "Raptors",
-          "public_handle_pct": 67,
-          "public_bets_pct": 83
+          "public_handle_pct": 65,
+          "public_bets_pct": 84
         }
       },
       {
@@ -697,8 +697,8 @@
         "matchup": "Timberwolves @ Magic",
         "market": "spread",
         "public_side": "Timberwolves",
-        "public_handle_pct": 86,
-        "public_bets_pct": 78,
+        "public_handle_pct": 92,
+        "public_bets_pct": 76,
         "open_line": "-1.5",
         "current_line": "+1.5",
         "line_is_for": "Timberwolves",
@@ -707,18 +707,18 @@
         "moved_toward": "Magic",
         "tip_et": "Fri 7:00 PM ET",
         "started": false,
-        "as_of": "2026-10-23T13:11:18-04:00",
+        "as_of": "2026-10-23T14:02:23-04:00",
         "favorite": "Magic",
         "favorite_ml": -112,
         "dk_ats": {
           "public_team": "Timberwolves",
-          "public_handle_pct": 86,
-          "public_bets_pct": 78
+          "public_handle_pct": 92,
+          "public_bets_pct": 76
         },
         "dk_ml": {
           "public_team": "Timberwolves",
-          "public_handle_pct": 85,
-          "public_bets_pct": 88
+          "public_handle_pct": 92,
+          "public_bets_pct": 87
         }
       },
       {
@@ -726,8 +726,8 @@
         "matchup": "Pistons @ Heat",
         "market": "spread",
         "public_side": "Heat",
-        "public_handle_pct": 81,
-        "public_bets_pct": 58,
+        "public_handle_pct": 79,
+        "public_bets_pct": 50,
         "open_line": "-1.5",
         "current_line": "+1.5",
         "line_is_for": "Heat",
@@ -736,18 +736,18 @@
         "moved_toward": "Pistons",
         "tip_et": "Fri 8:00 PM ET",
         "started": false,
-        "as_of": "2026-10-23T13:11:18-04:00",
+        "as_of": "2026-10-23T14:02:23-04:00",
         "favorite": "Pistons",
         "favorite_ml": -125,
         "dk_ats": {
           "public_team": "Heat",
-          "public_handle_pct": 81,
-          "public_bets_pct": 58
+          "public_handle_pct": 79,
+          "public_bets_pct": 50
         },
         "dk_ml": {
           "public_team": "Heat",
-          "public_handle_pct": 63,
-          "public_bets_pct": 48
+          "public_handle_pct": 62,
+          "public_bets_pct": 53
         }
       },
       {
@@ -755,17 +755,17 @@
         "matchup": "Clippers @ Lakers",
         "market": "total",
         "public_side": "Over",
-        "public_handle_pct": 83,
-        "public_bets_pct": 75,
+        "public_handle_pct": 84,
+        "public_bets_pct": 79,
         "open_line": "229.5",
-        "current_line": "226.5",
+        "current_line": "225.5",
         "line_is_for": "Over",
-        "move_pts": 3.0,
+        "move_pts": 4.0,
         "key_number": false,
         "moved_toward": "Under",
         "tip_et": "Fri 10:00 PM ET",
         "started": false,
-        "as_of": "2026-10-23T13:11:18-04:00",
+        "as_of": "2026-10-23T14:02:23-04:00",
         "favorite": "Lakers",
         "favorite_ml": -375,
         "dk_ats": {
@@ -775,8 +775,8 @@
         },
         "dk_ml": {
           "public_team": "Lakers",
-          "public_handle_pct": 67,
-          "public_bets_pct": 92
+          "public_handle_pct": 69,
+          "public_bets_pct": 93
         }
       }
     ],
