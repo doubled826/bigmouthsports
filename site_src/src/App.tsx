@@ -8,6 +8,8 @@ import { ErrorState, Footer, Header, Skeleton } from '@/components/shell';
 import Home from '@/pages/home';
 import Results from '@/pages/results';
 import Trends from '@/pages/trends';
+import Sharp from '@/pages/sharp';
+import { Redirect } from 'wouter';
 
 
 function Shell() {
@@ -27,6 +29,8 @@ function Shell() {
         <RoutedErrorBoundary>
           <Switch>
             <Route path="/" >{page(Home)}</Route>
+            <Route path="/sharp" >{page(Sharp)}</Route>
+            <Route path="/rlm"><Redirect to="/sharp" replace /></Route>
             <Route path="/results" >{page(Results)}</Route>
             <Route path="/trends" >{page(Trends)}</Route>
             <Route component={NotFound} />

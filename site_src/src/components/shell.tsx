@@ -19,24 +19,24 @@ export function Wordmark({ name, className = "" }: { name: string; className?: s
   );
 }
 
-const nav = [{ href: "/", label: "Home" }, { href: "/results", label: "Results" }, { href: "/trends", label: "Trends" }];
+const nav = [{ href: "/", label: "Home", short: "Home" }, { href: "/sharp", label: "Sharp Money Alerts", short: "Sharp Money" }, { href: "/results", label: "Results", short: "Results" }, { href: "/trends", label: "Trends", short: "Trends" }];
 
 export function Header({ data }: { data: Data | null }) {
   const [loc] = useLocation();
   const name = data?.brand?.name ?? "";
   return (
     <header className="sticky top-0 z-40 border-b-4 border-volt bg-[#0b0b0b]/95 backdrop-blur">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
-        <Link href="/" className="flex items-center gap-3" data-testid="link-home-logo">
-          {name ? <Logo name={name} className="h-10 w-auto" text="text-xl sm:text-2xl" /> : <span className="h-6 w-32 animate-pulse bg-white/10" />}
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-2 sm:gap-4 px-3 sm:px-4 py-3">
+        <Link href="/" className="flex shrink-0 items-center gap-3" data-testid="link-home-logo">
+          {name ? <Logo name={name} className="h-9 sm:h-10 w-auto" text="text-xl sm:text-2xl" /> : <span className="h-6 w-32 animate-pulse bg-white/10" />}
         </Link>
-        <nav aria-label="Main" className="flex gap-1">
+        <nav aria-label="Main" className="flex gap-0.5 sm:gap-1">
           {nav.map((n) => {
             const active = n.href === "/" ? loc === "/" : loc.startsWith(n.href);
             return (
-              <Link key={n.href} href={n.href} aria-current={active ? "page" : undefined} data-testid={`link-nav-${n.label.toLowerCase()}`}
-                className={`font-display px-3 py-2 text-sm sm:text-base tracking-wide transition-colors ${active ? "bg-volt text-black" : "text-white/70 hover:text-white"}`}>
-                {n.label}
+              <Link key={n.href} href={n.href} aria-current={active ? "page" : undefined} data-testid={`link-nav-${n.short.replace(/\W+/g, "").toLowerCase()}`}
+                className={`font-display px-1.5 sm:px-3 py-2 text-[13px] sm:text-base whitespace-nowrap tracking-wide transition-colors ${active ? "bg-volt text-black" : "text-white/70 hover:text-white"}`}>
+                <span className="sm:hidden">{n.short}</span><span className="hidden sm:inline">{n.label}</span>
               </Link>
             );
           })}

@@ -22,11 +22,27 @@ export type RlmGame = {
   line_is_for?: string | null; move_pts?: number | null; key_number?: boolean | null; moved_toward?: string | null;
   tip_et?: string | null; started?: boolean | null; as_of?: string | null;
   favorite?: string | null; favorite_ml?: number | null; dk_ats?: DkSplit | null; dk_ml?: DkSplit | null;
+  move_type?: string | null; move_label?: string | null;
+};
+export type SigRec = Record_ & { pending?: number | null };
+export type MoveType = { category?: string | null; label?: string | null; explain?: string | null };
+export type RlmHistory = {
+  since?: string | null; through?: string | null; basis?: string | null; telegram_since?: string | null;
+  public_rlm?: { label?: string | null; explain?: string | null; all?: SigRec | null; spread?: SigRec | null; total?: SigRec | null } | null;
+  telegram_tiers?: { A?: SigRec | null; B?: SigRec | null } | null;
+  research?: (MoveType & SigRec & { signals?: number | null })[] | null;
+  move_types?: MoveType[] | null;
+};
+export type ParlayLeg = { ord?: number | null; label?: string | null; odds?: number | null; matchup?: string | null; result?: string | null };
+export type Sgp = {
+  record?: (Record_ & { since?: string | null }) | null;
+  today?: { date?: string | null; title?: string | null; league?: string | null; kickoff_et?: string | null; n_legs?: number | null;
+    est_odds?: number | null; dk_odds?: number | null; odds_used?: number | null; result?: string | null; legs?: ParlayLeg[] | null } | null;
 };
 export type RlmWatch = {
   date?: string | null; updated_et?: string | null; label?: string | null; rule?: string | null; games?: RlmGame[] | null;
   tracker?: { spread?: Record_ & { since?: string | null } | null; total?: Record_ & { since?: string | null } | null } | null;
-  tracker_note?: string | null;
+  tracker_note?: string | null; history?: RlmHistory | null;
 };
 export type Record_ = {
   wins?: number | null; losses?: number | null; pushes?: number | null; graded?: number | null;
@@ -46,7 +62,7 @@ export type Data = {
   today?: { date?: string | null; status?: string | null; status_note?: string | null; big_bet?: Pick | null; honorable_mentions?: Pick[] | null; big_bet_image?: string | null } | null;
   results?: ResultRow[] | null;
   trends?: { by_league?: TrendRow[] | null; by_public_tier?: TrendRow[] | null; prime_time?: TrendRow[] | null; ml_favorite_faded?: TrendRow[] | null; note?: string | null } | null;
-  rlm_watch?: RlmWatch | null;
+  rlm_watch?: RlmWatch | null; telegram_url?: string | null; parlay_bet_url?: string | null; sgp?: Sgp | null;
   disclaimer?: string | null;
 };
 
