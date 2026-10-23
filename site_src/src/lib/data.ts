@@ -6,7 +6,7 @@ export type Pick = {
   away?: string | null; home?: string | null; kickoff_et?: string | null; kickoff_iso?: string | null;
   pick_team?: string | null; pick_line?: string | number | null; pick_price?: number | string | null;
   line_source?: string | null; public_team?: string | null; public_line?: string | number | null;
-  public_handle_pct?: number | null; public_bets_pct?: number | null; tier?: string | null;
+  public_handle_pct?: number | null; public_bets_pct?: number | null; tier?: string | null; tail_tag?: string | null;
   public_on_ml_favorite?: boolean | null; prime_time?: boolean | null; locked_at_et?: string | null;
   favorite?: string | null; favorite_ml?: number | null; favorite_basis?: string | null;
   dk_ats?: DkSplit | null; dk_ml?: DkSplit | null; dk_splits_as_of?: string | null;

@@ -33,6 +33,7 @@ function PickCard({ p, big, todayNote, idx }: { p: Pick; big?: boolean; todayNot
         {p.league && <span className="font-display bg-white px-2 py-0.5 text-sm text-black">{p.league}</span>}
         {p.matchup && <span className="text-white/80 font-bold uppercase tracking-wide">{p.matchup}</span>}
         {p.kickoff_et && <span className="text-white/50">{p.kickoff_et}</span>}
+        {p.tail_tag && <span className="bg-volt px-2 py-0.5 text-xs font-bold uppercase tracking-wide text-black" data-testid="tag-tail">{p.tail_tag}</span>}
       </div>
       <p className={`font-display text-volt mt-4 ${big ? "text-6xl sm:text-8xl lg:text-9xl" : "text-4xl sm:text-5xl"}`} data-testid="text-pick">
         {[p.pick_team, line(p.pick_line)].filter(Boolean).join(" ")}{price ? <span className={big ? "text-4xl sm:text-6xl align-middle" : "text-2xl"}> ({price})</span> : null}
