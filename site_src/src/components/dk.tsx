@@ -27,3 +27,33 @@ export function DkSplits({ fav, favMl, ats, ml, big }: { fav?: string | null; fa
     </div>
   );
 }
+
+// Sharp Alert cards: both sides' DraftKings money % and tickets %, spread first, moneyline as context. "Money on" = side with the most money.
+export function SharpSplits({ ats, ml }: { ats?: DkSplit | null; ml?: DkSplit | null }) {
+  const ref = ats ?? ml;
+  if (!ref) return null;
+  const aw = ref.away_team ?? "Away", hm = ref.home_team ?? "Home";
+  const cell = (h?: number | null, b?: number | null) => (
+    <><span className="text-volt font-bold">{pc0(h)}</span><span className="text-white/45"> · </span><span className="text-white/80">{pc0(b)}</span></>
+  );
+  const row = (label: string, s: DkSplit | null | undefined, id: string) => (
+    <tr className="border-t border-white/10" data-testid={`row-split-${id}`}>
+      <th scope="row" className="py-1.5 pr-2 text-left font-display text-white/70 leading-tight">{label}</th>
+      <td className="py-1.5 pr-2 text-white">{s?.public_team ?? "n/a"}</td>
+      <td className="py-1.5 pr-2 whitespace-nowrap">{s ? cell(s.away_handle_pct, s.away_bets_pct) : "n/a"}</td>
+      <td className="py-1.5 whitespace-nowrap">{s ? cell(s.home_handle_pct, s.home_bets_pct) : "n/a"}</td>
+    </tr>
+  );
+  return (
+    <div className="mt-4" data-testid="sharp-splits">
+      <table className="w-full text-xs sm:text-sm">
+        <thead><tr className="text-left text-[11px] sm:text-xs uppercase tracking-wider text-white/45">
+          <th className="pb-1 pr-2 font-normal">DraftKings</th><th className="pb-1 pr-2 font-normal">Money on</th>
+          <th className="pb-1 pr-2 font-normal">{aw}</th><th className="pb-1 font-normal">{hm}</th>
+        </tr></thead>
+        <tbody>{row("SPREAD", ats, "spread")}{row("MONEYLINE (CONTEXT)", ml, "ml")}</tbody>
+      </table>
+      <p className="mt-1 text-[11px] text-white/45">Each team: % of the money · % of the tickets.</p>
+    </div>
+  );
+}

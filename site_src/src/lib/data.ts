@@ -23,7 +23,13 @@ export type RlmGame = {
   tip_et?: string | null; started?: boolean | null; as_of?: string | null;
   favorite?: string | null; favorite_ml?: number | null; dk_ats?: DkSplit | null; dk_ml?: DkSplit | null;
   move_type?: string | null; move_label?: string | null; type_record?: TypeRecord | null;
+  opener_line?: string | null; first_seen_line?: string | null; first_seen_md?: string | null; other_side?: string | null; other_line?: string | null;
+  sharp_bet?: { side?: string | null; line?: string | null; line_num?: number | null; odds?: number | null } | null; big_move?: boolean | null;
 };
+export type SharpRec = Record_ & { pending?: number | null; pct?: number | null; signals?: number | null; overlap?: number | null; since_md?: string | null; small?: boolean | null; basis?: string | null };
+export type SharpTypeRec = Record_ & { category?: string | null; label?: string | null; pending?: number | null; pct?: number | null; small?: boolean | null };
+export type PreTracking = { league?: string | null; matchup?: string | null; market?: string | null; public_side?: string | null; opener_line?: string | null;
+  first_seen_line?: string | null; first_seen_md?: string | null; current_line?: string | null; tip_et?: string | null; tag?: string | null };
 export type TypeRecord = { category?: string | null; label?: string | null; display?: string | null; pct?: number | null; graded?: number | null; since_md?: string | null; small?: boolean | null };
 export type SigRec = Record_ & { pending?: number | null };
 export type MoveType = { category?: string | null; label?: string | null; explain?: string | null };
@@ -44,6 +50,7 @@ export type RlmWatch = {
   date?: string | null; updated_et?: string | null; label?: string | null; rule?: string | null; games?: RlmGame[] | null;
   tracker?: { spread?: Record_ & { since?: string | null } | null; total?: Record_ & { since?: string | null } | null } | null;
   tracker_note?: string | null; history?: RlmHistory | null;
+  sharp_record?: SharpRec | null; sharp_record_types?: SharpTypeRec[] | null; pre_tracking?: PreTracking[] | null; small_sample_n?: number | null;
 };
 export type Record_ = {
   wins?: number | null; losses?: number | null; pushes?: number | null; graded?: number | null;
