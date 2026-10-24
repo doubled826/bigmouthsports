@@ -132,6 +132,20 @@ function SharpTeaser({ data }: { data: Data }) {
   );
 }
 
+function StrategyTeaser() {
+  return (
+    <section className="mt-14 border-l-8 border-volt bg-[#121212] p-5 sm:p-7" aria-labelledby="why" data-testid="section-strategy-teaser">
+      <h2 id="why" className="font-display text-3xl sm:text-4xl">WHY WE <span className="text-volt">FADE THE PUBLIC</span></h2>
+      <p className="mt-2 max-w-2xl text-white/75" data-testid="text-strategy-short">
+        Vegas sells the public on the same hyped-up sides every week, and that's the trap. When 60%+ of the DraftKings money piles onto one side, we take the other. Money talks. We listen.
+      </p>
+      <Link href="/strategy" className="mt-4 inline-flex items-center gap-1 font-display text-lg text-volt hover:underline underline-offset-4" data-testid="link-strategy-page">
+        Read our strategy →
+      </Link>
+    </section>
+  );
+}
+
 export default function Home({ data }: { data: Data }) {
   const b = data.brand ?? {};
   const name = b.name ?? "";
@@ -204,6 +218,8 @@ export default function Home({ data }: { data: Data }) {
           <h2 id="rec" className="font-display text-3xl sm:text-4xl">THE <span className="text-volt">RECORD</span></h2>
           <RecordStrip data={data} />
         </section>
+
+        <StrategyTeaser />
 
         <SharpTeaser data={data} />
         {data.splits_as_of_et && <p className="mt-6 text-sm text-white/45" data-testid="text-updated">DraftKings data updated {data.splits_as_of_et.slice(11, 16)} ET · 21+ · 1-800-GAMBLER</p>}

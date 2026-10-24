@@ -19,7 +19,7 @@ export function Wordmark({ name, className = "" }: { name: string; className?: s
   );
 }
 
-const nav = [{ href: "/", label: "Home", short: "Home" }, { href: "/results", label: "Results", short: "Results" }, { href: "/sharp", label: "Sharp Alerts", short: "Sharp Alerts" }];
+const nav = [{ href: "/", label: "Home", short: "Home" }, { href: "/results", label: "Results", short: "Results" }, { href: "/sharp", label: "Sharp Alerts", short: "Sharp Alerts" }, { href: "/strategy", label: "Strategy", short: "Strategy" }];
 
 export function Header({ data }: { data: Data | null }) {
   const [loc] = useLocation();

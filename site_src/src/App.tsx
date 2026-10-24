@@ -8,6 +8,7 @@ import { ErrorState, Footer, Header, Skeleton } from '@/components/shell';
 import Home from '@/pages/home';
 import Results from '@/pages/results';
 import Sharp from '@/pages/sharp';
+import Strategy from '@/pages/strategy';
 import { Redirect } from 'wouter';
 
 
@@ -31,6 +32,7 @@ function Shell() {
             <Route path="/sharp" >{page(Sharp)}</Route>
             <Route path="/rlm"><Redirect to="/sharp" replace /></Route>
             <Route path="/results" >{page(Results)}</Route>
+            <Route path="/strategy" >{page(Strategy)}</Route>
             <Route path="/trends"><Redirect to="/results" replace /></Route>
             <Route component={NotFound} />
           </Switch>
