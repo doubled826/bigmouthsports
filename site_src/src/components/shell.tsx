@@ -20,6 +20,9 @@ export function Wordmark({ name, className = "" }: { name: string; className?: s
 }
 
 const nav = [{ href: "/", label: "Home", short: "Home" }, { href: "/results", label: "Results", short: "Results" }, { href: "/sharp", label: "Sharp Alerts", short: "Sharp Alerts" }, { href: "/strategy", label: "Strategy", short: "Strategy" }];
+// Game Lookup nav entry: only in builds made with VITE_LOOKUP=1 (site_lookup.py on, while site_config lookup_live is true). Takedown: python3 site_lookup.py off
+const lookupNav = { href: "/lookup", label: "Game Lookup", short: "Lookup" };
+const navItems = import.meta.env.VITE_LOOKUP === "1" ? [...nav.slice(0, 3), lookupNav, ...nav.slice(3)] : nav;
 
 export function Header({ data }: { data: Data | null }) {
   const [loc] = useLocation();
@@ -31,7 +34,7 @@ export function Header({ data }: { data: Data | null }) {
           {name ? <Logo name={name} className="h-9 sm:h-10 w-auto" text="text-xl sm:text-2xl" /> : <span className="h-6 w-32 animate-pulse bg-white/10" />}
         </Link>
         <nav aria-label="Main" className="flex gap-0.5 sm:gap-1">
-          {nav.map((n) => {
+          {navItems.map((n) => {
             const active = n.href === "/" ? loc === "/" : loc.startsWith(n.href);
             return (
               <Link key={n.href} href={n.href} aria-current={active ? "page" : undefined} data-testid={`link-nav-${n.short.replace(/\W+/g, "").toLowerCase()}`}
