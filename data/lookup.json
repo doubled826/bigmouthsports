@@ -1,6 +1,6 @@
 {
- "generated_at_et": "2026-10-24T17:01:44-04:00",
- "splits_as_of_et": "2026-10-24T17:01:06-04:00",
+ "generated_at_et": "2026-10-24T18:07:45-04:00",
+ "splits_as_of_et": "2026-10-24T18:07:01-04:00",
  "today": "2026-10-24",
  "through": "2026-10-31",
  "dates": [
@@ -3093,21 +3093,21 @@
    "start_et": "2026-10-24T15:00:00-04:00",
    "kickoff": "Sat 10/24 · 3:00 PM ET",
    "started": true,
-   "as_of": "2026-10-24T15:14:00-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Oregon @ Illinois",
    "markets": {
     "spread": {
      "away": {
       "line": -10.0,
-      "price": -108,
-      "handle_pct": 30,
-      "bets_pct": 48
+      "price": -115,
+      "handle_pct": 27,
+      "bets_pct": 47
      },
      "home": {
       "line": 10.0,
-      "price": -112,
-      "handle_pct": 70,
-      "bets_pct": 52
+      "price": -105,
+      "handle_pct": 73,
+      "bets_pct": 53
      },
      "public_side": "home"
     },
@@ -3115,29 +3115,29 @@
      "home": {
       "line": null,
       "price": 310,
-      "handle_pct": 18,
-      "bets_pct": 5
+      "handle_pct": 29,
+      "bets_pct": 6
      },
      "away": {
       "line": null,
       "price": -395,
-      "handle_pct": 82,
-      "bets_pct": 95
+      "handle_pct": 71,
+      "bets_pct": 94
      },
      "public_side": "away"
     },
     "total": {
      "over": {
-      "line": 49.5,
-      "price": -108,
-      "handle_pct": 64,
-      "bets_pct": 56
+      "line": 48.5,
+      "price": -112,
+      "handle_pct": 71,
+      "bets_pct": 64
      },
      "under": {
-      "line": 49.5,
-      "price": -112,
-      "handle_pct": 36,
-      "bets_pct": 44
+      "line": 48.5,
+      "price": -108,
+      "handle_pct": 29,
+      "bets_pct": 36
      },
      "public_side": "over"
     }
@@ -3193,10 +3193,10 @@
       {
        "t": "2026-10-23T14:02:23-04:00",
        "line": 10.0,
-       "price": -112
+       "price": -105
       }
      ],
-     "latest_t": "2026-10-24T15:14:00-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-20T16:22:05-04:00",
@@ -3263,7 +3263,7 @@
      "public_side": "over",
      "first_seen": "2026-10-21T10:56:00-04:00",
      "first_line": 50.5,
-     "line": 49.5,
+     "line": 48.5,
      "points": [
       {
        "t": "2026-10-21T10:56:00-04:00",
@@ -3294,9 +3294,14 @@
        "t": "2026-10-24T15:14:00-04:00",
        "line": 49.5,
        "price": -108
+      },
+      {
+       "t": "2026-10-24T18:07:01-04:00",
+       "line": 48.5,
+       "price": -112
       }
      ],
-     "latest_t": "2026-10-24T15:14:00-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-22T15:09:53-04:00",
@@ -3332,23 +3337,30 @@
        "to": 49.5,
        "delta": 1.0,
        "rlm": false
+      },
+      {
+       "t": "2026-10-24T18:07:01-04:00",
+       "from": 49.5,
+       "to": 48.5,
+       "delta": -1.0,
+       "rlm": true
       }
      ],
-     "net": -1.0,
+     "net": -2.0,
      "rlm": true
     }
    },
    "read": {
     "public_team": "Illinois",
     "public_line": "+10",
-    "handle_pct": 70,
-    "bets_pct": 52,
+    "handle_pct": 73,
+    "bets_pct": 53,
     "kind": "STRONG",
     "fade_team": "Oregon",
     "fade_line": "-10",
-    "fade_price": -108,
+    "fade_price": -115,
     "sharp_caution": false,
-    "text": "Fade spot (STRONG): 70% of the DK money and 52% of the tickets are on Illinois. The fade is Oregon -10."
+    "text": "Fade spot (STRONG): 73% of the DK money and 53% of the tickets are on Illinois. The fade is Oregon -10."
    },
    "record": [
     {
@@ -3368,7 +3380,7 @@
      "small": false
     }
    ],
-   "lopsided_pct": 70,
+   "lopsided_pct": 73,
    "card": null
   },
   {
@@ -3381,35 +3393,35 @@
    "start_et": "2026-10-24T15:30:00-04:00",
    "kickoff": "Sat 10/24 · 3:30 PM ET",
    "started": true,
-   "as_of": "2026-10-24T16:05:47-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "BYU @ UCF",
    "markets": {
     "spread": {
      "away": {
       "line": -7.5,
-      "price": -108,
-      "handle_pct": 48,
-      "bets_pct": 64
+      "price": -105,
+      "handle_pct": 47,
+      "bets_pct": 63
      },
      "home": {
       "line": 7.5,
-      "price": -112,
-      "handle_pct": 52,
-      "bets_pct": 36
+      "price": -115,
+      "handle_pct": 53,
+      "bets_pct": 37
      },
      "public_side": "home"
     },
     "moneyline": {
      "home": {
       "line": null,
-      "price": 245,
-      "handle_pct": 14,
+      "price": 235,
+      "handle_pct": 13,
       "bets_pct": 5
      },
      "away": {
       "line": null,
-      "price": -305,
-      "handle_pct": 86,
+      "price": -290,
+      "handle_pct": 87,
       "bets_pct": 95
      },
      "public_side": "away"
@@ -3417,15 +3429,15 @@
     "total": {
      "over": {
       "line": 43.5,
-      "price": -118,
-      "handle_pct": 88,
-      "bets_pct": 87
+      "price": -110,
+      "handle_pct": 90,
+      "bets_pct": 86
      },
      "under": {
       "line": 43.5,
-      "price": -102,
-      "handle_pct": 12,
-      "bets_pct": 13
+      "price": -110,
+      "handle_pct": 10,
+      "bets_pct": 14
      },
      "public_side": "over"
     }
@@ -3461,10 +3473,10 @@
       {
        "t": "2026-10-24T15:14:00-04:00",
        "line": 7.5,
-       "price": -112
+       "price": -115
       }
      ],
-     "latest_t": "2026-10-24T16:05:47-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-22T18:09:06-04:00",
@@ -3508,10 +3520,10 @@
       {
        "t": "2026-10-21T10:56:00-04:00",
        "line": 43.5,
-       "price": -118
+       "price": -110
       }
      ],
-     "latest_t": "2026-10-24T16:05:47-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -3520,13 +3532,13 @@
    "read": {
     "public_team": "UCF",
     "public_line": "+7.5",
-    "handle_pct": 52,
-    "bets_pct": 36,
+    "handle_pct": 53,
+    "bets_pct": 37,
     "kind": "none",
-    "text": "No play. The most DK money on one side is 52% (UCF). We need 60%+."
+    "text": "No play. The most DK money on one side is 53% (UCF). We need 60%+."
    },
    "record": null,
-   "lopsided_pct": 52,
+   "lopsided_pct": 53,
    "card": null
   },
   {
@@ -3539,20 +3551,20 @@
    "start_et": "2026-10-24T15:30:00-04:00",
    "kickoff": "Sat 10/24 · 3:30 PM ET",
    "started": true,
-   "as_of": "2026-10-24T16:05:47-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Boston College @ Georgia Tech",
    "markets": {
     "spread": {
      "home": {
       "line": -6.5,
       "price": -108,
-      "handle_pct": 46,
+      "handle_pct": 42,
       "bets_pct": 51
      },
      "away": {
       "line": 6.5,
       "price": -112,
-      "handle_pct": 54,
+      "handle_pct": 58,
       "bets_pct": 49
      },
      "public_side": "away"
@@ -3560,15 +3572,15 @@
     "moneyline": {
      "home": {
       "line": null,
-      "price": -245,
-      "handle_pct": 22,
-      "bets_pct": 74
+      "price": -238,
+      "handle_pct": 30,
+      "bets_pct": 73
      },
      "away": {
       "line": null,
-      "price": 200,
-      "handle_pct": 78,
-      "bets_pct": 26
+      "price": 195,
+      "handle_pct": 70,
+      "bets_pct": 27
      },
      "public_side": "away"
     },
@@ -3576,13 +3588,13 @@
      "over": {
       "line": 50.5,
       "price": -110,
-      "handle_pct": 17,
+      "handle_pct": 8,
       "bets_pct": 56
      },
      "under": {
       "line": 50.5,
       "price": -110,
-      "handle_pct": 83,
+      "handle_pct": 92,
       "bets_pct": 44
      },
      "public_side": "under"
@@ -3632,7 +3644,7 @@
        "price": -112
       }
      ],
-     "latest_t": "2026-10-24T16:05:47-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-22T08:00:00-04:00",
@@ -3693,7 +3705,7 @@
        "price": -110
       }
      ],
-     "latest_t": "2026-10-24T16:05:47-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -3702,13 +3714,13 @@
    "read": {
     "public_team": "Boston College",
     "public_line": "+6.5",
-    "handle_pct": 54,
+    "handle_pct": 58,
     "bets_pct": 49,
     "kind": "none",
-    "text": "No play. The most DK money on one side is 54% (Boston College). We need 60%+."
+    "text": "No play. The most DK money on one side is 58% (Boston College). We need 60%+."
    },
    "record": null,
-   "lopsided_pct": 54,
+   "lopsided_pct": 58,
    "card": null
   },
   {
@@ -4035,134 +4047,134 @@
    "start_et": "2026-10-24T15:30:00-04:00",
    "kickoff": "Sat 10/24 · 3:30 PM ET",
    "started": true,
-   "as_of": "2026-10-24T16:05:47-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Iowa @ Minnesota",
    "markets": {
     "spread": {
      "away": {
       "line": -7.5,
       "price": -105,
-      "handle_pct": 50,
-      "bets_pct": 53
+      "handle_pct": 34,
+      "bets_pct": 51
      },
      "home": {
       "line": 7.5,
       "price": -115,
-      "handle_pct": 50,
-      "bets_pct": 47
+      "handle_pct": 66,
+      "bets_pct": 49
      },
-     "public_side": "away"
+     "public_side": "home"
     },
     "moneyline": {
      "home": {
       "line": null,
       "price": 235,
-      "handle_pct": 4,
-      "bets_pct": 7
+      "handle_pct": 29,
+      "bets_pct": 6
      },
      "away": {
       "line": null,
       "price": -290,
-      "handle_pct": 96,
-      "bets_pct": 93
+      "handle_pct": 71,
+      "bets_pct": 94
      },
      "public_side": "away"
     },
     "total": {
      "over": {
       "line": 40.5,
-      "price": -115,
-      "handle_pct": 49,
-      "bets_pct": 64
+      "price": -108,
+      "handle_pct": 42,
+      "bets_pct": 65
      },
      "under": {
       "line": 40.5,
-      "price": -105,
-      "handle_pct": 51,
-      "bets_pct": 36
+      "price": -112,
+      "handle_pct": 58,
+      "bets_pct": 35
      },
      "public_side": "under"
     }
    },
    "history": {
     "spread": {
-     "label": "Iowa",
-     "public_side": "away",
+     "label": "Minnesota",
+     "public_side": "home",
      "first_seen": "2026-10-19T20:25:33-04:00",
-     "first_line": -7.0,
-     "line": -7.5,
+     "first_line": 7.0,
+     "line": 7.5,
      "points": [
       {
        "t": "2026-10-19T20:25:33-04:00",
-       "line": -7.0,
-       "price": -105
+       "line": 7.0,
+       "price": -115
       },
       {
        "t": "2026-10-20T18:21:01-04:00",
-       "line": -6.5,
-       "price": -115
+       "line": 6.5,
+       "price": -105
       },
       {
        "t": "2026-10-22T16:04:06-04:00",
-       "line": -7.0,
-       "price": -108
+       "line": 7.0,
+       "price": -112
       },
       {
        "t": "2026-10-22T17:07:47-04:00",
-       "line": -6.5,
-       "price": -115
+       "line": 6.5,
+       "price": -105
       },
       {
        "t": "2026-10-22T18:09:06-04:00",
-       "line": -7.0,
-       "price": -108
+       "line": 7.0,
+       "price": -112
       },
       {
        "t": "2026-10-23T14:02:23-04:00",
-       "line": -7.5,
-       "price": -105
+       "line": 7.5,
+       "price": -115
       }
      ],
-     "latest_t": "2026-10-24T16:05:47-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-20T18:21:01-04:00",
-       "from": -7.0,
-       "to": -6.5,
-       "delta": 0.5,
-       "rlm": true
+       "from": 7.0,
+       "to": 6.5,
+       "delta": -0.5,
+       "rlm": false
       },
       {
        "t": "2026-10-22T16:04:06-04:00",
-       "from": -6.5,
-       "to": -7.0,
-       "delta": -0.5,
-       "rlm": false
-      },
-      {
-       "t": "2026-10-22T17:07:47-04:00",
-       "from": -7.0,
-       "to": -6.5,
+       "from": 6.5,
+       "to": 7.0,
        "delta": 0.5,
        "rlm": true
       },
       {
-       "t": "2026-10-22T18:09:06-04:00",
-       "from": -6.5,
-       "to": -7.0,
+       "t": "2026-10-22T17:07:47-04:00",
+       "from": 7.0,
+       "to": 6.5,
        "delta": -0.5,
        "rlm": false
       },
       {
+       "t": "2026-10-22T18:09:06-04:00",
+       "from": 6.5,
+       "to": 7.0,
+       "delta": 0.5,
+       "rlm": true
+      },
+      {
        "t": "2026-10-23T14:02:23-04:00",
-       "from": -7.0,
-       "to": -7.5,
-       "delta": -0.5,
-       "rlm": false
+       "from": 7.0,
+       "to": 7.5,
+       "delta": 0.5,
+       "rlm": true
       }
      ],
-     "net": -0.5,
-     "rlm": false
+     "net": 0.5,
+     "rlm": true
     },
     "total": {
      "label": "Total",
@@ -4174,25 +4186,25 @@
       {
        "t": "2026-10-21T10:56:00-04:00",
        "line": 40.5,
-       "price": -115
+       "price": -108
       }
      ],
-     "latest_t": "2026-10-24T16:05:47-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
     }
    },
    "read": {
-    "public_team": "Iowa",
-    "public_line": "-7.5",
-    "handle_pct": 50,
-    "bets_pct": 53,
+    "public_team": "Minnesota",
+    "public_line": "+7.5",
+    "handle_pct": 66,
+    "bets_pct": 49,
     "kind": "none",
-    "text": "No play. The most DK money on one side is 50% (Iowa). We need 60%+."
+    "text": "No play. 66% of the DK money is on Minnesota, but only 49% of the tickets. We need more than 50% of both."
    },
    "record": null,
-   "lopsided_pct": 50,
+   "lopsided_pct": 66,
    "card": null
   },
   {
@@ -4205,21 +4217,21 @@
    "start_et": "2026-10-24T15:30:00-04:00",
    "kickoff": "Sat 10/24 · 3:30 PM ET",
    "started": true,
-   "as_of": "2026-10-24T16:05:47-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Michigan State @ UCLA",
    "markets": {
     "spread": {
      "home": {
       "line": -16.5,
-      "price": -112,
-      "handle_pct": 76,
-      "bets_pct": 76
+      "price": -108,
+      "handle_pct": 83,
+      "bets_pct": 78
      },
      "away": {
       "line": 16.5,
-      "price": -108,
-      "handle_pct": 24,
-      "bets_pct": 24
+      "price": -112,
+      "handle_pct": 17,
+      "bets_pct": 22
      },
      "public_side": "home"
     },
@@ -4227,29 +4239,29 @@
      "home": {
       "line": null,
       "price": -800,
-      "handle_pct": 98,
+      "handle_pct": 95,
       "bets_pct": 98
      },
      "away": {
       "line": null,
       "price": 550,
-      "handle_pct": 2,
+      "handle_pct": 5,
       "bets_pct": 2
      },
      "public_side": "home"
     },
     "total": {
      "over": {
-      "line": 43.5,
-      "price": -115,
-      "handle_pct": 34,
-      "bets_pct": 60
+      "line": 42.5,
+      "price": -112,
+      "handle_pct": 33,
+      "bets_pct": 57
      },
      "under": {
-      "line": 43.5,
-      "price": -105,
-      "handle_pct": 66,
-      "bets_pct": 40
+      "line": 42.5,
+      "price": -108,
+      "handle_pct": 67,
+      "bets_pct": 43
      },
      "public_side": "under"
     }
@@ -4290,10 +4302,10 @@
       {
        "t": "2026-10-24T11:44:00-04:00",
        "line": -16.5,
-       "price": -112
+       "price": -108
       }
      ],
-     "latest_t": "2026-10-24T16:05:47-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-22T08:00:00-04:00",
@@ -4339,7 +4351,7 @@
      "public_side": "under",
      "first_seen": "2026-10-21T10:56:00-04:00",
      "first_line": 44.5,
-     "line": 43.5,
+     "line": 42.5,
      "points": [
       {
        "t": "2026-10-21T10:56:00-04:00",
@@ -4380,9 +4392,14 @@
        "t": "2026-10-24T15:14:00-04:00",
        "line": 43.5,
        "price": -115
+      },
+      {
+       "t": "2026-10-24T18:07:01-04:00",
+       "line": 42.5,
+       "price": -112
       }
      ],
-     "latest_t": "2026-10-24T16:05:47-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-22T08:00:00-04:00",
@@ -4432,23 +4449,30 @@
        "to": 43.5,
        "delta": 1.0,
        "rlm": true
+      },
+      {
+       "t": "2026-10-24T18:07:01-04:00",
+       "from": 43.5,
+       "to": 42.5,
+       "delta": -1.0,
+       "rlm": false
       }
      ],
-     "net": -1.0,
+     "net": -2.0,
      "rlm": false
     }
    },
    "read": {
     "public_team": "UCLA",
     "public_line": "-16.5",
-    "handle_pct": 76,
-    "bets_pct": 76,
+    "handle_pct": 83,
+    "bets_pct": 78,
     "kind": "STRONG",
     "fade_team": "Michigan State",
     "fade_line": "+16.5",
-    "fade_price": -108,
+    "fade_price": -112,
     "sharp_caution": false,
-    "text": "Fade spot (STRONG): 76% of the DK money and 76% of the tickets are on UCLA. The fade is Michigan State +16.5."
+    "text": "Fade spot (STRONG): 83% of the DK money and 78% of the tickets are on UCLA. The fade is Michigan State +16.5."
    },
    "record": [
     {
@@ -4468,7 +4492,7 @@
      "small": false
     }
    ],
-   "lopsided_pct": 76,
+   "lopsided_pct": 83,
    "card": null
   },
   {
@@ -4481,35 +4505,35 @@
    "start_et": "2026-10-24T15:30:00-04:00",
    "kickoff": "Sat 10/24 · 3:30 PM ET",
    "started": true,
-   "as_of": "2026-10-24T16:05:47-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "North Texas @ Navy",
    "markets": {
     "spread": {
      "away": {
       "line": -3.0,
-      "price": -108,
-      "handle_pct": 82,
-      "bets_pct": 72
+      "price": -115,
+      "handle_pct": 83,
+      "bets_pct": 74
      },
      "home": {
       "line": 3.0,
-      "price": -112,
-      "handle_pct": 18,
-      "bets_pct": 28
+      "price": -105,
+      "handle_pct": 17,
+      "bets_pct": 26
      },
      "public_side": "away"
     },
     "moneyline": {
      "home": {
       "line": null,
-      "price": 124,
-      "handle_pct": 9,
+      "price": 130,
+      "handle_pct": 10,
       "bets_pct": 30
      },
      "away": {
       "line": null,
-      "price": -148,
-      "handle_pct": 91,
+      "price": -155,
+      "handle_pct": 90,
       "bets_pct": 70
      },
      "public_side": "away"
@@ -4518,14 +4542,14 @@
      "over": {
       "line": 60.5,
       "price": -112,
-      "handle_pct": 92,
-      "bets_pct": 75
+      "handle_pct": 90,
+      "bets_pct": 72
      },
      "under": {
       "line": 60.5,
       "price": -108,
-      "handle_pct": 8,
-      "bets_pct": 25
+      "handle_pct": 10,
+      "bets_pct": 28
      },
      "public_side": "over"
     }
@@ -4546,10 +4570,10 @@
       {
        "t": "2026-10-23T15:08:30-04:00",
        "line": -3.0,
-       "price": -108
+       "price": -115
       }
      ],
-     "latest_t": "2026-10-24T16:05:47-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-23T15:08:30-04:00",
@@ -4590,7 +4614,7 @@
        "price": -112
       }
      ],
-     "latest_t": "2026-10-24T16:05:47-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-22T08:00:00-04:00",
@@ -4621,14 +4645,14 @@
    "read": {
     "public_team": "North Texas",
     "public_line": "-3",
-    "handle_pct": 82,
-    "bets_pct": 72,
+    "handle_pct": 83,
+    "bets_pct": 74,
     "kind": "STRONG",
     "fade_team": "Navy",
     "fade_line": "+3",
-    "fade_price": -112,
+    "fade_price": -105,
     "sharp_caution": false,
-    "text": "Fade spot (STRONG): 82% of the DK money and 72% of the tickets are on North Texas. The fade is Navy +3."
+    "text": "Fade spot (STRONG): 83% of the DK money and 74% of the tickets are on North Texas. The fade is Navy +3."
    },
    "record": [
     {
@@ -4648,7 +4672,7 @@
      "small": false
     }
    ],
-   "lopsided_pct": 82,
+   "lopsided_pct": 83,
    "card": null
   },
   {
@@ -4661,21 +4685,21 @@
    "start_et": "2026-10-24T15:30:00-04:00",
    "kickoff": "Sat 10/24 · 3:30 PM ET",
    "started": true,
-   "as_of": "2026-10-24T16:05:47-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Oklahoma @ Mississippi State",
    "markets": {
     "spread": {
      "away": {
       "line": -1.5,
       "price": -112,
-      "handle_pct": 56,
-      "bets_pct": 61
+      "handle_pct": 67,
+      "bets_pct": 60
      },
      "home": {
       "line": 1.5,
       "price": -108,
-      "handle_pct": 44,
-      "bets_pct": 39
+      "handle_pct": 33,
+      "bets_pct": 40
      },
      "public_side": "away"
     },
@@ -4683,14 +4707,14 @@
      "home": {
       "line": null,
       "price": 102,
-      "handle_pct": 60,
-      "bets_pct": 44
+      "handle_pct": 68,
+      "bets_pct": 43
      },
      "away": {
       "line": null,
       "price": -122,
-      "handle_pct": 40,
-      "bets_pct": 56
+      "handle_pct": 32,
+      "bets_pct": 57
      },
      "public_side": "home"
     },
@@ -4698,13 +4722,13 @@
      "over": {
       "line": 49.5,
       "price": -105,
-      "handle_pct": 68,
+      "handle_pct": 57,
       "bets_pct": 70
      },
      "under": {
       "line": 49.5,
       "price": -115,
-      "handle_pct": 32,
+      "handle_pct": 43,
       "bets_pct": 30
      },
      "public_side": "over"
@@ -4769,7 +4793,7 @@
        "price": -112
       }
      ],
-     "latest_t": "2026-10-24T16:05:47-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-20T11:46:12-04:00",
@@ -4871,7 +4895,7 @@
        "price": -105
       }
      ],
-     "latest_t": "2026-10-24T16:05:47-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-22T20:10:08-04:00",
@@ -4909,13 +4933,34 @@
    "read": {
     "public_team": "Oklahoma",
     "public_line": "-1.5",
-    "handle_pct": 56,
-    "bets_pct": 61,
-    "kind": "none",
-    "text": "No play. The most DK money on one side is 56% (Oklahoma). We need 60%+."
+    "handle_pct": 67,
+    "bets_pct": 60,
+    "kind": "LEAN",
+    "fade_team": "Mississippi State",
+    "fade_line": "+1.5",
+    "fade_price": -108,
+    "sharp_caution": false,
+    "text": "Fade spot (LEAN): 67% of the DK money and 60% of the tickets are on Oklahoma. The fade is Mississippi State +1.5."
    },
-   "record": null,
-   "lopsided_pct": 56,
+   "record": [
+    {
+     "label": "Fading 60-69% of the DK money in NCAAF",
+     "display": "2-0",
+     "graded": 2,
+     "units": 1.8,
+     "win_pct": 1.0,
+     "small": true
+    },
+    {
+     "label": "Fading 60-69% of the DK money, all sports",
+     "display": "3-0",
+     "graded": 3,
+     "units": 2.78,
+     "win_pct": 1.0,
+     "small": true
+    }
+   ],
+   "lopsided_pct": 67,
    "card": null
   },
   {
@@ -4928,20 +4973,20 @@
    "start_et": "2026-10-24T15:30:00-04:00",
    "kickoff": "Sat 10/24 · 3:30 PM ET",
    "started": true,
-   "as_of": "2026-10-24T16:05:47-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Sacramento State @ Ball State",
    "markets": {
     "spread": {
      "home": {
       "line": -14.5,
       "price": -108,
-      "handle_pct": 79,
+      "handle_pct": 86,
       "bets_pct": 66
      },
      "away": {
       "line": 14.5,
       "price": -112,
-      "handle_pct": 21,
+      "handle_pct": 14,
       "bets_pct": 34
      },
      "public_side": "home"
@@ -4951,13 +4996,13 @@
       "line": null,
       "price": -600,
       "handle_pct": 92,
-      "bets_pct": 96
+      "bets_pct": 97
      },
      "away": {
       "line": null,
       "price": 440,
       "handle_pct": 8,
-      "bets_pct": 4
+      "bets_pct": 3
      },
      "public_side": "home"
     },
@@ -4965,16 +5010,16 @@
      "over": {
       "line": 51.5,
       "price": -102,
-      "handle_pct": 78,
-      "bets_pct": 61
+      "handle_pct": 28,
+      "bets_pct": 58
      },
      "under": {
       "line": 51.5,
       "price": -118,
-      "handle_pct": 22,
-      "bets_pct": 39
+      "handle_pct": 72,
+      "bets_pct": 42
      },
-     "public_side": "over"
+     "public_side": "under"
     }
    },
    "history": {
@@ -4991,14 +5036,14 @@
        "price": -108
       }
      ],
-     "latest_t": "2026-10-24T16:05:47-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
     },
     "total": {
      "label": "Total",
-     "public_side": "over",
+     "public_side": "under",
      "first_seen": "2026-10-21T10:56:00-04:00",
      "first_line": 51.5,
      "line": 51.5,
@@ -5009,7 +5054,7 @@
        "price": -102
       }
      ],
-     "latest_t": "2026-10-24T16:05:47-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -5018,14 +5063,14 @@
    "read": {
     "public_team": "Ball State",
     "public_line": "-14.5",
-    "handle_pct": 79,
+    "handle_pct": 86,
     "bets_pct": 66,
     "kind": "STRONG",
     "fade_team": "Sacramento State",
     "fade_line": "+14.5",
     "fade_price": -112,
     "sharp_caution": false,
-    "text": "Fade spot (STRONG): 79% of the DK money and 66% of the tickets are on Ball State. The fade is Sacramento State +14.5."
+    "text": "Fade spot (STRONG): 86% of the DK money and 66% of the tickets are on Ball State. The fade is Sacramento State +14.5."
    },
    "record": [
     {
@@ -5045,7 +5090,7 @@
      "small": false
     }
    ],
-   "lopsided_pct": 79,
+   "lopsided_pct": 86,
    "card": null
   },
   {
@@ -5058,21 +5103,21 @@
    "start_et": "2026-10-24T15:30:00-04:00",
    "kickoff": "Sat 10/24 · 3:30 PM ET",
    "started": true,
-   "as_of": "2026-10-24T16:05:47-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Tennessee @ South Carolina",
    "markets": {
     "spread": {
      "home": {
       "line": -2.5,
       "price": -110,
-      "handle_pct": 56,
-      "bets_pct": 32
+      "handle_pct": 55,
+      "bets_pct": 31
      },
      "away": {
       "line": 2.5,
       "price": -110,
-      "handle_pct": 44,
-      "bets_pct": 68
+      "handle_pct": 45,
+      "bets_pct": 69
      },
      "public_side": "home"
     },
@@ -5080,14 +5125,14 @@
      "home": {
       "line": null,
       "price": -135,
-      "handle_pct": 55,
-      "bets_pct": 28
+      "handle_pct": 53,
+      "bets_pct": 29
      },
      "away": {
       "line": null,
       "price": 114,
-      "handle_pct": 45,
-      "bets_pct": 72
+      "handle_pct": 47,
+      "bets_pct": 71
      },
      "public_side": "home"
     },
@@ -5095,14 +5140,14 @@
      "over": {
       "line": 50.5,
       "price": -110,
-      "handle_pct": 76,
-      "bets_pct": 75
+      "handle_pct": 87,
+      "bets_pct": 78
      },
      "under": {
       "line": 50.5,
       "price": -110,
-      "handle_pct": 24,
-      "bets_pct": 25
+      "handle_pct": 13,
+      "bets_pct": 22
      },
      "public_side": "over"
     }
@@ -5121,7 +5166,7 @@
        "price": -110
       }
      ],
-     "latest_t": "2026-10-24T16:05:47-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -5139,7 +5184,7 @@
        "price": -110
       }
      ],
-     "latest_t": "2026-10-24T16:05:47-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -5148,13 +5193,13 @@
    "read": {
     "public_team": "South Carolina",
     "public_line": "-2.5",
-    "handle_pct": 56,
-    "bets_pct": 32,
+    "handle_pct": 55,
+    "bets_pct": 31,
     "kind": "none",
-    "text": "No play. The most DK money on one side is 56% (South Carolina). We need 60%+."
+    "text": "No play. The most DK money on one side is 55% (South Carolina). We need 60%+."
    },
    "record": null,
-   "lopsided_pct": 56,
+   "lopsided_pct": 55,
    "card": null
   },
   {
@@ -5167,21 +5212,21 @@
    "start_et": "2026-10-24T15:30:00-04:00",
    "kickoff": "Sat 10/24 · 3:30 PM ET",
    "started": true,
-   "as_of": "2026-10-24T16:05:47-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Texas A&M @ Alabama",
    "markets": {
     "spread": {
      "home": {
       "line": -13.5,
-      "price": -108,
-      "handle_pct": 89,
-      "bets_pct": 80
+      "price": -112,
+      "handle_pct": 88,
+      "bets_pct": 78
      },
      "away": {
       "line": 13.5,
-      "price": -112,
-      "handle_pct": 11,
-      "bets_pct": 20
+      "price": -108,
+      "handle_pct": 12,
+      "bets_pct": 22
      },
      "public_side": "home"
     },
@@ -5189,13 +5234,13 @@
      "home": {
       "line": null,
       "price": -575,
-      "handle_pct": 85,
+      "handle_pct": 84,
       "bets_pct": 97
      },
      "away": {
       "line": null,
       "price": 425,
-      "handle_pct": 15,
+      "handle_pct": 16,
       "bets_pct": 3
      },
      "public_side": "home"
@@ -5205,13 +5250,13 @@
       "line": 49.5,
       "price": -115,
       "handle_pct": 91,
-      "bets_pct": 86
+      "bets_pct": 87
      },
      "under": {
       "line": 49.5,
       "price": -105,
       "handle_pct": 9,
-      "bets_pct": 14
+      "bets_pct": 13
      },
      "public_side": "over"
     }
@@ -5232,10 +5277,10 @@
       {
        "t": "2026-10-22T11:49:00-04:00",
        "line": -13.5,
-       "price": -108
+       "price": -112
       }
      ],
-     "latest_t": "2026-10-24T16:05:47-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-22T11:49:00-04:00",
@@ -5286,7 +5331,7 @@
        "price": -115
       }
      ],
-     "latest_t": "2026-10-24T16:05:47-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-22T11:49:00-04:00",
@@ -5331,14 +5376,14 @@
    "read": {
     "public_team": "Alabama",
     "public_line": "-13.5",
-    "handle_pct": 89,
-    "bets_pct": 80,
+    "handle_pct": 88,
+    "bets_pct": 78,
     "kind": "STRONG",
     "fade_team": "Texas A&M",
     "fade_line": "+13.5",
-    "fade_price": -112,
+    "fade_price": -108,
     "sharp_caution": false,
-    "text": "Fade spot (STRONG): 89% of the DK money and 80% of the tickets are on Alabama. The fade is Texas A&M +13.5."
+    "text": "Fade spot (STRONG): 88% of the DK money and 78% of the tickets are on Alabama. The fade is Texas A&M +13.5."
    },
    "record": [
     {
@@ -5358,7 +5403,7 @@
      "small": false
     }
    ],
-   "lopsided_pct": 89,
+   "lopsided_pct": 88,
    "card": null
   },
   {
@@ -6544,8 +6589,8 @@
    "date": "2026-10-24",
    "start_et": "2026-10-24T18:00:00-04:00",
    "kickoff": "Sat 10/24 · 6:00 PM ET",
-   "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "started": true,
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Heat @ Hornets",
    "markets": {
     "spread": {
@@ -6608,7 +6653,7 @@
        "price": -105
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -6636,7 +6681,7 @@
        "price": -108
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-24T11:09:50-04:00",
@@ -6699,7 +6744,7 @@
    "date": "2026-10-24",
    "start_et": "2026-10-24T18:00:00-04:00",
    "kickoff": "Sat 10/24 · 6:00 PM ET",
-   "started": false,
+   "started": true,
    "as_of": "2026-10-24T17:01:06-04:00",
    "matchup": "Boise State @ Washington State",
    "markets": {
@@ -7591,7 +7636,7 @@
    "start_et": "2026-10-24T19:30:00-04:00",
    "kickoff": "Sat 10/24 · 7:30 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Bucks @ 76ers",
    "markets": {
     "spread": {
@@ -7654,7 +7699,7 @@
        "price": -102
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -7682,7 +7727,7 @@
        "price": -112
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-24T11:44:29-04:00",
@@ -7725,7 +7770,7 @@
    "start_et": "2026-10-24T19:30:00-04:00",
    "kickoff": "Sat 10/24 · 7:30 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Nets @ Cavaliers",
    "markets": {
     "spread": {
@@ -7788,7 +7833,7 @@
        "price": -112
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -7816,7 +7861,7 @@
        "price": -115
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-24T11:09:50-04:00",
@@ -7859,21 +7904,21 @@
    "start_et": "2026-10-24T19:30:00-04:00",
    "kickoff": "Sat 10/24 · 7:30 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Iowa State @ Arizona",
    "markets": {
     "spread": {
      "home": {
       "line": -12.5,
       "price": -108,
-      "handle_pct": 54,
-      "bets_pct": 52
+      "handle_pct": 53,
+      "bets_pct": 51
      },
      "away": {
       "line": 12.5,
       "price": -112,
-      "handle_pct": 46,
-      "bets_pct": 48
+      "handle_pct": 47,
+      "bets_pct": 49
      },
      "public_side": "home"
     },
@@ -7897,13 +7942,13 @@
       "line": 51.5,
       "price": -105,
       "handle_pct": 93,
-      "bets_pct": 65
+      "bets_pct": 71
      },
      "under": {
       "line": 51.5,
       "price": -115,
       "handle_pct": 7,
-      "bets_pct": 35
+      "bets_pct": 29
      },
      "public_side": "over"
     }
@@ -7957,7 +8002,7 @@
        "price": -108
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-21T14:18:36-04:00",
@@ -8040,7 +8085,7 @@
        "price": -105
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-22T14:10:03-04:00",
@@ -8071,13 +8116,13 @@
    "read": {
     "public_team": "Arizona",
     "public_line": "-12.5",
-    "handle_pct": 54,
-    "bets_pct": 52,
+    "handle_pct": 53,
+    "bets_pct": 51,
     "kind": "none",
-    "text": "No play. The most DK money on one side is 54% (Arizona). We need 60%+."
+    "text": "No play. The most DK money on one side is 53% (Arizona). We need 60%+."
    },
    "record": null,
-   "lopsided_pct": 54,
+   "lopsided_pct": 53,
    "card": null
   },
   {
@@ -8756,21 +8801,21 @@
    "start_et": "2026-10-24T19:30:00-04:00",
    "kickoff": "Sat 10/24 · 7:30 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Utah State @ Texas State",
    "markets": {
     "spread": {
      "home": {
-      "line": -14.0,
-      "price": -110,
+      "line": -13.5,
+      "price": -115,
       "handle_pct": 89,
-      "bets_pct": 89
+      "bets_pct": 84
      },
      "away": {
-      "line": 14.0,
-      "price": -110,
+      "line": 13.5,
+      "price": -105,
       "handle_pct": 11,
-      "bets_pct": 11
+      "bets_pct": 16
      },
      "public_side": "home"
     },
@@ -8793,14 +8838,14 @@
      "over": {
       "line": 60.5,
       "price": -110,
-      "handle_pct": 95,
-      "bets_pct": 67
+      "handle_pct": 98,
+      "bets_pct": 71
      },
      "under": {
       "line": 60.5,
       "price": -110,
-      "handle_pct": 5,
-      "bets_pct": 33
+      "handle_pct": 2,
+      "bets_pct": 29
      },
      "public_side": "over"
     }
@@ -8811,7 +8856,7 @@
      "public_side": "home",
      "first_seen": "2026-10-19T20:25:33-04:00",
      "first_line": -12.5,
-     "line": -14.0,
+     "line": -13.5,
      "points": [
       {
        "t": "2026-10-19T20:25:33-04:00",
@@ -8837,9 +8882,14 @@
        "t": "2026-10-24T17:01:06-04:00",
        "line": -14.0,
        "price": -110
+      },
+      {
+       "t": "2026-10-24T18:07:01-04:00",
+       "line": -13.5,
+       "price": -115
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-20T16:22:05-04:00",
@@ -8868,9 +8918,16 @@
        "to": -14.0,
        "delta": -0.5,
        "rlm": false
+      },
+      {
+       "t": "2026-10-24T18:07:01-04:00",
+       "from": -14.0,
+       "to": -13.5,
+       "delta": 0.5,
+       "rlm": true
       }
      ],
-     "net": -1.5,
+     "net": -1.0,
      "rlm": false
     },
     "total": {
@@ -8916,7 +8973,7 @@
        "price": -110
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-21T15:25:00-04:00",
@@ -8967,15 +9024,15 @@
    },
    "read": {
     "public_team": "Texas State",
-    "public_line": "-14",
+    "public_line": "-13.5",
     "handle_pct": 89,
-    "bets_pct": 89,
+    "bets_pct": 84,
     "kind": "STRONG",
     "fade_team": "Utah State",
-    "fade_line": "+14",
-    "fade_price": -110,
+    "fade_line": "+13.5",
+    "fade_price": -105,
     "sharp_caution": false,
-    "text": "Fade spot (STRONG): 89% of the DK money and 89% of the tickets are on Texas State. The fade is Utah State +14."
+    "text": "Fade spot (STRONG): 89% of the DK money and 84% of the tickets are on Texas State. The fade is Utah State +13.5."
    },
    "record": [
     {
@@ -9172,7 +9229,7 @@
    "start_et": "2026-10-24T20:00:00-04:00",
    "kickoff": "Sat 10/24 · 8:00 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Spurs @ Mavericks",
    "markets": {
     "spread": {
@@ -9250,7 +9307,7 @@
        "price": -115
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-24T15:07:36-04:00",
@@ -9305,7 +9362,7 @@
        "price": -110
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-24T11:44:29-04:00",
@@ -9376,7 +9433,7 @@
    "start_et": "2026-10-24T20:00:00-04:00",
    "kickoff": "Sat 10/24 · 8:00 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Wizards @ Bulls",
    "markets": {
     "spread": {
@@ -9459,7 +9516,7 @@
        "price": -108
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-24T11:09:50-04:00",
@@ -9531,7 +9588,7 @@
        "price": -110
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-24T11:44:29-04:00",
@@ -9616,7 +9673,7 @@
    "start_et": "2026-10-24T20:00:00-04:00",
    "kickoff": "Sat 10/24 · 8:00 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "UTSA @ Tulane",
    "markets": {
     "spread": {
@@ -9624,13 +9681,13 @@
       "line": -3.0,
       "price": -105,
       "handle_pct": 12,
-      "bets_pct": 41
+      "bets_pct": 40
      },
      "home": {
       "line": 3.0,
       "price": -115,
       "handle_pct": 88,
-      "bets_pct": 59
+      "bets_pct": 60
      },
      "public_side": "home"
     },
@@ -9638,29 +9695,29 @@
      "home": {
       "line": null,
       "price": 124,
-      "handle_pct": 57,
-      "bets_pct": 57
+      "handle_pct": 31,
+      "bets_pct": 56
      },
      "away": {
       "line": null,
       "price": -148,
-      "handle_pct": 43,
-      "bets_pct": 43
+      "handle_pct": 69,
+      "bets_pct": 44
      },
-     "public_side": "home"
+     "public_side": "away"
     },
     "total": {
      "over": {
       "line": 51.5,
       "price": -115,
       "handle_pct": 99,
-      "bets_pct": 90
+      "bets_pct": 91
      },
      "under": {
       "line": 51.5,
       "price": -105,
       "handle_pct": 1,
-      "bets_pct": 10
+      "bets_pct": 9
      },
      "public_side": "over"
     }
@@ -9679,7 +9736,7 @@
        "price": -115
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -9697,7 +9754,7 @@
        "price": -115
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -9707,13 +9764,13 @@
     "public_team": "Tulane",
     "public_line": "+3",
     "handle_pct": 88,
-    "bets_pct": 59,
+    "bets_pct": 60,
     "kind": "STRONG",
     "fade_team": "UTSA",
     "fade_line": "-3",
     "fade_price": -105,
     "sharp_caution": true,
-    "text": "Fade spot (STRONG): 88% of the DK money and 59% of the tickets are on Tulane. The fade is UTSA -3."
+    "text": "Fade spot (STRONG): 88% of the DK money and 60% of the tickets are on Tulane. The fade is UTSA -3."
    },
    "record": [
     {
@@ -9746,7 +9803,7 @@
    "start_et": "2026-10-24T20:30:00-04:00",
    "kickoff": "Sat 10/24 · 8:30 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Rockets @ Hawks",
    "markets": {
     "spread": {
@@ -9814,7 +9871,7 @@
        "price": 100
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-24T17:01:06-04:00",
@@ -9845,7 +9902,7 @@
        "price": -108
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-24T11:09:50-04:00",
@@ -9902,7 +9959,7 @@
    "start_et": "2026-10-24T21:00:00-04:00",
    "kickoff": "Sat 10/24 · 9:00 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Pelicans @ Nuggets",
    "markets": {
     "spread": {
@@ -9965,7 +10022,7 @@
        "price": -115
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -9988,7 +10045,7 @@
        "price": -110
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-24T11:09:50-04:00",
@@ -10024,7 +10081,7 @@
    "start_et": "2026-10-24T22:00:00-04:00",
    "kickoff": "Sat 10/24 · 10:00 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Warriors @ Suns",
    "markets": {
     "spread": {
@@ -10087,7 +10144,7 @@
        "price": -115
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -10115,7 +10172,7 @@
        "price": -112
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-24T15:07:36-04:00",
@@ -10158,7 +10215,7 @@
    "start_et": "2026-10-24T22:00:00-04:00",
    "kickoff": "Sat 10/24 · 10:00 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "North Dakota State @ New Mexico",
    "markets": {
     "spread": {
@@ -10180,13 +10237,13 @@
      "home": {
       "line": null,
       "price": -192,
-      "handle_pct": 69,
+      "handle_pct": 68,
       "bets_pct": 59
      },
      "away": {
       "line": null,
       "price": 160,
-      "handle_pct": 31,
+      "handle_pct": 32,
       "bets_pct": 41
      },
      "public_side": "home"
@@ -10196,13 +10253,13 @@
       "line": 39.5,
       "price": -115,
       "handle_pct": 3,
-      "bets_pct": 47
+      "bets_pct": 53
      },
      "under": {
       "line": 39.5,
       "price": -105,
       "handle_pct": 97,
-      "bets_pct": 53
+      "bets_pct": 47
      },
      "public_side": "under"
     }
@@ -10221,7 +10278,7 @@
        "price": -112
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -10259,7 +10316,7 @@
        "price": -115
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-22T18:09:06-04:00",
@@ -10337,20 +10394,20 @@
    "start_et": "2026-10-24T22:15:00-04:00",
    "kickoff": "Sat 10/24 · 10:15 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Houston @ Utah",
    "markets": {
     "spread": {
      "home": {
       "line": -6.5,
-      "price": -120,
-      "handle_pct": 52,
+      "price": -115,
+      "handle_pct": 51,
       "bets_pct": 61
      },
      "away": {
       "line": 6.5,
-      "price": 100,
-      "handle_pct": 48,
+      "price": -105,
+      "handle_pct": 49,
       "bets_pct": 39
      },
      "public_side": "home"
@@ -10359,14 +10416,14 @@
      "home": {
       "line": null,
       "price": -250,
-      "handle_pct": 42,
-      "bets_pct": 71
+      "handle_pct": 38,
+      "bets_pct": 69
      },
      "away": {
       "line": null,
       "price": 205,
-      "handle_pct": 58,
-      "bets_pct": 29
+      "handle_pct": 62,
+      "bets_pct": 31
      },
      "public_side": "away"
     },
@@ -10375,13 +10432,13 @@
       "line": 57.5,
       "price": -115,
       "handle_pct": 93,
-      "bets_pct": 82
+      "bets_pct": 80
      },
      "under": {
       "line": 57.5,
       "price": -105,
       "handle_pct": 7,
-      "bets_pct": 18
+      "bets_pct": 20
      },
      "public_side": "over"
     }
@@ -10397,10 +10454,10 @@
       {
        "t": "2026-10-19T20:25:33-04:00",
        "line": -6.5,
-       "price": -120
+       "price": -115
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -10423,7 +10480,7 @@
        "price": -115
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-24T10:02:18-04:00",
@@ -10440,13 +10497,13 @@
    "read": {
     "public_team": "Utah",
     "public_line": "-6.5",
-    "handle_pct": 52,
+    "handle_pct": 51,
     "bets_pct": 61,
     "kind": "none",
-    "text": "No play. The most DK money on one side is 52% (Utah). We need 60%+."
+    "text": "No play. The most DK money on one side is 51% (Utah). We need 60%+."
    },
    "record": null,
-   "lopsided_pct": 52,
+   "lopsided_pct": 51,
    "card": null
   },
   {
@@ -10459,20 +10516,20 @@
    "start_et": "2026-10-25T09:30:00-04:00",
    "kickoff": "Sun 10/25 · 9:30 AM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Steelers @ Saints",
    "markets": {
     "spread": {
      "away": {
       "line": -3.0,
       "price": -110,
-      "handle_pct": 35,
+      "handle_pct": 36,
       "bets_pct": 54
      },
      "home": {
       "line": 3.0,
       "price": -110,
-      "handle_pct": 65,
+      "handle_pct": 64,
       "bets_pct": 46
      },
      "public_side": "home"
@@ -10480,15 +10537,15 @@
     "moneyline": {
      "home": {
       "line": null,
-      "price": 136,
+      "price": 140,
       "handle_pct": 62,
-      "bets_pct": 36
+      "bets_pct": 35
      },
      "away": {
       "line": null,
-      "price": -162,
+      "price": -166,
       "handle_pct": 38,
-      "bets_pct": 64
+      "bets_pct": 65
      },
      "public_side": "home"
     },
@@ -10496,13 +10553,13 @@
      "over": {
       "line": 44.5,
       "price": -112,
-      "handle_pct": 70,
+      "handle_pct": 69,
       "bets_pct": 78
      },
      "under": {
       "line": 44.5,
       "price": -108,
-      "handle_pct": 30,
+      "handle_pct": 31,
       "bets_pct": 22
      },
      "public_side": "over"
@@ -10532,7 +10589,7 @@
        "price": -110
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-20T10:21:48-04:00",
@@ -10565,7 +10622,7 @@
        "price": -112
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -10574,13 +10631,13 @@
    "read": {
     "public_team": "Saints",
     "public_line": "+3",
-    "handle_pct": 65,
+    "handle_pct": 64,
     "bets_pct": 46,
     "kind": "none",
-    "text": "No play. 65% of the DK money is on Saints, but only 46% of the tickets. We need more than 50% of both."
+    "text": "No play. 64% of the DK money is on Saints, but only 46% of the tickets. We need more than 50% of both."
    },
    "record": null,
-   "lopsided_pct": 65,
+   "lopsided_pct": 64,
    "card": null
   },
   {
@@ -10593,20 +10650,20 @@
    "start_et": "2026-10-25T13:00:00-04:00",
    "kickoff": "Sun 10/25 · 1:00 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "49ers @ Falcons",
    "markets": {
     "spread": {
      "away": {
       "line": -2.5,
       "price": -115,
-      "handle_pct": 69,
+      "handle_pct": 67,
       "bets_pct": 82
      },
      "home": {
       "line": 2.5,
       "price": -105,
-      "handle_pct": 31,
+      "handle_pct": 33,
       "bets_pct": 18
      },
      "public_side": "away"
@@ -10631,13 +10688,13 @@
       "line": 49.5,
       "price": -110,
       "handle_pct": 84,
-      "bets_pct": 71
+      "bets_pct": 72
      },
      "under": {
       "line": 49.5,
       "price": -110,
       "handle_pct": 16,
-      "bets_pct": 29
+      "bets_pct": 28
      },
      "public_side": "over"
     }
@@ -10681,7 +10738,7 @@
        "price": -115
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-20T11:46:12-04:00",
@@ -10740,7 +10797,7 @@
        "price": -110
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-22T07:59:00-04:00",
@@ -10757,14 +10814,14 @@
    "read": {
     "public_team": "49ers",
     "public_line": "-2.5",
-    "handle_pct": 69,
+    "handle_pct": 67,
     "bets_pct": 82,
     "kind": "LEAN",
     "fade_team": "Falcons",
     "fade_line": "+2.5",
     "fade_price": -105,
     "sharp_caution": false,
-    "text": "Fade spot (LEAN): 69% of the DK money and 82% of the tickets are on 49ers. The fade is Falcons +2.5."
+    "text": "Fade spot (LEAN): 67% of the DK money and 82% of the tickets are on 49ers. The fade is Falcons +2.5."
    },
    "record": [
     {
@@ -10784,7 +10841,7 @@
      "small": true
     }
    ],
-   "lopsided_pct": 69,
+   "lopsided_pct": 67,
    "card": null
   },
   {
@@ -10797,20 +10854,20 @@
    "start_et": "2026-10-25T13:00:00-04:00",
    "kickoff": "Sun 10/25 · 1:00 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Bengals @ Ravens",
    "markets": {
     "spread": {
      "away": {
-      "line": -2.5,
-      "price": -118,
-      "handle_pct": 86,
-      "bets_pct": 73
+      "line": -1.5,
+      "price": -105,
+      "handle_pct": 82,
+      "bets_pct": 72
      },
      "home": {
-      "line": 2.5,
-      "price": -102,
-      "handle_pct": 14,
+      "line": 1.5,
+      "price": -115,
+      "handle_pct": 18,
       "bets_pct": 28
      },
      "public_side": "away"
@@ -10818,30 +10875,30 @@
     "moneyline": {
      "home": {
       "line": null,
-      "price": 124,
-      "handle_pct": 25,
-      "bets_pct": 37
+      "price": -102,
+      "handle_pct": 28,
+      "bets_pct": 38
      },
      "away": {
       "line": null,
-      "price": -148,
-      "handle_pct": 75,
-      "bets_pct": 63
+      "price": -118,
+      "handle_pct": 72,
+      "bets_pct": 62
      },
      "public_side": "away"
     },
     "total": {
      "over": {
-      "line": 46.5,
-      "price": -108,
-      "handle_pct": 79,
-      "bets_pct": 74
+      "line": 47.5,
+      "price": -115,
+      "handle_pct": 78,
+      "bets_pct": 73
      },
      "under": {
-      "line": 46.5,
-      "price": -112,
-      "handle_pct": 21,
-      "bets_pct": 26
+      "line": 47.5,
+      "price": -105,
+      "handle_pct": 22,
+      "bets_pct": 27
      },
      "public_side": "over"
     }
@@ -10852,7 +10909,7 @@
      "public_side": "away",
      "first_seen": "2026-10-19T20:25:33-04:00",
      "first_line": 2.5,
-     "line": -2.5,
+     "line": -1.5,
      "points": [
       {
        "t": "2026-10-19T20:25:33-04:00",
@@ -10903,9 +10960,14 @@
        "t": "2026-10-24T16:05:47-04:00",
        "line": -2.5,
        "price": -118
+      },
+      {
+       "t": "2026-10-24T18:07:01-04:00",
+       "line": -1.5,
+       "price": -105
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-20T11:46:12-04:00",
@@ -10969,9 +11031,16 @@
        "to": -2.5,
        "delta": -1.0,
        "rlm": false
+      },
+      {
+       "t": "2026-10-24T18:07:01-04:00",
+       "from": -2.5,
+       "to": -1.5,
+       "delta": 1.0,
+       "rlm": true
       }
      ],
-     "net": -5.0,
+     "net": -4.0,
      "rlm": false
     },
     "total": {
@@ -10979,7 +11048,7 @@
      "public_side": "over",
      "first_seen": "2026-10-21T10:56:00-04:00",
      "first_line": 51.5,
-     "line": 46.5,
+     "line": 47.5,
      "points": [
       {
        "t": "2026-10-21T10:56:00-04:00",
@@ -11000,9 +11069,14 @@
        "t": "2026-10-24T17:01:06-04:00",
        "line": 46.5,
        "price": -108
+      },
+      {
+       "t": "2026-10-24T18:07:01-04:00",
+       "line": 47.5,
+       "price": -115
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-21T15:25:00-04:00",
@@ -11024,23 +11098,30 @@
        "to": 46.5,
        "delta": -1.0,
        "rlm": true
+      },
+      {
+       "t": "2026-10-24T18:07:01-04:00",
+       "from": 46.5,
+       "to": 47.5,
+       "delta": 1.0,
+       "rlm": false
       }
      ],
-     "net": -5.0,
+     "net": -4.0,
      "rlm": true
     }
    },
    "read": {
     "public_team": "Bengals",
-    "public_line": "-2.5",
-    "handle_pct": 86,
-    "bets_pct": 73,
+    "public_line": "-1.5",
+    "handle_pct": 82,
+    "bets_pct": 72,
     "kind": "STRONG",
     "fade_team": "Ravens",
-    "fade_line": "+2.5",
-    "fade_price": -102,
+    "fade_line": "+1.5",
+    "fade_price": -115,
     "sharp_caution": false,
-    "text": "Fade spot (STRONG): 86% of the DK money and 73% of the tickets are on Bengals. The fade is Ravens +2.5."
+    "text": "Fade spot (STRONG): 82% of the DK money and 72% of the tickets are on Bengals. The fade is Ravens +1.5."
    },
    "record": [
     {
@@ -11052,7 +11133,7 @@
      "small": false
     }
    ],
-   "lopsided_pct": 86,
+   "lopsided_pct": 82,
    "card": null
   },
   {
@@ -11065,7 +11146,7 @@
    "start_et": "2026-10-25T13:00:00-04:00",
    "kickoff": "Sun 10/25 · 1:00 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Browns @ Titans",
    "markets": {
     "spread": {
@@ -11133,7 +11214,7 @@
        "price": -108
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-23T17:03:51-04:00",
@@ -11174,7 +11255,7 @@
        "price": -118
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-23T17:03:51-04:00",
@@ -11237,7 +11318,7 @@
    "start_et": "2026-10-25T13:00:00-04:00",
    "kickoff": "Sun 10/25 · 1:00 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Buccaneers @ Panthers",
    "markets": {
     "spread": {
@@ -11274,13 +11355,13 @@
      "over": {
       "line": 44.5,
       "price": -108,
-      "handle_pct": 97,
+      "handle_pct": 96,
       "bets_pct": 86
      },
      "under": {
       "line": 44.5,
       "price": -112,
-      "handle_pct": 3,
+      "handle_pct": 4,
       "bets_pct": 14
      },
      "public_side": "over"
@@ -11305,7 +11386,7 @@
        "price": -105
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-22T07:59:00-04:00",
@@ -11331,7 +11412,7 @@
        "price": -108
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -11380,20 +11461,20 @@
    "start_et": "2026-10-25T13:00:00-04:00",
    "kickoff": "Sun 10/25 · 1:00 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Colts @ Vikings",
    "markets": {
     "spread": {
      "home": {
       "line": -6.5,
       "price": -108,
-      "handle_pct": 62,
+      "handle_pct": 60,
       "bets_pct": 66
      },
      "away": {
       "line": 6.5,
       "price": -112,
-      "handle_pct": 38,
+      "handle_pct": 40,
       "bets_pct": 34
      },
      "public_side": "home"
@@ -11402,13 +11483,13 @@
      "home": {
       "line": null,
       "price": -290,
-      "handle_pct": 89,
+      "handle_pct": 86,
       "bets_pct": 91
      },
      "away": {
       "line": null,
       "price": 235,
-      "handle_pct": 11,
+      "handle_pct": 14,
       "bets_pct": 9
      },
      "public_side": "home"
@@ -11417,14 +11498,14 @@
      "over": {
       "line": 41.5,
       "price": -110,
-      "handle_pct": 35,
-      "bets_pct": 71
+      "handle_pct": 33,
+      "bets_pct": 72
      },
      "under": {
       "line": 41.5,
       "price": -110,
-      "handle_pct": 65,
-      "bets_pct": 29
+      "handle_pct": 67,
+      "bets_pct": 28
      },
      "public_side": "under"
     }
@@ -11448,7 +11529,7 @@
        "price": -108
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-20T10:21:48-04:00",
@@ -11474,7 +11555,7 @@
        "price": -110
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -11483,14 +11564,14 @@
    "read": {
     "public_team": "Vikings",
     "public_line": "-6.5",
-    "handle_pct": 62,
+    "handle_pct": 60,
     "bets_pct": 66,
     "kind": "LEAN",
     "fade_team": "Colts",
     "fade_line": "+6.5",
     "fade_price": -112,
     "sharp_caution": false,
-    "text": "Fade spot (LEAN): 62% of the DK money and 66% of the tickets are on Vikings. The fade is Colts +6.5."
+    "text": "Fade spot (LEAN): 60% of the DK money and 66% of the tickets are on Vikings. The fade is Colts +6.5."
    },
    "record": [
     {
@@ -11510,7 +11591,7 @@
      "small": true
     }
    ],
-   "lopsided_pct": 62,
+   "lopsided_pct": 60,
    "card": null
   },
   {
@@ -11523,20 +11604,20 @@
    "start_et": "2026-10-25T13:00:00-04:00",
    "kickoff": "Sun 10/25 · 1:00 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Dolphins @ Jets",
    "markets": {
     "spread": {
      "home": {
       "line": -4.5,
       "price": -115,
-      "handle_pct": 52,
+      "handle_pct": 51,
       "bets_pct": 69
      },
      "away": {
       "line": 4.5,
       "price": -105,
-      "handle_pct": 48,
+      "handle_pct": 49,
       "bets_pct": 31
      },
      "public_side": "home"
@@ -11560,13 +11641,13 @@
      "over": {
       "line": 39.5,
       "price": -108,
-      "handle_pct": 16,
+      "handle_pct": 15,
       "bets_pct": 50
      },
      "under": {
       "line": 39.5,
       "price": -112,
-      "handle_pct": 84,
+      "handle_pct": 85,
       "bets_pct": 50
      },
      "public_side": "under"
@@ -11586,7 +11667,7 @@
        "price": -115
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -11609,7 +11690,7 @@
        "price": -108
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-21T10:59:30-04:00",
@@ -11626,13 +11707,13 @@
    "read": {
     "public_team": "Jets",
     "public_line": "-4.5",
-    "handle_pct": 52,
+    "handle_pct": 51,
     "bets_pct": 69,
     "kind": "none",
-    "text": "No play. The most DK money on one side is 52% (Jets). We need 60%+."
+    "text": "No play. The most DK money on one side is 51% (Jets). We need 60%+."
    },
    "record": null,
-   "lopsided_pct": 52,
+   "lopsided_pct": 51,
    "card": null
   },
   {
@@ -11645,7 +11726,7 @@
    "start_et": "2026-10-25T13:00:00-04:00",
    "kickoff": "Sun 10/25 · 1:00 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Giants @ Texans",
    "markets": {
     "spread": {
@@ -11682,14 +11763,14 @@
      "over": {
       "line": 42.5,
       "price": -112,
-      "handle_pct": 90,
-      "bets_pct": 81
+      "handle_pct": 88,
+      "bets_pct": 79
      },
      "under": {
       "line": 42.5,
       "price": -108,
-      "handle_pct": 10,
-      "bets_pct": 19
+      "handle_pct": 12,
+      "bets_pct": 21
      },
      "public_side": "over"
     }
@@ -11723,7 +11804,7 @@
        "price": -105
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-20T11:46:12-04:00",
@@ -11763,7 +11844,7 @@
        "price": -112
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -11804,7 +11885,7 @@
    "start_et": "2026-10-25T16:05:00-04:00",
    "kickoff": "Sun 10/25 · 4:05 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Broncos @ Cardinals",
    "markets": {
     "spread": {
@@ -11826,13 +11907,13 @@
      "home": {
       "line": null,
       "price": 190,
-      "handle_pct": 31,
+      "handle_pct": 33,
       "bets_pct": 16
      },
      "away": {
       "line": null,
       "price": -230,
-      "handle_pct": 69,
+      "handle_pct": 67,
       "bets_pct": 84
      },
      "public_side": "away"
@@ -11841,14 +11922,14 @@
      "over": {
       "line": 43.5,
       "price": 100,
-      "handle_pct": 14,
-      "bets_pct": 43
+      "handle_pct": 12,
+      "bets_pct": 44
      },
      "under": {
       "line": 43.5,
       "price": -120,
-      "handle_pct": 86,
-      "bets_pct": 57
+      "handle_pct": 88,
+      "bets_pct": 56
      },
      "public_side": "under"
     }
@@ -11867,7 +11948,7 @@
        "price": -110
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -11885,7 +11966,7 @@
        "price": 100
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -11913,7 +11994,7 @@
    "start_et": "2026-10-25T16:25:00-04:00",
    "kickoff": "Sun 10/25 · 4:25 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Packers @ Lions",
    "markets": {
     "spread": {
@@ -11921,13 +12002,13 @@
       "line": -3.0,
       "price": -120,
       "handle_pct": 72,
-      "bets_pct": 56
+      "bets_pct": 57
      },
      "away": {
       "line": 3.0,
       "price": 100,
       "handle_pct": 28,
-      "bets_pct": 44
+      "bets_pct": 43
      },
      "public_side": "home"
     },
@@ -11951,13 +12032,13 @@
       "line": 53.5,
       "price": -118,
       "handle_pct": 100,
-      "bets_pct": 94
+      "bets_pct": 93
      },
      "under": {
       "line": 53.5,
       "price": -102,
       "handle_pct": 0,
-      "bets_pct": 6
+      "bets_pct": 7
      },
      "public_side": "over"
     }
@@ -11976,7 +12057,7 @@
        "price": -120
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -11994,7 +12075,7 @@
        "price": -118
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -12004,13 +12085,13 @@
     "public_team": "Lions",
     "public_line": "-3",
     "handle_pct": 72,
-    "bets_pct": 56,
+    "bets_pct": 57,
     "kind": "STRONG",
     "fade_team": "Packers",
     "fade_line": "+3",
     "fade_price": 100,
     "sharp_caution": false,
-    "text": "Fade spot (STRONG): 72% of the DK money and 56% of the tickets are on Lions. The fade is Packers +3."
+    "text": "Fade spot (STRONG): 72% of the DK money and 57% of the tickets are on Lions. The fade is Packers +3."
    },
    "record": [
     {
@@ -12035,21 +12116,21 @@
    "start_et": "2026-10-25T16:25:00-04:00",
    "kickoff": "Sun 10/25 · 4:25 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Rams @ Raiders",
    "markets": {
     "spread": {
      "away": {
       "line": -3.0,
       "price": -118,
-      "handle_pct": 39,
-      "bets_pct": 52
+      "handle_pct": 47,
+      "bets_pct": 54
      },
      "home": {
       "line": 3.0,
       "price": -102,
-      "handle_pct": 61,
-      "bets_pct": 48
+      "handle_pct": 53,
+      "bets_pct": 46
      },
      "public_side": "home"
     },
@@ -12057,13 +12138,13 @@
      "home": {
       "line": null,
       "price": 145,
-      "handle_pct": 33,
+      "handle_pct": 35,
       "bets_pct": 27
      },
      "away": {
       "line": null,
       "price": -175,
-      "handle_pct": 67,
+      "handle_pct": 65,
       "bets_pct": 73
      },
      "public_side": "away"
@@ -12072,14 +12153,14 @@
      "over": {
       "line": 48.5,
       "price": -110,
-      "handle_pct": 98,
-      "bets_pct": 77
+      "handle_pct": 97,
+      "bets_pct": 76
      },
      "under": {
       "line": 48.5,
       "price": -110,
-      "handle_pct": 2,
-      "bets_pct": 23
+      "handle_pct": 3,
+      "bets_pct": 24
      },
      "public_side": "over"
     }
@@ -12118,7 +12199,7 @@
        "price": -102
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-22T11:48:56-04:00",
@@ -12165,7 +12246,7 @@
        "price": -110
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -12174,13 +12255,13 @@
    "read": {
     "public_team": "Raiders",
     "public_line": "+3",
-    "handle_pct": 61,
-    "bets_pct": 48,
+    "handle_pct": 53,
+    "bets_pct": 46,
     "kind": "none",
-    "text": "No play. 61% of the DK money is on Raiders, but only 48% of the tickets. We need more than 50% of both."
+    "text": "No play. The most DK money on one side is 53% (Raiders). We need 60%+."
    },
    "record": null,
-   "lopsided_pct": 61,
+   "lopsided_pct": 53,
    "card": null
   },
   {
@@ -12193,35 +12274,35 @@
    "start_et": "2026-10-25T20:20:00-04:00",
    "kickoff": "Sun 10/25 · 8:20 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Chiefs @ Seahawks",
    "markets": {
     "spread": {
      "home": {
       "line": -3.0,
-      "price": -102,
-      "handle_pct": 56,
-      "bets_pct": 28
+      "price": -105,
+      "handle_pct": 54,
+      "bets_pct": 27
      },
      "away": {
       "line": 3.0,
-      "price": -118,
-      "handle_pct": 44,
-      "bets_pct": 72
+      "price": -115,
+      "handle_pct": 46,
+      "bets_pct": 73
      },
      "public_side": "home"
     },
     "moneyline": {
      "home": {
       "line": null,
-      "price": -142,
-      "handle_pct": 27,
+      "price": -148,
+      "handle_pct": 26,
       "bets_pct": 29
      },
      "away": {
       "line": null,
-      "price": 120,
-      "handle_pct": 73,
+      "price": 124,
+      "handle_pct": 74,
       "bets_pct": 71
      },
      "public_side": "away"
@@ -12230,14 +12311,14 @@
      "over": {
       "line": 42.5,
       "price": -110,
-      "handle_pct": 71,
-      "bets_pct": 74
+      "handle_pct": 68,
+      "bets_pct": 73
      },
      "under": {
       "line": 42.5,
       "price": -110,
-      "handle_pct": 29,
-      "bets_pct": 26
+      "handle_pct": 32,
+      "bets_pct": 27
      },
      "public_side": "over"
     }
@@ -12278,10 +12359,10 @@
       {
        "t": "2026-10-23T20:06:56-04:00",
        "line": -3.0,
-       "price": -102
+       "price": -105
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [
       {
        "t": "2026-10-22T11:48:56-04:00",
@@ -12335,7 +12416,7 @@
        "price": -110
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -12344,13 +12425,13 @@
    "read": {
     "public_team": "Seahawks",
     "public_line": "-3",
-    "handle_pct": 56,
-    "bets_pct": 28,
+    "handle_pct": 54,
+    "bets_pct": 27,
     "kind": "none",
-    "text": "No play. The most DK money on one side is 56% (Seahawks). We need 60%+."
+    "text": "No play. The most DK money on one side is 54% (Seahawks). We need 60%+."
    },
    "record": null,
-   "lopsided_pct": 56,
+   "lopsided_pct": 54,
    "card": null
   },
   {
@@ -12363,34 +12444,34 @@
    "start_et": "2026-10-26T20:15:00-04:00",
    "kickoff": "Mon 10/26 · 8:15 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Cowboys @ Eagles",
    "markets": {
     "spread": {
      "away": {
       "line": -4.5,
       "price": -112,
-      "handle_pct": 54,
-      "bets_pct": 66
+      "handle_pct": 57,
+      "bets_pct": 68
      },
      "home": {
       "line": 4.5,
       "price": -108,
-      "handle_pct": 46,
-      "bets_pct": 34
+      "handle_pct": 43,
+      "bets_pct": 32
      },
      "public_side": "away"
     },
     "moneyline": {
      "home": {
       "line": null,
-      "price": 180,
+      "price": 185,
       "handle_pct": 18,
       "bets_pct": 12
      },
      "away": {
       "line": null,
-      "price": -218,
+      "price": -225,
       "handle_pct": 82,
       "bets_pct": 88
      },
@@ -12400,14 +12481,14 @@
      "over": {
       "line": 44.5,
       "price": -110,
-      "handle_pct": 97,
-      "bets_pct": 65
+      "handle_pct": 81,
+      "bets_pct": 63
      },
      "under": {
       "line": 44.5,
       "price": -110,
-      "handle_pct": 3,
-      "bets_pct": 35
+      "handle_pct": 19,
+      "bets_pct": 37
      },
      "public_side": "over"
     }
@@ -12426,7 +12507,7 @@
        "price": -112
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -12444,7 +12525,7 @@
        "price": -110
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -12453,13 +12534,13 @@
    "read": {
     "public_team": "Cowboys",
     "public_line": "-4.5",
-    "handle_pct": 54,
-    "bets_pct": 66,
+    "handle_pct": 57,
+    "bets_pct": 68,
     "kind": "none",
-    "text": "No play. The most DK money on one side is 54% (Cowboys). We need 60%+."
+    "text": "No play. The most DK money on one side is 57% (Cowboys). We need 60%+."
    },
    "record": null,
-   "lopsided_pct": 54,
+   "lopsided_pct": 57,
    "card": null
   },
   {
@@ -12472,7 +12553,7 @@
    "start_et": "2026-10-29T20:15:00-04:00",
    "kickoff": "Thu 10/29 · 8:15 PM ET",
    "started": false,
-   "as_of": "2026-10-24T17:01:06-04:00",
+   "as_of": "2026-10-24T18:07:01-04:00",
    "matchup": "Panthers @ Packers",
    "markets": {
     "spread": {
@@ -12535,7 +12616,7 @@
        "price": -110
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
@@ -12553,7 +12634,7 @@
        "price": -105
       }
      ],
-     "latest_t": "2026-10-24T17:01:06-04:00",
+     "latest_t": "2026-10-24T18:07:01-04:00",
      "moves": [],
      "net": 0.0,
      "rlm": false
