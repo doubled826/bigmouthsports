@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-10-25T18:05:03-04:00",
-  "splits_as_of_et": "2026-10-25T18:04:47-04:00",
+  "generated_at_et": "2026-10-25T19:05:29-04:00",
+  "splits_as_of_et": "2026-10-25T19:05:16-04:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -282,8 +282,8 @@
       "final_score": null,
       "result": "PENDING",
       "units": null,
-      "clv": null,
-      "closing_line": null
+      "clv": 2.0,
+      "closing_line": "+5.5"
     },
     {
       "date": "2026-10-25",
@@ -298,8 +298,8 @@
       "final_score": null,
       "result": "PENDING",
       "units": null,
-      "clv": null,
-      "closing_line": null
+      "clv": -2.0,
+      "closing_line": "+3.5"
     },
     {
       "date": "2026-10-25",
@@ -314,8 +314,8 @@
       "final_score": null,
       "result": "PENDING",
       "units": null,
-      "clv": null,
-      "closing_line": null
+      "clv": 0.0,
+      "closing_line": "+15.5"
     },
     {
       "date": "2026-10-24",
@@ -704,7 +704,7 @@
   },
   "rlm_watch": {
     "date": "2026-10-25",
-    "updated_et": "2026-10-25T18:05:03-04:00",
+    "updated_et": "2026-10-25T19:05:29-04:00",
     "label": "Sharp Alerts: tracking only, not picks.",
     "history": {
       "since": "2026-10-20",
@@ -1286,13 +1286,13 @@
       },
       {
         "league": "NBA",
-        "matchup": "Raptors @ Timberwolves",
-        "market": "spread",
-        "public_side": "Timberwolves",
-        "opener_line": "-2.5",
-        "first_seen_line": "-1.5",
+        "matchup": "Clippers @ Thunder",
+        "market": "total",
+        "public_side": "Under",
+        "opener_line": "221.5",
+        "first_seen_line": "224.5",
         "first_seen_md": "10/25",
-        "current_line": "-1.5",
+        "current_line": "223.5",
         "tip_et": "Sun 7:00 PM ET",
         "tag": "Move happened before tracking"
       },
