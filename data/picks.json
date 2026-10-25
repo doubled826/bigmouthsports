@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-10-25T10:01:44-04:00",
-  "splits_as_of_et": "2026-10-25T10:01:18-04:00",
+  "generated_at_et": "2026-10-25T11:08:39-04:00",
+  "splits_as_of_et": "2026-10-25T11:08:29-04:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -674,7 +674,7 @@
   },
   "rlm_watch": {
     "date": "2026-10-25",
-    "updated_et": "2026-10-25T10:01:26-04:00",
+    "updated_et": "2026-10-25T11:08:37-04:00",
     "label": "Sharp Alerts: tracking only, not picks.",
     "history": {
       "since": "2026-10-20",
@@ -959,7 +959,7 @@
         "moved_toward": "Falcons",
         "tip_et": "Sun 1:00 PM ET",
         "started": false,
-        "as_of": "2026-10-25T10:01:18-04:00",
+        "as_of": "2026-10-25T11:08:29-04:00",
         "favorite": "49ers",
         "favorite_ml": -142,
         "dk_ats": {
@@ -1030,7 +1030,7 @@
         "moved_toward": "Buccaneers",
         "tip_et": "Sun 1:00 PM ET",
         "started": false,
-        "as_of": "2026-10-25T10:01:18-04:00",
+        "as_of": "2026-10-25T11:08:29-04:00",
         "favorite": "Panthers",
         "favorite_ml": -166,
         "dk_ats": {
@@ -1101,7 +1101,7 @@
         "moved_toward": "Dolphins",
         "tip_et": "Sun 1:00 PM ET",
         "started": false,
-        "as_of": "2026-10-25T10:01:18-04:00",
+        "as_of": "2026-10-25T11:08:29-04:00",
         "favorite": "Jets",
         "favorite_ml": -218,
         "dk_ats": {
@@ -1172,7 +1172,7 @@
         "moved_toward": "Over",
         "tip_et": "Sun 1:00 PM ET",
         "started": false,
-        "as_of": "2026-10-25T10:01:18-04:00",
+        "as_of": "2026-10-25T11:08:29-04:00",
         "favorite": "Jets",
         "favorite_ml": -218,
         "dk_ats": {
@@ -1243,7 +1243,7 @@
         "moved_toward": "Texans",
         "tip_et": "Sun 1:00 PM ET",
         "started": false,
-        "as_of": "2026-10-25T10:01:18-04:00",
+        "as_of": "2026-10-25T11:08:29-04:00",
         "favorite": "Texans",
         "favorite_ml": -535,
         "dk_ats": {
@@ -1302,6 +1302,18 @@
     ],
     "pre_tracking": [
       {
+        "league": "NBA",
+        "matchup": "Magic @ Knicks",
+        "market": "total",
+        "public_side": "Over",
+        "opener_line": "225.5",
+        "first_seen_line": "224.5",
+        "first_seen_md": "10/25",
+        "current_line": "224.5",
+        "tip_et": "Sun 7:00 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
         "league": "NFL",
         "matchup": "Giants @ Texans",
         "market": "total",
@@ -1323,6 +1335,18 @@
         "first_seen_md": "10/21",
         "current_line": "44.5",
         "tip_et": "Sun 1:00 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
+        "league": "NFL",
+        "matchup": "Chiefs @ Seahawks",
+        "market": "total",
+        "public_side": "Over",
+        "opener_line": "45.5",
+        "first_seen_line": "42.5",
+        "first_seen_md": "10/21",
+        "current_line": "42.5",
+        "tip_et": "Sun 8:20 PM ET",
         "tag": "Move happened before tracking"
       }
     ],
