@@ -54,10 +54,16 @@ function RoutedErrorBoundary({ children }: { children: ReactNode }) {
   return <ErrorBoundary resetKey={location}>{children}</ErrorBoundary>;
 }
 
+// wouter's hash hook keeps "?g=" inside the path, so #/lookup?g=<id> missed /lookup and 404'd.
+const useAppLocation = () => {
+  const [loc, navigate] = useHashLocation();
+  return [loc.split("?")[0] || "/", navigate] as ReturnType<typeof useHashLocation>;
+};
+
 function App() {
   // Hash routing so deep links work on GitHub Pages (static hosting, no rewrites).
   return (
-    <WouterRouter hook={useHashLocation}>
+    <WouterRouter hook={useAppLocation}>
       <Shell />
     </WouterRouter>
   );
