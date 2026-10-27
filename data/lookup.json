@@ -1,5 +1,5 @@
 {
- "generated_at_et": "2026-10-27T18:02:38-04:00",
+ "generated_at_et": "2026-10-27T19:00:59-04:00",
  "splits_as_of_et": "2026-10-26T10:19:01-04:00",
  "today": "2026-10-27",
  "through": "2026-11-03",
@@ -27,7 +27,7 @@
    "date": "2026-10-27",
    "start_et": "2026-10-27T19:00:00-04:00",
    "kickoff": "Tue 10/27 · 7:00 PM ET",
-   "started": false,
+   "started": true,
    "as_of": "2026-10-26T10:19:01-04:00",
    "matchup": "Delaware @ Western Kentucky",
    "markets": {
@@ -170,6 +170,10 @@
     "handle_pct": 81,
     "bets_pct": 67,
     "kind": "STRONG",
+    "action": "suggest",
+    "suggested_bet": "Western Kentucky",
+    "suggested_line": "-1.5",
+    "suggested_price": -105,
     "fade_team": "Western Kentucky",
     "fade_line": "-1.5",
     "fade_price": -105,
@@ -373,6 +377,10 @@
     "handle_pct": 86,
     "bets_pct": 67,
     "kind": "STRONG",
+    "action": "suggest",
+    "suggested_bet": "Sam Houston",
+    "suggested_line": "+6.5",
+    "suggested_price": -110,
     "fade_team": "Sam Houston",
     "fade_line": "+6.5",
     "fade_price": -110,
@@ -472,6 +480,8 @@
     "handle_pct": 100,
     "bets_pct": 100,
     "kind": "none",
+    "action": "none",
+    "reason": "100% of the DK money is on Middle Tennessee. We skip 99-100% spots.",
     "text": "No play. 100% of the DK money is on Middle Tennessee. We skip 99-100% spots."
    },
    "record": null,
@@ -550,6 +560,8 @@
     "handle_pct": 90,
     "bets_pct": 33,
     "kind": "none",
+    "action": "none",
+    "reason": "90% of the DK money is on Jacksonville State, but only 33% of the tickets. We need more than 50% of both.",
     "text": "No play. 90% of the DK money is on Jacksonville State, but only 33% of the tickets. We need more than 50% of both."
    },
    "record": null,
@@ -708,6 +720,8 @@
     "handle_pct": 88,
     "bets_pct": 67,
     "kind": "none",
+    "action": "none",
+    "reason": "88% of the DK money is on Florida Atlantic, but only 67% of the tickets. A 21-point money-vs-tickets gap means big bettors are already on Florida Atlantic, so we skip.",
     "text": "No play. 88% of the DK money is on Florida Atlantic, but only 67% of the tickets. A 21-point money-vs-tickets gap means big bettors are already on Florida Atlantic, so we skip."
    },
    "record": null,
@@ -835,6 +849,10 @@
     "handle_pct": 75,
     "bets_pct": 67,
     "kind": "STRONG",
+    "action": "suggest",
+    "suggested_bet": "Troy",
+    "suggested_line": "+21",
+    "suggested_price": -110,
     "fade_team": "Troy",
     "fade_line": "+21",
     "fade_price": -110,
@@ -929,6 +947,7 @@
    },
    "read": {
     "kind": "none",
+    "action": "none",
     "text": "No DK spread splits for this game yet."
    },
    "record": null,
@@ -1020,6 +1039,8 @@
     "handle_pct": 100,
     "bets_pct": 100,
     "kind": "none",
+    "action": "none",
+    "reason": "100% of the DK money is on Tulane. We skip 99-100% spots.",
     "text": "No play. 100% of the DK money is on Tulane. We skip 99-100% spots."
    },
    "record": null,
@@ -1227,6 +1248,10 @@
     "handle_pct": 98,
     "bets_pct": 83,
     "kind": "STRONG",
+    "action": "suggest",
+    "suggested_bet": "UCF",
+    "suggested_line": "+1.5",
+    "suggested_price": -112,
     "fade_team": "UCF",
     "fade_line": "+1.5",
     "fade_price": -112,
@@ -1387,6 +1412,8 @@
     "handle_pct": 96,
     "bets_pct": 75,
     "kind": "none",
+    "action": "none",
+    "reason": "96% of the DK money is on Kent State, but only 75% of the tickets. A 21-point money-vs-tickets gap means big bettors are already on Kent State, so we skip.",
     "text": "No play. 96% of the DK money is on Kent State, but only 75% of the tickets. A 21-point money-vs-tickets gap means big bettors are already on Kent State, so we skip."
    },
    "record": null,
@@ -1582,6 +1609,8 @@
     "handle_pct": 99,
     "bets_pct": 50,
     "kind": "none",
+    "action": "none",
+    "reason": "99% of the DK money is on Arizona. We skip 99-100% spots.",
     "text": "No play. 99% of the DK money is on Arizona. We skip 99-100% spots."
    },
    "record": null,
@@ -1691,6 +1720,8 @@
     "handle_pct": 100,
     "bets_pct": 100,
     "kind": "none",
+    "action": "none",
+    "reason": "100% of the DK money is on Boston College. We skip 99-100% spots.",
     "text": "No play. 100% of the DK money is on Boston College. We skip 99-100% spots."
    },
    "record": null,
@@ -1765,6 +1796,7 @@
    },
    "read": {
     "kind": "none",
+    "action": "none",
     "text": "No DK spread splits for this game yet."
    },
    "record": null,
@@ -1843,6 +1875,8 @@
     "handle_pct": 100,
     "bets_pct": 100,
     "kind": "none",
+    "action": "none",
+    "reason": "100% of the DK money is on NC State. We skip 99-100% spots.",
     "text": "No play. 100% of the DK money is on NC State. We skip 99-100% spots."
    },
    "record": null,
@@ -1921,6 +1955,8 @@
     "handle_pct": 95,
     "bets_pct": 67,
     "kind": "none",
+    "action": "none",
+    "reason": "95% of the DK money is on Illinois, but only 67% of the tickets. A 28-point money-vs-tickets gap means big bettors are already on Illinois, so we skip.",
     "text": "No play. 95% of the DK money is on Illinois, but only 67% of the tickets. A 28-point money-vs-tickets gap means big bettors are already on Illinois, so we skip."
    },
    "record": null,
@@ -2104,6 +2140,10 @@
     "handle_pct": 98,
     "bets_pct": 79,
     "kind": "STRONG",
+    "action": "suggest",
+    "suggested_bet": "Navy",
+    "suggested_line": "+29.5",
+    "suggested_price": -108,
     "fade_team": "Navy",
     "fade_line": "+29.5",
     "fade_price": -108,
@@ -2264,6 +2304,10 @@
     "handle_pct": 61,
     "bets_pct": 67,
     "kind": "LEAN",
+    "action": "suggest",
+    "suggested_bet": "Syracuse",
+    "suggested_line": "+9.5",
+    "suggested_price": -110,
     "fade_team": "Syracuse",
     "fade_line": "+9.5",
     "fade_price": -110,
@@ -2363,6 +2407,8 @@
     "handle_pct": 75,
     "bets_pct": 50,
     "kind": "none",
+    "action": "none",
+    "reason": "75% of the DK money is on South Florida, but only 50% of the tickets. We need more than 50% of both.",
     "text": "No play. 75% of the DK money is on South Florida, but only 50% of the tickets. We need more than 50% of both."
    },
    "record": null,
@@ -2466,6 +2512,8 @@
     "handle_pct": 89,
     "bets_pct": 56,
     "kind": "none",
+    "action": "none",
+    "reason": "89% of the DK money is on Wisconsin, but only 56% of the tickets. A 33-point money-vs-tickets gap means big bettors are already on Wisconsin, so we skip.",
     "text": "No play. 89% of the DK money is on Wisconsin, but only 56% of the tickets. A 33-point money-vs-tickets gap means big bettors are already on Wisconsin, so we skip."
    },
    "record": null,
@@ -2544,6 +2592,8 @@
     "handle_pct": 100,
     "bets_pct": 100,
     "kind": "none",
+    "action": "none",
+    "reason": "100% of the DK money is on Michigan. We skip 99-100% spots.",
     "text": "No play. 100% of the DK money is on Michigan. We skip 99-100% spots."
    },
    "record": null,
@@ -2678,6 +2728,8 @@
     "handle_pct": 95,
     "bets_pct": 38,
     "kind": "none",
+    "action": "none",
+    "reason": "95% of the DK money is on Auburn, but only 38% of the tickets. We need more than 50% of both.",
     "text": "No play. 95% of the DK money is on Auburn, but only 38% of the tickets. We need more than 50% of both."
    },
    "record": null,
@@ -2721,6 +2773,7 @@
    },
    "read": {
     "kind": "none",
+    "action": "none",
     "text": "No DK spread splits for this game yet."
    },
    "record": null,
@@ -2830,6 +2883,8 @@
     "handle_pct": 75,
     "bets_pct": 50,
     "kind": "none",
+    "action": "none",
+    "reason": "75% of the DK money is on Kansas State, but only 50% of the tickets. We need more than 50% of both.",
     "text": "No play. 75% of the DK money is on Kansas State, but only 50% of the tickets. We need more than 50% of both."
    },
    "record": null,
@@ -2938,6 +2993,8 @@
     "handle_pct": 100,
     "bets_pct": 100,
     "kind": "none",
+    "action": "none",
+    "reason": "100% of the DK money is on Louisiana Tech. We skip 99-100% spots.",
     "text": "No play. 100% of the DK money is on Louisiana Tech. We skip 99-100% spots."
    },
    "record": null,
@@ -3029,6 +3086,8 @@
     "handle_pct": 100,
     "bets_pct": 100,
     "kind": "none",
+    "action": "none",
+    "reason": "100% of the DK money is on Air Force. We skip 99-100% spots.",
     "text": "No play. 100% of the DK money is on Air Force. We skip 99-100% spots."
    },
    "record": null,
@@ -3151,6 +3210,8 @@
     "handle_pct": 100,
     "bets_pct": 100,
     "kind": "none",
+    "action": "none",
+    "reason": "100% of the DK money is on Louisville. We skip 99-100% spots.",
     "text": "No play. 100% of the DK money is on Louisville. We skip 99-100% spots."
    },
    "record": null,
@@ -3322,6 +3383,8 @@
     "handle_pct": 95,
     "bets_pct": 40,
     "kind": "none",
+    "action": "none",
+    "reason": "95% of the DK money is on Arizona State, but only 40% of the tickets. We need more than 50% of both.",
     "text": "No play. 95% of the DK money is on Arizona State, but only 40% of the tickets. We need more than 50% of both."
    },
    "record": null,
@@ -3395,6 +3458,7 @@
    },
    "read": {
     "kind": "none",
+    "action": "none",
     "text": "No DK spread splits for this game yet."
    },
    "record": null,
@@ -3438,6 +3502,7 @@
    },
    "read": {
     "kind": "none",
+    "action": "none",
     "text": "No DK spread splits for this game yet."
    },
    "record": null,
@@ -3547,6 +3612,8 @@
     "handle_pct": 86,
     "bets_pct": 62,
     "kind": "none",
+    "action": "none",
+    "reason": "86% of the DK money is on Georgia, but only 62% of the tickets. A 24-point money-vs-tickets gap means big bettors are already on Georgia, so we skip.",
     "text": "No play. 86% of the DK money is on Georgia, but only 62% of the tickets. A 24-point money-vs-tickets gap means big bettors are already on Georgia, so we skip."
    },
    "record": null,
@@ -3611,6 +3678,8 @@
     "handle_pct": 100,
     "bets_pct": 100,
     "kind": "none",
+    "action": "none",
+    "reason": "100% of the DK money is on Kansas. We skip 99-100% spots.",
     "text": "No play. 100% of the DK money is on Kansas. We skip 99-100% spots."
    },
    "record": null,
@@ -3702,6 +3771,8 @@
     "handle_pct": 100,
     "bets_pct": 100,
     "kind": "none",
+    "action": "none",
+    "reason": "100% of the DK money is on Minnesota. We skip 99-100% spots.",
     "text": "No play. 100% of the DK money is on Minnesota. We skip 99-100% spots."
    },
    "record": null,
@@ -3873,6 +3944,10 @@
     "handle_pct": 83,
     "bets_pct": 82,
     "kind": "STRONG",
+    "action": "suggest",
+    "suggested_bet": "Oregon",
+    "suggested_line": "-3.5",
+    "suggested_price": -105,
     "fade_team": "Oregon",
     "fade_line": "-3.5",
     "fade_price": -105,
@@ -4029,6 +4104,8 @@
     "handle_pct": 94,
     "bets_pct": 50,
     "kind": "none",
+    "action": "none",
+    "reason": "94% of the DK money is on UTEP, but only 50% of the tickets. We need more than 50% of both.",
     "text": "No play. 94% of the DK money is on UTEP, but only 50% of the tickets. We need more than 50% of both."
    },
    "record": null,
@@ -4224,6 +4301,8 @@
     "handle_pct": 74,
     "bets_pct": 50,
     "kind": "none",
+    "action": "none",
+    "reason": "74% of the DK money is on Cincinnati, but only 50% of the tickets. We need more than 50% of both.",
     "text": "No play. 74% of the DK money is on Cincinnati, but only 50% of the tickets. We need more than 50% of both."
    },
    "record": null,
@@ -4315,6 +4394,8 @@
     "handle_pct": 100,
     "bets_pct": 100,
     "kind": "none",
+    "action": "none",
+    "reason": "100% of the DK money is on Virginia. We skip 99-100% spots.",
     "text": "No play. 100% of the DK money is on Virginia. We skip 99-100% spots."
    },
    "record": null,
@@ -4358,6 +4439,7 @@
    },
    "read": {
     "kind": "none",
+    "action": "none",
     "text": "No DK spread splits for this game yet."
    },
    "record": null,
@@ -4516,6 +4598,8 @@
     "handle_pct": 100,
     "bets_pct": 100,
     "kind": "none",
+    "action": "none",
+    "reason": "100% of the DK money is on UCLA. We skip 99-100% spots.",
     "text": "No play. 100% of the DK money is on UCLA. We skip 99-100% spots."
    },
    "record": null,
@@ -4594,6 +4678,8 @@
     "handle_pct": 100,
     "bets_pct": 100,
     "kind": "none",
+    "action": "none",
+    "reason": "100% of the DK money is on Penn State. We skip 99-100% spots.",
     "text": "No play. 100% of the DK money is on Penn State. We skip 99-100% spots."
    },
    "record": null,
@@ -4745,6 +4831,8 @@
     "handle_pct": 98,
     "bets_pct": 50,
     "kind": "none",
+    "action": "none",
+    "reason": "98% of the DK money is on South Carolina, but only 50% of the tickets. We need more than 50% of both.",
     "text": "No play. 98% of the DK money is on South Carolina, but only 50% of the tickets. We need more than 50% of both."
    },
    "record": null,
@@ -4846,6 +4934,8 @@
     "handle_pct": 100,
     "bets_pct": 100,
     "kind": "none",
+    "action": "none",
+    "reason": "100% of the DK money is on Georgia Southern. We skip 99-100% spots.",
     "text": "No play. 100% of the DK money is on Georgia Southern. We skip 99-100% spots."
    },
    "record": null,
@@ -4937,6 +5027,8 @@
     "handle_pct": 100,
     "bets_pct": 100,
     "kind": "none",
+    "action": "none",
+    "reason": "100% of the DK money is on Clemson. We skip 99-100% spots.",
     "text": "No play. 100% of the DK money is on Clemson. We skip 99-100% spots."
    },
    "record": null,
@@ -5011,6 +5103,7 @@
    },
    "read": {
     "kind": "none",
+    "action": "none",
     "text": "No DK spread splits for this game yet."
    },
    "record": null,
@@ -5145,6 +5238,8 @@
     "handle_pct": 84,
     "bets_pct": 33,
     "kind": "none",
+    "action": "none",
+    "reason": "84% of the DK money is on North Carolina, but only 33% of the tickets. We need more than 50% of both.",
     "text": "No play. 84% of the DK money is on North Carolina, but only 33% of the tickets. We need more than 50% of both."
    },
    "record": null,
@@ -5254,6 +5349,8 @@
     "handle_pct": 100,
     "bets_pct": 100,
     "kind": "none",
+    "action": "none",
+    "reason": "100% of the DK money is on Mississippi State. We skip 99-100% spots.",
     "text": "No play. 100% of the DK money is on Mississippi State. We skip 99-100% spots."
    },
    "record": null,
@@ -5400,6 +5497,8 @@
     "handle_pct": 75,
     "bets_pct": 31,
     "kind": "none",
+    "action": "none",
+    "reason": "75% of the DK money is on USC, but only 31% of the tickets. We need more than 50% of both.",
     "text": "No play. 75% of the DK money is on USC, but only 31% of the tickets. We need more than 50% of both."
    },
    "record": null,
@@ -5478,6 +5577,8 @@
     "handle_pct": 100,
     "bets_pct": 100,
     "kind": "none",
+    "action": "none",
+    "reason": "100% of the DK money is on Missouri. We skip 99-100% spots.",
     "text": "No play. 100% of the DK money is on Missouri. We skip 99-100% spots."
    },
    "record": null,
@@ -5521,6 +5622,7 @@
    },
    "read": {
     "kind": "none",
+    "action": "none",
     "text": "No DK spread splits for this game yet."
    },
    "record": null,
@@ -5564,6 +5666,7 @@
    },
    "read": {
     "kind": "none",
+    "action": "none",
     "text": "No DK spread splits for this game yet."
    },
    "record": null,
@@ -5642,6 +5745,8 @@
     "handle_pct": 100,
     "bets_pct": 100,
     "kind": "none",
+    "action": "none",
+    "reason": "100% of the DK money is on Boise State. We skip 99-100% spots.",
     "text": "No play. 100% of the DK money is on Boise State. We skip 99-100% spots."
    },
    "record": null,
@@ -5685,6 +5790,7 @@
    },
    "read": {
     "kind": "none",
+    "action": "none",
     "text": "No DK spread splits for this game yet."
    },
    "record": null,
@@ -5805,6 +5911,8 @@
     "handle_pct": 100,
     "bets_pct": 100,
     "kind": "none",
+    "action": "none",
+    "reason": "100% of the DK money is on Oregon State. We skip 99-100% spots.",
     "text": "No play. 100% of the DK money is on Oregon State. We skip 99-100% spots."
    },
    "record": null,
