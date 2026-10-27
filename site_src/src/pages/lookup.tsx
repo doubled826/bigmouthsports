@@ -3,9 +3,9 @@ import { Search, X, ChevronDown, ChevronRight, TrendingUp } from "lucide-react";
 import { PageTitle } from "@/components/shell";
 import { pc0 } from "@/components/dk";
 import { isNum, signed, units, type Data } from "@/lib/data";
-import { CARD_BASE, useLookup, type Game, type History, type Market, type Side } from "@/lib/lookup";
+import { CARD_BASE, ruleBlurb, suggestedBet, useLookup, type Game, type History, type Market, type Side, type SuggestedBet } from "@/lib/lookup";
 
-// Game Lookup (preview, 10/24): search any game, see DraftKings splits, our own DK line history and the Big Mouth read.
+// Game Lookup: DK splits, our own DK line history, and the spread model's suggested bet (or no bet).
 const TZ = "America/New_York";
 const fmtT = (iso?: string | null) => (iso ? new Date(iso).toLocaleString("en-US", { timeZone: TZ, month: "numeric", day: "numeric", hour: "numeric", minute: "2-digit" }) : "");
 const dayLabel = (d: string, today: string) => {
@@ -21,14 +21,26 @@ function Tag({ children, tone = "line", id }: { children: React.ReactNode; tone?
   return <span className={`px-1.5 py-px text-[11px] font-bold uppercase tracking-wide whitespace-nowrap ${cls}`} data-testid={id}>{children}</span>;
 }
 
+function sideText(s: SuggestedBet) {
+  const bet = [s.team, s.line].filter(Boolean).join(" ");
+  return isNum(s.price) ? `${bet} (${signed(s.price)})` : bet;
+}
+
+/** Record labels in current lookup.json still start with "Fading ". Show them as suggested bets until the exporter changes. */
+function recordLabel(label: string) {
+  return label.replace(/^Fading /, "Suggested bets at ");
+}
+
 function ReadTag({ g }: { g: Game }) {
-  if (g.read.kind === "STRONG" || g.read.kind === "LEAN") return <Tag tone="volt" id={`tag-read-${g.id}`}>Fade · {g.read.kind}</Tag>;
-  return null;
+  const s = suggestedBet(g.read);
+  if (s.action === "suggest") return <Tag tone="volt" id={`tag-read-${g.id}`}>Suggested bet{s.tier ? ` · ${s.tier}` : ""}</Tag>;
+  return <Tag id={`tag-read-${g.id}`}>No bet</Tag>;
 }
 
 function GameRow({ g, open, onToggle }: { g: Game; open: boolean; onToggle: () => void }) {
   const sp = g.markets.spread; const pub = sp?.public_side as "away" | "home" | undefined;
   const pubTeam = pub ? g[pub] : null;
+  const sug = suggestedBet(g.read);
   return (
     <button onClick={onToggle} aria-expanded={open} data-testid={`row-game-${g.id}`}
       className={`w-full text-left bg-[#121212] border-l-[6px] ${open ? "border-volt" : "border-white/15 hover:border-white/40"} px-3 py-3 sm:px-5 sm:py-4 flex items-center gap-3`}>
@@ -42,8 +54,11 @@ function GameRow({ g, open, onToggle }: { g: Game; open: boolean; onToggle: () =
           {g.history.spread?.rlm && <Tag id={`tag-rlm-${g.id}`}>RLM</Tag>}
         </div>
         <p className="mt-1 font-bold text-white text-base sm:text-lg leading-tight truncate">{g.matchup}</p>
+        {sug.action === "suggest" && (
+          <p className="text-sm font-bold text-volt" data-testid={`text-row-bet-${g.id}`}>{sideText(sug)}</p>
+        )}
         {pub && sp?.[pub] && (
-          <p className="text-sm text-white/60"><span className="text-volt font-bold">{pc0(sp[pub]!.handle_pct)}</span> of the money on {pubTeam} {ln(sp[pub]!.line)}</p>
+          <p className="text-sm text-white/60"><span className={`font-bold ${sug.action === "suggest" ? "text-white/80" : "text-volt"}`}>{pc0(sp[pub]!.handle_pct)}</span> of the money on {pubTeam} {ln(sp[pub]!.line)}</p>
         )}
       </div>
       <div className="shrink-0 text-right">
@@ -139,18 +154,28 @@ function GameCard({ g, today }: { g: Game; today: string }) {
   const rows = (m: Market, a: "away" | "over", b: "home" | "under", la: (s?: Side) => string, lb: (s?: Side) => string) =>
     m ? [{ label: la(m[a]), s: m[a], isPublic: m.public_side === a }, { label: lb(m[b]), s: m[b], isPublic: m.public_side === b }] : [{ label: "", s: undefined, isPublic: false }];
   const r = g.read;
+  const sug = suggestedBet(r);
+  const bet = sug.action === "suggest";
+  const noSplits = (sug.reason ?? "").toLowerCase().includes("no dk spread");
   return (
     <article className="bg-[#121212] border-l-[6px] border-volt px-4 pb-6 pt-4 sm:px-7 sm:pb-8 -mt-1 rise" data-testid={`card-game-${g.id}`}>
-      <div className={`border-2 ${r.kind === "none" ? "border-white/20" : "border-volt"} p-3 sm:p-4`} data-testid="box-read">
+      <div className={`border-2 ${bet ? "border-volt" : "border-white/20"} p-3 sm:p-4`} data-testid="box-read" aria-label={bet ? `Suggested bet ${sideText(sug)}` : "No bet"}>
         <p className="font-display text-sm tracking-[.18em] text-white/55">THE BIG MOUTH READ</p>
-        {r.kind === "none" ? (
-          <p className="mt-1 text-white/85" data-testid="text-read">{r.text}</p>
-        ) : (
+        {bet ? (
           <>
-            <p className="mt-1 font-display text-3xl sm:text-4xl text-volt leading-tight" data-testid="text-read-fade">Fade spot · {r.kind}</p>
-            <p className="mt-1 text-white/85" data-testid="text-read">{r.handle_pct}% of the DK money and {r.bets_pct}% of the tickets are on {r.public_team} {r.public_line}. Fading the public here means {r.fade_team} {r.fade_line}.</p>
+            <p className="mt-1 font-display text-sm tracking-[.14em] text-volt">Suggested bet{sug.tier ? ` · ${sug.tier}` : ""}</p>
+            <p className="mt-1 font-display text-3xl sm:text-4xl text-volt leading-tight" data-testid="text-suggested-bet">{sideText(sug)}</p>
+            {isNum(r.handle_pct) && isNum(r.bets_pct) && r.public_team && (
+              <p className="mt-1 text-white/85" data-testid="text-read">{r.handle_pct}% of the DK money and {r.bets_pct}% of the tickets are on {r.public_team}{r.public_line ? ` ${r.public_line}` : ""}.</p>
+            )}
             {r.sharp_caution && <p className="mt-1 text-sm text-white/55">Sharp-money caution: the money is well ahead of the tickets.</p>}
             {!g.card && <p className="mt-2 text-xs text-white/45">Rule check on the current DK numbers, not one of our posted picks.</p>}
+          </>
+        ) : (
+          <>
+            <p className="mt-1 font-display text-3xl sm:text-4xl text-white leading-tight" data-testid="text-no-bet">No bet</p>
+            <p className="mt-1 text-sm text-white/55" data-testid="text-no-bet-note">{noSplits ? "No suggested bet." : "Neutral / no edge. No suggested bet."}</p>
+            {sug.reason && <p className="mt-1 text-white/85" data-testid="text-read">{sug.reason}</p>}
           </>
         )}
         {g.card && g.card.url && (
@@ -171,13 +196,13 @@ function GameCard({ g, today }: { g: Game; today: string }) {
         <p className="mt-2 text-xs text-white/45">RLM = the line moved against the side the public is on, from our first DK line to now. Our own DraftKings pulls only.</p>
       )}
 
-      {g.record && g.record.length > 0 && (
+      {bet && g.record && g.record.length > 0 && (
         <div className="mt-6" data-testid="box-record">
           <h4 className="font-display text-white/70 tracking-wide">OUR RECORD IN SPOTS LIKE THIS</h4>
           <ul className="mt-1 space-y-1">
             {g.record.map((x) => (
               <li key={x.label} className="text-sm text-white/80">
-                {x.label}: <b className="text-white">{x.display}</b>
+                {recordLabel(x.label)}: <b className="text-white">{x.display}</b>
                 {isNum(x.units) && <span className={x.units < 0 ? "text-red-500" : "text-green-400"}> ({units(x.units)})</span>}
                 <span className="text-white/45"> · {x.graded} graded</span>{x.small ? <> <Tag>Small sample</Tag></> : null}
               </li>
@@ -206,8 +231,9 @@ export default function Lookup({ data }: { data: Data }) {
   const [open, setOpen] = useState<string | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   useEffect(() => { document.title = `Game Lookup — ${data.brand?.name ?? ""}`; }, [data.brand?.name]);
-  useEffect(() => {   // deep link: #/lookup?g=<id> or ?q=<team>
-    const p = new URLSearchParams(window.location.hash.split("?")[1] ?? "");
+  useEffect(() => {   // deep link: #/lookup?g=<id> or ?q=<team> (query may sit on the hash or the search)
+    const hashQ = window.location.hash.split("?")[1] ?? "";
+    const p = new URLSearchParams(hashQ || window.location.search.slice(1));
     if (p.get("q")) setQ(p.get("q")!); if (p.get("g")) setOpen(p.get("g"));
   }, []);
 
@@ -234,7 +260,7 @@ export default function Lookup({ data }: { data: Data }) {
   return (
     <>
       <PageTitle kicker="Every game · DraftKings splits" title="Game Lookup">
-        <p className="mt-3 max-w-2xl text-white/70">Search any game to see where the DraftKings money and tickets are, how the line has moved, and whether it fits our fade rule.</p>
+        <p className="mt-3 max-w-2xl text-white/70">Search any game to see where the DraftKings money and tickets are, how the line has moved, and the suggested bet. When there is no edge, the read is no bet.</p>
       </PageTitle>
       <div className="mx-auto max-w-3xl px-3 sm:px-4">
         <div className="sticky top-[64px] sm:top-[68px] z-30 -mx-3 sm:mx-0 bg-[#0b0b0b]/95 backdrop-blur px-3 sm:px-0 pt-4 pb-3">
@@ -280,7 +306,7 @@ export default function Lookup({ data }: { data: Data }) {
             </section>
           </>
         ))}
-        {lk && <p className="mt-8 text-xs text-white/40">{lk.rule} DraftKings data as of {fmtT(lk.splits_as_of_et)} ET.</p>}
+        {lk && <p className="mt-8 text-xs text-white/40">{ruleBlurb(lk.rule)} DraftKings data as of {fmtT(lk.splits_as_of_et)} ET.</p>}
         <p className="mt-3 text-xs font-display tracking-wide text-white/55" data-testid="text-lookup-footer">21+ · 1-800-GAMBLER · Splits via DK Network</p>
       </div>
     </>
