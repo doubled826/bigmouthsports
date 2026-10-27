@@ -1,5 +1,5 @@
 {
-  "generated_at_et": "2026-10-26T20:09:56-04:00",
+  "generated_at_et": "2026-10-27T10:07:35-04:00",
   "splits_as_of_et": "2026-10-26T10:19:01-04:00",
   "brand": {
     "name": "Big Mouth Sports",
@@ -10,33 +10,33 @@
   "records": {
     "big_bet": {
       "wins": 5,
-      "losses": 1,
+      "losses": 2,
       "pushes": 0,
-      "graded": 6,
-      "units": 3.62,
-      "win_pct": 0.833,
-      "roi": 0.603,
-      "display": "5-1"
+      "graded": 7,
+      "units": 2.62,
+      "win_pct": 0.714,
+      "roi": 0.374,
+      "display": "5-2"
     },
     "honorable_mention": {
       "wins": 8,
-      "losses": 10,
+      "losses": 11,
       "pushes": 0,
-      "graded": 18,
-      "units": -2.67,
-      "win_pct": 0.444,
-      "roi": -0.148,
-      "display": "8-10"
+      "graded": 19,
+      "units": -3.67,
+      "win_pct": 0.421,
+      "roi": -0.193,
+      "display": "8-11"
     },
     "overall": {
       "wins": 13,
-      "losses": 11,
+      "losses": 13,
       "pushes": 0,
-      "graded": 24,
-      "units": 0.95,
-      "win_pct": 0.542,
-      "roi": 0.04,
-      "display": "13-11"
+      "graded": 26,
+      "units": -1.05,
+      "win_pct": 0.5,
+      "roi": -0.04,
+      "display": "13-13"
     },
     "record_start_note": null
   },
@@ -161,9 +161,9 @@
       "public_faded": "79% on Celtics -14.5",
       "public_handle_pct": 79,
       "tier": "STRONG",
-      "final_score": null,
-      "result": "PENDING",
-      "units": null,
+      "final_score": "Bulls 99 - Celtics 134",
+      "result": "L",
+      "units": -1.0,
       "clv": 0.0,
       "closing_line": "+14.5"
     },
@@ -177,11 +177,11 @@
       "public_faded": "67% on Cowboys -4.5",
       "public_handle_pct": 67,
       "tier": "LEAN",
-      "final_score": null,
-      "result": "PENDING",
-      "units": null,
-      "clv": null,
-      "closing_line": null
+      "final_score": "Cowboys 38 - Eagles 21",
+      "result": "L",
+      "units": -1.0,
+      "clv": 0.0,
+      "closing_line": "+4.5"
     },
     {
       "date": "2026-10-25",
@@ -573,13 +573,13 @@
       {
         "label": "NBA",
         "wins": 6,
-        "losses": 4,
+        "losses": 5,
         "pushes": 0,
-        "graded": 10,
-        "units": 1.52,
-        "win_pct": 0.6,
-        "roi": 0.152,
-        "display": "6-4"
+        "graded": 11,
+        "units": 0.52,
+        "win_pct": 0.545,
+        "roi": 0.047,
+        "display": "6-5"
       },
       {
         "label": "NCAAF",
@@ -595,37 +595,37 @@
       {
         "label": "NFL",
         "wins": 1,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0,
-        "graded": 1,
-        "units": 0.98,
-        "win_pct": 1.0,
-        "roi": 0.98,
-        "display": "1-0"
+        "graded": 2,
+        "units": -0.02,
+        "win_pct": 0.5,
+        "roi": -0.01,
+        "display": "1-1"
       }
     ],
     "by_public_tier": [
       {
         "label": "60-69%",
         "wins": 3,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0,
-        "graded": 3,
-        "units": 2.78,
-        "win_pct": 1.0,
-        "roi": 0.927,
-        "display": "3-0"
+        "graded": 4,
+        "units": 1.78,
+        "win_pct": 0.75,
+        "roi": 0.445,
+        "display": "3-1"
       },
       {
         "label": "70%+",
         "wins": 10,
-        "losses": 11,
+        "losses": 12,
         "pushes": 0,
-        "graded": 21,
-        "units": -1.83,
-        "win_pct": 0.476,
-        "roi": -0.087,
-        "display": "10-11"
+        "graded": 22,
+        "units": -2.83,
+        "win_pct": 0.455,
+        "roi": -0.129,
+        "display": "10-12"
       }
     ],
     "prime_time": [],
@@ -633,45 +633,45 @@
     "note": "Computed from graded picks only."
   },
   "rlm_watch": {
-    "date": "2026-10-26",
-    "updated_et": "2026-10-26T20:09:56-04:00",
+    "date": "2026-10-27",
+    "updated_et": "2026-10-27T10:07:35-04:00",
     "label": "Sharp Alerts: tracking only, not picks.",
     "history": {
       "since": "2026-10-20",
-      "through": "2026-10-26",
+      "through": "2026-10-27",
       "basis": "Tracked moves only, measured from the first DraftKings line we saw and confirmed by two DraftKings pulls in a row. Graded at the DraftKings line when flagged, 1 unit at -110.",
       "public_rlm": {
         "label": "Reverse Line Move",
         "explain": "Most of the money and most of the tickets are on one side, yet the line moved the other way.",
         "all": {
           "wins": 28,
-          "losses": 38,
+          "losses": 39,
           "pushes": 0,
-          "graded": 66,
+          "graded": 67,
           "pending": 1,
-          "units": -12.55,
-          "win_pct": 0.424,
-          "display": "28-38"
+          "units": -13.55,
+          "win_pct": 0.418,
+          "display": "28-39"
         },
         "spread": {
           "wins": 16,
           "losses": 19,
           "pushes": 0,
           "graded": 35,
-          "pending": 0,
+          "pending": 1,
           "units": -4.46,
           "win_pct": 0.457,
           "display": "16-19"
         },
         "total": {
           "wins": 12,
-          "losses": 19,
+          "losses": 20,
           "pushes": 0,
-          "graded": 31,
-          "pending": 1,
-          "units": -8.09,
-          "win_pct": 0.387,
-          "display": "12-19"
+          "graded": 32,
+          "pending": 0,
+          "units": -9.09,
+          "win_pct": 0.375,
+          "display": "12-20"
         }
       },
       "telegram_tiers": {
@@ -765,13 +765,13 @@
         "category": "public_rlm",
         "label": "Reverse Line Move",
         "wins": 28,
-        "losses": 38,
+        "losses": 39,
         "pushes": 0,
-        "graded": 66,
+        "graded": 67,
         "pending": 1,
-        "units": -12.55,
-        "win_pct": 0.424,
-        "display": "28-38",
+        "units": -13.55,
+        "win_pct": 0.418,
+        "display": "28-39",
         "pct": 42,
         "since": "2026-10-20",
         "since_md": "10/20",
@@ -829,15 +829,15 @@
     "small_sample_n": 50,
     "sharp_record": {
       "wins": 44,
-      "losses": 49,
+      "losses": 50,
       "pushes": 0,
-      "graded": 93,
+      "graded": 94,
       "pending": 1,
-      "units": -9.0,
-      "win_pct": 0.473,
-      "display": "44-49",
+      "units": -10.0,
+      "win_pct": 0.468,
+      "display": "44-50",
       "pct": 47,
-      "signals": 94,
+      "signals": 95,
       "overlap": 20,
       "since": "2026-10-20",
       "since_md": "10/20",
@@ -848,14 +848,14 @@
       {
         "category": "public_rlm",
         "label": "Reverse Line Move",
-        "display": "28-38",
+        "display": "28-39",
         "wins": 28,
-        "losses": 38,
+        "losses": 39,
         "pushes": 0,
-        "graded": 66,
+        "graded": 67,
         "pending": 1,
-        "units": -12.55,
-        "win_pct": 0.424,
+        "units": -13.55,
+        "win_pct": 0.418,
         "pct": 42,
         "small": false
       },
@@ -907,21 +907,21 @@
     "pre_tracking": [],
     "tracker": {
       "spread": {
-        "wins": 13,
+        "wins": 15,
         "losses": 9,
         "pushes": 0,
-        "graded": 22,
-        "units": 2.84,
-        "display": "13-9",
+        "graded": 24,
+        "units": 4.8,
+        "display": "15-9",
         "since": "2026-10-20"
       },
       "total": {
         "wins": 7,
-        "losses": 18,
+        "losses": 20,
         "pushes": 0,
-        "graded": 25,
-        "units": -11.57,
-        "display": "7-18",
+        "graded": 27,
+        "units": -13.57,
+        "display": "7-20",
         "since": "2026-10-21"
       }
     },
