@@ -4,10 +4,10 @@ import { ChevronRight } from "lucide-react";
 import { PageTitle } from "@/components/shell";
 import { type Data } from "@/lib/data";
 
-// Full strategy copy (approved wording, 10/24). Keep verbatim; edit here only with Dave's OK.
+// Full strategy copy. Updated 10/29: dropped fixed 60% threshold (Dave — strategy evolves with Edge).
 export const STRATEGY_FULL = [
   "Vegas doesn't build casinos by losing. Every week the TV shows, the talking heads and your timeline all hype the same sides: the big names, the hot teams, the \"can't miss\" locks. The public piles on, and that's exactly what the books want. When everybody's on one side, the books have every reason to keep that line just tempting enough.",
-  "So we go the other way. We track where the DraftKings money and tickets are going, and when 60% or more of the money lands on one side, we take the other. We also watch for lines that move against the public, which usually means the books know something the crowd doesn't.",
+  "So we go the other way. We track where the DraftKings money and tickets are going, fade the sides the crowd piles onto when the numbers say so, and keep refining those filters as we grade more results. We also watch for lines that move against the public, which usually means the books know something the crowd doesn't.",
   "No hunches and no hype. Just the numbers, posted before the game and graded after, wins and losses. Money talks. We listen.",
 ];
 

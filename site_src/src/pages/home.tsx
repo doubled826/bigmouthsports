@@ -137,7 +137,7 @@ function StrategyTeaser() {
     <section className="mt-14 border-l-8 border-volt bg-[#121212] p-5 sm:p-7" aria-labelledby="why" data-testid="section-strategy-teaser">
       <h2 id="why" className="font-display text-3xl sm:text-4xl">WHY WE <span className="text-volt">FADE THE PUBLIC</span></h2>
       <p className="mt-2 max-w-2xl text-white/75" data-testid="text-strategy-short">
-        Vegas sells the public on the same hyped-up sides every week, and that's the trap. When 60%+ of the DraftKings money piles onto one side, we take the other. Money talks. We listen.
+        Vegas sells the public on the same hyped-up sides every week, and that's the trap. We follow DraftKings money and tickets, fade the crowd when the numbers say so, and keep refining the filters as more results come in. Money talks. We listen.
       </p>
       <Link href="/strategy" className="mt-4 inline-flex items-center gap-1 font-display text-lg text-volt hover:underline underline-offset-4" data-testid="link-strategy-page">
         Read our strategy →
@@ -176,7 +176,6 @@ export default function Home({ data }: { data: Data }) {
           <div>
             {b.tagline && <p className="font-display text-3xl sm:text-5xl leading-none">{b.tagline}</p>}
             <p className="mt-2 text-lg sm:text-2xl font-bold text-volt">Every pick tracked.</p>
-            <p className="mt-2 text-white/55 text-sm sm:text-base max-w-xl">When 60%+ of the money lands on one side, we take the other.</p>
           </div>
         </div>
       </section>
