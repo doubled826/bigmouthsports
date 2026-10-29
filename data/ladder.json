@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-10-28 23:02",
+ "updated_et": "2026-10-28 23:14",
  "status": "READY",
  "start_date": "2026-10-29",
  "record": {
@@ -14,13 +14,16 @@
  "bankroll": 10.0,
  "seed": 10.0,
  "seed_withdraw_after_wins": 2,
+ "half_withdraw_after_wins": 5,
+ "half_withdraw_fraction": 0.5,
  "cash_withdrawn": 0.0,
  "seeds_in": 0.0,
  "pnl": 0.0,
  "rules": {
   "band": "-100 to +150 (target ~+100)",
   "sports": "NBA, NFL, NCAAF \u00b7 Sundays NFL only",
-  "max_bets_per_day": 2
+  "max_bets_per_day": 2,
+  "withdrawals": "$10 seed out after win 2; half the bankroll out after win 5; then compound"
  },
  "projections": [
   {
@@ -28,6 +31,7 @@
    "stake": 10.0,
    "payout": 20.0,
    "withdraw": 0.0,
+   "withdraw_kind": null,
    "next_stake": 20.0,
    "cash_out_total": 0.0
   },
@@ -36,6 +40,7 @@
    "stake": 20.0,
    "payout": 40.0,
    "withdraw": 10.0,
+   "withdraw_kind": "seed",
    "next_stake": 30.0,
    "cash_out_total": 10.0
   },
@@ -44,6 +49,7 @@
    "stake": 30.0,
    "payout": 60.0,
    "withdraw": 0.0,
+   "withdraw_kind": null,
    "next_stake": 60.0,
    "cash_out_total": 10.0
   },
@@ -52,6 +58,7 @@
    "stake": 60.0,
    "payout": 120.0,
    "withdraw": 0.0,
+   "withdraw_kind": null,
    "next_stake": 120.0,
    "cash_out_total": 10.0
   },
@@ -59,57 +66,64 @@
    "win": 5,
    "stake": 120.0,
    "payout": 240.0,
-   "withdraw": 0.0,
-   "next_stake": 240.0,
-   "cash_out_total": 10.0
+   "withdraw": 120.0,
+   "withdraw_kind": "half",
+   "next_stake": 120.0,
+   "cash_out_total": 130.0
   },
   {
    "win": 6,
-   "stake": 240.0,
-   "payout": 480.0,
+   "stake": 120.0,
+   "payout": 240.0,
    "withdraw": 0.0,
-   "next_stake": 480.0,
-   "cash_out_total": 10.0
+   "withdraw_kind": null,
+   "next_stake": 240.0,
+   "cash_out_total": 130.0
   },
   {
    "win": 7,
-   "stake": 480.0,
-   "payout": 960.0,
+   "stake": 240.0,
+   "payout": 480.0,
    "withdraw": 0.0,
-   "next_stake": 960.0,
-   "cash_out_total": 10.0
+   "withdraw_kind": null,
+   "next_stake": 480.0,
+   "cash_out_total": 130.0
   },
   {
    "win": 8,
-   "stake": 960.0,
-   "payout": 1920.0,
+   "stake": 480.0,
+   "payout": 960.0,
    "withdraw": 0.0,
-   "next_stake": 1920.0,
-   "cash_out_total": 10.0
+   "withdraw_kind": null,
+   "next_stake": 960.0,
+   "cash_out_total": 130.0
   },
   {
    "win": 9,
-   "stake": 1920.0,
-   "payout": 3840.0,
+   "stake": 960.0,
+   "payout": 1920.0,
    "withdraw": 0.0,
-   "next_stake": 3840.0,
-   "cash_out_total": 10.0
+   "withdraw_kind": null,
+   "next_stake": 1920.0,
+   "cash_out_total": 130.0
   },
   {
    "win": 10,
-   "stake": 3840.0,
-   "payout": 7680.0,
+   "stake": 1920.0,
+   "payout": 3840.0,
    "withdraw": 0.0,
-   "next_stake": 7680.0,
-   "cash_out_total": 10.0
+   "withdraw_kind": null,
+   "next_stake": 3840.0,
+   "cash_out_total": 130.0
   },
   {
    "win": 11,
-   "stake": 7680.0,
-   "payout": 15360.0,
+   "stake": 3840.0,
+   "payout": 7680.0,
    "withdraw": 0.0,
-   "next_stake": 15360.0,
-   "cash_out_total": 10.0
+   "withdraw_kind": null,
+   "next_stake": 7680.0,
+   "cash_out_total": 130.0
   }
  ],
  "today": null,

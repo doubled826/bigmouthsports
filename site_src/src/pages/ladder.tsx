@@ -11,6 +11,7 @@ const usd = (v?: number | null, d?: number) => {
 const usdSigned = (v?: number | null) => (isNum(v) ? (v > 0 ? "+" : "") + usd(v, 2) : "—");
 const md = (d?: string | null) => (d ? `${Number(d.slice(5, 7))}/${Number(d.slice(8, 10))}` : "");
 const dow = (d?: string | null) => (d ? new Date(`${d}T12:00:00`).toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" }) : "");
+const wdLabel = (k?: string | null) => (k === "half" ? "half out" : "seed out");
 const resClass = (r?: string | null) => (r === "win" ? "text-green-400" : r === "loss" ? "text-red-500" : "text-white/70");
 
 function Tile({ label, value, sub, id, accent }: { label: string; value: string; sub?: string; id: string; accent?: string }) {
@@ -77,11 +78,11 @@ function Projections({ l }: { l: LadderT }) {
   return (
     <section className="mt-12" aria-labelledby="climb" data-testid="section-ladder-projections">
       <h2 id="climb" className="font-display text-3xl sm:text-4xl">THE <span className="text-volt">CLIMB</span></h2>
-      <p className="mt-2 max-w-2xl text-white/60">If every rung hits at even money (+100). After win {l.seed_withdraw_after_wins ?? 2} we pull the {usd(l.seed)} seed back out, so from there it's house money.</p>
+      <p className="mt-2 max-w-2xl text-white/60">If every rung hits at even money (+100). Two cash-outs on the way up: after win {l.seed_withdraw_after_wins ?? 2} we pull the {usd(l.seed)} seed back out (house money from there), and after win {l.half_withdraw_after_wins ?? 5} we bank half the bankroll. After that it all compounds.</p>
       <div className="mt-5 overflow-x-auto">
         <table className="w-full text-left text-sm sm:text-base">
           <thead><tr className="border-b-2 border-volt text-white/60 font-display tracking-wide">
-            <th className="px-2 sm:px-3 py-2">Win</th><th className="px-2 sm:px-3 py-2">Stake</th><th className="px-2 sm:px-3 py-2">Cashes</th><th className="px-2 sm:px-3 py-2 hidden sm:table-cell">Seed out</th><th className="px-2 sm:px-3 py-2">Next bet</th><th className="px-2 sm:px-3 py-2 w-1/3 hidden md:table-cell"></th>
+            <th className="px-2 sm:px-3 py-2">Win</th><th className="px-2 sm:px-3 py-2">Stake</th><th className="px-2 sm:px-3 py-2">Cashes</th><th className="px-2 sm:px-3 py-2 hidden sm:table-cell">Cash out</th><th className="px-2 sm:px-3 py-2 hidden lg:table-cell">Banked</th><th className="px-2 sm:px-3 py-2">Next bet</th><th className="px-2 sm:px-3 py-2 w-1/3 hidden md:table-cell"></th>
           </tr></thead>
           <tbody>
             {rows.map((r) => {
@@ -91,8 +92,9 @@ function Projections({ l }: { l: LadderT }) {
                   <td className="px-2 sm:px-3 py-2 font-display text-lg">{done ? <span className="text-volt">✓ {r.win}</span> : r.win}{next && <span className="ml-2 text-xs text-volt font-bold">NEXT</span>}</td>
                   <td className="px-2 sm:px-3 py-2">{usd(r.stake)}</td>
                   <td className="px-2 sm:px-3 py-2 font-bold text-white">{usd(r.payout)}</td>
-                  <td className="px-2 sm:px-3 py-2 hidden sm:table-cell">{r.withdraw ? <span className="text-volt font-bold">−{usd(r.withdraw)}</span> : <span className="text-white/30">—</span>}</td>
-                  <td className="px-2 sm:px-3 py-2">{usd(r.next_stake)}{r.withdraw ? <span className="sm:hidden ml-1 text-xs text-volt font-bold">(−{usd(r.withdraw)} seed)</span> : null}</td>
+                  <td className="px-2 sm:px-3 py-2 hidden sm:table-cell">{r.withdraw ? <span className="text-volt font-bold">−{usd(r.withdraw)} <span className="text-xs font-normal">{wdLabel(r.withdraw_kind)}</span></span> : <span className="text-white/30">—</span>}</td>
+                  <td className="px-2 sm:px-3 py-2 hidden lg:table-cell text-white/70">{r.cash_out_total ? usd(r.cash_out_total) : <span className="text-white/30">—</span>}</td>
+                  <td className="px-2 sm:px-3 py-2">{usd(r.next_stake)}{r.withdraw ? <span className="sm:hidden ml-1 text-xs text-volt font-bold">(−{usd(r.withdraw)} {r.withdraw_kind === "half" ? "half" : "seed"})</span> : null}</td>
                   <td className="px-2 sm:px-3 py-2 hidden md:table-cell"><div className="h-3 bg-white/5"><div className={`h-3 ${done ? "bg-volt" : "bg-volt/60"}`} style={{ width: `${Math.max(2, Math.sqrt(r.payout / max) * 100)}%` }} /></div></td>
                 </tr>
               );
@@ -100,7 +102,7 @@ function Projections({ l }: { l: LadderT }) {
           </tbody>
         </table>
       </div>
-      <p className="mt-2 text-xs text-white/40">Projection only, not a promise. Real payouts depend on each slip's odds (−100 to +150).</p>
+      <p className="mt-2 text-xs text-white/40">Banked = total cashed out so far on the run. Projection only, not a promise. Real payouts depend on each slip's odds (−100 to +150).</p>
     </section>
   );
 }
@@ -124,7 +126,7 @@ function Results({ l }: { l: LadderT }) {
                   <td className="px-2 sm:px-3 py-3 text-white/80">{(r.legs ?? []).map((g, i) => <div key={i} className={g.result ? resClass(g.result) : ""}>{g.label}</div>)}{r.notes && <div className="text-xs text-white/45 mt-1">{r.notes}</div>}</td>
                   <td className="px-2 sm:px-3 py-3 font-bold">{signed(r.odds)}</td>
                   <td className="px-2 sm:px-3 py-3">{usd(r.stake, 2)}</td>
-                  <td className={`px-2 sm:px-3 py-3 font-bold uppercase whitespace-nowrap ${resClass(r.result)}`}>{r.result} {r.result === "win" && <span className="normal-case">{usd(r.payout, 2)}</span>}{r.withdraw ? <div className="text-xs text-volt normal-case">−{usd(r.withdraw)} seed out</div> : null}</td>
+                  <td className={`px-2 sm:px-3 py-3 font-bold uppercase whitespace-nowrap ${resClass(r.result)}`}>{r.result} {r.result === "win" && <span className="normal-case">{usd(r.payout, 2)}</span>}{r.withdraw ? <div className="text-xs text-volt normal-case">−{usd(r.withdraw)} {wdLabel(r.withdraw_kind)}</div> : null}</td>
                   <td className="px-2 sm:px-3 py-3 font-display">{r.streak_after}</td>
                 </tr>
               ))}
@@ -170,7 +172,7 @@ export default function Ladder({ data }: { data: Data }) {
             <div className="mt-5 grid grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-3">
               <Tile id="next" label="Next stake" value={usd(l.next_stake, 2)} sub={l.today ? "Riding on today's slip" : "Up next"} />
               <Tile id="bankroll" label="Bankroll riding" value={usd(l.bankroll, 2)} sub={`${usd(l.seeds_in)} seed${(l.seeds_in ?? 0) === (l.seed ?? 10) ? "" : "s"} in`} />
-              <Tile id="withdrawn" label="Cashed out" value={usd(l.cash_withdrawn, 2)} sub="Seed pulled after win 2" />
+              <Tile id="withdrawn" label="Cashed out" value={usd(l.cash_withdrawn, 2)} sub={`Seed out after win ${l.seed_withdraw_after_wins ?? 2} · half out after win ${l.half_withdraw_after_wins ?? 5}`} />
               <Tile id="pnl" label="Net P/L" value={usdSigned(pnl)} accent={pnl > 0 ? "text-green-400" : pnl < 0 ? "text-red-500" : ""} sub="Cashed out + riding − seeds in" />
             </div>
             {l.updated_et && <p className="mt-4 text-sm text-white/50">Updated {md(l.updated_et.slice(0, 10))} {l.updated_et.slice(11, 16)} ET</p>}
@@ -192,6 +194,8 @@ export default function Ladder({ data }: { data: Data }) {
             <li><b className="text-white">Basic props only.</b> Points, rebounds, assists, combos, threes, yards, TDs. No long shots.</li>
             <li><b className="text-white">Let it ride.</b> Start with $10. Every win rolls the whole balance into the next slip.</li>
             <li><b className="text-white">Seed back after win 2.</b> At about $40 we pull the original $10 out, and $30+ keeps climbing.</li>
+            <li><b className="text-white">Bank half after win 5.</b> At about $240 we cash out half (about $120) and let the other half keep riding.</li>
+            <li><b className="text-white">Then it compounds.</b> No more scheduled cash-outs after win 5. Every win rolls the whole balance again.</li>
             <li><b className="text-white">A loss resets it.</b> Back to $10 and a streak of 0. Every result stays on this page.</li>
             <li><b className="text-white">Sports:</b> {l.rules?.sports ?? "NBA, NFL, NCAAF · Sundays NFL only"}. On a huge slate we may run two slips in one day (the first rolls into the second), only when it's worth it.</li>
           </ul>
