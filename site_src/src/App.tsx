@@ -9,6 +9,7 @@ import Home from '@/pages/home';
 import Results from '@/pages/results';
 import Sharp from '@/pages/sharp';
 import Strategy from '@/pages/strategy';
+import Ladder from '@/pages/ladder';
 
 // Game Lookup (temporary public page, Dave 10/24): route only in builds made with VITE_LOOKUP=1 (site_lookup.py on). Takedown: python3 site_lookup.py off
 const lookupMods = import.meta.glob<{ default: (p: { data: Data }) => ReactNode }>('./pages/lookup.tsx', { eager: true });
@@ -38,6 +39,7 @@ function Shell() {
             <Route path="/rlm"><Redirect to="/sharp" replace /></Route>
             <Route path="/results" >{page(Results)}</Route>
             <Route path="/strategy" >{page(Strategy)}</Route>
+            <Route path="/ladder" >{page(Ladder)}</Route>
             {LOOKUP && Lookup && <Route path="/lookup" >{page(Lookup)}</Route>}
             <Route path="/trends"><Redirect to="/results" replace /></Route>
             <Route component={NotFound} />

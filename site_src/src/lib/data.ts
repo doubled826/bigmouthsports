@@ -130,3 +130,35 @@ export const line = (v: string | number | null | undefined) => {
   if (typeof v === "number") return signed(v, Number.isInteger(v) ? 0 : 1) ?? "";
   return v;
 };
+
+// Ladder Bet Challenge (public stream; data/ladder.json written by fade/export_ladder.py). Fetched separately from picks.json.
+export type LadderLeg = { label?: string | null; odds?: number | null; matchup?: string | null; league?: string | null; tip_et?: string | null; result?: string | null };
+export type LadderBet = {
+  n?: number | null; date?: string | null; slate?: string | null; odds?: number | null; stake?: number | null; to_win?: number | null;
+  legs?: LadderLeg[] | null; result?: string | null; payout?: number | null; profit?: number | null; withdraw?: number | null;
+  streak_before?: number | null; streak_after?: number | null; next_stake?: number | null;
+  fd_url?: string | null; dk_url?: string | null; notes?: string | null; posted_et?: string | null;
+};
+export type LadderProjection = { win: number; stake: number; payout: number; withdraw: number; next_stake: number; cash_out_total: number };
+export type Ladder = {
+  updated_et?: string | null; status?: string | null; start_date?: string | null;
+  record?: { wins?: number | null; losses?: number | null; pushes?: number | null; display?: string | null } | null;
+  streak?: number | null; best_streak?: number | null; next_stake?: number | null; bankroll?: number | null;
+  seed?: number | null; seed_withdraw_after_wins?: number | null; cash_withdrawn?: number | null; seeds_in?: number | null; pnl?: number | null;
+  rules?: { band?: string | null; sports?: string | null; max_bets_per_day?: number | null } | null;
+  projections?: LadderProjection[] | null; today?: LadderBet | null; results?: LadderBet[] | null;
+};
+
+export function useLadder() {
+  const [data, setData] = useState<Ladder | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const load = useCallback(async () => {
+    try {
+      const r = await fetch(`${base}data/ladder.json`, { cache: "no-store" });
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      setData((await r.json()) as Ladder); setError(null);
+    } catch (e) { setError(e instanceof Error ? e.message : "Unknown error"); }
+  }, []);
+  useEffect(() => { load(); }, [load]);
+  return { data, error, retry: load };
+}

@@ -1,0 +1,117 @@
+{
+ "updated_et": "2026-10-28 23:02",
+ "status": "READY",
+ "start_date": "2026-10-29",
+ "record": {
+  "wins": 0,
+  "losses": 0,
+  "pushes": 0,
+  "display": "0-0"
+ },
+ "streak": 0,
+ "best_streak": 0,
+ "next_stake": 10.0,
+ "bankroll": 10.0,
+ "seed": 10.0,
+ "seed_withdraw_after_wins": 2,
+ "cash_withdrawn": 0.0,
+ "seeds_in": 0.0,
+ "pnl": 0.0,
+ "rules": {
+  "band": "-100 to +150 (target ~+100)",
+  "sports": "NBA, NFL, NCAAF \u00b7 Sundays NFL only",
+  "max_bets_per_day": 2
+ },
+ "projections": [
+  {
+   "win": 1,
+   "stake": 10.0,
+   "payout": 20.0,
+   "withdraw": 0.0,
+   "next_stake": 20.0,
+   "cash_out_total": 0.0
+  },
+  {
+   "win": 2,
+   "stake": 20.0,
+   "payout": 40.0,
+   "withdraw": 10.0,
+   "next_stake": 30.0,
+   "cash_out_total": 10.0
+  },
+  {
+   "win": 3,
+   "stake": 30.0,
+   "payout": 60.0,
+   "withdraw": 0.0,
+   "next_stake": 60.0,
+   "cash_out_total": 10.0
+  },
+  {
+   "win": 4,
+   "stake": 60.0,
+   "payout": 120.0,
+   "withdraw": 0.0,
+   "next_stake": 120.0,
+   "cash_out_total": 10.0
+  },
+  {
+   "win": 5,
+   "stake": 120.0,
+   "payout": 240.0,
+   "withdraw": 0.0,
+   "next_stake": 240.0,
+   "cash_out_total": 10.0
+  },
+  {
+   "win": 6,
+   "stake": 240.0,
+   "payout": 480.0,
+   "withdraw": 0.0,
+   "next_stake": 480.0,
+   "cash_out_total": 10.0
+  },
+  {
+   "win": 7,
+   "stake": 480.0,
+   "payout": 960.0,
+   "withdraw": 0.0,
+   "next_stake": 960.0,
+   "cash_out_total": 10.0
+  },
+  {
+   "win": 8,
+   "stake": 960.0,
+   "payout": 1920.0,
+   "withdraw": 0.0,
+   "next_stake": 1920.0,
+   "cash_out_total": 10.0
+  },
+  {
+   "win": 9,
+   "stake": 1920.0,
+   "payout": 3840.0,
+   "withdraw": 0.0,
+   "next_stake": 3840.0,
+   "cash_out_total": 10.0
+  },
+  {
+   "win": 10,
+   "stake": 3840.0,
+   "payout": 7680.0,
+   "withdraw": 0.0,
+   "next_stake": 7680.0,
+   "cash_out_total": 10.0
+  },
+  {
+   "win": 11,
+   "stake": 7680.0,
+   "payout": 15360.0,
+   "withdraw": 0.0,
+   "next_stake": 15360.0,
+   "cash_out_total": 10.0
+  }
+ ],
+ "today": null,
+ "results": []
+}

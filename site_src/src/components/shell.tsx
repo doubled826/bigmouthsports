@@ -19,7 +19,7 @@ export function Wordmark({ name, className = "" }: { name: string; className?: s
   );
 }
 
-const nav = [{ href: "/", label: "Home", short: "Home" }, { href: "/results", label: "Results", short: "Results" }, { href: "/sharp", label: "Sharp Alerts", short: "Sharp Alerts" }, { href: "/strategy", label: "Strategy", short: "Strategy" }];
+const nav = [{ href: "/", label: "Home", short: "Home" }, { href: "/results", label: "Results", short: "Results" }, { href: "/sharp", label: "Sharp Alerts", short: "Sharp" }, { href: "/ladder", label: "Ladder", short: "Ladder" }, { href: "/strategy", label: "Strategy", short: "Strategy" }];
 // Game Lookup nav entry: only in builds made with VITE_LOOKUP=1 (site_lookup.py on, while site_config lookup_live is true). Takedown: python3 site_lookup.py off
 const lookupNav = { href: "/lookup", label: "Game Lookup", short: "Lookup" };
 const navItems = import.meta.env.VITE_LOOKUP === "1" ? [...nav.slice(0, 3), lookupNav, ...nav.slice(3)] : nav;
