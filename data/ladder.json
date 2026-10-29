@@ -1,6 +1,6 @@
 {
- "updated_et": "2026-10-28 23:14",
- "status": "READY",
+ "updated_et": "2026-10-29 12:09",
+ "status": "PENDING",
  "start_date": "2026-10-29",
  "record": {
   "wins": 0,
@@ -17,7 +17,7 @@
  "half_withdraw_after_wins": 5,
  "half_withdraw_fraction": 0.5,
  "cash_withdrawn": 0.0,
- "seeds_in": 0.0,
+ "seeds_in": 10.0,
  "pnl": 0.0,
  "rules": {
   "band": "-100 to +150 (target ~+100)",
@@ -126,6 +126,45 @@
    "cash_out_total": 130.0
   }
  ],
- "today": null,
+ "today": {
+  "n": 1,
+  "date": "2026-10-29",
+  "slate": "Thu night: NBA 8:10/10:10 + TNF 8:15 ET",
+  "odds": 105,
+  "stake": 10.0,
+  "legs": [
+   {
+    "label": "Donovan Mitchell Over 29.5 Pts+Reb+Ast",
+    "odds": -280,
+    "matchup": "CLE @ ATL",
+    "league": "NBA",
+    "tip_et": "8:10 PM ET",
+    "result": "pending"
+   },
+   {
+    "label": "Deni Avdija Over 29.5 Pts+Reb+Ast",
+    "odds": -390,
+    "matchup": "MEM @ POR",
+    "league": "NBA",
+    "tip_et": "10:10 PM ET",
+    "result": "pending"
+   },
+   {
+    "label": "Christian Watson Over 39.5 Receiving Yds",
+    "odds": -490,
+    "matchup": "CAR @ GB",
+    "league": "NFL",
+    "tip_et": "8:15 PM ET",
+    "result": "pending"
+   }
+  ],
+  "result": "pending",
+  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.620758090&selectionId[0]=14921442&marketId[1]=42.620759767&selectionId[1]=27001685&marketId[2]=42.619722633&selectionId[2]=48614479",
+  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA383836512%232341058936_13L42648Q1-510067049Q20+0QA383832298%232341041564_13L42648Q1-510067049Q20+0QA382675455%232336121426_13L88808Q1627513418Q20",
+  "notes": "3-leg cross-game prop parlay, FD +105 / DK +127",
+  "posted_et": "2026-10-29 12:09 PM ET",
+  "to_win": 10.5,
+  "streak_before": 0
+ },
  "results": []
 }
