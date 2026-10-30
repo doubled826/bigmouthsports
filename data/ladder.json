@@ -1,12 +1,12 @@
 {
- "updated_et": "2026-10-29 12:09",
+ "updated_et": "2026-10-30 12:08",
  "status": "PENDING",
  "start_date": "2026-10-29",
  "record": {
   "wins": 0,
-  "losses": 0,
+  "losses": 1,
   "pushes": 0,
-  "display": "0-0"
+  "display": "0-1"
  },
  "streak": 0,
  "best_streak": 0,
@@ -17,8 +17,8 @@
  "half_withdraw_after_wins": 5,
  "half_withdraw_fraction": 0.5,
  "cash_withdrawn": 0.0,
- "seeds_in": 10.0,
- "pnl": 0.0,
+ "seeds_in": 20.0,
+ "pnl": -10.0,
  "rules": {
   "band": "-100 to +150 (target ~+100)",
   "sports": "NBA, NFL, NCAAF \u00b7 Sundays NFL only",
@@ -127,44 +127,84 @@
   }
  ],
  "today": {
-  "n": 1,
-  "date": "2026-10-29",
-  "slate": "Thu night: NBA 8:10/10:10 + TNF 8:15 ET",
-  "odds": 105,
+  "n": 2,
+  "date": "2026-10-30",
+  "slate": "Fri night NBA: CHA@WAS 7:10 + NYK@PHI 7:40 ET",
+  "odds": -103,
   "stake": 10.0,
   "legs": [
    {
-    "label": "Donovan Mitchell Over 29.5 Pts+Reb+Ast",
-    "odds": -280,
-    "matchup": "CLE @ ATL",
+    "label": "Tyrese Maxey Over 29.5 Pts+Reb+Ast",
+    "odds": -200,
+    "matchup": "NYK @ PHI",
     "league": "NBA",
-    "tip_et": "8:10 PM ET",
+    "tip_et": "7:40 PM ET",
     "result": "pending"
    },
    {
-    "label": "Deni Avdija Over 29.5 Pts+Reb+Ast",
-    "odds": -390,
-    "matchup": "MEM @ POR",
+    "label": "Alex Sarr Over 14.5 Pts+Reb+Ast",
+    "odds": -320,
+    "matchup": "CHA @ WAS",
     "league": "NBA",
-    "tip_et": "10:10 PM ET",
-    "result": "pending"
-   },
-   {
-    "label": "Christian Watson Over 39.5 Receiving Yds",
-    "odds": -490,
-    "matchup": "CAR @ GB",
-    "league": "NFL",
-    "tip_et": "8:15 PM ET",
+    "tip_et": "7:10 PM ET",
     "result": "pending"
    }
   ],
   "result": "pending",
-  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.620758090&selectionId[0]=14921442&marketId[1]=42.620759767&selectionId[1]=27001685&marketId[2]=42.619722633&selectionId[2]=48614479",
-  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA383836512%232341058936_13L42648Q1-510067049Q20+0QA383832298%232341041564_13L42648Q1-510067049Q20+0QA382675455%232336121426_13L88808Q1627513418Q20",
-  "notes": "3-leg cross-game prop parlay, FD +105 / DK +127",
-  "posted_et": "2026-10-29 12:09 PM ET",
-  "to_win": 10.5,
+  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.621062782&selectionId[0]=26799192&marketId[1]=42.621050254&selectionId[1]=56874292",
+  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA361482764%232251225508_13L42648Q1-510067049Q20+0QA361440536%232251054289_13L42648Q1-1458628324Q20",
+  "notes": "2-leg cross-game NBA prop parlay, FD -103 / DK -103",
+  "posted_et": "2026-10-30 12:07 PM ET",
+  "to_win": 9.71,
   "streak_before": 0
  },
- "results": []
+ "results": [
+  {
+   "n": 1,
+   "date": "2026-10-29",
+   "slate": "Thu night: NBA 8:10/10:10 + TNF 8:15 ET",
+   "odds": 105,
+   "stake": 10.0,
+   "legs": [
+    {
+     "label": "Donovan Mitchell Over 29.5 Pts+Reb+Ast",
+     "odds": -280,
+     "matchup": "CLE @ ATL",
+     "league": "NBA",
+     "tip_et": "8:10 PM ET",
+     "result": "loss",
+     "actual": "28 PRA (22/3/3)"
+    },
+    {
+     "label": "Deni Avdija Over 29.5 Pts+Reb+Ast",
+     "odds": -390,
+     "matchup": "MEM @ POR",
+     "league": "NBA",
+     "tip_et": "10:10 PM ET",
+     "result": "win",
+     "actual": "40 PRA (24/9/7)"
+    },
+    {
+     "label": "Christian Watson Over 39.5 Receiving Yds",
+     "odds": -490,
+     "matchup": "CAR @ GB",
+     "league": "NFL",
+     "tip_et": "8:15 PM ET",
+     "result": "win",
+     "actual": "113 rec yds (8 catches)"
+    }
+   ],
+   "result": "loss",
+   "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.620758090&selectionId[0]=14921442&marketId[1]=42.620759767&selectionId[1]=27001685&marketId[2]=42.619722633&selectionId[2]=48614479",
+   "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA383836512%232341058936_13L42648Q1-510067049Q20+0QA383832298%232341041564_13L42648Q1-510067049Q20+0QA382675455%232336121426_13L88808Q1627513418Q20",
+   "notes": "3-leg cross-game prop parlay, FD +105 / DK +127",
+   "posted_et": "2026-10-29 12:09 PM ET",
+   "to_win": 10.5,
+   "payout": 0.0,
+   "profit": -10.0,
+   "withdraw": 0.0,
+   "streak_after": 0,
+   "next_stake": 10.0
+  }
+ ]
 }
