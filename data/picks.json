@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-10-30T17:06:05-04:00",
-  "splits_as_of_et": "2026-10-30T17:05:53-04:00",
+  "generated_at_et": "2026-10-30T18:08:14-04:00",
+  "splits_as_of_et": "2026-10-30T18:08:03-04:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -532,7 +532,7 @@
   },
   "rlm_watch": {
     "date": "2026-10-30",
-    "updated_et": "2026-10-30T17:06:05-04:00",
+    "updated_et": "2026-10-30T18:08:14-04:00",
     "label": "Sharp Alerts: tracking only, not picks.",
     "history": {
       "since": "2026-10-20",
@@ -546,7 +546,7 @@
           "losses": 39,
           "pushes": 0,
           "graded": 67,
-          "pending": 1,
+          "pending": 3,
           "units": -13.55,
           "win_pct": 0.418,
           "display": "28-39"
@@ -556,7 +556,7 @@
           "losses": 19,
           "pushes": 0,
           "graded": 35,
-          "pending": 1,
+          "pending": 3,
           "units": -4.46,
           "win_pct": 0.457,
           "display": "16-19"
@@ -610,12 +610,12 @@
           "category": "money_steam",
           "label": "Steam",
           "explain": "The line moved toward the side with the big money, even though most tickets are on the other side.",
-          "signals": 11,
+          "signals": 12,
           "wins": 4,
           "losses": 7,
           "pushes": 0,
           "graded": 11,
-          "pending": 0,
+          "pending": 1,
           "units": -3.36,
           "win_pct": 0.364,
           "display": "4-7"
@@ -802,7 +802,92 @@
     ],
     "rule": "Reverse line move (RLM): 60%+ of the DraftKings money AND 50%+ of the tickets on one side, yet the DraftKings line moved 0.5+ points in that side's favor, measured from the first DraftKings line we saw and confirmed by two DraftKings pulls in a row. All numbers DraftKings.",
     "games": [],
-    "pre_tracking": [],
+    "pre_tracking": [
+      {
+        "league": "NBA",
+        "matchup": "Pistons @ Nets",
+        "market": "total",
+        "public_side": "Over",
+        "opener_line": "226.5",
+        "first_seen_line": "222.5",
+        "first_seen_md": "10/30",
+        "current_line": "222.5",
+        "tip_et": "Fri 7:30 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
+        "league": "NBA",
+        "matchup": "Knicks @ 76ers",
+        "market": "spread",
+        "public_side": "76ers",
+        "opener_line": "-1.5",
+        "first_seen_line": "+3.5",
+        "first_seen_md": "10/30",
+        "current_line": "+3.5",
+        "tip_et": "Fri 7:30 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
+        "league": "NBA",
+        "matchup": "Pacers @ Heat",
+        "market": "total",
+        "public_side": "Over",
+        "opener_line": "240.5",
+        "first_seen_line": "236.5",
+        "first_seen_md": "10/30",
+        "current_line": "236.5",
+        "tip_et": "Fri 8:00 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
+        "league": "NBA",
+        "matchup": "Rockets @ Mavericks",
+        "market": "spread",
+        "public_side": "Mavericks",
+        "opener_line": "-4.5",
+        "first_seen_line": "+6.5",
+        "first_seen_md": "10/30",
+        "current_line": "+6.5",
+        "tip_et": "Fri 8:00 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
+        "league": "NBA",
+        "matchup": "Rockets @ Mavericks",
+        "market": "total",
+        "public_side": "Over",
+        "opener_line": "225.5",
+        "first_seen_line": "223.5",
+        "first_seen_md": "10/30",
+        "current_line": "223.5",
+        "tip_et": "Fri 8:00 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
+        "league": "NBA",
+        "matchup": "Clippers @ Timberwolves",
+        "market": "spread",
+        "public_side": "Timberwolves",
+        "opener_line": "-9.5",
+        "first_seen_line": "-6.5",
+        "first_seen_md": "10/30",
+        "current_line": "-6.5",
+        "tip_et": "Fri 8:00 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
+        "league": "NBA",
+        "matchup": "Clippers @ Timberwolves",
+        "market": "total",
+        "public_side": "Over",
+        "opener_line": "230.5",
+        "first_seen_line": "222.5",
+        "first_seen_md": "10/30",
+        "current_line": "222.5",
+        "tip_et": "Fri 8:00 PM ET",
+        "tag": "Move happened before tracking"
+      }
+    ],
     "tracker": {
       "spread": {
         "wins": 15,
