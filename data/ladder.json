@@ -1,12 +1,12 @@
 {
- "updated_et": "2026-10-30 12:08",
+ "updated_et": "2026-11-02 18:01",
  "status": "PENDING",
  "start_date": "2026-10-29",
  "record": {
   "wins": 0,
-  "losses": 1,
+  "losses": 2,
   "pushes": 0,
-  "display": "0-1"
+  "display": "0-2"
  },
  "streak": 0,
  "best_streak": 0,
@@ -17,8 +17,8 @@
  "half_withdraw_after_wins": 5,
  "half_withdraw_fraction": 0.5,
  "cash_withdrawn": 0.0,
- "seeds_in": 20.0,
- "pnl": -10.0,
+ "seeds_in": 30.0,
+ "pnl": -20.0,
  "rules": {
   "band": "-100 to +150 (target ~+100)",
   "sports": "NBA, NFL, NCAAF \u00b7 Sundays NFL only",
@@ -127,38 +127,84 @@
   }
  ],
  "today": {
-  "n": 2,
-  "date": "2026-10-30",
-  "slate": "Fri night NBA: CHA@WAS 7:10 + NYK@PHI 7:40 ET",
-  "odds": -103,
+  "n": 3,
+  "date": "2026-11-02",
+  "slate": "Mon night: BOS@HOU 8:40 + POR@DEN 9:10 NBA + MNF CHI@SEA 8:20 ET",
+  "odds": 105,
   "stake": 10.0,
   "legs": [
    {
-    "label": "Tyrese Maxey Over 29.5 Pts+Reb+Ast",
-    "odds": -200,
-    "matchup": "NYK @ PHI",
-    "league": "NBA",
-    "tip_et": "7:40 PM ET",
+    "label": "Jaxon Smith-Njigba Over 69.5 Receiving Yds",
+    "odds": -360,
+    "matchup": "CHI @ SEA",
+    "league": "NFL",
+    "tip_et": "8:20 PM ET",
     "result": "pending"
    },
    {
-    "label": "Alex Sarr Over 14.5 Pts+Reb+Ast",
-    "odds": -320,
-    "matchup": "CHA @ WAS",
+    "label": "Deni Avdija Over 29.5 Pts+Reb+Ast",
+    "odds": -420,
+    "matchup": "POR @ DEN",
     "league": "NBA",
-    "tip_et": "7:10 PM ET",
+    "tip_et": "9:10 PM ET",
+    "result": "pending"
+   },
+   {
+    "label": "Kevin Durant Over 17.5 Points",
+    "odds": -340,
+    "matchup": "BOS @ HOU",
+    "league": "NBA",
+    "tip_et": "8:40 PM ET",
     "result": "pending"
    }
   ],
   "result": "pending",
-  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.621062782&selectionId[0]=26799192&marketId[1]=42.621050254&selectionId[1]=56874292",
-  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA361482764%232251225508_13L42648Q1-510067049Q20+0QA361440536%232251054289_13L42648Q1-1458628324Q20",
-  "notes": "2-leg cross-game NBA prop parlay, FD -103 / DK -103",
-  "posted_et": "2026-10-30 12:07 PM ET",
-  "to_win": 9.71,
+  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.620721813&selectionId[0]=48103110&marketId[1]=42.622060675&selectionId[1]=44091970&marketId[2]=42.622045874&selectionId[2]=21563666",
+  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA382702391%232336264555_13L88808Q1-2016709064Q20+0QA385046190%232346295284_13L42648Q1-510067049Q20+0QA385050078%232346313219_13L42648Q1-1088221744Q20",
+  "notes": "3-leg cross-game NBA+NFL prop parlay, FD +105 / DK +118",
+  "posted_et": "2026-11-02 5:59 PM ET",
+  "to_win": 10.5,
   "streak_before": 0
  },
  "results": [
+  {
+   "n": 2,
+   "date": "2026-10-30",
+   "slate": "Fri night NBA: CHA@WAS 7:10 + NYK@PHI 7:40 ET",
+   "odds": -103,
+   "stake": 10.0,
+   "legs": [
+    {
+     "label": "Tyrese Maxey Over 29.5 Pts+Reb+Ast",
+     "odds": -200,
+     "matchup": "NYK @ PHI",
+     "league": "NBA",
+     "tip_et": "7:40 PM ET",
+     "result": "win",
+     "actual": "35 PRA (27/4/4)"
+    },
+    {
+     "label": "Alex Sarr Over 14.5 Pts+Reb+Ast",
+     "odds": -320,
+     "matchup": "CHA @ WAS",
+     "league": "NBA",
+     "tip_et": "7:10 PM ET",
+     "result": "loss",
+     "actual": "11 PRA (3/8/0)"
+    }
+   ],
+   "result": "loss",
+   "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.621062782&selectionId[0]=26799192&marketId[1]=42.621050254&selectionId[1]=56874292",
+   "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA361482764%232251225508_13L42648Q1-510067049Q20+0QA361440536%232251054289_13L42648Q1-1458628324Q20",
+   "notes": "2-leg cross-game NBA prop parlay, FD -103 / DK -103",
+   "posted_et": "2026-10-30 12:07 PM ET",
+   "to_win": 9.71,
+   "payout": 0.0,
+   "profit": -10.0,
+   "withdraw": 0.0,
+   "streak_after": 0,
+   "next_stake": 10.0
+  },
   {
    "n": 1,
    "date": "2026-10-29",
