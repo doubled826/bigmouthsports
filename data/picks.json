@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-11-03T10:07:04-05:00",
-  "splits_as_of_et": "2026-11-03T10:06:51-05:00",
+  "generated_at_et": "2026-11-03T11:14:58-05:00",
+  "splits_as_of_et": "2026-11-03T11:14:50-05:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -660,7 +660,7 @@
   },
   "rlm_watch": {
     "date": "2026-11-03",
-    "updated_et": "2026-11-03T10:07:00-05:00",
+    "updated_et": "2026-11-03T11:14:57-05:00",
     "label": "Sharp Alerts: tracking only, not picks.",
     "history": {
       "since": "2026-10-20",
@@ -752,12 +752,12 @@
           "category": "split_against_money",
           "label": "Split Move",
           "explain": "Most of the money is on one side and most tickets on the other, and the line moved against the money.",
-          "signals": 28,
+          "signals": 29,
           "wins": 13,
           "losses": 15,
           "pushes": 0,
           "graded": 28,
-          "pending": 0,
+          "pending": 1,
           "units": -3.18,
           "win_pct": 0.464,
           "display": "13-15"
@@ -842,7 +842,7 @@
         "losses": 15,
         "pushes": 0,
         "graded": 28,
-        "pending": 0,
+        "pending": 1,
         "units": -3.18,
         "win_pct": 0.464,
         "display": "13-15",
@@ -858,12 +858,12 @@
       "losses": 72,
       "pushes": 0,
       "graded": 140,
-      "pending": 0,
+      "pending": 1,
       "units": -10.19,
       "win_pct": 0.486,
       "display": "68-72",
       "pct": 49,
-      "signals": 140,
+      "signals": 141,
       "overlap": 28,
       "since": "2026-10-20",
       "since_md": "10/20",
@@ -921,7 +921,7 @@
         "losses": 15,
         "pushes": 0,
         "graded": 28,
-        "pending": 0,
+        "pending": 1,
         "units": -3.18,
         "win_pct": 0.464,
         "pct": 46,
@@ -930,7 +930,20 @@
     ],
     "rule": "Reverse line move (RLM): 60%+ of the DraftKings money AND 50%+ of the tickets on one side, yet the DraftKings line moved 0.5+ points in that side's favor, measured from the first DraftKings line we saw and confirmed by two DraftKings pulls in a row. All numbers DraftKings.",
     "games": [],
-    "pre_tracking": [],
+    "pre_tracking": [
+      {
+        "league": "NCAAF",
+        "matchup": "Buffalo @ Miami OH",
+        "market": "total",
+        "public_side": "Over",
+        "opener_line": "45.5",
+        "first_seen_line": "44.5",
+        "first_seen_md": "11/2",
+        "current_line": "44.5",
+        "tip_et": "Tue 8:00 PM ET",
+        "tag": "Move happened before tracking"
+      }
+    ],
     "tracker": {
       "spread": {
         "wins": 25,
