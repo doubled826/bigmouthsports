@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-11-02T19:08:36-05:00",
-  "splits_as_of_et": "2026-11-02T19:08:21-05:00",
+  "generated_at_et": "2026-11-02T20:06:06-05:00",
+  "splits_as_of_et": "2026-11-02T20:05:54-05:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -282,8 +282,8 @@
       "final_score": null,
       "result": "PENDING",
       "units": null,
-      "clv": null,
-      "closing_line": null
+      "clv": 1.0,
+      "closing_line": "+5.5"
     },
     {
       "date": "2026-11-02",
@@ -314,8 +314,8 @@
       "final_score": null,
       "result": "PENDING",
       "units": null,
-      "clv": null,
-      "closing_line": null
+      "clv": 0.0,
+      "closing_line": "+3"
     },
     {
       "date": "2026-10-31",
@@ -864,7 +864,7 @@
   },
   "rlm_watch": {
     "date": "2026-11-02",
-    "updated_et": "2026-11-02T19:08:34-05:00",
+    "updated_et": "2026-11-02T20:06:06-05:00",
     "label": "Sharp Alerts: tracking only, not picks.",
     "history": {
       "since": "2026-10-20",
@@ -1139,8 +1139,8 @@
         "matchup": "Bears @ Seahawks",
         "market": "spread",
         "public_side": "Seahawks",
-        "public_handle_pct": 67,
-        "public_bets_pct": 52,
+        "public_handle_pct": 63,
+        "public_bets_pct": 53,
         "open_line": "-4.5",
         "current_line": "-3",
         "line_is_for": "Seahawks",
@@ -1149,30 +1149,30 @@
         "moved_toward": "Bears",
         "tip_et": "Mon 8:15 PM ET",
         "started": false,
-        "as_of": "2026-11-02T19:08:21-05:00",
+        "as_of": "2026-11-02T20:05:54-05:00",
         "favorite": "Seahawks",
         "favorite_ml": -170,
         "dk_ats": {
           "public_team": "Seahawks",
-          "public_handle_pct": 67,
-          "public_bets_pct": 52,
+          "public_handle_pct": 63,
+          "public_bets_pct": 53,
           "away_team": "Bears",
-          "away_handle_pct": 33,
-          "away_bets_pct": 48,
+          "away_handle_pct": 37,
+          "away_bets_pct": 47,
           "home_team": "Seahawks",
-          "home_handle_pct": 67,
-          "home_bets_pct": 52
+          "home_handle_pct": 63,
+          "home_bets_pct": 53
         },
         "dk_ml": {
           "public_team": "Bears",
-          "public_handle_pct": 62,
-          "public_bets_pct": 45,
+          "public_handle_pct": 54,
+          "public_bets_pct": 46,
           "away_team": "Bears",
-          "away_handle_pct": 62,
-          "away_bets_pct": 45,
+          "away_handle_pct": 54,
+          "away_bets_pct": 46,
           "home_team": "Seahawks",
-          "home_handle_pct": 38,
-          "home_bets_pct": 55
+          "home_handle_pct": 46,
+          "home_bets_pct": 54
         },
         "opener_line": "-4.5",
         "first_seen_line": "-3.5",
@@ -1241,30 +1241,6 @@
         "first_seen_md": "11/2",
         "current_line": "+16.5",
         "tip_et": "Mon 8:30 PM ET",
-        "tag": "Move happened before tracking"
-      },
-      {
-        "league": "NBA",
-        "matchup": "Jazz @ Spurs",
-        "market": "total",
-        "public_side": "Over",
-        "opener_line": "229.5",
-        "first_seen_line": "228.5",
-        "first_seen_md": "11/2",
-        "current_line": "228.5",
-        "tip_et": "Mon 8:30 PM ET",
-        "tag": "Move happened before tracking"
-      },
-      {
-        "league": "NBA",
-        "matchup": "Raptors @ Clippers",
-        "market": "spread",
-        "public_side": "Raptors",
-        "opener_line": "-5.5",
-        "first_seen_line": "-4.5",
-        "first_seen_md": "11/2",
-        "current_line": "-4.5",
-        "tip_et": "Mon 10:00 PM ET",
         "tag": "Move happened before tracking"
       },
       {
