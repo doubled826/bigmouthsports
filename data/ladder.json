@@ -1,6 +1,6 @@
 {
- "updated_et": "2026-11-03 12:13",
- "status": "LIVE",
+ "updated_et": "2026-11-04 12:11",
+ "status": "PENDING",
  "start_date": "2026-10-29",
  "record": {
   "wins": 0,
@@ -17,7 +17,7 @@
  "half_withdraw_after_wins": 5,
  "half_withdraw_fraction": 0.5,
  "cash_withdrawn": 0.0,
- "seeds_in": 30.0,
+ "seeds_in": 40.0,
  "pnl": -30.0,
  "rules": {
   "band": "-100 to +150 (target ~+100)",
@@ -126,7 +126,46 @@
    "cash_out_total": 130.0
   }
  ],
- "today": null,
+ "today": {
+  "n": 4,
+  "date": "2026-11-04",
+  "slate": "Wed night NBA: PHI@DET 7:00 + CLE@OKC 8:00 + POR@PHX 9:00 ET",
+  "odds": 105,
+  "stake": 10.0,
+  "legs": [
+   {
+    "label": "Tyrese Maxey Over 29.5 Pts+Reb+Ast",
+    "odds": -186,
+    "matchup": "PHI @ DET",
+    "league": "NBA",
+    "tip_et": "7:00 PM ET",
+    "result": "pending"
+   },
+   {
+    "label": "Deni Avdija Over 29.5 Pts+Reb+Ast",
+    "odds": -500,
+    "matchup": "POR @ PHX",
+    "league": "NBA",
+    "tip_et": "9:00 PM ET",
+    "result": "pending"
+   },
+   {
+    "label": "James Harden Over 19.5 Pts+Reb+Ast",
+    "odds": -900,
+    "matchup": "CLE @ OKC",
+    "league": "NBA",
+    "tip_et": "8:00 PM ET",
+    "result": "pending"
+   }
+  ],
+  "result": "pending",
+  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.622324642&selectionId[0]=26799192&marketId[1]=42.622443930&selectionId[1]=27001685&marketId[2]=42.622364226&selectionId[2]=3910853",
+  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA385514428%232348794410_13L42648Q1-510067049Q20+0QA385695289%232349425322_13L42648Q1-510067049Q20+0QA385615125%232349123374_13L42648Q11188862214Q20",
+  "notes": "3-leg cross-game NBA PRA parlay, FD +105 / DK +115",
+  "posted_et": "2026-11-04 12:10 PM ET",
+  "to_win": 10.5,
+  "streak_before": 0
+ },
  "results": [
   {
    "n": 3,
