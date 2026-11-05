@@ -1,12 +1,12 @@
 {
- "updated_et": "2026-11-04 12:11",
+ "updated_et": "2026-11-05 12:12",
  "status": "PENDING",
  "start_date": "2026-10-29",
  "record": {
   "wins": 0,
-  "losses": 3,
+  "losses": 4,
   "pushes": 0,
-  "display": "0-3"
+  "display": "0-4"
  },
  "streak": 0,
  "best_streak": 0,
@@ -17,8 +17,8 @@
  "half_withdraw_after_wins": 5,
  "half_withdraw_fraction": 0.5,
  "cash_withdrawn": 0.0,
- "seeds_in": 40.0,
- "pnl": -30.0,
+ "seeds_in": 50.0,
+ "pnl": -40.0,
  "rules": {
   "band": "-100 to +150 (target ~+100)",
   "sports": "NBA, NFL, NCAAF \u00b7 Sundays NFL only",
@@ -127,46 +127,93 @@
   }
  ],
  "today": {
-  "n": 4,
-  "date": "2026-11-04",
-  "slate": "Wed night NBA: PHI@DET 7:00 + CLE@OKC 8:00 + POR@PHX 9:00 ET",
-  "odds": 105,
+  "n": 5,
+  "date": "2026-11-05",
+  "slate": "Thu night: TNF JAX@BAL 8:15 + NBA ORL@PHX 9:10 + MIA@GSW 10:10 ET",
+  "odds": -115,
   "stake": 10.0,
   "legs": [
    {
-    "label": "Tyrese Maxey Over 29.5 Pts+Reb+Ast",
-    "odds": -186,
-    "matchup": "PHI @ DET",
-    "league": "NBA",
-    "tip_et": "7:00 PM ET",
+    "label": "Jakobi Meyers Over 24.5 Receiving Yds",
+    "odds": -270,
+    "matchup": "JAX @ BAL",
+    "league": "NFL",
+    "tip_et": "8:15 PM ET",
     "result": "pending"
    },
    {
-    "label": "Deni Avdija Over 29.5 Pts+Reb+Ast",
-    "odds": -500,
-    "matchup": "POR @ PHX",
+    "label": "Stephen Curry Over 29.5 Pts+Reb+Ast",
+    "odds": -400,
+    "matchup": "MIA @ GSW",
     "league": "NBA",
-    "tip_et": "9:00 PM ET",
+    "tip_et": "10:10 PM ET",
     "result": "pending"
    },
    {
-    "label": "James Harden Over 19.5 Pts+Reb+Ast",
-    "odds": -900,
-    "matchup": "CLE @ OKC",
+    "label": "Desmond Bane Over 19.5 Pts+Reb+Ast",
+    "odds": -1100,
+    "matchup": "ORL @ PHX",
     "league": "NBA",
-    "tip_et": "8:00 PM ET",
+    "tip_et": "9:10 PM ET",
     "result": "pending"
    }
   ],
   "result": "pending",
-  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.622324642&selectionId[0]=26799192&marketId[1]=42.622443930&selectionId[1]=27001685&marketId[2]=42.622364226&selectionId[2]=3910853",
-  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA385514428%232348794410_13L42648Q1-510067049Q20+0QA385695289%232349425322_13L42648Q1-510067049Q20+0QA385615125%232349123374_13L42648Q11188862214Q20",
-  "notes": "3-leg cross-game NBA PRA parlay, FD +105 / DK +115",
-  "posted_et": "2026-11-04 12:10 PM ET",
-  "to_win": 10.5,
+  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.621869053&selectionId[0]=40902729&marketId[1]=42.622835126&selectionId[1]=3910855&marketId[2]=42.622832011&selectionId[2]=26969962",
+  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA385018576%232346159077_13L88808Q144673524Q20+0QA386149922%232351213715_13L42648Q1-510067049Q20+0QA386148290%232351206748_13L42648Q11188862214Q20",
+  "notes": "3-leg cross-game NBA+NFL prop parlay, FD -115 / DK -105",
+  "posted_et": "2026-11-05 12:12 PM ET",
+  "to_win": 8.7,
   "streak_before": 0
  },
  "results": [
+  {
+   "n": 4,
+   "date": "2026-11-04",
+   "slate": "Wed night NBA: PHI@DET 7:00 + CLE@OKC 8:00 + POR@PHX 9:00 ET",
+   "odds": 105,
+   "stake": 10.0,
+   "legs": [
+    {
+     "label": "Tyrese Maxey Over 29.5 Pts+Reb+Ast",
+     "odds": -186,
+     "matchup": "PHI @ DET",
+     "league": "NBA",
+     "tip_et": "7:00 PM ET",
+     "result": "loss",
+     "actual": "27 PRA (19/1/7, 5-16 FG, 34 min)"
+    },
+    {
+     "label": "Deni Avdija Over 29.5 Pts+Reb+Ast",
+     "odds": -500,
+     "matchup": "POR @ PHX",
+     "league": "NBA",
+     "tip_et": "9:00 PM ET",
+     "result": "win",
+     "actual": "40 PRA (21/7/12)"
+    },
+    {
+     "label": "James Harden Over 19.5 Pts+Reb+Ast",
+     "odds": -900,
+     "matchup": "CLE @ OKC",
+     "league": "NBA",
+     "tip_et": "8:00 PM ET",
+     "result": "win",
+     "actual": "34 PRA (19/9/6)"
+    }
+   ],
+   "result": "loss",
+   "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.622324642&selectionId[0]=26799192&marketId[1]=42.622443930&selectionId[1]=27001685&marketId[2]=42.622364226&selectionId[2]=3910853",
+   "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA385514428%232348794410_13L42648Q1-510067049Q20+0QA385695289%232349425322_13L42648Q1-510067049Q20+0QA385615125%232349123374_13L42648Q11188862214Q20",
+   "notes": "3-leg cross-game NBA PRA parlay, FD +105 / DK +115",
+   "posted_et": "2026-11-04 12:10 PM ET",
+   "to_win": 10.5,
+   "payout": 0.0,
+   "profit": -10.0,
+   "withdraw": 0.0,
+   "streak_after": 0,
+   "next_stake": 10.0
+  },
   {
    "n": 3,
    "date": "2026-11-02",
