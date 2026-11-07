@@ -1,24 +1,24 @@
 {
- "updated_et": "2026-11-06 12:42",
+ "updated_et": "2026-11-07 12:05",
  "status": "PENDING",
  "start_date": "2026-10-29",
  "record": {
   "wins": 1,
-  "losses": 4,
+  "losses": 5,
   "pushes": 0,
-  "display": "1-4"
+  "display": "1-5"
  },
- "streak": 1,
+ "streak": 0,
  "best_streak": 1,
- "next_stake": 18.7,
- "bankroll": 18.7,
+ "next_stake": 10.0,
+ "bankroll": 10.0,
  "seed": 10.0,
  "seed_withdraw_after_wins": 2,
  "half_withdraw_after_wins": 5,
  "half_withdraw_fraction": 0.5,
  "cash_withdrawn": 0.0,
- "seeds_in": 50.0,
- "pnl": -31.3,
+ "seeds_in": 60.0,
+ "pnl": -50.0,
  "rules": {
   "band": "-100 to +150 (target ~+100)",
   "sports": "NBA, NFL, NCAAF \u00b7 Sundays NFL only",
@@ -127,46 +127,101 @@
   }
  ],
  "today": {
-  "n": 6,
-  "date": "2026-11-06",
-  "slate": "Fri NBA Cup: PHI@CLE 7:40 + MIN@NOP 8:10 + POR@LAL 10:10 ET",
-  "odds": 116,
-  "stake": 18.7,
+  "n": 7,
+  "date": "2026-11-07",
+  "slate": "Sat NBA: DEN@IND 5:10 + BKN@ATL 7:40 + ORL@GSW 8:40 + HOU@PHX 9:10 ET",
+  "odds": 102,
+  "stake": 10.0,
   "legs": [
    {
-    "label": "LeBron James Over 24.5 Pts+Reb+Ast",
-    "odds": -440,
-    "matchup": "PHI @ CLE",
+    "label": "Pascal Siakam Over 24.5 Pts+Reb+Ast",
+    "odds": -450,
+    "matchup": "DEN @ IND",
+    "league": "NBA",
+    "tip_et": "5:10 PM ET",
+    "result": "pending"
+   },
+   {
+    "label": "Julius Randle Over 24.5 Pts+Reb+Ast",
+    "odds": -500,
+    "matchup": "BKN @ ATL",
     "league": "NBA",
     "tip_et": "7:40 PM ET",
     "result": "pending"
    },
    {
-    "label": "Zion Williamson Over 24.5 Pts+Reb+Ast",
-    "odds": -215,
-    "matchup": "MIN @ NOP",
+    "label": "Desmond Bane Over 19.5 Pts+Reb+Ast",
+    "odds": -590,
+    "matchup": "ORL @ GSW",
     "league": "NBA",
-    "tip_et": "8:10 PM ET",
+    "tip_et": "8:40 PM ET",
     "result": "pending"
    },
    {
-    "label": "Deni Avdija Over 29.5 Pts+Reb+Ast",
-    "odds": -500,
-    "matchup": "POR @ LAL",
+    "label": "Amen Thompson Over 19.5 Pts+Reb+Ast",
+    "odds": -560,
+    "matchup": "HOU @ PHX",
     "league": "NBA",
-    "tip_et": "10:10 PM ET",
+    "tip_et": "9:10 PM ET",
     "result": "pending"
    }
   ],
   "result": "pending",
-  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.623036742&selectionId[0]=4551513&marketId[1]=42.623125116&selectionId[1]=23316216&marketId[2]=42.623098820&selectionId[2]=27001685",
-  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA361470799%232251180442_13L42648Q1-1688762664Q20+0QA386445026%232352542053_13L42648Q1-1688762664Q20+0QA361448369%232251089757_13L42648Q1-510067049Q20",
-  "notes": "3-leg cross-game NBA PRA parlay, FD +116 / DK +128",
-  "posted_et": "2026-11-06 12:40 PM ET",
-  "to_win": 21.69,
-  "streak_before": 1
+  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.623527250&selectionId[0]=23238284&marketId[1]=42.623450057&selectionId[1]=8520906&marketId[2]=42.623412400&selectionId[2]=26969962&marketId[3]=42.623403778&selectionId[3]=51589521",
+  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA386776560%232353991236_13L42648Q1-1688762664Q20+0QA386791219%232354105158_13L42648Q1-1688762664Q20+0QA386793328%232354123146_13L42648Q11188862214Q20+0QA386754922%232353919449_13L42648Q11188862214Q20",
+  "notes": "4-leg cross-game NBA PRA parlay, FD +102 / DK +104",
+  "posted_et": "2026-11-07 12:05 PM ET",
+  "to_win": 10.2,
+  "streak_before": 0
  },
  "results": [
+  {
+   "n": 6,
+   "date": "2026-11-06",
+   "slate": "Fri NBA Cup: PHI@CLE 7:40 + MIN@NOP 8:10 + POR@LAL 10:10 ET",
+   "odds": 116,
+   "stake": 18.7,
+   "legs": [
+    {
+     "label": "LeBron James Over 24.5 Pts+Reb+Ast",
+     "odds": -440,
+     "matchup": "PHI @ CLE",
+     "league": "NBA",
+     "tip_et": "7:40 PM ET",
+     "result": "loss",
+     "actual": "18 PRA (8/7/3, 3-12 FG, 32 min)"
+    },
+    {
+     "label": "Zion Williamson Over 24.5 Pts+Reb+Ast",
+     "odds": -215,
+     "matchup": "MIN @ NOP",
+     "league": "NBA",
+     "tip_et": "8:10 PM ET",
+     "result": "win",
+     "actual": "25 PRA (13/8/4, 5-10 FG, 36 min)"
+    },
+    {
+     "label": "Deni Avdija Over 29.5 Pts+Reb+Ast",
+     "odds": -500,
+     "matchup": "POR @ LAL",
+     "league": "NBA",
+     "tip_et": "10:10 PM ET",
+     "result": "win",
+     "actual": "42 PRA (22/9/11)"
+    }
+   ],
+   "result": "loss",
+   "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.623036742&selectionId[0]=4551513&marketId[1]=42.623125116&selectionId[1]=23316216&marketId[2]=42.623098820&selectionId[2]=27001685",
+   "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA361470799%232251180442_13L42648Q1-1688762664Q20+0QA386445026%232352542053_13L42648Q1-1688762664Q20+0QA361448369%232251089757_13L42648Q1-510067049Q20",
+   "notes": "3-leg cross-game NBA PRA parlay, FD +116 / DK +128",
+   "posted_et": "2026-11-06 12:40 PM ET",
+   "to_win": 21.69,
+   "payout": 0.0,
+   "profit": -18.7,
+   "withdraw": 0.0,
+   "streak_after": 0,
+   "next_stake": 10.0
+  },
   {
    "n": 5,
    "date": "2026-11-05",
