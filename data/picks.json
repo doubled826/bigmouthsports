@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-11-08T12:05:59-05:00",
-  "splits_as_of_et": "2026-11-08T12:05:38-05:00",
+  "generated_at_et": "2026-11-08T13:09:20-05:00",
+  "splits_as_of_et": "2026-11-08T13:09:04-05:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -298,8 +298,8 @@
       "final_score": null,
       "result": "PENDING",
       "units": null,
-      "clv": null,
-      "closing_line": null
+      "clv": 0.0,
+      "closing_line": "+6.5"
     },
     {
       "date": "2026-11-08",
@@ -314,8 +314,8 @@
       "final_score": null,
       "result": "PENDING",
       "units": null,
-      "clv": null,
-      "closing_line": null
+      "clv": 0.0,
+      "closing_line": "+3"
     },
     {
       "date": "2026-11-08",
@@ -1357,7 +1357,7 @@
   },
   "rlm_watch": {
     "date": "2026-11-08",
-    "updated_et": "2026-11-08T12:05:56-05:00",
+    "updated_et": "2026-11-08T13:09:18-05:00",
     "label": "Sharp Alerts: tracking only, not picks.",
     "history": {
       "since": "2026-10-20",
@@ -1641,7 +1641,7 @@
         "key_number": true,
         "moved_toward": "Eagles",
         "tip_et": "Sun 1:00 PM ET",
-        "started": false,
+        "started": true,
         "as_of": "2026-11-08T12:05:38-05:00",
         "favorite": "Giants",
         "favorite_ml": -162,
@@ -1712,7 +1712,7 @@
         "key_number": true,
         "moved_toward": "Dolphins",
         "tip_et": "Sun 1:00 PM ET",
-        "started": false,
+        "started": true,
         "as_of": "2026-11-08T12:05:38-05:00",
         "favorite": "Lions",
         "favorite_ml": -305,
@@ -1783,7 +1783,7 @@
         "key_number": false,
         "moved_toward": "Commanders",
         "tip_et": "Sun 1:00 PM ET",
-        "started": false,
+        "started": true,
         "as_of": "2026-11-08T12:05:38-05:00",
         "favorite": "Rams",
         "favorite_ml": -225,
@@ -1845,7 +1845,7 @@
         "matchup": "Cardinals @ Seahawks",
         "market": "spread",
         "public_side": "Seahawks",
-        "public_handle_pct": 72,
+        "public_handle_pct": 67,
         "public_bets_pct": 54,
         "open_line": "-13.5",
         "current_line": "-8.5",
@@ -1855,29 +1855,29 @@
         "moved_toward": "Cardinals",
         "tip_et": "Sun 4:25 PM ET",
         "started": false,
-        "as_of": "2026-11-08T12:05:38-05:00",
+        "as_of": "2026-11-08T13:09:04-05:00",
         "favorite": "Seahawks",
         "favorite_ml": -440,
         "dk_ats": {
           "public_team": "Seahawks",
-          "public_handle_pct": 72,
+          "public_handle_pct": 67,
           "public_bets_pct": 54,
           "away_team": "Cardinals",
-          "away_handle_pct": 28,
+          "away_handle_pct": 33,
           "away_bets_pct": 46,
           "home_team": "Seahawks",
-          "home_handle_pct": 72,
+          "home_handle_pct": 67,
           "home_bets_pct": 54
         },
         "dk_ml": {
           "public_team": "Seahawks",
-          "public_handle_pct": 86,
+          "public_handle_pct": 85,
           "public_bets_pct": 91,
           "away_team": "Cardinals",
-          "away_handle_pct": 14,
+          "away_handle_pct": 15,
           "away_bets_pct": 9,
           "home_team": "Seahawks",
-          "home_handle_pct": 86,
+          "home_handle_pct": 85,
           "home_bets_pct": 91
         },
         "opener_line": "-13.5",
@@ -1915,18 +1915,6 @@
     "pre_tracking": [
       {
         "league": "NBA",
-        "matchup": "Lakers @ Pistons",
-        "market": "total",
-        "public_side": "Over",
-        "opener_line": "223.5",
-        "first_seen_line": "221.5",
-        "first_seen_md": "11/8",
-        "current_line": "221.5",
-        "tip_et": "Sun 6:00 PM ET",
-        "tag": "Move happened before tracking"
-      },
-      {
-        "league": "NBA",
         "matchup": "Nets @ Mavericks",
         "market": "spread",
         "public_side": "Mavericks",
@@ -1946,18 +1934,6 @@
         "first_seen_line": "226.5",
         "first_seen_md": "11/8",
         "current_line": "226.5",
-        "tip_et": "Sun 9:00 PM ET",
-        "tag": "Move happened before tracking"
-      },
-      {
-        "league": "NBA",
-        "matchup": "Heat @ Kings",
-        "market": "spread",
-        "public_side": "Kings",
-        "opener_line": "+8.5",
-        "first_seen_line": "+10.5",
-        "first_seen_md": "11/8",
-        "current_line": "+10.5",
         "tip_et": "Sun 9:00 PM ET",
         "tag": "Move happened before tracking"
       },
@@ -1989,11 +1965,11 @@
     "tracker": {
       "spread": {
         "wins": 37,
-        "losses": 30,
+        "losses": 31,
         "pushes": 0,
-        "graded": 67,
-        "units": 4.37,
-        "display": "37-30",
+        "graded": 68,
+        "units": 3.37,
+        "display": "37-31",
         "since": "2026-10-20"
       },
       "total": {
