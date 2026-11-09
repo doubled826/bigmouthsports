@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-11-09T12:05:58-05:00",
-  "splits_as_of_et": "2026-11-09T12:05:44-05:00",
+  "generated_at_et": "2026-11-09T13:05:23-05:00",
+  "splits_as_of_et": "2026-11-09T13:05:10-05:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -1438,7 +1438,7 @@
   },
   "rlm_watch": {
     "date": "2026-11-09",
-    "updated_et": "2026-11-09T12:05:55-05:00",
+    "updated_et": "2026-11-09T13:05:23-05:00",
     "label": "Sharp Alerts: tracking only, not picks.",
     "history": {
       "since": "2026-10-20",
@@ -1707,150 +1707,7 @@
       }
     ],
     "rule": "Reverse line move (RLM): 60%+ of the DraftKings money AND 50%+ of the tickets on one side, yet the DraftKings line moved 0.5+ points in that side's favor, measured from the first DraftKings line we saw and confirmed by two DraftKings pulls in a row. All numbers DraftKings.",
-    "games": [
-      {
-        "league": "NBA",
-        "matchup": "Grizzlies @ Raptors",
-        "market": "spread",
-        "public_side": "Grizzlies",
-        "public_handle_pct": 75,
-        "public_bets_pct": 52,
-        "open_line": "+2.5",
-        "current_line": "+3.5",
-        "line_is_for": "Grizzlies",
-        "move_pts": 1.0,
-        "key_number": false,
-        "moved_toward": "Raptors",
-        "tip_et": "Mon 7:30 PM ET",
-        "started": false,
-        "as_of": "2026-11-09T12:05:44-05:00",
-        "favorite": "Raptors",
-        "favorite_ml": -148,
-        "dk_ats": {
-          "public_team": "Grizzlies",
-          "public_handle_pct": 75,
-          "public_bets_pct": 52,
-          "away_team": "Grizzlies",
-          "away_handle_pct": 75,
-          "away_bets_pct": 52,
-          "home_team": "Raptors",
-          "home_handle_pct": 25,
-          "home_bets_pct": 48
-        },
-        "dk_ml": {
-          "public_team": "Raptors",
-          "public_handle_pct": 90,
-          "public_bets_pct": 70,
-          "away_team": "Grizzlies",
-          "away_handle_pct": 10,
-          "away_bets_pct": 30,
-          "home_team": "Raptors",
-          "home_handle_pct": 90,
-          "home_bets_pct": 70
-        },
-        "opener_line": "+2.5",
-        "first_seen_line": "+2.5",
-        "first_seen_md": "11/9",
-        "other_side": "Raptors",
-        "other_line": "-3.5",
-        "sharp_bet": {
-          "side": "Raptors",
-          "line": "-3.5",
-          "line_num": -3.5,
-          "odds": -103
-        },
-        "big_move": false,
-        "move_type": "public_rlm",
-        "move_label": "Reverse Line Move",
-        "type_record": {
-          "category": "public_rlm",
-          "label": "Reverse Line Move",
-          "wins": 77,
-          "losses": 85,
-          "pushes": 0,
-          "graded": 162,
-          "pending": 3,
-          "units": -15.01,
-          "win_pct": 0.475,
-          "display": "77-85",
-          "pct": 48,
-          "since": "2026-10-20",
-          "since_md": "10/20",
-          "small": false
-        }
-      },
-      {
-        "league": "NFL",
-        "matchup": "Bills @ Vikings",
-        "market": "spread",
-        "public_side": "Bills",
-        "public_handle_pct": 85,
-        "public_bets_pct": 78,
-        "open_line": "-3",
-        "current_line": "-3",
-        "line_is_for": "Bills",
-        "move_pts": 0.5,
-        "key_number": true,
-        "moved_toward": "Vikings",
-        "tip_et": "Mon 8:15 PM ET",
-        "started": false,
-        "as_of": "2026-11-09T12:05:44-05:00",
-        "favorite": "Bills",
-        "favorite_ml": -185,
-        "dk_ats": {
-          "public_team": "Bills",
-          "public_handle_pct": 85,
-          "public_bets_pct": 78,
-          "away_team": "Bills",
-          "away_handle_pct": 85,
-          "away_bets_pct": 78,
-          "home_team": "Vikings",
-          "home_handle_pct": 15,
-          "home_bets_pct": 22
-        },
-        "dk_ml": {
-          "public_team": "Bills",
-          "public_handle_pct": 75,
-          "public_bets_pct": 79,
-          "away_team": "Bills",
-          "away_handle_pct": 75,
-          "away_bets_pct": 79,
-          "home_team": "Vikings",
-          "home_handle_pct": 25,
-          "home_bets_pct": 21
-        },
-        "opener_line": "-3",
-        "first_seen_line": "-3.5",
-        "first_seen_md": "11/3",
-        "other_side": "Vikings",
-        "other_line": "+3",
-        "sharp_bet": {
-          "side": "Vikings",
-          "line": "+3",
-          "line_num": 3.0,
-          "odds": 102
-        },
-        "big_move": false,
-        "move_type": "public_rlm",
-        "move_label": "Reverse Line Move",
-        "type_record": {
-          "category": "public_rlm",
-          "label": "Reverse Line Move",
-          "wins": 77,
-          "losses": 85,
-          "pushes": 0,
-          "graded": 162,
-          "pending": 3,
-          "units": -15.01,
-          "win_pct": 0.475,
-          "display": "77-85",
-          "pct": 48,
-          "since": "2026-10-20",
-          "since_md": "10/20",
-          "small": false
-        }
-      }
-    ],
+    "games": [],
     "pre_tracking": [
       {
         "league": "NBA",
@@ -1878,18 +1735,6 @@
       },
       {
         "league": "NBA",
-        "matchup": "Wizards @ Pistons",
-        "market": "total",
-        "public_side": "Over",
-        "opener_line": "218.5",
-        "first_seen_line": "217.5",
-        "first_seen_md": "11/9",
-        "current_line": "217.5",
-        "tip_et": "Mon 7:00 PM ET",
-        "tag": "Move happened before tracking"
-      },
-      {
-        "league": "NBA",
         "matchup": "Pacers @ Mavericks",
         "market": "spread",
         "public_side": "Mavericks",
@@ -1910,6 +1755,18 @@
         "first_seen_md": "11/8",
         "current_line": "219.5",
         "tip_et": "Mon 8:30 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
+        "league": "NFL",
+        "matchup": "Bills @ Vikings",
+        "market": "total",
+        "public_side": "Over",
+        "opener_line": "48.5",
+        "first_seen_line": "45.5",
+        "first_seen_md": "11/3",
+        "current_line": "45.5",
+        "tip_et": "Mon 8:15 PM ET",
         "tag": "Move happened before tracking"
       }
     ],
