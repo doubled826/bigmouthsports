@@ -1,24 +1,24 @@
 {
- "updated_et": "2026-11-09 12:07",
+ "updated_et": "2026-11-10 12:20",
  "status": "PENDING",
  "start_date": "2026-10-29",
  "record": {
   "wins": 3,
-  "losses": 5,
+  "losses": 6,
   "pushes": 0,
-  "display": "3-5"
+  "display": "3-6"
  },
- "streak": 2,
+ "streak": 0,
  "best_streak": 2,
- "next_stake": 26.33,
- "bankroll": 26.33,
+ "next_stake": 10.0,
+ "bankroll": 10.0,
  "seed": 10.0,
  "seed_withdraw_after_wins": 2,
  "half_withdraw_after_wins": 5,
  "half_withdraw_fraction": 0.5,
  "cash_withdrawn": 10.0,
- "seeds_in": 60.0,
- "pnl": -23.67,
+ "seeds_in": 70.0,
+ "pnl": -50.0,
  "rules": {
   "band": "-100 to +150 (target ~+100)",
   "sports": "NBA, NFL, NCAAF \u00b7 Sundays NFL only",
@@ -127,54 +127,110 @@
   }
  ],
  "today": {
-  "n": 9,
-  "date": "2026-11-09",
-  "slate": "Mon NBA: LAL@ATL 7:10 + MEM@TOR 7:40 + IND@DAL 8:10 + SA@PHX 9:10 ET",
-  "odds": 104,
-  "stake": 26.33,
+  "n": 10,
+  "date": "2026-11-10",
+  "slate": "Tue NBA: BOS@PHI 8:10 + LAC@PHX 9:10 + MIA@UTA 9:10 + OKC@POR 11:10 ET",
+  "odds": 101,
+  "stake": 10.0,
   "legs": [
    {
-    "label": "Jalen Johnson Over 5.5 Rebounds",
-    "odds": -720,
-    "matchup": "LAL @ ATL",
-    "league": "NBA",
-    "tip_et": "7:10 PM ET",
-    "result": "pending"
-   },
-   {
-    "label": "Zach Edey Over 5.5 Rebounds",
-    "odds": -390,
-    "matchup": "MEM @ TOR",
-    "league": "NBA",
-    "tip_et": "7:40 PM ET",
-    "result": "pending"
-   },
-   {
-    "label": "Pascal Siakam Over 14.5 Points",
-    "odds": -480,
-    "matchup": "IND @ DAL",
+    "label": "Tyrese Maxey Over 17.5 Points",
+    "odds": -580,
+    "matchup": "BOS @ PHI",
     "league": "NBA",
     "tip_et": "8:10 PM ET",
     "result": "pending"
    },
    {
-    "label": "Dillon Brooks Over 9.5 Points",
-    "odds": -560,
-    "matchup": "SA @ PHX",
+    "label": "Keaton Wagler Over 9.5 Pts+Reb+Ast",
+    "odds": -440,
+    "matchup": "LAC @ PHX",
     "league": "NBA",
     "tip_et": "9:10 PM ET",
+    "result": "pending"
+   },
+   {
+    "label": "Bam Adebayo Over 5.5 Rebounds",
+    "odds": -900,
+    "matchup": "MIA @ UTA",
+    "league": "NBA",
+    "tip_et": "9:10 PM ET",
+    "result": "pending"
+   },
+   {
+    "label": "Deni Avdija Over 29.5 Pts+Reb+Ast",
+    "odds": -390,
+    "matchup": "OKC @ POR",
+    "league": "NBA",
+    "tip_et": "11:10 PM ET",
     "result": "pending"
    }
   ],
   "result": "pending",
-  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.623928155&selectionId[0]=36981627&marketId[1]=42.623933888&selectionId[1]=41584004&marketId[2]=42.623932578&selectionId[2]=12234480&marketId[3]=42.623897436&selectionId[3]=15588149",
-  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA387447547%232357226556_13L42648Q1-1108369128Q20+0QA387457380%232357276193_13L42648Q1-1108369128Q20+0QA387438902%232357162431_13L42648Q11337895931Q20+0QA387459860%232357289480_13L42648Q1243631508Q20",
-  "notes": "4-leg cross-game NBA points/rebounds parlay, FD +104 / DK +108",
-  "posted_et": "2026-11-09 12:07 PM ET",
-  "to_win": 27.38,
-  "streak_before": 2
+  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.624175717&selectionId[0]=38185475&marketId[1]=42.624169767&selectionId[1]=92431712&marketId[2]=42.624105436&selectionId[2]=14388955&marketId[3]=42.624141614&selectionId[3]=27001685",
+  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA387601512%232357929639_13L42648Q1-1088221744Q20+0QA387696451%232358349961_13L42648Q1-2023603400Q20+0QA387712945%232358447733_13L42648Q1-1108369128Q20+0QA387710934%232358437112_13L42648Q1-510067049Q20",
+  "notes": "4-leg cross-game NBA points/rebounds/PRA parlay, FD +101 / DK -101",
+  "posted_et": "2026-11-10 12:20 PM ET",
+  "to_win": 10.1,
+  "streak_before": 0
  },
  "results": [
+  {
+   "n": 9,
+   "date": "2026-11-09",
+   "slate": "Mon NBA: LAL@ATL 7:10 + MEM@TOR 7:40 + IND@DAL 8:10 + SA@PHX 9:10 ET",
+   "odds": 104,
+   "stake": 26.33,
+   "legs": [
+    {
+     "label": "Jalen Johnson Over 5.5 Rebounds",
+     "odds": -720,
+     "matchup": "LAL @ ATL",
+     "league": "NBA",
+     "tip_et": "7:10 PM ET",
+     "result": "win",
+     "actual": "7 reb (38 min, 15 pts/4 ast); LAL 124-114 @ ATL"
+    },
+    {
+     "label": "Zach Edey Over 5.5 Rebounds",
+     "odds": -390,
+     "matchup": "MEM @ TOR",
+     "league": "NBA",
+     "tip_et": "7:40 PM ET",
+     "result": "win",
+     "actual": "9 reb (23 min, 8 pts); MEM 118-102 @ TOR"
+    },
+    {
+     "label": "Pascal Siakam Over 14.5 Points",
+     "odds": -480,
+     "matchup": "IND @ DAL",
+     "league": "NBA",
+     "tip_et": "8:10 PM ET",
+     "result": "win",
+     "actual": "29 pts (9-16 FG, 5-8 3PT, 35 min); IND 122-125 @ DAL"
+    },
+    {
+     "label": "Dillon Brooks Over 9.5 Points",
+     "odds": -560,
+     "matchup": "SA @ PHX",
+     "league": "NBA",
+     "tip_et": "9:10 PM ET",
+     "result": "loss",
+     "actual": "7 pts (3-14 FG, 26 min) in a 26-pt blowout; SA 122-96 @ PHX"
+    }
+   ],
+   "result": "loss",
+   "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.623928155&selectionId[0]=36981627&marketId[1]=42.623933888&selectionId[1]=41584004&marketId[2]=42.623932578&selectionId[2]=12234480&marketId[3]=42.623897436&selectionId[3]=15588149",
+   "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA387447547%232357226556_13L42648Q1-1108369128Q20+0QA387457380%232357276193_13L42648Q1-1108369128Q20+0QA387438902%232357162431_13L42648Q11337895931Q20+0QA387459860%232357289480_13L42648Q1243631508Q20",
+   "notes": "4-leg cross-game NBA points/rebounds parlay, FD +104 / DK +108",
+   "posted_et": "2026-11-09 12:07 PM ET",
+   "to_win": 27.38,
+   "payout": 0.0,
+   "profit": -26.33,
+   "withdraw": 0.0,
+   "streak_after": 0,
+   "next_stake": 10.0
+  },
   {
    "n": 8,
    "date": "2026-11-08",
