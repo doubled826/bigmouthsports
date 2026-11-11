@@ -1,24 +1,24 @@
 {
- "updated_et": "2026-11-10 12:20",
+ "updated_et": "2026-11-11 12:13",
  "status": "PENDING",
  "start_date": "2026-10-29",
  "record": {
-  "wins": 3,
+  "wins": 4,
   "losses": 6,
   "pushes": 0,
-  "display": "3-6"
+  "display": "4-6"
  },
- "streak": 0,
+ "streak": 1,
  "best_streak": 2,
- "next_stake": 10.0,
- "bankroll": 10.0,
+ "next_stake": 20.1,
+ "bankroll": 20.1,
  "seed": 10.0,
  "seed_withdraw_after_wins": 2,
  "half_withdraw_after_wins": 5,
  "half_withdraw_fraction": 0.5,
  "cash_withdrawn": 10.0,
  "seeds_in": 70.0,
- "pnl": -50.0,
+ "pnl": -39.9,
  "rules": {
   "band": "-100 to +150 (target ~+100)",
   "sports": "NBA, NFL, NCAAF \u00b7 Sundays NFL only",
@@ -127,54 +127,119 @@
   }
  ],
  "today": {
-  "n": 10,
-  "date": "2026-11-10",
-  "slate": "Tue NBA: BOS@PHI 8:10 + LAC@PHX 9:10 + MIA@UTA 9:10 + OKC@POR 11:10 ET",
-  "odds": 101,
-  "stake": 10.0,
+  "n": 11,
+  "date": "2026-11-11",
+  "slate": "Wed NBA: CLE@NYK 7:10 + WAS@IND 7:10 + DEN@MEM 8:10 + BKN@NO 8:10 + GSW@HOU 9:40 ET",
+  "odds": 113,
+  "stake": 20.1,
   "legs": [
    {
-    "label": "Tyrese Maxey Over 17.5 Points",
-    "odds": -580,
-    "matchup": "BOS @ PHI",
+    "label": "Evan Mobley Over 19.5 Pts+Reb+Ast",
+    "odds": -950,
+    "matchup": "CLE @ NYK",
+    "league": "NBA",
+    "tip_et": "7:10 PM ET",
+    "result": "pending"
+   },
+   {
+    "label": "Pascal Siakam Over 24.5 Pts+Reb+Ast",
+    "odds": -530,
+    "matchup": "WAS @ IND",
+    "league": "NBA",
+    "tip_et": "7:10 PM ET",
+    "result": "pending"
+   },
+   {
+    "label": "Cameron Boozer Over 5.5 Rebounds",
+    "odds": -800,
+    "matchup": "DEN @ MEM",
     "league": "NBA",
     "tip_et": "8:10 PM ET",
     "result": "pending"
    },
    {
-    "label": "Keaton Wagler Over 9.5 Pts+Reb+Ast",
-    "odds": -440,
-    "matchup": "LAC @ PHX",
+    "label": "Derik Queen Over 3.5 Rebounds",
+    "odds": -520,
+    "matchup": "BKN @ NO",
     "league": "NBA",
-    "tip_et": "9:10 PM ET",
+    "tip_et": "8:10 PM ET",
     "result": "pending"
    },
    {
-    "label": "Bam Adebayo Over 5.5 Rebounds",
-    "odds": -900,
-    "matchup": "MIA @ UTA",
+    "label": "Tari Eason Over 9.5 Pts+Reb+Ast",
+    "odds": -480,
+    "matchup": "GSW @ HOU",
     "league": "NBA",
-    "tip_et": "9:10 PM ET",
-    "result": "pending"
-   },
-   {
-    "label": "Deni Avdija Over 29.5 Pts+Reb+Ast",
-    "odds": -390,
-    "matchup": "OKC @ POR",
-    "league": "NBA",
-    "tip_et": "11:10 PM ET",
+    "tip_et": "9:40 PM ET",
     "result": "pending"
    }
   ],
   "result": "pending",
-  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.624175717&selectionId[0]=38185475&marketId[1]=42.624169767&selectionId[1]=92431712&marketId[2]=42.624105436&selectionId[2]=14388955&marketId[3]=42.624141614&selectionId[3]=27001685",
-  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA387601512%232357929639_13L42648Q1-1088221744Q20+0QA387696451%232358349961_13L42648Q1-2023603400Q20+0QA387712945%232358447733_13L42648Q1-1108369128Q20+0QA387710934%232358437112_13L42648Q1-510067049Q20",
-  "notes": "4-leg cross-game NBA points/rebounds/PRA parlay, FD +101 / DK -101",
-  "posted_et": "2026-11-10 12:20 PM ET",
-  "to_win": 10.1,
-  "streak_before": 0
+  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.624437806&selectionId[0]=36981588&marketId[1]=42.624413756&selectionId[1]=12234480&marketId[2]=42.624431171&selectionId[2]=91099691&marketId[3]=42.624418168&selectionId[3]=78656021&marketId[4]=42.624408053&selectionId[4]=43430136",
+  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA388026886%232359806516_13L42648Q11188862214Q20+0QA388020103%232359771557_13L42648Q1-1688762664Q20+0QA388058264%232359972150_13L42648Q1-1108369128Q20+0QA387995718%232359677690_13L42648Q1-229357969Q20+0QA388007308%232359720217_13L42648Q1-2023603400Q20",
+  "notes": "5-leg cross-game NBA PRA/rebounds parlay, FD +113 / DK +107",
+  "posted_et": "2026-11-11 12:13 PM ET",
+  "to_win": 22.71,
+  "streak_before": 1
  },
  "results": [
+  {
+   "n": 10,
+   "date": "2026-11-10",
+   "slate": "Tue NBA: BOS@PHI 8:10 + LAC@PHX 9:10 + MIA@UTA 9:10 + OKC@POR 11:10 ET",
+   "odds": 101,
+   "stake": 10.0,
+   "legs": [
+    {
+     "label": "Tyrese Maxey Over 17.5 Points",
+     "odds": -580,
+     "matchup": "BOS @ PHI",
+     "league": "NBA",
+     "tip_et": "8:10 PM ET",
+     "result": "win",
+     "actual": "24 pts (8-12 FG, 3-4 3PT, 34 min); BOS 123-101 @ PHI"
+    },
+    {
+     "label": "Keaton Wagler Over 9.5 Pts+Reb+Ast",
+     "odds": -440,
+     "matchup": "LAC @ PHX",
+     "league": "NBA",
+     "tip_et": "9:10 PM ET",
+     "result": "win",
+     "actual": "15 PRA (11/0/4, 23 min); LAC 110-133 @ PHX"
+    },
+    {
+     "label": "Bam Adebayo Over 5.5 Rebounds",
+     "odds": -900,
+     "matchup": "MIA @ UTA",
+     "league": "NBA",
+     "tip_et": "9:10 PM ET",
+     "result": "win",
+     "actual": "8 reb (37 min, 11 pts/4 ast); MIA 115-109 @ UTA"
+    },
+    {
+     "label": "Deni Avdija Over 29.5 Pts+Reb+Ast",
+     "odds": -390,
+     "matchup": "OKC @ POR",
+     "league": "NBA",
+     "tip_et": "11:10 PM ET",
+     "result": "win",
+     "actual": "38 PRA (24/6/8, 34 min); OKC 103-123 @ POR"
+    }
+   ],
+   "result": "win",
+   "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.624175717&selectionId[0]=38185475&marketId[1]=42.624169767&selectionId[1]=92431712&marketId[2]=42.624105436&selectionId[2]=14388955&marketId[3]=42.624141614&selectionId[3]=27001685",
+   "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA387601512%232357929639_13L42648Q1-1088221744Q20+0QA387696451%232358349961_13L42648Q1-2023603400Q20+0QA387712945%232358447733_13L42648Q1-1108369128Q20+0QA387710934%232358437112_13L42648Q1-510067049Q20",
+   "notes": "4-leg cross-game NBA points/rebounds/PRA parlay, FD +101 / DK -101",
+   "posted_et": "2026-11-10 12:20 PM ET",
+   "to_win": 10.1,
+   "payout": 20.1,
+   "profit": 10.1,
+   "withdraw": 0.0,
+   "withdraw_kind": null,
+   "streak_after": 1,
+   "next_stake": 20.1
+  },
   {
    "n": 9,
    "date": "2026-11-09",
