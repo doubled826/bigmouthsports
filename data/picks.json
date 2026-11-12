@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-11-11T16:55:57-05:00",
-  "splits_as_of_et": "2026-11-11T16:55:41-05:00",
+  "generated_at_et": "2026-11-11T21:48:44-05:00",
+  "splits_as_of_et": "2026-11-11T21:48:30-05:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -266,8 +266,8 @@
       "final_score": null,
       "result": "PENDING",
       "units": null,
-      "clv": null,
-      "closing_line": null
+      "clv": 0.0,
+      "closing_line": "+3.5"
     },
     {
       "date": "2026-11-11",
@@ -282,8 +282,8 @@
       "final_score": null,
       "result": "PENDING",
       "units": null,
-      "clv": null,
-      "closing_line": null
+      "clv": 0.0,
+      "closing_line": "+1.5"
     },
     {
       "date": "2026-11-11",
@@ -298,8 +298,8 @@
       "final_score": null,
       "result": "PENDING",
       "units": null,
-      "clv": null,
-      "closing_line": null
+      "clv": 0.0,
+      "closing_line": "+17.5"
     },
     {
       "date": "2026-11-11",
@@ -314,8 +314,8 @@
       "final_score": null,
       "result": "PENDING",
       "units": null,
-      "clv": null,
-      "closing_line": null
+      "clv": 1.0,
+      "closing_line": "-3.5"
     },
     {
       "date": "2026-11-11",
@@ -1552,7 +1552,7 @@
   },
   "rlm_watch": {
     "date": "2026-11-11",
-    "updated_et": "2026-11-11T16:55:55-05:00",
+    "updated_et": "2026-11-11T21:48:44-05:00",
     "label": "Sharp Alerts: tracking only, not picks.",
     "history": {
       "since": "2026-10-20",
@@ -1562,14 +1562,14 @@
         "label": "Reverse Line Move",
         "explain": "Most of the money and most of the tickets are on one side, yet the line moved the other way.",
         "all": {
-          "wins": 82,
+          "wins": 83,
           "losses": 90,
           "pushes": 0,
-          "graded": 172,
-          "pending": 5,
-          "units": -15.46,
-          "win_pct": 0.477,
-          "display": "82-90"
+          "graded": 173,
+          "pending": 4,
+          "units": -14.55,
+          "win_pct": 0.48,
+          "display": "83-90"
         },
         "spread": {
           "wins": 44,
@@ -1582,14 +1582,14 @@
           "display": "44-47"
         },
         "total": {
-          "wins": 38,
+          "wins": 39,
           "losses": 43,
           "pushes": 0,
-          "graded": 81,
-          "pending": 3,
-          "units": -8.46,
-          "win_pct": 0.469,
-          "display": "38-43"
+          "graded": 82,
+          "pending": 2,
+          "units": -7.55,
+          "win_pct": 0.476,
+          "display": "39-43"
         }
       },
       "telegram_tiers": {
@@ -1616,12 +1616,12 @@
           "category": "ticket_rlm",
           "label": "Sharp Split",
           "explain": "Most tickets are on one side, but most of the money is on the other, and the line moved with the money.",
-          "signals": 66,
+          "signals": 68,
           "wins": 30,
           "losses": 34,
           "pushes": 0,
           "graded": 64,
-          "pending": 2,
+          "pending": 4,
           "units": -6.73,
           "win_pct": 0.469,
           "display": "30-34"
@@ -1682,15 +1682,15 @@
       "public_rlm": {
         "category": "public_rlm",
         "label": "Reverse Line Move",
-        "wins": 80,
+        "wins": 81,
         "losses": 89,
         "pushes": 0,
-        "graded": 169,
-        "pending": 5,
-        "units": -16.28,
-        "win_pct": 0.473,
-        "display": "80-89",
-        "pct": 47,
+        "graded": 170,
+        "pending": 4,
+        "units": -15.37,
+        "win_pct": 0.476,
+        "display": "81-89",
+        "pct": 48,
         "since": "2026-10-20",
         "since_md": "10/20",
         "small": false
@@ -1702,7 +1702,7 @@
         "losses": 34,
         "pushes": 0,
         "graded": 64,
-        "pending": 2,
+        "pending": 4,
         "units": -6.73,
         "win_pct": 0.469,
         "display": "30-34",
@@ -1746,16 +1746,16 @@
     },
     "small_sample_n": 50,
     "sharp_record": {
-      "wins": 127,
+      "wins": 128,
       "losses": 137,
       "pushes": 0,
-      "graded": 264,
-      "pending": 7,
-      "units": -21.56,
-      "win_pct": 0.481,
-      "display": "127-137",
+      "graded": 265,
+      "pending": 8,
+      "units": -20.65,
+      "win_pct": 0.483,
+      "display": "128-137",
       "pct": 48,
-      "signals": 271,
+      "signals": 273,
       "overlap": 57,
       "since": "2026-10-20",
       "since_md": "10/20",
@@ -1766,15 +1766,15 @@
       {
         "category": "public_rlm",
         "label": "Reverse Line Move",
-        "display": "80-89",
-        "wins": 80,
+        "display": "81-89",
+        "wins": 81,
         "losses": 89,
         "pushes": 0,
-        "graded": 169,
-        "pending": 5,
-        "units": -16.28,
-        "win_pct": 0.473,
-        "pct": 47,
+        "graded": 170,
+        "pending": 4,
+        "units": -15.37,
+        "win_pct": 0.476,
+        "pct": 48,
         "small": false
       },
       {
@@ -1785,7 +1785,7 @@
         "losses": 34,
         "pushes": 0,
         "graded": 64,
-        "pending": 2,
+        "pending": 4,
         "units": -6.73,
         "win_pct": 0.469,
         "pct": 47,
@@ -1851,20 +1851,20 @@
     "tracker": {
       "spread": {
         "wins": 38,
-        "losses": 36,
+        "losses": 37,
         "pushes": 0,
-        "graded": 74,
-        "units": -0.74,
-        "display": "38-36",
+        "graded": 75,
+        "units": -1.74,
+        "display": "38-37",
         "since": "2026-10-20"
       },
       "total": {
         "wins": 33,
-        "losses": 46,
+        "losses": 47,
         "pushes": 0,
-        "graded": 79,
-        "units": -15.86,
-        "display": "33-46",
+        "graded": 80,
+        "units": -16.86,
+        "display": "33-47",
         "since": "2026-10-21"
       }
     },
