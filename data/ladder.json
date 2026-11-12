@@ -1,24 +1,24 @@
 {
- "updated_et": "2026-11-11 12:13",
+ "updated_et": "2026-11-12 12:13",
  "status": "PENDING",
  "start_date": "2026-10-29",
  "record": {
   "wins": 4,
-  "losses": 6,
+  "losses": 7,
   "pushes": 0,
-  "display": "4-6"
+  "display": "4-7"
  },
- "streak": 1,
+ "streak": 0,
  "best_streak": 2,
- "next_stake": 20.1,
- "bankroll": 20.1,
+ "next_stake": 10.0,
+ "bankroll": 10.0,
  "seed": 10.0,
  "seed_withdraw_after_wins": 2,
  "half_withdraw_after_wins": 5,
  "half_withdraw_fraction": 0.5,
  "cash_withdrawn": 10.0,
- "seeds_in": 70.0,
- "pnl": -39.9,
+ "seeds_in": 80.0,
+ "pnl": -60.0,
  "rules": {
   "band": "-100 to +150 (target ~+100)",
   "sports": "NBA, NFL, NCAAF \u00b7 Sundays NFL only",
@@ -127,62 +127,119 @@
   }
  ],
  "today": {
-  "n": 11,
-  "date": "2026-11-11",
-  "slate": "Wed NBA: CLE@NYK 7:10 + WAS@IND 7:10 + DEN@MEM 8:10 + BKN@NO 8:10 + GSW@HOU 9:40 ET",
-  "odds": 113,
-  "stake": 20.1,
+  "n": 12,
+  "date": "2026-11-12",
+  "slate": "Thu: TOR@PHI 7:10 + DAL@MIN 8:10 + TNF WAS@NYG 8:15 + CHA@PHX 9:10 ET",
+  "odds": 110,
+  "stake": 10.0,
   "legs": [
    {
-    "label": "Evan Mobley Over 19.5 Pts+Reb+Ast",
-    "odds": -950,
-    "matchup": "CLE @ NYK",
+    "label": "Stefon Diggs Over 24.5 Receiving Yards",
+    "odds": -270,
+    "matchup": "WAS @ NYG",
+    "league": "NFL",
+    "tip_et": "8:15 PM ET",
+    "result": "pending"
+   },
+   {
+    "label": "Tyrese Maxey Over 24.5 Pts+Reb+Ast",
+    "odds": -850,
+    "matchup": "TOR @ PHI",
     "league": "NBA",
     "tip_et": "7:10 PM ET",
     "result": "pending"
    },
    {
-    "label": "Pascal Siakam Over 24.5 Pts+Reb+Ast",
-    "odds": -530,
-    "matchup": "WAS @ IND",
-    "league": "NBA",
-    "tip_et": "7:10 PM ET",
-    "result": "pending"
-   },
-   {
-    "label": "Cameron Boozer Over 5.5 Rebounds",
-    "odds": -800,
-    "matchup": "DEN @ MEM",
-    "league": "NBA",
-    "tip_et": "8:10 PM ET",
-    "result": "pending"
-   },
-   {
-    "label": "Derik Queen Over 3.5 Rebounds",
+    "label": "Rudy Gobert Over 7.5 Rebounds",
     "odds": -520,
-    "matchup": "BKN @ NO",
+    "matchup": "DAL @ MIN",
     "league": "NBA",
     "tip_et": "8:10 PM ET",
     "result": "pending"
    },
    {
-    "label": "Tari Eason Over 9.5 Pts+Reb+Ast",
-    "odds": -480,
-    "matchup": "GSW @ HOU",
+    "label": "Devin Booker Over 24.5 Pts+Reb+Ast",
+    "odds": -670,
+    "matchup": "CHA @ PHX",
     "league": "NBA",
-    "tip_et": "9:40 PM ET",
+    "tip_et": "9:10 PM ET",
     "result": "pending"
    }
   ],
   "result": "pending",
-  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.624437806&selectionId[0]=36981588&marketId[1]=42.624413756&selectionId[1]=12234480&marketId[2]=42.624431171&selectionId[2]=91099691&marketId[3]=42.624418168&selectionId[3]=78656021&marketId[4]=42.624408053&selectionId[4]=43430136",
-  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA388026886%232359806516_13L42648Q11188862214Q20+0QA388020103%232359771557_13L42648Q1-1688762664Q20+0QA388058264%232359972150_13L42648Q1-1108369128Q20+0QA387995718%232359677690_13L42648Q1-229357969Q20+0QA388007308%232359720217_13L42648Q1-2023603400Q20",
-  "notes": "5-leg cross-game NBA PRA/rebounds parlay, FD +113 / DK +107",
-  "posted_et": "2026-11-11 12:13 PM ET",
-  "to_win": 22.71,
-  "streak_before": 1
+  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.623934793&selectionId[0]=38165546&marketId[1]=42.624795759&selectionId[1]=26799192&marketId[2]=42.624805388&selectionId[2]=7582840&marketId[3]=42.624785526&selectionId[3]=9878468",
+  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA387479962%232357392310_13L88808Q144673524Q20+0QA388475148%232361866460_13L42648Q1-1688762664Q20+0QA388422176%232361575392_13L42648Q1-2004755240Q20+0QA388450648%232361746908_13L42648Q1-1688762664Q20",
+  "notes": "4-leg cross-game NBA PRA/rebounds + TNF receiving yards parlay, FD +110 / DK +104",
+  "posted_et": "2026-11-12 12:13 PM ET",
+  "to_win": 11.0,
+  "streak_before": 0
  },
  "results": [
+  {
+   "n": 11,
+   "date": "2026-11-11",
+   "slate": "Wed NBA: CLE@NYK 7:10 + WAS@IND 7:10 + DEN@MEM 8:10 + BKN@NO 8:10 + GSW@HOU 9:40 ET",
+   "odds": 113,
+   "stake": 20.1,
+   "legs": [
+    {
+     "label": "Evan Mobley Over 19.5 Pts+Reb+Ast",
+     "odds": -950,
+     "matchup": "CLE @ NYK",
+     "league": "NBA",
+     "tip_et": "7:10 PM ET",
+     "result": "loss",
+     "actual": "18 PRA (10/5/3, 33 min); CLE 115-107 @ NYK"
+    },
+    {
+     "label": "Pascal Siakam Over 24.5 Pts+Reb+Ast",
+     "odds": -530,
+     "matchup": "WAS @ IND",
+     "league": "NBA",
+     "tip_et": "7:10 PM ET",
+     "result": "win",
+     "actual": "41 PRA (28/8/5, 32 min); WSH 101-114 @ IND"
+    },
+    {
+     "label": "Cameron Boozer Over 5.5 Rebounds",
+     "odds": -800,
+     "matchup": "DEN @ MEM",
+     "league": "NBA",
+     "tip_et": "8:10 PM ET",
+     "result": "win",
+     "actual": "11 reb (33 min, 13 pts/5 ast); DEN 123-118 @ MEM"
+    },
+    {
+     "label": "Derik Queen Over 3.5 Rebounds",
+     "odds": -520,
+     "matchup": "BKN @ NO",
+     "league": "NBA",
+     "tip_et": "8:10 PM ET",
+     "result": "loss",
+     "actual": "0 reb (14 min, 9 pts); BKN 145-111 @ NO blowout"
+    },
+    {
+     "label": "Tari Eason Over 9.5 Pts+Reb+Ast",
+     "odds": -480,
+     "matchup": "GSW @ HOU",
+     "league": "NBA",
+     "tip_et": "9:40 PM ET",
+     "result": "loss",
+     "actual": "9 PRA (6/3/0 on 2-11 FG, 22 min); GSW 108-115 @ HOU"
+    }
+   ],
+   "result": "loss",
+   "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.624437806&selectionId[0]=36981588&marketId[1]=42.624413756&selectionId[1]=12234480&marketId[2]=42.624431171&selectionId[2]=91099691&marketId[3]=42.624418168&selectionId[3]=78656021&marketId[4]=42.624408053&selectionId[4]=43430136",
+   "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA388026886%232359806516_13L42648Q11188862214Q20+0QA388020103%232359771557_13L42648Q1-1688762664Q20+0QA388058264%232359972150_13L42648Q1-1108369128Q20+0QA387995718%232359677690_13L42648Q1-229357969Q20+0QA388007308%232359720217_13L42648Q1-2023603400Q20",
+   "notes": "5-leg cross-game NBA PRA/rebounds parlay, FD +113 / DK +107",
+   "posted_et": "2026-11-11 12:13 PM ET",
+   "to_win": 22.71,
+   "payout": 0.0,
+   "profit": -20.1,
+   "withdraw": 0.0,
+   "streak_after": 0,
+   "next_stake": 10.0
+  },
   {
    "n": 10,
    "date": "2026-11-10",
