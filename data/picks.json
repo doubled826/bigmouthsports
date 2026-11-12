@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-11-12T12:05:15-05:00",
-  "splits_as_of_et": "2026-11-12T12:05:00-05:00",
+  "generated_at_et": "2026-11-12T13:16:56-05:00",
+  "splits_as_of_et": "2026-11-12T13:16:43-05:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -1633,7 +1633,7 @@
   },
   "rlm_watch": {
     "date": "2026-11-12",
-    "updated_et": "2026-11-12T12:05:11-05:00",
+    "updated_et": "2026-11-12T13:16:55-05:00",
     "label": "Sharp Alerts: tracking only, not picks.",
     "history": {
       "since": "2026-10-20",
@@ -1909,7 +1909,7 @@
         "market": "spread",
         "public_side": "Suns",
         "public_handle_pct": 84,
-        "public_bets_pct": 69,
+        "public_bets_pct": 67,
         "open_line": "-7.5",
         "current_line": "-6.5",
         "line_is_for": "Suns",
@@ -1918,30 +1918,30 @@
         "moved_toward": "Hornets",
         "tip_et": "Thu 9:00 PM ET",
         "started": false,
-        "as_of": "2026-11-12T12:05:00-05:00",
+        "as_of": "2026-11-12T13:16:43-05:00",
         "favorite": "Suns",
         "favorite_ml": -244,
         "dk_ats": {
           "public_team": "Suns",
           "public_handle_pct": 84,
-          "public_bets_pct": 69,
+          "public_bets_pct": 67,
           "away_team": "Hornets",
           "away_handle_pct": 16,
-          "away_bets_pct": 31,
+          "away_bets_pct": 33,
           "home_team": "Suns",
           "home_handle_pct": 84,
-          "home_bets_pct": 69
+          "home_bets_pct": 67
         },
         "dk_ml": {
-          "public_team": "Suns",
-          "public_handle_pct": 86,
-          "public_bets_pct": 93,
+          "public_team": "Hornets",
+          "public_handle_pct": 80,
+          "public_bets_pct": 8,
           "away_team": "Hornets",
-          "away_handle_pct": 14,
-          "away_bets_pct": 7,
+          "away_handle_pct": 80,
+          "away_bets_pct": 8,
           "home_team": "Suns",
-          "home_handle_pct": 86,
-          "home_bets_pct": 93
+          "home_handle_pct": 20,
+          "home_bets_pct": 92
         },
         "opener_line": "-7.5",
         "first_seen_line": "-7.5",
@@ -1979,18 +1979,6 @@
       {
         "league": "NBA",
         "matchup": "Raptors @ 76ers",
-        "market": "spread",
-        "public_side": "76ers",
-        "opener_line": "-9.5",
-        "first_seen_line": "-8.5",
-        "first_seen_md": "11/12",
-        "current_line": "-8.5",
-        "tip_et": "Thu 7:00 PM ET",
-        "tag": "Move happened before tracking"
-      },
-      {
-        "league": "NBA",
-        "matchup": "Raptors @ 76ers",
         "market": "total",
         "public_side": "Under",
         "opener_line": "221.5",
@@ -1998,18 +1986,6 @@
         "first_seen_md": "11/12",
         "current_line": "223.5",
         "tip_et": "Thu 7:00 PM ET",
-        "tag": "Move happened before tracking"
-      },
-      {
-        "league": "NBA",
-        "matchup": "Mavericks @ Timberwolves",
-        "market": "spread",
-        "public_side": "Mavericks",
-        "opener_line": "+4.5",
-        "first_seen_line": "+5.5",
-        "first_seen_md": "11/11",
-        "current_line": "+5.5",
-        "tip_et": "Thu 8:00 PM ET",
         "tag": "Move happened before tracking"
       }
     ],
