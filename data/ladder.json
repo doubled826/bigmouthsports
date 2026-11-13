@@ -1,12 +1,12 @@
 {
- "updated_et": "2026-11-12 12:13",
+ "updated_et": "2026-11-13 12:14",
  "status": "PENDING",
  "start_date": "2026-10-29",
  "record": {
   "wins": 4,
-  "losses": 7,
+  "losses": 8,
   "pushes": 0,
-  "display": "4-7"
+  "display": "4-8"
  },
  "streak": 0,
  "best_streak": 2,
@@ -17,8 +17,8 @@
  "half_withdraw_after_wins": 5,
  "half_withdraw_fraction": 0.5,
  "cash_withdrawn": 10.0,
- "seeds_in": 80.0,
- "pnl": -60.0,
+ "seeds_in": 90.0,
+ "pnl": -70.0,
  "rules": {
   "band": "-100 to +150 (target ~+100)",
   "sports": "NBA, NFL, NCAAF \u00b7 Sundays NFL only",
@@ -127,54 +127,118 @@
   }
  ],
  "today": {
-  "n": 12,
-  "date": "2026-11-12",
-  "slate": "Thu: TOR@PHI 7:10 + DAL@MIN 8:10 + TNF WAS@NYG 8:15 + CHA@PHX 9:10 ET",
-  "odds": 110,
+  "n": 13,
+  "date": "2026-11-13",
+  "slate": "Fri NBA: NYK@IND 7:10 + CLE@MIA 8:10 + MEM@NO 8:10 + ATL@CHI 8:10 + POR@SAC 10:10 ET",
+  "odds": -100,
   "stake": 10.0,
   "legs": [
    {
-    "label": "Stefon Diggs Over 24.5 Receiving Yards",
-    "odds": -270,
-    "matchup": "WAS @ NYG",
-    "league": "NFL",
-    "tip_et": "8:15 PM ET",
-    "result": "pending"
-   },
-   {
-    "label": "Tyrese Maxey Over 24.5 Pts+Reb+Ast",
-    "odds": -850,
-    "matchup": "TOR @ PHI",
+    "label": "Karl-Anthony Towns Over 9.5 Rebounds",
+    "odds": -530,
+    "matchup": "NYK @ IND",
     "league": "NBA",
     "tip_et": "7:10 PM ET",
     "result": "pending"
    },
    {
-    "label": "Rudy Gobert Over 7.5 Rebounds",
-    "odds": -520,
-    "matchup": "DAL @ MIN",
+    "label": "Bam Adebayo Over 5.5 Rebounds",
+    "odds": -850,
+    "matchup": "CLE @ MIA",
     "league": "NBA",
     "tip_et": "8:10 PM ET",
     "result": "pending"
    },
    {
-    "label": "Devin Booker Over 24.5 Pts+Reb+Ast",
+    "label": "Zion Williamson Over 14.5 Points",
     "odds": -670,
-    "matchup": "CHA @ PHX",
+    "matchup": "MEM @ NO",
     "league": "NBA",
-    "tip_et": "9:10 PM ET",
+    "tip_et": "8:10 PM ET",
+    "result": "pending"
+   },
+   {
+    "label": "Deni Avdija Over 29.5 Pts+Reb+Ast",
+    "odds": -500,
+    "matchup": "POR @ SAC",
+    "league": "NBA",
+    "tip_et": "10:10 PM ET",
+    "result": "pending"
+   },
+   {
+    "label": "Jalen Johnson Over 5.5 Rebounds",
+    "odds": -1100,
+    "matchup": "ATL @ CHI",
+    "league": "NBA",
+    "tip_et": "8:10 PM ET",
     "result": "pending"
    }
   ],
   "result": "pending",
-  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.623934793&selectionId[0]=38165546&marketId[1]=42.624795759&selectionId[1]=26799192&marketId[2]=42.624805388&selectionId[2]=7582840&marketId[3]=42.624785526&selectionId[3]=9878468",
-  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA387479962%232357392310_13L88808Q144673524Q20+0QA388475148%232361866460_13L42648Q1-1688762664Q20+0QA388422176%232361575392_13L42648Q1-2004755240Q20+0QA388450648%232361746908_13L42648Q1-1688762664Q20",
-  "notes": "4-leg cross-game NBA PRA/rebounds + TNF receiving yards parlay, FD +110 / DK +104",
-  "posted_et": "2026-11-12 12:13 PM ET",
-  "to_win": 11.0,
+  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.625002899&selectionId[0]=9542187&marketId[1]=42.624995310&selectionId[1]=14388955&marketId[2]=42.625045666&selectionId[2]=23316216&marketId[3]=42.625053673&selectionId[3]=27001685&marketId[4]=42.625049821&selectionId[4]=36981627",
+  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA361473465%232251190702_13L42648Q1-2101785278Q20+0QA388716498%232362813640_13L42648Q1-1108369128Q20+0QA388722709%232362838876_13L42648Q11337895931Q20+0QA388742249%232362965643_13L42648Q1-510067049Q20+0QA388732800%232362912364_13L42648Q1-1108369128Q20",
+  "notes": "5-leg cross-game NBA rebounds/points/PRA parlay, FD -100 / DK +106",
+  "posted_et": "2026-11-13 12:14 PM ET",
+  "to_win": 10.0,
   "streak_before": 0
  },
  "results": [
+  {
+   "n": 12,
+   "date": "2026-11-12",
+   "slate": "Thu: TOR@PHI 7:10 + DAL@MIN 8:10 + TNF WAS@NYG 8:15 + CHA@PHX 9:10 ET",
+   "odds": 110,
+   "stake": 10.0,
+   "legs": [
+    {
+     "label": "Stefon Diggs Over 24.5 Receiving Yards",
+     "odds": -270,
+     "matchup": "WAS @ NYG",
+     "league": "NFL",
+     "tip_et": "8:15 PM ET",
+     "result": "win",
+     "actual": "83 rec yds (6 rec, 1 TD); WSH 24-21 @ NYG"
+    },
+    {
+     "label": "Tyrese Maxey Over 24.5 Pts+Reb+Ast",
+     "odds": -850,
+     "matchup": "TOR @ PHI",
+     "league": "NBA",
+     "tip_et": "7:10 PM ET",
+     "result": "win",
+     "actual": "37 PRA (27/2/8, 35 min); PHI 123-112 vs TOR"
+    },
+    {
+     "label": "Rudy Gobert Over 7.5 Rebounds",
+     "odds": -520,
+     "matchup": "DAL @ MIN",
+     "league": "NBA",
+     "tip_et": "8:10 PM ET",
+     "result": "loss",
+     "actual": "6 reb (23 min, 9 pts); MIN 133-94 vs DAL blowout"
+    },
+    {
+     "label": "Devin Booker Over 24.5 Pts+Reb+Ast",
+     "odds": -670,
+     "matchup": "CHA @ PHX",
+     "league": "NBA",
+     "tip_et": "9:10 PM ET",
+     "result": "win",
+     "actual": "38 PRA (30/1/7, 35 min); PHX 101-96 vs CHA"
+    }
+   ],
+   "result": "loss",
+   "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.623934793&selectionId[0]=38165546&marketId[1]=42.624795759&selectionId[1]=26799192&marketId[2]=42.624805388&selectionId[2]=7582840&marketId[3]=42.624785526&selectionId[3]=9878468",
+   "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA387479962%232357392310_13L88808Q144673524Q20+0QA388475148%232361866460_13L42648Q1-1688762664Q20+0QA388422176%232361575392_13L42648Q1-2004755240Q20+0QA388450648%232361746908_13L42648Q1-1688762664Q20",
+   "notes": "4-leg cross-game NBA PRA/rebounds + TNF receiving yards parlay, FD +110 / DK +104",
+   "posted_et": "2026-11-12 12:13 PM ET",
+   "to_win": 11.0,
+   "payout": 0.0,
+   "profit": -10.0,
+   "withdraw": 0.0,
+   "streak_after": 0,
+   "next_stake": 10.0
+  },
   {
    "n": 11,
    "date": "2026-11-11",
