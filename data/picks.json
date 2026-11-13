@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-11-13T14:06:01-05:00",
-  "splits_as_of_et": "2026-11-13T14:05:45-05:00",
+  "generated_at_et": "2026-11-13T15:06:12-05:00",
+  "splits_as_of_et": "2026-11-13T15:05:56-05:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -1714,7 +1714,7 @@
   },
   "rlm_watch": {
     "date": "2026-11-13",
-    "updated_et": "2026-11-13T14:05:59-05:00",
+    "updated_et": "2026-11-13T15:06:10-05:00",
     "label": "Sharp Alerts: tracking only, not picks.",
     "history": {
       "since": "2026-10-20",
@@ -1983,7 +1983,79 @@
       }
     ],
     "rule": "Reverse line move (RLM): 60%+ of the DraftKings money AND 50%+ of the tickets on one side, yet the DraftKings line moved 0.5+ points in that side's favor, measured from the first DraftKings line we saw and confirmed by two DraftKings pulls in a row. All numbers DraftKings.",
-    "games": [],
+    "games": [
+      {
+        "league": "NBA",
+        "matchup": "Warriors @ Spurs",
+        "market": "spread",
+        "public_side": "Spurs",
+        "public_handle_pct": 67,
+        "public_bets_pct": 64,
+        "open_line": "-11.5",
+        "current_line": "-12.5",
+        "line_is_for": "Spurs",
+        "move_pts": 1.0,
+        "key_number": false,
+        "moved_toward": "Warriors",
+        "tip_et": "Fri 9:30 PM ET",
+        "started": false,
+        "as_of": "2026-11-13T15:05:56-05:00",
+        "favorite": "Spurs",
+        "favorite_ml": -670,
+        "dk_ats": {
+          "public_team": "Spurs",
+          "public_handle_pct": 67,
+          "public_bets_pct": 64,
+          "away_team": "Warriors",
+          "away_handle_pct": 33,
+          "away_bets_pct": 36,
+          "home_team": "Spurs",
+          "home_handle_pct": 67,
+          "home_bets_pct": 64
+        },
+        "dk_ml": {
+          "public_team": "Spurs",
+          "public_handle_pct": 67,
+          "public_bets_pct": 86,
+          "away_team": "Warriors",
+          "away_handle_pct": 33,
+          "away_bets_pct": 14,
+          "home_team": "Spurs",
+          "home_handle_pct": 67,
+          "home_bets_pct": 86
+        },
+        "opener_line": "-11.5",
+        "first_seen_line": "-13.5",
+        "first_seen_md": "11/12",
+        "other_side": "Warriors",
+        "other_line": "+12.5",
+        "sharp_bet": {
+          "side": "Warriors",
+          "line": "+12.5",
+          "line_num": 12.5,
+          "odds": -115
+        },
+        "big_move": false,
+        "move_type": "public_rlm",
+        "move_label": "Reverse Line Move",
+        "type_record": {
+          "category": "public_rlm",
+          "label": "Reverse Line Move",
+          "wins": 85,
+          "losses": 93,
+          "pushes": 0,
+          "graded": 178,
+          "pending": 7,
+          "units": -15.73,
+          "win_pct": 0.478,
+          "display": "85-93",
+          "pct": 48,
+          "since": "2026-10-20",
+          "since_md": "10/20",
+          "small": false
+        }
+      }
+    ],
     "pre_tracking": [
       {
         "league": "NBA",
@@ -1995,6 +2067,18 @@
         "first_seen_md": "11/12",
         "current_line": "-3.5",
         "tip_et": "Fri 8:00 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
+        "league": "NBA",
+        "matchup": "Trail Blazers @ Kings",
+        "market": "total",
+        "public_side": "Over",
+        "opener_line": "229.5",
+        "first_seen_line": "228.5",
+        "first_seen_md": "11/13",
+        "current_line": "228.5",
+        "tip_et": "Fri 10:00 PM ET",
         "tag": "Move happened before tracking"
       }
     ],
