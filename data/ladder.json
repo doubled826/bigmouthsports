@@ -1,6 +1,6 @@
 {
- "updated_et": "2026-11-14 12:09",
- "status": "LIVE",
+ "updated_et": "2026-11-14 12:11",
+ "status": "PENDING",
  "start_date": "2026-10-29",
  "record": {
   "wins": 5,
@@ -126,7 +126,62 @@
    "cash_out_total": 130.0
   }
  ],
- "today": null,
+ "today": {
+  "n": 14,
+  "date": "2026-11-14",
+  "slate": "Sat NBA: DEN@NO 7:10 + DAL@CLE 7:40 + BKN@MEM 8:10 + CHI@MIN 8:10 + DET@MIA 8:10 ET",
+  "odds": -109,
+  "stake": 20.0,
+  "legs": [
+   {
+    "label": "DeMar DeRozan Over 9.5 Pts+Reb+Ast",
+    "odds": -480,
+    "matchup": "DEN @ NO",
+    "league": "NBA",
+    "tip_et": "7:10 PM ET",
+    "result": "pending"
+   },
+   {
+    "label": "Naji Marshall Over 9.5 Pts+Reb+Ast",
+    "odds": -850,
+    "matchup": "DAL @ CLE",
+    "league": "NBA",
+    "tip_et": "7:40 PM ET",
+    "result": "pending"
+   },
+   {
+    "label": "Julius Randle Over 3.5 Rebounds",
+    "odds": -900,
+    "matchup": "BKN @ MEM",
+    "league": "NBA",
+    "tip_et": "8:10 PM ET",
+    "result": "pending"
+   },
+   {
+    "label": "Ayo Dosunmu Over 0.5 Threes",
+    "odds": -650,
+    "matchup": "CHI @ MIN",
+    "league": "NBA",
+    "tip_et": "8:10 PM ET",
+    "result": "pending"
+   },
+   {
+    "label": "Cade Cunningham Over 5.5 Assists",
+    "odds": -950,
+    "matchup": "DET @ MIA",
+    "league": "NBA",
+    "tip_et": "8:10 PM ET",
+    "result": "pending"
+   }
+  ],
+  "result": "pending",
+  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.625331090&selectionId[0]=3910850&marketId[1]=42.625332157&selectionId[1]=26799210&marketId[2]=42.625325798&selectionId[2]=8520906&marketId[3]=42.625336492&selectionId[3]=26799196&marketId[4]=42.625327629&selectionId[4]=36981570",
+  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA389076624%232364593291_13L42648Q1-2023603400Q20+0QA389081562%232364615276_13L42648Q1-2023603400Q20+0QA389082874%232364621837_13L42648Q1-229357969Q20+0QA389083739%232364625672_13L42648Q1-1448361665Q20+0QA389068720%232364543176_13L42648Q1-833856974Q20",
+  "notes": "5-leg cross-game NBA PRA/rebounds/assists/threes parlay, FD -109 / DK -113",
+  "posted_et": "2026-11-14 12:11 PM ET",
+  "to_win": 18.35,
+  "streak_before": 1
+ },
  "results": [
   {
    "n": 13,
