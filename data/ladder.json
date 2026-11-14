@@ -1,24 +1,24 @@
 {
- "updated_et": "2026-11-13 12:14",
- "status": "PENDING",
+ "updated_et": "2026-11-14 12:09",
+ "status": "LIVE",
  "start_date": "2026-10-29",
  "record": {
-  "wins": 4,
+  "wins": 5,
   "losses": 8,
   "pushes": 0,
-  "display": "4-8"
+  "display": "5-8"
  },
- "streak": 0,
+ "streak": 1,
  "best_streak": 2,
- "next_stake": 10.0,
- "bankroll": 10.0,
+ "next_stake": 20.0,
+ "bankroll": 20.0,
  "seed": 10.0,
  "seed_withdraw_after_wins": 2,
  "half_withdraw_after_wins": 5,
  "half_withdraw_fraction": 0.5,
  "cash_withdrawn": 10.0,
  "seeds_in": 90.0,
- "pnl": -70.0,
+ "pnl": -60.0,
  "rules": {
   "band": "-100 to +150 (target ~+100)",
   "sports": "NBA, NFL, NCAAF \u00b7 Sundays NFL only",
@@ -126,63 +126,74 @@
    "cash_out_total": 130.0
   }
  ],
- "today": {
-  "n": 13,
-  "date": "2026-11-13",
-  "slate": "Fri NBA: NYK@IND 7:10 + CLE@MIA 8:10 + MEM@NO 8:10 + ATL@CHI 8:10 + POR@SAC 10:10 ET",
-  "odds": -100,
-  "stake": 10.0,
-  "legs": [
-   {
-    "label": "Karl-Anthony Towns Over 9.5 Rebounds",
-    "odds": -530,
-    "matchup": "NYK @ IND",
-    "league": "NBA",
-    "tip_et": "7:10 PM ET",
-    "result": "pending"
-   },
-   {
-    "label": "Bam Adebayo Over 5.5 Rebounds",
-    "odds": -850,
-    "matchup": "CLE @ MIA",
-    "league": "NBA",
-    "tip_et": "8:10 PM ET",
-    "result": "pending"
-   },
-   {
-    "label": "Zion Williamson Over 14.5 Points",
-    "odds": -670,
-    "matchup": "MEM @ NO",
-    "league": "NBA",
-    "tip_et": "8:10 PM ET",
-    "result": "pending"
-   },
-   {
-    "label": "Deni Avdija Over 29.5 Pts+Reb+Ast",
-    "odds": -500,
-    "matchup": "POR @ SAC",
-    "league": "NBA",
-    "tip_et": "10:10 PM ET",
-    "result": "pending"
-   },
-   {
-    "label": "Jalen Johnson Over 5.5 Rebounds",
-    "odds": -1100,
-    "matchup": "ATL @ CHI",
-    "league": "NBA",
-    "tip_et": "8:10 PM ET",
-    "result": "pending"
-   }
-  ],
-  "result": "pending",
-  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.625002899&selectionId[0]=9542187&marketId[1]=42.624995310&selectionId[1]=14388955&marketId[2]=42.625045666&selectionId[2]=23316216&marketId[3]=42.625053673&selectionId[3]=27001685&marketId[4]=42.625049821&selectionId[4]=36981627",
-  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA361473465%232251190702_13L42648Q1-2101785278Q20+0QA388716498%232362813640_13L42648Q1-1108369128Q20+0QA388722709%232362838876_13L42648Q11337895931Q20+0QA388742249%232362965643_13L42648Q1-510067049Q20+0QA388732800%232362912364_13L42648Q1-1108369128Q20",
-  "notes": "5-leg cross-game NBA rebounds/points/PRA parlay, FD -100 / DK +106",
-  "posted_et": "2026-11-13 12:14 PM ET",
-  "to_win": 10.0,
-  "streak_before": 0
- },
+ "today": null,
  "results": [
+  {
+   "n": 13,
+   "date": "2026-11-13",
+   "slate": "Fri NBA: NYK@IND 7:10 + CLE@MIA 8:10 + MEM@NO 8:10 + ATL@CHI 8:10 + POR@SAC 10:10 ET",
+   "odds": -100,
+   "stake": 10.0,
+   "legs": [
+    {
+     "label": "Karl-Anthony Towns Over 9.5 Rebounds",
+     "odds": -530,
+     "matchup": "NYK @ IND",
+     "league": "NBA",
+     "tip_et": "7:10 PM ET",
+     "result": "win",
+     "actual": "15 reb (23 pts, 34 min); NYK 104-106 @ IND"
+    },
+    {
+     "label": "Bam Adebayo Over 5.5 Rebounds",
+     "odds": -850,
+     "matchup": "CLE @ MIA",
+     "league": "NBA",
+     "tip_et": "8:10 PM ET",
+     "result": "win",
+     "actual": "14 reb (37 pts, 38 min); MIA 133-121 vs CLE"
+    },
+    {
+     "label": "Zion Williamson Over 14.5 Points",
+     "odds": -670,
+     "matchup": "MEM @ NO",
+     "league": "NBA",
+     "tip_et": "8:10 PM ET",
+     "result": "win",
+     "actual": "22 pts (7-15 FG, 33 min); NO 111-142 vs MEM"
+    },
+    {
+     "label": "Deni Avdija Over 29.5 Pts+Reb+Ast",
+     "odds": -500,
+     "matchup": "POR @ SAC",
+     "league": "NBA",
+     "tip_et": "10:10 PM ET",
+     "result": "win",
+     "actual": "44 PRA (34/6/4, 35 min); POR 120-107 @ SAC"
+    },
+    {
+     "label": "Jalen Johnson Over 5.5 Rebounds",
+     "odds": -1100,
+     "matchup": "ATL @ CHI",
+     "league": "NBA",
+     "tip_et": "8:10 PM ET",
+     "result": "win",
+     "actual": "11 reb (27 pts, 10 ast, 40 min); ATL 117-125 @ CHI"
+    }
+   ],
+   "result": "win",
+   "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.625002899&selectionId[0]=9542187&marketId[1]=42.624995310&selectionId[1]=14388955&marketId[2]=42.625045666&selectionId[2]=23316216&marketId[3]=42.625053673&selectionId[3]=27001685&marketId[4]=42.625049821&selectionId[4]=36981627",
+   "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA361473465%232251190702_13L42648Q1-2101785278Q20+0QA388716498%232362813640_13L42648Q1-1108369128Q20+0QA388722709%232362838876_13L42648Q11337895931Q20+0QA388742249%232362965643_13L42648Q1-510067049Q20+0QA388732800%232362912364_13L42648Q1-1108369128Q20",
+   "notes": "5-leg cross-game NBA rebounds/points/PRA parlay, FD -100 / DK +106",
+   "posted_et": "2026-11-13 12:14 PM ET",
+   "to_win": 10.0,
+   "payout": 20.0,
+   "profit": 10.0,
+   "withdraw": 0.0,
+   "withdraw_kind": null,
+   "streak_after": 1,
+   "next_stake": 20.0
+  },
   {
    "n": 12,
    "date": "2026-11-12",
