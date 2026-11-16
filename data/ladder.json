@@ -1,12 +1,12 @@
 {
- "updated_et": "2026-11-15 12:37",
+ "updated_et": "2026-11-16 12:38",
  "status": "PENDING",
  "start_date": "2026-10-29",
  "record": {
   "wins": 5,
-  "losses": 9,
+  "losses": 10,
   "pushes": 0,
-  "display": "5-9"
+  "display": "5-10"
  },
  "streak": 0,
  "best_streak": 2,
@@ -17,8 +17,8 @@
  "half_withdraw_after_wins": 5,
  "half_withdraw_fraction": 0.5,
  "cash_withdrawn": 10.0,
- "seeds_in": 100.0,
- "pnl": -80.0,
+ "seeds_in": 110.0,
+ "pnl": -90.0,
  "rules": {
   "band": "-100 to +150 (target ~+100)",
   "sports": "NBA, NFL, NCAAF \u00b7 Sundays NFL only",
@@ -127,54 +127,110 @@
   }
  ],
  "today": {
-  "n": 15,
-  "date": "2026-11-15",
-  "slate": "Sun NFL: LAR@ARI 4:05 + SEA@LV 4:05 + SF@DAL 4:25 + PIT@CIN 8:20 (SNF) ET",
-  "odds": -108,
+  "n": 16,
+  "date": "2026-11-16",
+  "slate": "Mon NBA + MNF: HOU@MIA 7:40 + GSW@NO 8:10 + POR@MIN 8:10 + LAC@BAL 8:15 (MNF) ET",
+  "odds": 104,
   "stake": 10.0,
   "legs": [
    {
-    "label": "Trey McBride Over 4.5 Receptions",
-    "odds": -450,
-    "matchup": "LAR @ ARI",
-    "league": "NFL",
-    "tip_et": "4:05 PM ET",
+    "label": "Deni Avdija Over 29.5 Pts+Reb+Ast",
+    "odds": -420,
+    "matchup": "POR @ MIN",
+    "league": "NBA",
+    "tip_et": "8:10 PM ET",
     "result": "pending"
    },
    {
-    "label": "Brock Bowers Over 29.5 Receiving Yds",
-    "odds": -600,
-    "matchup": "SEA @ LV",
-    "league": "NFL",
-    "tip_et": "4:05 PM ET",
+    "label": "Zion Williamson Over 24.5 Pts+Reb+Ast",
+    "odds": -440,
+    "matchup": "GSW @ NO",
+    "league": "NBA",
+    "tip_et": "8:10 PM ET",
     "result": "pending"
    },
    {
-    "label": "George Pickens Over 29.5 Receiving Yds",
-    "odds": -580,
-    "matchup": "SF @ DAL",
-    "league": "NFL",
-    "tip_et": "4:25 PM ET",
+    "label": "Bam Adebayo Over 5.5 Rebounds",
+    "odds": -850,
+    "matchup": "HOU @ MIA",
+    "league": "NBA",
+    "tip_et": "7:40 PM ET",
     "result": "pending"
    },
    {
-    "label": "Chase Brown Over 24.5 Rushing Yds",
-    "odds": -650,
-    "matchup": "PIT @ CIN",
+    "label": "Derrick Henry Over 49.5 Rushing Yds",
+    "odds": -490,
+    "matchup": "LAC @ BAL",
     "league": "NFL",
-    "tip_et": "8:20 PM ET",
+    "tip_et": "8:15 PM ET",
     "result": "pending"
    }
   ],
   "result": "pending",
-  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.624786868&selectionId[0]=62213699&marketId[1]=42.624378482&selectionId[1]=73636390&marketId[2]=42.625257957&selectionId[2]=73619459&marketId[3]=42.624309708&selectionId[3]=48966444",
-  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA387607657%232357952219_13L88808Q12134732303Q20+0QA387602300%232357932657_13L88808Q1628754404Q20+0QA387666317%232358171376_13L88808Q1628754404Q20+0QA387755012%232358680522_13L88808Q11842635267Q20",
-  "notes": "4-leg cross-game NFL receptions/receiving/rushing yards parlay, FD -108 / DK +110",
-  "posted_et": "2026-11-15 12:37 PM ET",
-  "to_win": 9.26,
+  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.626013628&selectionId[0]=44091970&marketId[1]=42.626013815&selectionId[1]=27691582&marketId[2]=42.625857944&selectionId[2]=14388955&marketId[3]=42.624642667&selectionId[3]=38176528",
+  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA389669068%232367536737_13L42648Q1-510067049Q20+0QA389676287%232367574834_13L42648Q1-1688762664Q20+0QA389691210%232367651787_13L42648Q1-1108369128Q20+0QA387705686%232358408464_13L88808Q1166871894Q20",
+  "notes": "4-leg cross-game NBA PRA/rebounds + MNF rushing yards parlay, FD +104 / DK +110",
+  "posted_et": "2026-11-16 12:38 PM ET",
+  "to_win": 10.4,
   "streak_before": 0
  },
  "results": [
+  {
+   "n": 15,
+   "date": "2026-11-15",
+   "slate": "Sun NFL: LAR@ARI 4:05 + SEA@LV 4:05 + SF@DAL 4:25 + PIT@CIN 8:20 (SNF) ET",
+   "odds": -108,
+   "stake": 10.0,
+   "legs": [
+    {
+     "label": "Trey McBride Over 4.5 Receptions",
+     "odds": -450,
+     "matchup": "LAR @ ARI",
+     "league": "NFL",
+     "tip_et": "4:05 PM ET",
+     "result": "win",
+     "actual": "5 rec (5 tgts, 37 yds); LAR 34-6 @ ARI"
+    },
+    {
+     "label": "Brock Bowers Over 29.5 Receiving Yds",
+     "odds": -600,
+     "matchup": "SEA @ LV",
+     "league": "NFL",
+     "tip_et": "4:05 PM ET",
+     "result": "loss",
+     "actual": "18 rec yds (2 rec on 2 tgts); SEA 21-13 @ LV"
+    },
+    {
+     "label": "George Pickens Over 29.5 Receiving Yds",
+     "odds": -580,
+     "matchup": "SF @ DAL",
+     "league": "NFL",
+     "tip_et": "4:25 PM ET",
+     "result": "win",
+     "actual": "145 rec yds (11 rec, 3 TD); SF 46-40 @ DAL"
+    },
+    {
+     "label": "Chase Brown Over 24.5 Rushing Yds",
+     "odds": -650,
+     "matchup": "PIT @ CIN",
+     "league": "NFL",
+     "tip_et": "8:20 PM ET",
+     "result": "win",
+     "actual": "44 rush yds (10 car) + 8 rec, 2 TD; PIT 18-38 @ CIN"
+    }
+   ],
+   "result": "loss",
+   "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.624786868&selectionId[0]=62213699&marketId[1]=42.624378482&selectionId[1]=73636390&marketId[2]=42.625257957&selectionId[2]=73619459&marketId[3]=42.624309708&selectionId[3]=48966444",
+   "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA387607657%232357952219_13L88808Q12134732303Q20+0QA387602300%232357932657_13L88808Q1628754404Q20+0QA387666317%232358171376_13L88808Q1628754404Q20+0QA387755012%232358680522_13L88808Q11842635267Q20",
+   "notes": "4-leg cross-game NFL receptions/receiving/rushing yards parlay, FD -108 / DK +110",
+   "posted_et": "2026-11-15 12:37 PM ET",
+   "to_win": 9.26,
+   "payout": 0.0,
+   "profit": -10.0,
+   "withdraw": 0.0,
+   "streak_after": 0,
+   "next_stake": 10.0
+  },
   {
    "n": 14,
    "date": "2026-11-14",
