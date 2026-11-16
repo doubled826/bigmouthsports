@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-11-16T10:27:42-05:00",
-  "splits_as_of_et": "2026-11-16T10:27:28-05:00",
+  "generated_at_et": "2026-11-16T11:38:09-05:00",
+  "splits_as_of_et": "2026-11-16T11:37:56-05:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -1672,7 +1672,7 @@
   },
   "rlm_watch": {
     "date": "2026-11-16",
-    "updated_et": "2026-11-16T10:27:39-05:00",
+    "updated_et": "2026-11-16T11:38:08-05:00",
     "label": "Sharp Alerts: tracking only, not picks.",
     "history": {
       "since": "2026-10-20",
@@ -1945,14 +1945,50 @@
     "pre_tracking": [
       {
         "league": "NBA",
-        "matchup": "Trail Blazers @ Timberwolves",
+        "matchup": "Magic @ Celtics",
         "market": "spread",
-        "public_side": "Timberwolves",
-        "opener_line": "-3.5",
-        "first_seen_line": "-2.5",
-        "first_seen_md": "11/15",
-        "current_line": "-2.5",
-        "tip_et": "Mon 8:00 PM ET",
+        "public_side": "Celtics",
+        "opener_line": "-9.5",
+        "first_seen_line": "-8.5",
+        "first_seen_md": "11/16",
+        "current_line": "-8.5",
+        "tip_et": "Mon 7:00 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
+        "league": "NBA",
+        "matchup": "Bulls @ Cavaliers",
+        "market": "spread",
+        "public_side": "Cavaliers",
+        "opener_line": "-10.5",
+        "first_seen_line": "-8.5",
+        "first_seen_md": "11/16",
+        "current_line": "-8.5",
+        "tip_et": "Mon 7:00 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
+        "league": "NBA",
+        "matchup": "Grizzlies @ Wizards",
+        "market": "spread",
+        "public_side": "Grizzlies",
+        "opener_line": "-6.5",
+        "first_seen_line": "-3.5",
+        "first_seen_md": "11/16",
+        "current_line": "-3.5",
+        "tip_et": "Mon 7:00 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
+        "league": "NBA",
+        "matchup": "Rockets @ Heat",
+        "market": "total",
+        "public_side": "Under",
+        "opener_line": "228.5",
+        "first_seen_line": "231.5",
+        "first_seen_md": "11/16",
+        "current_line": "231.5",
+        "tip_et": "Mon 7:30 PM ET",
         "tag": "Move happened before tracking"
       },
       {
