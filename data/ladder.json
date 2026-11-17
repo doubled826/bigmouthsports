@@ -1,12 +1,12 @@
 {
- "updated_et": "2026-11-16 12:44",
+ "updated_et": "2026-11-17 12:33",
  "status": "PENDING",
  "start_date": "2026-10-29",
  "record": {
   "wins": 5,
-  "losses": 10,
+  "losses": 11,
   "pushes": 0,
-  "display": "5-10"
+  "display": "5-11"
  },
  "streak": 0,
  "best_streak": 2,
@@ -17,8 +17,8 @@
  "half_withdraw_after_wins": 5,
  "half_withdraw_fraction": 0.5,
  "cash_withdrawn": 10.0,
- "seeds_in": 110.0,
- "pnl": -90.0,
+ "seeds_in": 120.0,
+ "pnl": -100.0,
  "rules": {
   "band": "-100 to +150 (target ~+100)",
   "sports": "NBA, NFL, NCAAF \u00b7 Sundays NFL only",
@@ -127,54 +127,110 @@
   }
  ],
  "today": {
-  "n": 16,
-  "date": "2026-11-16",
-  "slate": "Mon NBA + MNF: HOU@MIA 7:40 + GSW@NO 8:10 + POR@MIN 8:10 + LAC@BAL 8:15 (MNF) ET",
-  "odds": 104,
+  "n": 17,
+  "date": "2026-11-17",
+  "slate": "Tue NBA: NYK@TOR 7:40 + DET@SA 8:10 + UTA@LAC 10:40 + CHA@LAL 11:10 PM ET",
+  "odds": -114,
   "stake": 10.0,
   "legs": [
    {
-    "label": "Deni Avdija Over 29.5 Pts+Reb+Ast",
-    "odds": -420,
-    "matchup": "POR @ MIN",
-    "league": "NBA",
-    "tip_et": "8:10 PM ET",
-    "result": "pending"
-   },
-   {
-    "label": "Zion Williamson Over 24.5 Pts+Reb+Ast",
-    "odds": -440,
-    "matchup": "GSW @ NO",
-    "league": "NBA",
-    "tip_et": "8:10 PM ET",
-    "result": "pending"
-   },
-   {
-    "label": "Bam Adebayo Over 5.5 Rebounds",
-    "odds": -850,
-    "matchup": "HOU @ MIA",
+    "label": "Karl-Anthony Towns Over 9.5 Rebounds",
+    "odds": -460,
+    "matchup": "NYK @ TOR",
     "league": "NBA",
     "tip_et": "7:40 PM ET",
     "result": "pending"
    },
    {
-    "label": "Derrick Henry Over 49.5 Rushing Yds",
-    "odds": -490,
-    "matchup": "LAC @ BAL",
-    "league": "NFL",
-    "tip_et": "8:15 PM ET",
+    "label": "Cade Cunningham Over 5.5 Assists",
+    "odds": -480,
+    "matchup": "DET @ SA",
+    "league": "NBA",
+    "tip_et": "8:10 PM ET",
+    "result": "pending"
+   },
+   {
+    "label": "Keyonte George Over 24.5 Pts+Reb+Ast",
+    "odds": -620,
+    "matchup": "UTA @ LAC",
+    "league": "NBA",
+    "tip_et": "10:40 PM ET",
+    "result": "pending"
+   },
+   {
+    "label": "Luka Doncic Over 2.5 Threes",
+    "odds": -1000,
+    "matchup": "CHA @ LAL",
+    "league": "NBA",
+    "tip_et": "11:10 PM ET",
     "result": "pending"
    }
   ],
   "result": "pending",
-  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.626013628&selectionId[0]=44091970&marketId[1]=42.626013815&selectionId[1]=27691582&marketId[2]=42.625857944&selectionId[2]=14388955&marketId[3]=42.624642667&selectionId[3]=38176528",
-  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA389669068%232367536737_13L42648Q1-510067049Q20+0QA389676287%232367574834_13L42648Q1-1688762664Q20+0QA389691210%232367651787_13L42648Q1-1108369128Q20+0QA387705686%232358408464_13L88808Q1166871894Q20",
-  "notes": "4-leg cross-game NBA PRA/rebounds + MNF rushing yards parlay, FD +104 / DK +110",
-  "posted_et": "2026-11-16 12:38 PM ET",
-  "to_win": 10.4,
+  "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.626118835&selectionId[0]=9542187&marketId[1]=42.626150196&selectionId[1]=36981570&marketId[2]=42.626179116&selectionId[2]=49763848&marketId[3]=42.626162300&selectionId[3]=18821276",
+  "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA389903428%232368493061_13L42648Q1-2101785278Q20+0QA389910691%232368539865_13L42648Q1-833856974Q20+0QA389949187%232368748326_13L42648Q1-1688762664Q20+0QA389948556%232368745913_13L42648Q1-1551344353Q20",
+  "notes": "4-leg cross-game NBA rebounds/assists/PRA/threes parlay, FD -114 / DK +116",
+  "posted_et": "2026-11-17 12:33 PM ET",
+  "to_win": 8.77,
   "streak_before": 0
  },
  "results": [
+  {
+   "n": 16,
+   "date": "2026-11-16",
+   "slate": "Mon NBA + MNF: HOU@MIA 7:40 + GSW@NO 8:10 + POR@MIN 8:10 + LAC@BAL 8:15 (MNF) ET",
+   "odds": 104,
+   "stake": 10.0,
+   "legs": [
+    {
+     "label": "Deni Avdija Over 29.5 Pts+Reb+Ast",
+     "odds": -420,
+     "matchup": "POR @ MIN",
+     "league": "NBA",
+     "tip_et": "8:10 PM ET",
+     "result": "win",
+     "actual": "39 PRA (27/8/4, 30 min); POR 98-106 @ MIN"
+    },
+    {
+     "label": "Zion Williamson Over 24.5 Pts+Reb+Ast",
+     "odds": -440,
+     "matchup": "GSW @ NO",
+     "league": "NBA",
+     "tip_et": "8:10 PM ET",
+     "result": "loss",
+     "actual": "24 PRA (16/6/2, 25 min); GS 94-115 @ NO"
+    },
+    {
+     "label": "Bam Adebayo Over 5.5 Rebounds",
+     "odds": -850,
+     "matchup": "HOU @ MIA",
+     "league": "NBA",
+     "tip_et": "7:40 PM ET",
+     "result": "loss",
+     "actual": "1 reb (4 pts, 2 ast) in 16 min; HOU 110-128 @ MIA"
+    },
+    {
+     "label": "Derrick Henry Over 49.5 Rushing Yds",
+     "odds": -490,
+     "matchup": "LAC @ BAL",
+     "league": "NFL",
+     "tip_et": "8:15 PM ET",
+     "result": "loss",
+     "actual": "10 rush yds (10 car, 2 TD); LAC 23-20 @ BAL"
+    }
+   ],
+   "result": "loss",
+   "fd_url": "https://sportsbook.fanduel.com/addToBetslip?marketId[0]=42.626013628&selectionId[0]=44091970&marketId[1]=42.626013815&selectionId[1]=27691582&marketId[2]=42.625857944&selectionId[2]=14388955&marketId[3]=42.624642667&selectionId[3]=38176528",
+   "dk_url": "https://sportsbook.draftkings.com/?outcomes=0QA389669068%232367536737_13L42648Q1-510067049Q20+0QA389676287%232367574834_13L42648Q1-1688762664Q20+0QA389691210%232367651787_13L42648Q1-1108369128Q20+0QA387705686%232358408464_13L88808Q1166871894Q20",
+   "notes": "4-leg cross-game NBA PRA/rebounds + MNF rushing yards parlay, FD +104 / DK +110",
+   "posted_et": "2026-11-16 12:38 PM ET",
+   "to_win": 10.4,
+   "payout": 0.0,
+   "profit": -10.0,
+   "withdraw": 0.0,
+   "streak_after": 0,
+   "next_stake": 10.0
+  },
   {
    "n": 15,
    "date": "2026-11-15",
