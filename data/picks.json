@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-11-18T10:15:32-05:00",
-  "splits_as_of_et": "2026-11-18T10:15:20-05:00",
+  "generated_at_et": "2026-11-18T11:05:13-05:00",
+  "splits_as_of_et": "2026-11-18T11:05:00-05:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -1786,7 +1786,7 @@
   },
   "rlm_watch": {
     "date": "2026-11-18",
-    "updated_et": "2026-11-18T10:15:32-05:00",
+    "updated_et": "2026-11-18T11:05:12-05:00",
     "label": "Sharp Alerts: tracking only, not picks.",
     "history": {
       "since": "2026-10-20",
@@ -2058,15 +2058,87 @@
     "games": [],
     "pre_tracking": [
       {
-        "league": "NCAAF",
-        "matchup": "Akron @ UMass",
+        "league": "NBA",
+        "matchup": "Grizzlies @ Cavaliers",
+        "market": "spread",
+        "public_side": "Cavaliers",
+        "opener_line": "-5.5",
+        "first_seen_line": "-4.5",
+        "first_seen_md": "11/18",
+        "current_line": "-4.5",
+        "tip_et": "Wed 7:00 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
+        "league": "NBA",
+        "matchup": "Grizzlies @ Cavaliers",
         "market": "total",
         "public_side": "Over",
-        "opener_line": "47.5",
-        "first_seen_line": "46.5",
-        "first_seen_md": "11/16",
-        "current_line": "46.5",
+        "opener_line": "236.5",
+        "first_seen_line": "234.5",
+        "first_seen_md": "11/18",
+        "current_line": "234.5",
         "tip_et": "Wed 7:00 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
+        "league": "NBA",
+        "matchup": "76ers @ Magic",
+        "market": "total",
+        "public_side": "Over",
+        "opener_line": "223.5",
+        "first_seen_line": "221.5",
+        "first_seen_md": "11/18",
+        "current_line": "222.5",
+        "tip_et": "Wed 7:00 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
+        "league": "NBA",
+        "matchup": "Hawks @ Thunder",
+        "market": "spread",
+        "public_side": "Thunder",
+        "opener_line": "-7.5",
+        "first_seen_line": "-6.5",
+        "first_seen_md": "11/18",
+        "current_line": "-6.5",
+        "tip_et": "Wed 8:00 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
+        "league": "NBA",
+        "matchup": "Warriors @ Mavericks",
+        "market": "spread",
+        "public_side": "Mavericks",
+        "opener_line": "-6.5",
+        "first_seen_line": "-4.5",
+        "first_seen_md": "11/18",
+        "current_line": "-4.5",
+        "tip_et": "Wed 8:00 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
+        "league": "NBA",
+        "matchup": "Jazz @ Lakers",
+        "market": "spread",
+        "public_side": "Lakers",
+        "opener_line": "-12.5",
+        "first_seen_line": "-10.5",
+        "first_seen_md": "11/18",
+        "current_line": "-10.5",
+        "tip_et": "Wed 10:00 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
+        "league": "NBA",
+        "matchup": "Jazz @ Lakers",
+        "market": "total",
+        "public_side": "Over",
+        "opener_line": "231.5",
+        "first_seen_line": "228.5",
+        "first_seen_md": "11/18",
+        "current_line": "228.5",
+        "tip_et": "Wed 10:00 PM ET",
         "tag": "Move happened before tracking"
       }
     ],
