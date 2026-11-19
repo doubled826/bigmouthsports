@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-11-19T16:05:10-05:00",
-  "splits_as_of_et": "2026-11-19T16:05:00-05:00",
+  "generated_at_et": "2026-11-19T17:05:12-05:00",
+  "splits_as_of_et": "2026-11-19T17:05:00-05:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -1820,7 +1820,7 @@
   },
   "rlm_watch": {
     "date": "2026-11-19",
-    "updated_et": "2026-11-19T16:05:10-05:00",
+    "updated_et": "2026-11-19T17:05:10-05:00",
     "label": "Sharp Alerts: tracking only, not picks.",
     "history": {
       "since": "2026-10-20",
@@ -1834,7 +1834,7 @@
           "losses": 131,
           "pushes": 0,
           "graded": 253,
-          "pending": 5,
+          "pending": 6,
           "units": -20.1,
           "win_pct": 0.482,
           "display": "122-131"
@@ -1854,7 +1854,7 @@
           "losses": 62,
           "pushes": 0,
           "graded": 123,
-          "pending": 3,
+          "pending": 4,
           "units": -6.55,
           "win_pct": 0.496,
           "display": "61-62"
@@ -1954,7 +1954,7 @@
         "losses": 130,
         "pushes": 0,
         "graded": 250,
-        "pending": 5,
+        "pending": 6,
         "units": -20.92,
         "win_pct": 0.48,
         "display": "120-130",
@@ -2018,12 +2018,12 @@
       "losses": 196,
       "pushes": 0,
       "graded": 376,
-      "pending": 7,
+      "pending": 8,
       "units": -32.38,
       "win_pct": 0.479,
       "display": "180-196",
       "pct": 48,
-      "signals": 383,
+      "signals": 384,
       "overlap": 93,
       "since": "2026-10-20",
       "since_md": "10/20",
@@ -2039,7 +2039,7 @@
         "losses": 130,
         "pushes": 0,
         "graded": 250,
-        "pending": 5,
+        "pending": 6,
         "units": -20.92,
         "win_pct": 0.48,
         "pct": 48,
@@ -2091,18 +2091,6 @@
     "rule": "Reverse line move (RLM): 60%+ of the DraftKings money AND 50%+ of the tickets on one side, yet the DraftKings line moved 0.5+ points in that side's favor, measured from the first DraftKings line we saw and confirmed by two DraftKings pulls in a row. All numbers DraftKings.",
     "games": [],
     "pre_tracking": [
-      {
-        "league": "NBA",
-        "matchup": "Clippers @ Spurs",
-        "market": "spread",
-        "public_side": "Spurs",
-        "opener_line": "-16.5",
-        "first_seen_line": "-15.5",
-        "first_seen_md": "11/19",
-        "current_line": "-15.5",
-        "tip_et": "Thu 8:00 PM ET",
-        "tag": "Move happened before tracking"
-      },
       {
         "league": "NFL",
         "matchup": "Colts @ Texans",
