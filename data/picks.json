@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-11-19T12:05:11-05:00",
-  "splits_as_of_et": "2026-11-19T12:05:00-05:00",
+  "generated_at_et": "2026-11-19T15:58:27-05:00",
+  "splits_as_of_et": "2026-11-19T13:32:22-05:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -1820,7 +1820,7 @@
   },
   "rlm_watch": {
     "date": "2026-11-19",
-    "updated_et": "2026-11-19T12:05:10-05:00",
+    "updated_et": "2026-11-19T15:58:27-05:00",
     "label": "Sharp Alerts: tracking only, not picks.",
     "history": {
       "since": "2026-10-20",
@@ -2090,7 +2090,20 @@
     ],
     "rule": "Reverse line move (RLM): 60%+ of the DraftKings money AND 50%+ of the tickets on one side, yet the DraftKings line moved 0.5+ points in that side's favor, measured from the first DraftKings line we saw and confirmed by two DraftKings pulls in a row. All numbers DraftKings.",
     "games": [],
-    "pre_tracking": [],
+    "pre_tracking": [
+      {
+        "league": "NFL",
+        "matchup": "Colts @ Texans",
+        "market": "total",
+        "public_side": "Over",
+        "opener_line": "45.5",
+        "first_seen_line": "44.5",
+        "first_seen_md": "11/14",
+        "current_line": "44.5",
+        "tip_et": "Thu 8:15 PM ET",
+        "tag": "Move happened before tracking"
+      }
+    ],
     "tracker": {
       "spread": {
         "wins": 54,
