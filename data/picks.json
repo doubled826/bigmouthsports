@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-11-18T14:05:12-05:00",
-  "splits_as_of_et": "2026-11-18T14:05:00-05:00",
+  "generated_at_et": "2026-11-19T07:55:33-05:00",
+  "splits_as_of_et": "2026-11-18T19:08:44-05:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -41,9 +41,9 @@
     "record_start_note": null
   },
   "today": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "status": "none",
-    "status_note": "No Big Bet today — the public didn't give us one.",
+    "status_note": "DraftKings splits are temporarily unavailable — no Big Bet today.",
     "big_bet": null,
     "honorable_mentions": [],
     "big_bet_image": null
@@ -1802,8 +1802,8 @@
     "note": "Computed from graded picks only."
   },
   "rlm_watch": {
-    "date": "2026-11-18",
-    "updated_et": "2026-11-18T14:05:12-05:00",
+    "date": "2026-11-19",
+    "updated_et": null,
     "label": "Sharp Alerts: tracking only, not picks.",
     "history": {
       "since": "2026-10-20",
@@ -1817,7 +1817,7 @@
           "losses": 131,
           "pushes": 0,
           "graded": 253,
-          "pending": 1,
+          "pending": 2,
           "units": -20.1,
           "win_pct": 0.482,
           "display": "122-131"
@@ -1837,7 +1837,7 @@
           "losses": 62,
           "pushes": 0,
           "graded": 123,
-          "pending": 1,
+          "pending": 2,
           "units": -6.55,
           "win_pct": 0.496,
           "display": "61-62"
@@ -1937,7 +1937,7 @@
         "losses": 130,
         "pushes": 0,
         "graded": 250,
-        "pending": 1,
+        "pending": 2,
         "units": -20.92,
         "win_pct": 0.48,
         "display": "120-130",
@@ -2007,7 +2007,7 @@
       "display": "180-196",
       "pct": 48,
       "signals": 379,
-      "overlap": 91,
+      "overlap": 92,
       "since": "2026-10-20",
       "since_md": "10/20",
       "small": false,
@@ -2022,7 +2022,7 @@
         "losses": 130,
         "pushes": 0,
         "graded": 250,
-        "pending": 1,
+        "pending": 2,
         "units": -20.92,
         "win_pct": 0.48,
         "pct": 48,
@@ -2073,68 +2073,7 @@
     ],
     "rule": "Reverse line move (RLM): 60%+ of the DraftKings money AND 50%+ of the tickets on one side, yet the DraftKings line moved 0.5+ points in that side's favor, measured from the first DraftKings line we saw and confirmed by two DraftKings pulls in a row. All numbers DraftKings.",
     "games": [],
-    "pre_tracking": [
-      {
-        "league": "NBA",
-        "matchup": "Grizzlies @ Cavaliers",
-        "market": "spread",
-        "public_side": "Cavaliers",
-        "opener_line": "-5.5",
-        "first_seen_line": "-4.5",
-        "first_seen_md": "11/18",
-        "current_line": "-4.5",
-        "tip_et": "Wed 7:00 PM ET",
-        "tag": "Move happened before tracking"
-      },
-      {
-        "league": "NBA",
-        "matchup": "76ers @ Magic",
-        "market": "total",
-        "public_side": "Over",
-        "opener_line": "223.5",
-        "first_seen_line": "221.5",
-        "first_seen_md": "11/18",
-        "current_line": "222.5",
-        "tip_et": "Wed 7:00 PM ET",
-        "tag": "Move happened before tracking"
-      },
-      {
-        "league": "NBA",
-        "matchup": "Hawks @ Thunder",
-        "market": "spread",
-        "public_side": "Thunder",
-        "opener_line": "-7.5",
-        "first_seen_line": "-6.5",
-        "first_seen_md": "11/18",
-        "current_line": "-6.5",
-        "tip_et": "Wed 8:00 PM ET",
-        "tag": "Move happened before tracking"
-      },
-      {
-        "league": "NBA",
-        "matchup": "Warriors @ Mavericks",
-        "market": "spread",
-        "public_side": "Mavericks",
-        "opener_line": "-6.5",
-        "first_seen_line": "-4.5",
-        "first_seen_md": "11/18",
-        "current_line": "-4.5",
-        "tip_et": "Wed 8:00 PM ET",
-        "tag": "Move happened before tracking"
-      },
-      {
-        "league": "NBA",
-        "matchup": "Jazz @ Lakers",
-        "market": "spread",
-        "public_side": "Lakers",
-        "opener_line": "-12.5",
-        "first_seen_line": "-10.5",
-        "first_seen_md": "11/18",
-        "current_line": "-10.5",
-        "tip_et": "Wed 10:00 PM ET",
-        "tag": "Move happened before tracking"
-      }
-    ],
+    "pre_tracking": [],
     "tracker": {
       "spread": {
         "wins": 54,
@@ -2158,7 +2097,7 @@
     "tracker_note": "Tracking record: fading the public side of every RLM (0.5+ pts open to close) at the DraftKings closing line, 1 unit flat. Not our picks; small sample."
   },
   "telegram_url": "https://t.me/+_erwkmX60nw3YTEx",
-  "parlay_bet_url": "bet/1118/",
+  "parlay_bet_url": null,
   "sgp": {
     "name": "BIG MOUTH'S SGP",
     "record": {
@@ -2177,80 +2116,7 @@
       "display": "9-14",
       "since": "2026-10-23"
     },
-    "today": {
-      "date": "2026-11-18",
-      "league": "NBA",
-      "kind": "PARLAY",
-      "title": "BIG MOUTH'S PARLAY",
-      "odds_pulled_at": "2026-11-18T16:42:42Z",
-      "combined_basis": "PRODUCT of DK leg odds (standard parlay math)",
-      "matchup": "Grizzlies @ Cavaliers · 76ers @ Magic · Pistons @ Pelicans",
-      "kickoff_et": "Wed Nov 18, 7:00 PM ET",
-      "big_bet": null,
-      "n_legs": 3,
-      "est_odds": 496,
-      "dk_odds": null,
-      "odds_used": null,
-      "odds_basis": null,
-      "odds_is_estimate": true,
-      "result": "PENDING",
-      "units": null,
-      "final_score": null,
-      "graded_at": null,
-      "legs": [
-        {
-          "ord": 1,
-          "kind": "player",
-          "label": "Allen Under 14.5 PTS",
-          "market": "player_points",
-          "threshold": 14.5,
-          "result": "PENDING",
-          "actual": null,
-          "blurb": "9/10 LAST 10 · 5/5 LAST 5",
-          "matchup": "Grizzlies @ Cavaliers",
-          "side": "Under",
-          "line": 14.5,
-          "note": "J. Allen under 14.5 PTS: Under in 9 of last 10 (2026-27) and 5 of last 5; 12.6 avg in 12 games of 2026-27, 15.4 in 2025-26 (56 games); 24.0 min L5; opponent gave up 15.2 PTS a game to centers (ESPN lists him C), 10th-most allowed of tonight's 24 teams (last 10 reg.-season games (2026-27)); neutral; pace ranks 14 and 5 of 24 tonight; out for his team: Nae'Qwan Tomlin, Sam Merrill, Evan Mobley",
-          "odds_updated": "2026-11-18T16:40:36Z",
-          "odds_source": "DraftKings via The Odds API",
-          "odds": -120
-        },
-        {
-          "ord": 2,
-          "kind": "player",
-          "label": "da Silva Over 16.5 PRA",
-          "market": "player_points_rebounds_assists",
-          "threshold": 16.5,
-          "result": "PENDING",
-          "actual": null,
-          "blurb": "8/10 LAST 10 · 5/5 LAST 5",
-          "matchup": "76ers @ Magic",
-          "side": "Over",
-          "line": 16.5,
-          "note": "T. da Silva over 16.5 PRA: Over in 8 of last 10 (2026-27) and 5 of last 5; 20.5 avg in 11 games of 2026-27, 15.0 in 2025-26 (79 games); 32.6 min L5; opponent gave up 75.9 PRA a game to forwards (ESPN lists him F), 8th-most allowed of tonight's 24 teams (last 10 reg.-season games (2026-27)); position-sensitive (vs guards: 9th-fewest allowed of tonight's 24 teams), not used; pace ranks 18 and 20 of 24 tonight; out for his team: Izaiyah Nelson, Jonathan Isaac, Noah Penda",
-          "odds_updated": "2026-11-18T16:42:01Z",
-          "odds_source": "DraftKings via The Odds API",
-          "odds": -113
-        },
-        {
-          "ord": 3,
-          "kind": "player",
-          "label": "Cunningham Under 5.5 REB",
-          "market": "player_rebounds",
-          "threshold": 5.5,
-          "result": "PENDING",
-          "actual": null,
-          "blurb": "8/10 LAST 10 · 5/5 LAST 5",
-          "matchup": "Pistons @ Pelicans",
-          "side": "Under",
-          "line": 5.5,
-          "note": "C. Cunningham under 5.5 REB: Under in 8 of last 10 (2026-27) and 5 of last 5; 5.2 avg in 13 games of 2026-27, 5.4 in 2025-26 (67 games); 37.4 min L5; opponent gave up 11.8 REB a game to guards (ESPN lists him G), 2nd-fewest allowed of tonight's 24 teams (last 10 reg.-season games (2026-27)); position-sensitive (vs forwards: most allowed of tonight's 24 teams), not used; pace ranks 11 and 4 of 24 tonight; out for his team: Isaiah Joe, Duncan Robinson, Jalen Duren",
-          "odds_updated": "2026-11-18T16:42:42Z",
-          "odds_source": "DraftKings via The Odds API",
-          "odds": -138
-        }
-      ]
-    },
+    "today": null,
     "history": [
       {
         "date": "2026-11-18",
