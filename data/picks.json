@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-11-23T11:43:40-05:00",
-  "splits_as_of_et": "2026-11-23T11:43:29-05:00",
+  "generated_at_et": "2026-11-23T12:28:03-05:00",
+  "splits_as_of_et": "2026-11-23T12:27:51-05:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -49,6 +49,23 @@
     "big_bet_image": null
   },
   "results": [
+    {
+      "date": "2026-11-23",
+      "category": "Parlay",
+      "category_label": "Parlay",
+      "league": "NBA",
+      "matchup": "Grizzlies @ Hornets · Trail Blazers @ 76ers · Thunder @ Pacers",
+      "pick": "3 legs: Coward O26.5 PRA, Avdija O1.5 3PM, Hartenstein O3.5 AST",
+      "price": 472,
+      "public_faded": null,
+      "public_handle_pct": null,
+      "tier": null,
+      "final_score": null,
+      "result": "PENDING",
+      "units": null,
+      "clv": null,
+      "closing_line": null
+    },
     {
       "date": "2026-11-22",
       "category": "Parlay",
@@ -1871,7 +1888,7 @@
   },
   "rlm_watch": {
     "date": "2026-11-23",
-    "updated_et": "2026-11-23T11:43:39-05:00",
+    "updated_et": "2026-11-23T12:28:03-05:00",
     "label": "Sharp Alerts: tracking only, not picks.",
     "history": {
       "since": "2026-10-20",
@@ -2147,7 +2164,7 @@
         "market": "spread",
         "public_side": "Bengals",
         "public_handle_pct": 83,
-        "public_bets_pct": 85,
+        "public_bets_pct": 84,
         "open_line": "-1.5",
         "current_line": "-6",
         "line_is_for": "Bengals",
@@ -2156,30 +2173,30 @@
         "moved_toward": "Commanders",
         "tip_et": "Mon 8:15 PM ET",
         "started": false,
-        "as_of": "2026-11-23T11:43:29-05:00",
+        "as_of": "2026-11-23T12:27:51-05:00",
         "favorite": "Bengals",
-        "favorite_ml": -298,
+        "favorite_ml": -301,
         "dk_ats": {
           "public_team": "Bengals",
           "public_handle_pct": 83,
-          "public_bets_pct": 85,
+          "public_bets_pct": 84,
           "away_team": "Bengals",
           "away_handle_pct": 83,
-          "away_bets_pct": 85,
+          "away_bets_pct": 84,
           "home_team": "Commanders",
           "home_handle_pct": 17,
-          "home_bets_pct": 15
+          "home_bets_pct": 16
         },
         "dk_ml": {
           "public_team": "Bengals",
           "public_handle_pct": 90,
-          "public_bets_pct": 94,
+          "public_bets_pct": 93,
           "away_team": "Bengals",
           "away_handle_pct": 90,
-          "away_bets_pct": 94,
+          "away_bets_pct": 93,
           "home_team": "Commanders",
           "home_handle_pct": 10,
-          "home_bets_pct": 6
+          "home_bets_pct": 7
         },
         "opener_line": "-1.5",
         "first_seen_line": "-6.5",
@@ -2190,7 +2207,7 @@
           "side": "Commanders",
           "line": "+6",
           "line_num": 6.0,
-          "odds": -102
+          "odds": 100
         },
         "big_move": false,
         "move_type": "public_rlm",
@@ -2213,7 +2230,56 @@
         }
       }
     ],
-    "pre_tracking": [],
+    "pre_tracking": [
+      {
+        "league": "NBA",
+        "matchup": "Grizzlies @ Hornets",
+        "market": "spread",
+        "public_side": "Grizzlies",
+        "opener_line": "-3.5",
+        "first_seen_line": "-2.5",
+        "first_seen_md": "11/23",
+        "current_line": "-2.5",
+        "tip_et": "Mon 7:00 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
+        "league": "NBA",
+        "matchup": "Grizzlies @ Hornets",
+        "market": "total",
+        "public_side": "Over",
+        "opener_line": "218.5",
+        "first_seen_line": "213.5",
+        "first_seen_md": "11/23",
+        "current_line": "213.5",
+        "tip_et": "Mon 7:00 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
+        "league": "NBA",
+        "matchup": "Bucks @ Raptors",
+        "market": "total",
+        "public_side": "Over",
+        "opener_line": "224.5",
+        "first_seen_line": "222.5",
+        "first_seen_md": "11/23",
+        "current_line": "222.5",
+        "tip_et": "Mon 7:30 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
+        "league": "NBA",
+        "matchup": "Spurs @ Kings",
+        "market": "total",
+        "public_side": "Over",
+        "opener_line": "224.5",
+        "first_seen_line": "223.5",
+        "first_seen_md": "11/23",
+        "current_line": "223.5",
+        "tip_et": "Mon 10:00 PM ET",
+        "tag": "Move happened before tracking"
+      }
+    ],
     "tracker": {
       "spread": {
         "wins": 54,
@@ -2237,7 +2303,7 @@
     "tracker_note": "Tracking record: fading the public side of every RLM (0.5+ pts open to close) at the DraftKings closing line, 1 unit flat. Not our picks; small sample."
   },
   "telegram_url": "https://t.me/+_erwkmX60nw3YTEx",
-  "parlay_bet_url": null,
+  "parlay_bet_url": "bet/1123/",
   "sgp": {
     "name": "BIG MOUTH'S SGP",
     "record": {
@@ -2256,8 +2322,155 @@
       "display": "10-17",
       "since": "2026-10-23"
     },
-    "today": null,
+    "today": {
+      "date": "2026-11-23",
+      "league": "NBA",
+      "kind": "PARLAY",
+      "title": "BIG MOUTH'S PARLAY",
+      "odds_pulled_at": "2026-11-23T16:43:11Z",
+      "combined_basis": "PRODUCT of DK leg odds (standard parlay math)",
+      "matchup": "Grizzlies @ Hornets · Trail Blazers @ 76ers · Thunder @ Pacers",
+      "kickoff_et": "Mon Nov 23, 7:00 PM ET",
+      "big_bet": null,
+      "n_legs": 3,
+      "est_odds": 472,
+      "dk_odds": null,
+      "odds_used": null,
+      "odds_basis": null,
+      "odds_is_estimate": true,
+      "result": "PENDING",
+      "units": null,
+      "final_score": null,
+      "graded_at": null,
+      "legs": [
+        {
+          "ord": 1,
+          "kind": "player",
+          "label": "Coward Over 26.5 PRA",
+          "market": "player_points_rebounds_assists",
+          "threshold": 26.5,
+          "result": "PENDING",
+          "actual": null,
+          "blurb": "8/10 LAST 10 · 5/5 LAST 5",
+          "matchup": "Grizzlies @ Hornets",
+          "side": "Over",
+          "line": 26.5,
+          "note": "C. Coward over 26.5 PRA: Over in 8 of last 10 (2026-27) and 5 of last 5; 26.7 avg in 16 games of 2026-27, 22.2 in 2025-26 (62 games); 29.6 min L5; opponent gave up 61.3 PRA a game to forwards (ESPN lists him F), 5th-fewest allowed of tonight's 20 teams (last 10 reg.-season games (2026-27)); works against the Over; pace ranks 9 and 19 of 20 tonight; out for his team: Jerami Grant, Cameron Boozer, GG Jackson",
+          "odds_updated": "2026-11-23T16:43:08Z",
+          "odds_source": "DraftKings via The Odds API",
+          "odds": -107
+        },
+        {
+          "ord": 2,
+          "kind": "player",
+          "label": "Avdija Over 1.5 3PM",
+          "market": "player_threes",
+          "threshold": 1.5,
+          "result": "PENDING",
+          "actual": null,
+          "blurb": "8/10 LAST 10 · 5/5 LAST 5",
+          "matchup": "Trail Blazers @ 76ers",
+          "side": "Over",
+          "line": 1.5,
+          "note": "D. Avdija over 1.5 3PM: Over in 8 of last 10 (2026-27) and 5 of last 5; 2.1 avg in 14 games of 2026-27, 1.9 in 2025-26 (69 games); 34.0 min L5; opponent gave up 5.9 3PM a game to forwards (ESPN lists him F), most allowed of tonight's 20 teams (last 10 reg.-season games (2026-27)); position-sensitive (vs guards: 2nd-fewest allowed of tonight's 20 teams), not used; pace ranks 5 and 11 of 20 tonight; out for his team: Chris Youngblood, Vit Krejci, Ja Morant",
+          "odds_updated": "2026-11-23T16:43:11Z",
+          "odds_source": "DraftKings via The Odds API",
+          "odds": -139
+        },
+        {
+          "ord": 3,
+          "kind": "player",
+          "label": "Hartenstein Over 3.5 AST",
+          "market": "player_assists",
+          "threshold": 3.5,
+          "result": "PENDING",
+          "actual": null,
+          "blurb": "9/10 LAST 10 · 4/5 LAST 5",
+          "matchup": "Thunder @ Pacers",
+          "side": "Over",
+          "line": 3.5,
+          "note": "I. Hartenstein over 3.5 AST: Over in 9 of last 10 (2026-27) and 4 of last 5; 3.9 avg in 17 games of 2026-27, 3.5 in 2025-26 (47 games); 25.2 min L5; opponent gave up 3.0 AST a game to centers (ESPN lists him C), 7th-fewest allowed of tonight's 20 teams (last 10 reg.-season games (2026-27)); works against the Over; pace ranks 3 and 2 of 20 tonight; out for his team: Thomas Sorber, Cason Wallace, Chet Holmgren",
+          "odds_updated": "2026-11-23T16:42:32Z",
+          "odds_source": "DraftKings via The Odds API",
+          "odds": -139
+        }
+      ]
+    },
     "history": [
+      {
+        "date": "2026-11-23",
+        "league": "NBA",
+        "kind": "PARLAY",
+        "title": "BIG MOUTH'S PARLAY",
+        "odds_pulled_at": "2026-11-23T16:43:11Z",
+        "combined_basis": "PRODUCT of DK leg odds (standard parlay math)",
+        "matchup": "Grizzlies @ Hornets · Trail Blazers @ 76ers · Thunder @ Pacers",
+        "kickoff_et": "Mon Nov 23, 7:00 PM ET",
+        "big_bet": null,
+        "n_legs": 3,
+        "est_odds": 472,
+        "dk_odds": null,
+        "odds_used": null,
+        "odds_basis": null,
+        "odds_is_estimate": true,
+        "result": "PENDING",
+        "units": null,
+        "final_score": null,
+        "graded_at": null,
+        "legs": [
+          {
+            "ord": 1,
+            "kind": "player",
+            "label": "Coward Over 26.5 PRA",
+            "market": "player_points_rebounds_assists",
+            "threshold": 26.5,
+            "result": "PENDING",
+            "actual": null,
+            "blurb": "8/10 LAST 10 · 5/5 LAST 5",
+            "matchup": "Grizzlies @ Hornets",
+            "side": "Over",
+            "line": 26.5,
+            "note": "C. Coward over 26.5 PRA: Over in 8 of last 10 (2026-27) and 5 of last 5; 26.7 avg in 16 games of 2026-27, 22.2 in 2025-26 (62 games); 29.6 min L5; opponent gave up 61.3 PRA a game to forwards (ESPN lists him F), 5th-fewest allowed of tonight's 20 teams (last 10 reg.-season games (2026-27)); works against the Over; pace ranks 9 and 19 of 20 tonight; out for his team: Jerami Grant, Cameron Boozer, GG Jackson",
+            "odds_updated": "2026-11-23T16:43:08Z",
+            "odds_source": "DraftKings via The Odds API",
+            "odds": -107
+          },
+          {
+            "ord": 2,
+            "kind": "player",
+            "label": "Avdija Over 1.5 3PM",
+            "market": "player_threes",
+            "threshold": 1.5,
+            "result": "PENDING",
+            "actual": null,
+            "blurb": "8/10 LAST 10 · 5/5 LAST 5",
+            "matchup": "Trail Blazers @ 76ers",
+            "side": "Over",
+            "line": 1.5,
+            "note": "D. Avdija over 1.5 3PM: Over in 8 of last 10 (2026-27) and 5 of last 5; 2.1 avg in 14 games of 2026-27, 1.9 in 2025-26 (69 games); 34.0 min L5; opponent gave up 5.9 3PM a game to forwards (ESPN lists him F), most allowed of tonight's 20 teams (last 10 reg.-season games (2026-27)); position-sensitive (vs guards: 2nd-fewest allowed of tonight's 20 teams), not used; pace ranks 5 and 11 of 20 tonight; out for his team: Chris Youngblood, Vit Krejci, Ja Morant",
+            "odds_updated": "2026-11-23T16:43:11Z",
+            "odds_source": "DraftKings via The Odds API",
+            "odds": -139
+          },
+          {
+            "ord": 3,
+            "kind": "player",
+            "label": "Hartenstein Over 3.5 AST",
+            "market": "player_assists",
+            "threshold": 3.5,
+            "result": "PENDING",
+            "actual": null,
+            "blurb": "9/10 LAST 10 · 4/5 LAST 5",
+            "matchup": "Thunder @ Pacers",
+            "side": "Over",
+            "line": 3.5,
+            "note": "I. Hartenstein over 3.5 AST: Over in 9 of last 10 (2026-27) and 4 of last 5; 3.9 avg in 17 games of 2026-27, 3.5 in 2025-26 (47 games); 25.2 min L5; opponent gave up 3.0 AST a game to centers (ESPN lists him C), 7th-fewest allowed of tonight's 20 teams (last 10 reg.-season games (2026-27)); works against the Over; pace ranks 3 and 2 of 20 tonight; out for his team: Thomas Sorber, Cason Wallace, Chet Holmgren",
+            "odds_updated": "2026-11-23T16:42:32Z",
+            "odds_source": "DraftKings via The Odds API",
+            "odds": -139
+          }
+        ]
+      },
       {
         "date": "2026-11-22",
         "league": "NBA",
