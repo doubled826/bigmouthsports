@@ -1,6 +1,6 @@
 {
-  "generated_at_et": "2026-11-24T10:05:10-05:00",
-  "splits_as_of_et": "2026-11-24T10:05:00-05:00",
+  "generated_at_et": "2026-11-24T11:17:23-05:00",
+  "splits_as_of_et": "2026-11-24T11:17:13-05:00",
   "brand": {
     "name": "Big Mouth Sports",
     "handle": "@xBigMouthSports",
@@ -1888,7 +1888,7 @@
   },
   "rlm_watch": {
     "date": "2026-11-24",
-    "updated_et": "2026-11-24T10:05:10-05:00",
+    "updated_et": "2026-11-24T11:17:23-05:00",
     "label": "Sharp Alerts: tracking only, not picks.",
     "history": {
       "since": "2026-10-20",
@@ -1902,7 +1902,7 @@
           "losses": 140,
           "pushes": 1,
           "graded": 272,
-          "pending": 46,
+          "pending": 47,
           "units": -20.92,
           "win_pct": 0.483,
           "display": "131-140-1"
@@ -1922,7 +1922,7 @@
           "losses": 67,
           "pushes": 0,
           "graded": 131,
-          "pending": 20,
+          "pending": 21,
           "units": -8.82,
           "win_pct": 0.489,
           "display": "64-67"
@@ -2022,7 +2022,7 @@
         "losses": 139,
         "pushes": 1,
         "graded": 269,
-        "pending": 46,
+        "pending": 47,
         "units": -21.74,
         "win_pct": 0.481,
         "display": "129-139-1",
@@ -2086,12 +2086,12 @@
       "losses": 214,
       "pushes": 1,
       "graded": 408,
-      "pending": 68,
+      "pending": 69,
       "units": -38.56,
       "win_pct": 0.474,
       "display": "193-214-1",
       "pct": 47,
-      "signals": 476,
+      "signals": 477,
       "overlap": 112,
       "since": "2026-10-20",
       "since_md": "10/20",
@@ -2107,7 +2107,7 @@
         "losses": 139,
         "pushes": 1,
         "graded": 269,
-        "pending": 46,
+        "pending": 47,
         "units": -21.74,
         "win_pct": 0.481,
         "pct": 48,
@@ -2169,6 +2169,18 @@
         "first_seen_md": "11/23",
         "current_line": "217.5",
         "tip_et": "Tue 8:00 PM ET",
+        "tag": "Move happened before tracking"
+      },
+      {
+        "league": "NBA",
+        "matchup": "Mavericks @ Nuggets",
+        "market": "total",
+        "public_side": "Over",
+        "opener_line": "236.5",
+        "first_seen_line": "233.5",
+        "first_seen_md": "11/24",
+        "current_line": "233.5",
+        "tip_et": "Tue 10:00 PM ET",
         "tag": "Move happened before tracking"
       }
     ],
